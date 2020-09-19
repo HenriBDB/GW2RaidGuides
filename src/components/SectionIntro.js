@@ -2,8 +2,8 @@ import React from "react";
 
 const SectionIntro = (props) => {
     return (
-        <div class="row justify-content-center">
-            <p class="col-lg-8 font-italic">
+        <div class="centered-flex-row">
+            <p class="section-intro">
                 {props.children}
             </p>
         </div>

@@ -7,86 +7,6 @@
   color: white;
 }
 
-hr.custom {
-  border: 1px solid white;
-}
-
-.container {
-  background-color: var(--bg-dark);
-  border-top: 4px solid var(--ranger-primary);
-}
-
-.card {
-  background-color: var(--bg-dark);
-}
-
-.trait-card > .card-header {
-  background: #000;
-}
-
-.trait-card {
-  border-radius: 0;
-  border: 1px solid black;
-  margin: 0 5px 0 5px;
-  width: 0;
-}
-
-.trait-card-2 {
-  background: transparent;
-  border: 0px transparent;
-  margin-top: 25px;
-  margin-bottom: 2em;
-}
-.trait-card-2 > .card-header {
-  background: transparent;
-  align-items: center;
-  width: 100%;
-  border: 0;
-  padding: 0;
-  position: absolute;
-  top: -21px;
-  z-index: 5;
-  display: flex;
-  flex-direction: row;
-}
-.trait-card-2 > .card-header > .filler {
-  border-top: 1px solid rgba(200, 200, 200, 0.5);
-  flex-grow: 1;
-}
-.trait-card-2 > .card-header > span {
-  margin-right: 1em;
-}
-.trait-card-2 > .card-body {
-  margin-left: 25px;
-  padding-top: 1.5em;
-  padding-bottom: 0;
-  border-right: 1px solid rgba(200, 200, 200, 0.5);
-  position: relative;
-  display: block;
-  overflow: hidden;
-}
-.trait-card-2 > .card-body:after,
-.trait-card-2 > .card-body:before {
-position: absolute;
-content: '';
-z-index: 0;
-}
-.trait-card-2 > .card-body:before {
-width: 80%;
-right: 0px;
-top: 0px;
-border: 1px solid rgba(200, 200, 200, 0.5);
-border-width: 0px 1px 0px 0px;
-}
-.trait-card-2 > .card-body:after {
-height: calc(100% - (0.5em + 21px));
-width: 100%;
-bottom: 0px;
-left: 0px;
-border: 1px solid rgba(200, 200, 200, 0.5);
-border-width: 0px 0px 1px 1px;
-}
-
 .druid-page {
   background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FvU3RMgV.jpg&f=1&nofb=1");
   background-repeat: no-repeat;
@@ -142,13 +62,62 @@ img {
   cursor: pointer;
 }
 
-nav.nav-pills.custom-nav a.nav-link {
+/* Container (Taken from Bootstrap) */
+
+.guide-content {
+  width:100%;
+  padding-right:15px;
+  padding-left:15px;
+  margin-right:auto;
+  margin-left:auto;
+  background-color: var(--bg-dark);
+}
+@media (min-width:576px) {
+  .guide-content {
+    max-width:540px
+  }
+}
+@media (min-width:768px) {
+  .guide-content {
+    max-width:720px
+  }
+}
+@media (min-width:992px) {
+  .guide-content {
+    max-width:960px
+  }
+}
+@media (min-width:1200px) {
+  .guide-content {
+    max-width:1140px
+  }
+}
+.guide-content.ranger {
+  border-top: 4px solid var(--ranger-primary);
+}
+
+/* Nav Tabs */
+
+nav.custom-nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+nav.custom-nav a {
   color: white;
   border-bottom: 1px solid #dee2e6;
   border-radius: 0;
+  text-align: center;
+  display: block;
+  padding: .5rem 1rem;
+  flex: 1 1 auto;
 }
 
-nav.nav-pills.custom-nav a.nav-link.active {
+nav.custom-nav a.active {
   color: var(--ranger-primary);
   text-decoration: underline;
   background-color: var(--custom-dark);
@@ -163,18 +132,95 @@ nav.nav-pills.custom-nav a.nav-link.active {
   padding: 2em;
 }
 
+/* Cards */
+
 .title-card {
   border-radius: 0;
   border: 2px solid white;
   background-color: black;
+  padding: 1.5em 3em 1.5em 3em;
+  margin: 3em 0 3em 0;
 }
+.title-card > .title {
+  font-size: 1.25em;
+  font-style: italic;
+}
+.title-card > .title > footer {
+  display: block;
+  font-size: 80%;
+  color: #6c757d;
+}
+
+.trait-card {
+  background: transparent;
+  border: 0px transparent;
+  margin-top: 25px;
+  margin-bottom: 2em;
+  position: relative;
+}
+.trait-card > .trait-name {
+  background: transparent;
+  align-items: center;
+  width: 100%;
+  border: 0;
+  padding: 0;
+  position: absolute;
+  top: -21px;
+  z-index: 5;
+  display: flex;
+  flex-direction: row;
+}
+.trait-card > .trait-name > .filler {
+  border-top: 1px solid rgba(200, 200, 200, 0.5);
+  flex-grow: 1;
+}
+.trait-card > .trait-name > span {
+  margin-right: 1em;
+}
+.trait-card > .trait-description {
+  margin-left: 25px;
+  padding: 1.5em 1.25rem 0 1.25rem;
+  border-right: 1px solid rgba(200, 200, 200, 0.5);
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.trait-card > .trait-description:after,
+.trait-card > .trait-description:before {
+  position: absolute;
+  content: '';
+  z-index: 0;
+}
+.trait-card > .trait-description:before {
+  width: 80%;
+  right: 0px;
+  top: 0px;
+  border: 1px solid rgba(200, 200, 200, 0.5);
+  border-width: 0px 1px 0px 0px;
+}
+.trait-card > .trait-description:after {
+  height: calc(100% - (0.5em + 21px));
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  border: 1px solid rgba(200, 200, 200, 0.5);
+  border-width: 0px 0px 1px 1px;
+}
+
+/* Sections */
 
 .section-title {
   margin-top: 3em;
   margin-bottom: 1em;
+  padding: 0.25rem 0 0.25rem 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.section-title > h3 {
+  margin: 0;
+}
+.section-title.ranger {
   border-top: 2px solid var(--ranger-primary);
   border-bottom: 2px solid var(--ranger-primary);
-  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .subsection-title {
@@ -182,4 +228,26 @@ nav.nav-pills.custom-nav a.nav-link.active {
   border-left: 1px solid var(--ranger-primary);
   background-color: var(--custom-dark);
   margin-left: 1em;
+}
+
+.section-intro {
+  font-style: italic;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+@media (min-width: 992px) {
+  .section-intro {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+}
+
+/* Misc */
+
+.centered-flex-row {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
