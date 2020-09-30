@@ -2,10 +2,10 @@ import React from 'react';
 import TraitCard from '../../../components/TraitCard';
 import WikiIcon from '../../../components/WikiIcon';
 
-const NatureMagic = () => {
+const Spellbreaker = () => {
     return (
         <>
-        <div className="mb-3" data-armory-embed="specializations" data-armory-ids="25" data-armory-25-traits="1062,978,965,964,1038"></div>
+        <div className="mb-3" data-armory-embed="specializations" data-armory-ids="61" data-armory-61-traits="1062,978,965,964,1038"></div>
         <div className="row justify-content-center">
             <h4 className="mb-0">Minor Adept</h4>
         </div>
@@ -76,4 +76,4 @@ const NatureMagic = () => {
     );
 }
 
-export default NatureMagic;
+export default Spellbreaker;

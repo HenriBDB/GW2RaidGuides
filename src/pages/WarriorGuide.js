@@ -4,14 +4,14 @@ import SectionTitle from "../components/SectionTitle";
 import SectionIntro from '../components/SectionIntro';
 import NavTabs from '../components/NavTabs';
 import TabPane from '../components/TabPane';
-import {Arms, Berserker, Defense, Discipline, Spellbreaker, Strength} from './Warrior/Traits';
+import {Arms, Berserker, Defense, Discipline, Spellbreaker, Strength, Tactics} from './Warrior/Traits';
 
 const WarriorGuide = (props) => {
     return (
         <div className={"warrior-page pt-5"}>
             <div className="container">
                 <GuideTitle title="Flames of War" footer="King of Fires Edition"/>
-                <br />
+                <br/>
                 <p>
                     Warrior is brought in practically every raid comp because of the support they provide through Banner of Strength and Banner of Discipline (and Empower Allies for certain Power Comps).
                     These banners bring 400 points worth of offensive stats to everyone in the squad, which is an immense boost to group DPS.
@@ -28,18 +28,17 @@ const WarriorGuide = (props) => {
                     Lastly, a somewhat complete guide to every boss will be provided, describing tricks and tips on how to approach the bosses as well as bannering on these.
                     Some additional notes will be added throughout the guide to outline certain problems the class can face, as well as how to best tackle these problems to face a minimal loss in banner uptime and/or DPS.
                 </p>
-                <SectionTitle gameClass="ranger" title="Traits"/>
+                <SectionTitle gameClass="warrior" title="Traits"/>
                 <SectionIntro>
                 <p>
-                    Druid is a very situational class. Even though your general build will look like this:
-                </p>
-                <div class="mb-3" data-armory-embed="specializations" data-armory-ids="4,11,36,22,51,18" data-armory-4-traits="1444,1338,1437" data-armory-51-traits="1413,1484,1369" data-armory-18-traits="2049,2039,1977,2011,1928"></div>
-                <p class="font-italic">
-                    You will find yourself changing traits between most encounters and sometimes even trait line. Below will be explained all the used traits from used traitlines, what they bring and in which situations they are used. 
-                    Only the used traits have been highlighted so that you don't need to spend time learning about unused traits but feel free to look at the other traits/trait-lines too.
+                    The traits outline the core workings of a class and makes them stand out from the other classes.
+                    Depending on which traits that are chosen, the playstyle for the class changes.
+                    Certain traits are very impactful in niche situations while others are overall very strong.
+                    This section aims to cover the different warrior traits and their uses, explaining why some are favoured while others are ignored.
+                    Ending out the section, the optimal trait combinations for power- and condition damage banner warrior will be outlined along with a quick explanation as to why this is the optimal setup.
                 </p>
                 </SectionIntro>
-                <NavTabs tabNames={["Arms", "Berserker", "Defense", "Discipline", "Spellbreaker", "Strength"]} hrefs={["Arms", "Berserker", "Defense", "Discipline", "Spellbreaker", "Strength"]}>
+                <NavTabs tabNames={["Arms", "Berserker", "Defense", "Discipline", "Spellbreaker", "Strength", "Tactics"]} hrefs={["Arms", "Berserker", "Defense", "Discipline", "Spellbreaker", "Strength", "Tactics"]}>
                     <TabPane tabName="Arms" active="true">
                         <Arms/>
                     </TabPane>
@@ -57,6 +56,9 @@ const WarriorGuide = (props) => {
                     </TabPane>
                     <TabPane tabName="Strength">
                         <Strength/>
+                    </TabPane>
+                    <TabPane tabName="Tactics">
+                        <Tactics/>
                     </TabPane>
                 </NavTabs>
             </div>
