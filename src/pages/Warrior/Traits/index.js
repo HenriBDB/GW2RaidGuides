@@ -1,6 +1,8 @@
-import Skirmishing from './Skirmishing';
-import NatureMagic from './NatureMagic';
-import Warrior from './Warrior';
-import Marksmanship from './Marksmanship';
+import Arms from './Arms';
+import Berserker from './Berserker';
+import Defense from './Defense';
+import Discipline from './Discipline';
+import Spellbreaker from  './Spellbreaker';
+import Strength from './Strength';
 
-export {Skirmishing, NatureMagic, Warrior, Marksmanship};
+export {Arms, Berserker, Defense, Discipline, Spellbreaker, Strength};

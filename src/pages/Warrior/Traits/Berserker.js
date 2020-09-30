@@ -2,14 +2,14 @@ import React from 'react';
 import TraitCard from '../../../components/TraitCard';
 import WikiIcon from '../../../components/WikiIcon';
 
-const Warrior = () => {
+const Berserker = () => {
     return (
         <>
-        <div className="mb-3" data-armory-embed="specializations" data-armory-ids="5" data-armory-5-traits="2016,1935,2053,2001,2056,2057,2058"></div>
+        <div className="mb-3" data-armory-embed="specializations" data-armory-ids="18" data-armory-18-traits="2049,2039,1977,2011,2042,2002,1928,2038,2043"></div>
         <div className="row justify-content-center">
             <h4 className="mb-0">Minor Adept</h4>
         </div>
-        <TraitCard traitID={1874}>
+        <TraitCard traitID={1831}>
             <p>
                 This trait gives you access to <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span> which is the 
                 core of the druid specialisation and includes 5 new skills that are discussed below in <span class="font-italic">Skills and Utilities</span>. You can enter <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span> 
@@ -24,7 +24,7 @@ const Warrior = () => {
         <div className="row justify-content-center">
             <h4 className="mb-0">Major Adept</h4>
         </div>
-        <TraitCard traitID={2016}>
+        <TraitCard traitID={2049}>
             <p>
                 Using a heal skill with this trait causes you to heal 5 allies for 1000 (0.2) in a 300 radius once around yourself and again around your pet. Note that the active ability 
                 of <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="21773"></span> does not trigger this trait.
@@ -34,7 +34,7 @@ const Warrior = () => {
                 you do not have a staff equipped as it will help you provide extra healing when using a heal skill which can help during burst damage phases.
             </p>
         </TraitCard>
-        <TraitCard traitID={1935}>
+        <TraitCard traitID={2039}>
             <p>
                 This trait reduces recharge rates on staff skills by 20% and causes you to <WikiIcon name="Daze"/> Daze (1s) up to 5 targets in a 
                 300 radius when swapping to staff. The trigger for this trait is on an 8 seconds cooldown.
@@ -49,7 +49,7 @@ const Warrior = () => {
         <div className="row justify-content-center">
             <h4 className="mb-0">Minor Master</h4>
         </div>
-        <TraitCard traitID={1862}>
+        <TraitCard traitID={1977}>
             <p>
                 On a 1 second internal cooldown, heal yourself for 207 (0.01) whenever you heal an allie. Note that this trait does not trigger from passive heals such 
                 as <WikiIcon name="Regeneration"/> Regeneration or from <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="970"></span>.
@@ -61,7 +61,7 @@ const Warrior = () => {
         <div className="row justify-content-center">
             <h4 className="mb-0">Major Master</h4>
         </div>
-        <TraitCard traitID={2053}>
+        <TraitCard traitID={1993}>
             <p>
                 Whenever you leave <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span>, grant to 
                 5 allies in a 300 radius <WikiIcon name="Stealth"/> Stealth (3s) and <WikiIcon name="Superspeed"/> Superspeed (3s). This trait 
@@ -74,7 +74,7 @@ const Warrior = () => {
                 is also applied to allies, you can use it to help them move back to boss after split, move away from stack for a mechanic etc...
             </p>
         </TraitCard>
-        <TraitCard traitID={2001}>
+        <TraitCard traitID={2011}>
             <p>
                 This trait reduces recharge of glyphs by 20% and causes them to cast <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31776"></span> which 
                 if combined with <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="2057"></span> will also grant <WikiIcon name="Might"/><sub>2</sub> Might to the squad.
@@ -85,7 +85,7 @@ const Warrior = () => {
                 to push the Tormented Dead on Soulless Horror. Take this trait whenever you have a glyph equipped.
             </p>
         </TraitCard>
-        <TraitCard traitID={2056}>
+        <TraitCard traitID={2042}>
             <p>
                 This trait reduces the duration of movement-impairing conditions on you by 33% and increases your movement speed by 33% as long as you do not have any such condition.
             </p>
@@ -97,7 +97,7 @@ const Warrior = () => {
         <div className="row justify-content-center">
             <h4 className="mb-0">Minor Grandmaster</h4>
         </div>
-        <TraitCard traitID={1992}>
+        <TraitCard traitID={2002}>
             <p>
                 Whenever you heal another ally, gain a stacking buff for 6s that increases your outgoing healing effectiveness by 2%. Stacks up to 10 times. This trait will also trigger when reviving an ally. 
                 Note that using <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31914"></span>, <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12483"></span>, 
@@ -112,7 +112,7 @@ const Warrior = () => {
         <div className="row justify-content-center">
             <h4 className="mb-0">Major Grandmaster</h4>
         </div>
-        <TraitCard traitID={2057}>
+        <TraitCard traitID={2046}>
             <p>
                 Using a Celestial Avatar ability grants up to 10 allies within the radius of the ability <WikiIcon name="Might"/><sub>2</sub> per tick. Details on 
                 might generation through this can be found in <span class="font-italic">Boons and Buffs {'>'} Might and Fury</span>.
@@ -125,7 +125,7 @@ const Warrior = () => {
                 most of the time.
             </p>
         </TraitCard>
-        <TraitCard traitID={2058}>
+        <TraitCard traitID={1928}>
             <p>
                 Your outgoing healing while in Celestial Avatar Form is increased by 50%. Going into <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span> will 
                 also cause your next strike to inflict <WikiIcon name="Blinded"/> Blindness (4s) and heal you for 596 (0.2).
@@ -137,8 +137,33 @@ const Warrior = () => {
                 River of Grenth is a good place to use this skill as the extra healing will help keep the forward group alive.
             </p>
         </TraitCard>
+        <TraitCard traitID={2038}>
+            <p>
+                Your outgoing healing while in Celestial Avatar Form is increased by 50%. Going into <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span> will
+                also cause your next strike to inflict <WikiIcon name="Blinded"/> Blindness (4s) and heal you for 596 (0.2).
+            </p>
+            <p>
+                Celestial Avatar Skills being your main source of healing, this trait increases that healing even more by 50% (outgoing only) making you an extremely powerful raw healer.
+                As you sacrifice 10-man <WikiIcon name="Might"/><sub>25</sub> Might by taking this trait, it is only used when either you are not responsible
+                for <WikiIcon name="Might"/> Might or in small encounters where <WikiIcon name="Might"/> Might is not essential but healing is needed.
+                River of Grenth is a good place to use this skill as the extra healing will help keep the forward group alive.
+            </p>
+        </TraitCard>
+       <TraitCard traitID={2043}>
+           <p>
+               Your outgoing healing while in Celestial Avatar Form is increased by 50%. Going into <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span> will
+               also cause your next strike to inflict <WikiIcon name="Blinded"/> Blindness (4s) and heal you for 596 (0.2).
+           </p>
+           <p>
+               Celestial Avatar Skills being your main source of healing, this trait increases that healing even more by 50% (outgoing only) making you an extremely powerful raw healer.
+               As you sacrifice 10-man <WikiIcon name="Might"/><sub>25</sub> Might by taking this trait, it is only used when either you are not responsible
+               for <WikiIcon name="Might"/> Might or in small encounters where <WikiIcon name="Might"/> Might is not essential but healing is needed.
+               River of Grenth is a good place to use this skill as the extra healing will help keep the forward group alive.
+           </p>
+       </TraitCard>
         </>
+
     );
 }
 
-export default Warrior;
+export default Berserker;
