@@ -20,7 +20,8 @@ const WarriorGuide = (props) => {
                     The label of support also changes the general approach to banner warrior.
                     Given the mentality of “Oh I’m just support” some make do with subpar DPS and at times even subpar banner uptime as well.
                     The goal with this guide is to provide greater insight into how warrior operates at a basic level and then building on top of that foundation of knowledge to provide a more complete understanding of how and why warrior plays out as it does.
-
+                </p>
+                <p>
                     This will be done by going in depth with the traits of the different trait-lines, explaining each of them and their uses thoroughly.
                     The same will then be done for all the weapon-skills, followed by utility skills.
                     After covering the fundamental knowledge, the gear and gear variations will be covered for the power and condition builds.
@@ -61,6 +62,50 @@ const WarriorGuide = (props) => {
                         <Tactics/>
                     </TabPane>
                 </NavTabs>
+                <SectionTitle gameClass="warrior" title="Weapons"/>
+                <SectionIntro>
+                <p>
+                    Since the most common builds for banner warrior all run the berserker trait-line the burst skills listed with every weapon will be the primal burst skills the berserker give access to.
+                    All main-hand or two-handed weapons have an associated burst skill.
+                    This list will not contain underwater weapons,such as Spear andHarpoon Gun, nor Spellbreaker Daggers.
+                    The section will be rounded off with a quick overview of which weapons are good for which builds and why.
+                </p>
+                </SectionIntro>
+                <SectionTitle gameClass="warrior" title="Utilities"/>
+                <SectionIntro>
+                <p>
+                    Warrior has a huge arsenal of utility skills available, but sadly most of them are outright useless in raids or outclassed by better options.
+                    It does not help that the context of this guide is for banner warrior, which means that we are locked into running Banner of Strength and Banner of Discipline, leaving only the healing skill, elite skill and 1 utility skill open for creativity.
+                    Just like the weapons the skills will be in Berserker context, so Spellbreaker Meditations will not be present.
+                    The section will be rounded out with skill setups for the different builds.
+                </p>
+                </SectionIntro>
+                <SectionTitle gameClass="warrior" title="Gear"/>
+                <SectionIntro>
+                <p>
+                    With the traits, weapons, and skills covered it is time to cover the gear the different builds run.
+                    While there is a “main” set of armour for both builds, the power build has a few variations depending on the circumstances and what it tries to do.
+                    Though the core build works perfectly fine on every encounter, these variations are mostly to fine-tune the gear for optimal chances of successor rather to avoid pitfalls the standard gear variant could fall into.
+                </p>
+                </SectionIntro>
+                <SectionTitle gameClass="warrior" title="Rotation"/>
+                <SectionIntro>
+                <p>
+                    A rotation is the ideal order of skills to achieve the highest DPS under general circumstances.
+                    These rotations should be seen as the core you try to work around, but for some bosses,alterations to the rotation can yield higher DPS.
+                    These boss specific adaptations will be covered under the bosses section when relevant.
+                    This section will instead cover the overall rotations for the Power and Condition build.
+                </p>
+                </SectionIntro>
+                <SectionTitle gameClass="warrior" title="Boss Guides"/>
+                <SectionIntro>
+                <p>
+                    This section will aim to describe how a banner warrior plays out on the different bosses, ordered by wings.
+                    Every boss will include an overall approach along with listing some pitfalls which should be avoided, and shortcuts which can be abused.
+                    A guide on how to best manage banners for every boss will also be laid out.
+                    There will also be some remarks regarding the different builds and rotations covering which are most optimal to use, and which should be avoided for the encounter.
+                </p>
+                </SectionIntro>
             </div>
         </div>
     );
