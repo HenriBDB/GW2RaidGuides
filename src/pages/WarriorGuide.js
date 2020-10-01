@@ -71,6 +71,10 @@ const WarriorGuide = (props) => {
                     The section will be rounded off with a quick overview of which weapons are good for which builds and why.
                 </p>
                 </SectionIntro>
+                <NavTabs tabNames={["Axe", "Dagger", "Greatsword", "Hammer", "Longbow", "Mace", "Rifle", "Shield", "Sword", "Torch", "Warhorn"]} hrefs={["Axe", "Dagger", "Greatsword", "Hammer", "Longbow", "Mace", "Rifle", "Shield", "Sword", "Torch", "Warhorn"]}>
+                    <TabPane tabName="Axe">
+                    </TabPane>
+                </NavTabs>
                 <SectionTitle gameClass="warrior" title="Utilities"/>
                 <SectionIntro>
                 <p>
@@ -80,6 +84,10 @@ const WarriorGuide = (props) => {
                     The section will be rounded out with skill setups for the different builds.
                 </p>
                 </SectionIntro>
+                <NavTabs tabNames={["Healing", "Banner", "Physical", "Shout", "Signet", "Stance", "Rage", "Elite"]} hrefs={["Healing", "Banner", "Physical", "Shout", "Signet", "Stance", "Rage", "Elite"]}>
+                    <TabPane tabName="Healing">
+                    </TabPane>
+                </NavTabs>
                 <SectionTitle gameClass="warrior" title="Gear"/>
                 <SectionIntro>
                 <p>
@@ -88,6 +96,16 @@ const WarriorGuide = (props) => {
                     Though the core build works perfectly fine on every encounter, these variations are mostly to fine-tune the gear for optimal chances of successor rather to avoid pitfalls the standard gear variant could fall into.
                 </p>
                 </SectionIntro>
+                <NavTabs tabNames={["Power", "Condi"]} hrefs={["Power", "Condi"]}>
+                    <TabPane tabName="Power" active="true">
+                        <NavTabs tabNames={["Thief", "Eagle", "Strength", "Misc"]} hrefs={["Thief", "Eagle", "Strength", "Misc"]}>
+                            <TabPane tabName="Thief">
+                            </TabPane>
+                        </NavTabs>
+                    </TabPane>
+                    <TabPane tabName="Condi">
+                    </TabPane>
+                </NavTabs>
                 <SectionTitle gameClass="warrior" title="Rotation"/>
                 <SectionIntro>
                 <p>
@@ -97,6 +115,28 @@ const WarriorGuide = (props) => {
                     This section will instead cover the overall rotations for the Power and Condition build.
                 </p>
                 </SectionIntro>
+                <NavTabs tabNames={["Power", "Condi"]} hrefs={["Power", "Condi-r"]}>
+                    <TabPane tabName="Power" active="true">
+                        <NavTabs tabNames={["Axe-only", "No-swap axe", "Greatsword", "CC"]} hrefs={["Axe-only", "No-swap axe", "Greatsword", "CC"]}>
+                            <TabPane tabName="Axe-only">
+                            </TabPane>
+                            <TabPane tabName="No-swap axe">
+                            </TabPane>
+                            <TabPane tabName="Greatsword">
+                            </TabPane>
+                            <TabPane tabName="CC">
+                            </TabPane>
+                        </NavTabs>
+                    </TabPane>
+                    <TabPane tabName="Condi">
+                        <NavTabs tabNames={["Standard", "Leapfrog"]} hrefs={["Standard", "Leapfrog"]}>
+                            <TabPane tabName="Standard">
+                            </TabPane>
+                            <TabPane tabName="Leapfrog">
+                            </TabPane>
+                        </NavTabs>
+                    </TabPane>
+                </NavTabs>
                 <SectionTitle gameClass="warrior" title="Boss Guides"/>
                 <SectionIntro>
                 <p>
