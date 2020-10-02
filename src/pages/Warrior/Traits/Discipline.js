@@ -9,7 +9,7 @@ const Discipline = () => {
         <div className="row justify-content-center">
             <h4 className="mb-0">Minor Adept</h4>
         </div>
-        <TraitCard traitID={1055}>
+        <TraitCard traitID={1062}>
             <p>
             </p>
         </TraitCard>

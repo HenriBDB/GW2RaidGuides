@@ -62,6 +62,46 @@ const WarriorGuide = (props) => {
                         <Tactics/>
                     </TabPane>
                 </NavTabs>
+                <div className="row justify-content-center">
+                    <h2>Builds</h2>
+                </div>
+                <p>
+                    With all the trait-lines covered it is time to outline the optimal setups for the different builds, and why these are optimal.
+                    This section will cover Power builds, Condition builds, and a few extra builds such as Spellbreaker and hand-kiter.
+                </p>
+                <NavTabs tabNames={["Power", "Condi", "Extra"]} hrefs={["Power-tb", "Condi-tb", "Extra-tb"]}>
+                    <TabPane tabName="Power-tb" active="true">
+                        <p>
+                            For power you want to run:
+                        </p>
+                        <div className="mb-3" data-armory-embed="specializations" data-armory-ids="4,51,18" data-armory-4-traits="1444,1338,1437" data-armory-51-traits="1413,1484,1369" data-armory-18-traits="2049,2011,1928"></div>
+                        <p>
+                            This combination has great synergy, allowing for huge burst with all the available modifiers and stat increases.
+                            The idea is to run Axes with this build and thus filling the adrenaline bar with 3 hits + Decapitate to be able to Decapitate again as fast as possible.
+                            This is possible because of Axe Mastery providing extra adrenaline on Axe crits.
+                            The massive amount of Decapitates this build can dish out also helps fuel and maintain Berserker’s Power.
+                            Overall, the goal with this setup is to maintain as many modifiers as you can to achieve and maintain overall high DPS.
+                        </p>
+                        <p>
+                            For the Tactics variant you want to swap Strength for Tactics with the following setup:
+                        </p>
+                        <div className="mb-3" data-armory-embed="specializations" data-armory-ids="11" data-armory-11-traits="1469,1482,1667,1711"></div>
+                        <p>
+                            Here the idea is still to try and maintain bonuses, but no longer have the added bonus of Decapitates fuelling Berserker’s Power.
+                            This is overall weaker in terms of self DPS, but the added group DPS from Empower Allies should make up for the difference, and then some more.
+                            Phalanx Strength can be run to help provide Might, and some Might generation variants will depend on the Might generated from this trait.
+                            But in case that is not needed Martial Cadence will be better since it mitigates the loss from lacking Strength slightly with the cooldown reduction effect.
+                        </p>
+                    </TabPane>
+                    <TabPane tabName="Condi-tb">
+                        <div className="mb-3" data-armory-embed="specializations" data-armory-ids="36,51,18" data-armory-36-traits="1455,1333,1346" data-armory-51-traits="1329,1484,1657" data-armory-18-traits="2039,2042,2038"></div>
+
+                    </TabPane>
+                    <TabPane tabName="Extra-tb">
+
+                    </TabPane>
+                </NavTabs>
+
                 <SectionTitle gameClass="warrior" title="Weapons"/>
                 <SectionIntro>
                 <p>
@@ -96,14 +136,15 @@ const WarriorGuide = (props) => {
                     Though the core build works perfectly fine on every encounter, these variations are mostly to fine-tune the gear for optimal chances of successor rather to avoid pitfalls the standard gear variant could fall into.
                 </p>
                 </SectionIntro>
-                <NavTabs tabNames={["Power", "Condi"]} hrefs={["Power", "Condi"]}>
-                    <TabPane tabName="Power" active="true">
-                        <NavTabs tabNames={["Thief", "Eagle", "Strength", "Misc"]} hrefs={["Thief", "Eagle", "Strength", "Misc"]}>
+                <NavTabs tabNames={["Power", "Condi"]} hrefs={["Power-g", "Condi-g"]}>
+                    <TabPane tabName="Power-g" active="true">
+                        <NavTabs tabNames={["Thief", "Eagle", "Strength", "Misc"]} hrefs={["Thief", "Eagle", "Strength-g", "Misc"]}>
                             <TabPane tabName="Thief">
                             </TabPane>
                         </NavTabs>
                     </TabPane>
-                    <TabPane tabName="Condi">
+                    <TabPane tabName="Condi-g">
+                        <p>TEST</p>
                     </TabPane>
                 </NavTabs>
                 <SectionTitle gameClass="warrior" title="Rotation"/>
@@ -115,20 +156,21 @@ const WarriorGuide = (props) => {
                     This section will instead cover the overall rotations for the Power and Condition build.
                 </p>
                 </SectionIntro>
-                <NavTabs tabNames={["Power", "Condi"]} hrefs={["Power", "Condi-r"]}>
-                    <TabPane tabName="Power" active="true">
-                        <NavTabs tabNames={["Axe-only", "No-swap axe", "Greatsword", "CC"]} hrefs={["Axe-only", "No-swap axe", "Greatsword", "CC"]}>
-                            <TabPane tabName="Axe-only">
+                <NavTabs tabNames={["Power", "Condi"]} hrefs={["Power-r", "Condi-r"]}>
+                    <TabPane tabName="Power-r" active="true">
+                        <NavTabs tabNames={["Axe-only", "No-swap axe", "Greatsword", "CC"]} hrefs={["Axe-only", "No-swap axe", "Greatsword-r", "CC"]}>
+                            <TabPane tabName="Axe-only" active="true">
+                                <p>TEST</p>
                             </TabPane>
                             <TabPane tabName="No-swap axe">
                             </TabPane>
-                            <TabPane tabName="Greatsword">
+                            <TabPane tabName="Greatsword-r">
                             </TabPane>
                             <TabPane tabName="CC">
                             </TabPane>
                         </NavTabs>
                     </TabPane>
-                    <TabPane tabName="Condi">
+                    <TabPane tabName="Condi-r">
                         <NavTabs tabNames={["Standard", "Leapfrog"]} hrefs={["Standard", "Leapfrog"]}>
                             <TabPane tabName="Standard">
                             </TabPane>
