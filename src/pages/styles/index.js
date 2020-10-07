@@ -29,3 +29,22 @@ export const Container = styled.div`
     width: 100%;
   }
 `
+export const SectionHeader = styled.button`
+  outline: none;
+  background: none;
+  border: none;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.25rem 0 0.25rem 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-top: 2px solid ${dhPrimary};
+  border-bottom: 2px solid ${dhPrimary};
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 1.75rem;
+`
+
+export const SectionContent = styled.div`
+
+`

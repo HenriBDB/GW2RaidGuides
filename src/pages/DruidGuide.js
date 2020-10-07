@@ -23,7 +23,7 @@ const DruidGuide = (props) => {
                     Druids are responsible for many buffs and boons for the entire squad or their sub-squad only. Listed they include:&nbsp;
                     <strong>spirits</strong>, <strong>spotter</strong>, <strong>might</strong> and <strong>fury</strong>.
                 </SectionIntro>
-                <NavTabs tabNames={["Spirits", "Spotter", "Boons"]} hrefs={["spirits", "spotter", "boons"]}>
+                <NavTabs tabNames={["Spirits", "Spotter", "Boons"]} hrefs={["spirits", "spotter", "boons"]}z>
                     <TabPane tabName={"spirits"} active={true}>
                         <Spirits/>
                     </TabPane>
