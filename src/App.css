@@ -7,6 +7,22 @@
   color: white;
 }
 
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.nav-center {
+  width: 90%;
+
+}
+
+.nav-row {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
 .druid-page {
   background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FvU3RMgV.jpg&f=1&nofb=1");
   background-repeat: no-repeat;
