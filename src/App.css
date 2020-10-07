@@ -1,6 +1,7 @@
 * {
   font-family: 'DejaVu Serif';
   --ranger-primary: #8ea53a;
+  --dh-primary: #47b8e0;
   --custom-dark: rgba(37,39,37,0.8);
   --custom-dark-opaque: rgb(37,39,37);
   --bg-dark: rgba(28,30,27,0.9);
@@ -221,6 +222,10 @@ nav.custom-nav a.active {
 .section-title.ranger {
   border-top: 2px solid var(--ranger-primary);
   border-bottom: 2px solid var(--ranger-primary);
+}
+.section-title.dragonhunter {
+  border-top: 2px solid var(--dh-primary);
+  border-bottom: 2px solid var(--dh-primary);
 }
 
 .subsection-title {

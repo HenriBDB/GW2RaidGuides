@@ -6,19 +6,21 @@ import NavTabs from '../components/NavTabs';
 import TabPane from '../components/TabPane';
 import {Spirits, Spotter, Boons} from './Druid/BoonsAndBuffs';
 import {Skirmishing, NatureMagic, Druid, Marksmanship} from './Druid/Traits';
+import {
+    Wrapper,
+    Container,
+} from './styles'
 
 const DragonunterGuide = () => {
     return (
-        <div className={"druid-page pt-5"}>
-            <div className="guide-content ranger">
+        <Wrapper>
+            <Container>
                 <GuideTitle title="Procession of Traps" footer="Average raider guide by Paula The Vicious"/>
                 <p>
-                    &emsp;This guide is intended to help GW2 players learn the role that druid plays within a raid encounter and how to utilise the class to it's fullest.
-                    It has been written with raid clearing in mind and not speedrunning thus hardcore strategies will not be discussed. This guide will walk you through
-                    everything that makes a druid good from trait and weapon variations to buff generation and mechanics strategies.
+                    &emsp;This guide was made to help you understand how to play Dragonunter in raids <b>efficiently</b>. No speedclear strategies are covered, but even more advanced players will hopefully find some of my tips helpful to master this class.<br/>
+                    If you already know the basics, you can skip straight to Boss Guides section. Enjoy!
                 </p>
-
-                <SectionTitle gameClass="ranger" title="Boons and Buffs"/>
+                <SectionTitle gameClass="dragonhunter" title="Boons and Buffs"/>
                 <SectionIntro>
                     Druids are responsible for many buffs and boons for the entire squad or their sub-squad only. Listed they include:&nbsp;
                     <strong>spirits</strong>, <strong>spotter</strong>, <strong>might</strong> and <strong>fury</strong>.
@@ -35,7 +37,7 @@ const DragonunterGuide = () => {
                     </TabPane>
                 </NavTabs>
 
-                <SectionTitle gameClass="ranger" title="Traits"/>
+                <SectionTitle gameClass="dragonhunter" title="Traits"/>
                 <SectionIntro>
                 <p>
                     Druid is a very situational class. Even though your general build will look like this:
@@ -61,8 +63,8 @@ const DragonunterGuide = () => {
                         <Marksmanship/>
                     </TabPane>
                 </NavTabs>
-            </div>
-        </div>
+            </Container>
+        </Wrapper>
     );
 }
 
