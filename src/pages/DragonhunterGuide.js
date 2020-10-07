@@ -11,7 +11,9 @@ import {
     Container,
     SectionHeader,
     SectionContent,
+    ArrowMoreButton,
 } from './styles'
+import Arrow from '../assets/icons/arrow-white.png';
 
 const DragonunterGuide = () => {
     const [traitsVisible, setTraitsVisible] = useState(false)
@@ -19,11 +21,17 @@ const DragonunterGuide = () => {
     const [gearVisible, setGearVisible] = useState(false)
     const [rotationVisible, setRotationVisible] = useState(false)
     const [guidesVisible, setGuidesVisible] = useState(false)
+
+    const variantsArrow = {
+        opened: { rotate: 180 },
+        closed: { rotate: 0 }
+    }
+
     const toggleTraits = e => {
         e && e.stopPropagation()
         setTraitsVisible(!traitsVisible)
     }
-    const toggleUtilities= e => {
+    const toggleUtilities = e => {
         e && e.stopPropagation()
         setUtilitiesVisible(!utilitiesVisible)
     }
@@ -49,7 +57,13 @@ const DragonunterGuide = () => {
                     If you already know the basics, you can skip straight to Boss Guides section. Enjoy!
                 </p>
                 <SectionHeader onClick={toggleTraits}>
-                    Traits
+                    <p> Traits </p>
+                    <ArrowMoreButton
+                        src={Arrow}
+                        variants={variantsArrow}
+                        animate={traitsVisible ? "opened" : "closed"}
+                        transition={{ duration: "0.5" }}
+                    />
                 </SectionHeader>
                 {traitsVisible &&
                     <SectionContent>
@@ -80,7 +94,13 @@ const DragonunterGuide = () => {
                 }
 
                 <SectionHeader onClick={toggleUtilities}>
-                    Utilities
+                    <p>Utilities</p>
+                    <ArrowMoreButton
+                        src={Arrow}
+                        variants={variantsArrow}
+                        animate={utilitiesVisible ? "opened" : "closed"}
+                        transition={{ duration: "0.5" }}
+                    />
                 </SectionHeader>
                 {utilitiesVisible &&
                     <SectionContent>
@@ -113,7 +133,13 @@ const DragonunterGuide = () => {
                 }
 
                 <SectionHeader onClick={toggleGear}>
-                    Gear
+                <p>Gear</p>
+                    <ArrowMoreButton
+                        src={Arrow}
+                        variants={variantsArrow}
+                        animate={gearVisible ? "opened" : "closed"}
+                        transition={{ duration: "0.5" }}
+                    />
                 </SectionHeader>
                 {gearVisible &&
                     <SectionContent>
@@ -147,7 +173,13 @@ const DragonunterGuide = () => {
 
 
                 <SectionHeader onClick={toggleRotation}>
-                    Rotation
+                <p>Rotation</p>
+                    <ArrowMoreButton
+                        src={Arrow}
+                        variants={variantsArrow}
+                        animate={rotationVisible ? "opened" : "closed"}
+                        transition={{ duration: "0.5" }}
+                    />
                 </SectionHeader>
                 {rotationVisible &&
                     <SectionContent>
@@ -181,7 +213,13 @@ const DragonunterGuide = () => {
 
 
                 <SectionHeader onClick={toggleGuides}>
-                    Boss Guides
+                <p>Boss Guides</p>
+                    <ArrowMoreButton
+                        src={Arrow}
+                        variants={variantsArrow}
+                        animate={guidesVisible ? "opened" : "closed"}
+                        transition={{ duration: "0.5" }}
+                    />
                 </SectionHeader>
                 {guidesVisible &&
                     <SectionContent>
