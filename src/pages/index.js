@@ -13,9 +13,9 @@ const HomePage = () => {
         <Navbar />
         <Switch>
           {/* <Route exact path="/" component={Home} /> */}
-          <Route exact path="/druid-guide/" component={DruidGuide} />
-          <Route exact path="/warrior-guide/" component={WarriorGuide} />
-          <Route exact path="/dragonhunter-guide/" component={DragonhunterGuide} />
+          <Route exact path="/druid-guide/"><DruidGuide/></Route>
+          <Route exact path="/warrior-guide/"><WarriorGuide/></Route>
+          <Route exact path="/dragonhunter-guide/"><DragonhunterGuide/></Route>
           {/* <Route component={Error} /> */}
         </Switch>
         {/* <Footer /> */}

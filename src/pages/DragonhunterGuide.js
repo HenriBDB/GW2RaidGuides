@@ -25,7 +25,6 @@ const DragonunterGuide = () => {
         opened: { rotate: 180 },
         closed: { rotate: 0 }
     }
-
     const toggleTraits = e => {
         e && e.stopPropagation()
         setTraitsVisible(!traitsVisible)
@@ -52,8 +51,8 @@ const DragonunterGuide = () => {
             <Container>
                 <GuideTitle title="Procession of Traps" footer="Raid Dragonhunter Guide by Paula The Vicious" />
                 <p>
-                    &emsp;This guide was made to help you understand how to play Dragonunter in raids <b>efficiently</b>. No speedclear strategies are covered, but even more advanced players will hopefully find some of my tips helpful to master this class.<br />
-                    If you already know the basics, you can skip straight to Boss Guides section. Enjoy!
+                    &emsp;This guide was made to help you understand how to play Dragonunter in raids <b>efficiently</b>. No speedclear strategies are covered, but even more advanced players will hopefully find some of my tips helpful to master this class.<br /><br />
+                    If you already know the basics, you can skip straight to Boss Guides section.<br /><br />Enjoy!
                 </p>
                 <SectionHeader onClick={toggleTraits}>
                     <p> Traits </p>
