@@ -31,6 +31,9 @@ export const Container = styled.div`
     width: 100%;
   }
 `
+export const GuideDescription = styled.div`
+
+`
 export const SectionHeader = styled.div`
   width: 100%;
   margin-top: 1rem;

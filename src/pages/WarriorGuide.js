@@ -9,7 +9,7 @@ import {Arms, Berserker, Defense, Discipline, Spellbreaker, Strength, Tactics} f
 const WarriorGuide = (props) => {
     return (
         <div className={"warrior-page pt-5"}>
-            <div className="container">
+            <div className="guide-content">
                 <GuideTitle title="Flames of War" footer="King of Fires Edition"/>
                 <br/>
                 <p>
