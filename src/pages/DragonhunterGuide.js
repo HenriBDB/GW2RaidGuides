@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import GuideTitle from "../components/GuideTitle";
-import SectionTitle from "../components/SectionTitle";
 import SectionIntro from '../components/SectionIntro';
 import NavTabs from '../components/NavTabs';
 import TabPane from '../components/TabPane';
@@ -65,8 +64,7 @@ const DragonunterGuide = () => {
                         transition={{ duration: "0.5" }}
                     />
                 </SectionHeader>
-                {traitsVisible &&
-                    <SectionContent>
+                    <SectionContent style={{display: traitsVisible ? 'block': 'none'}}>
                         <SectionIntro>
                             <p> Druid is a very situational class. Even though your general build will look like this:</p>
                             <div data-armory-embed="specializations" data-armory-ids="30,25,5" data-armory-30-traits="1069,1016,1064" data-armory-25-traits="978,964,1038" data-armory-5-traits="1935,2053,2057"></div>
@@ -74,7 +72,7 @@ const DragonunterGuide = () => {
                             <p>
                                 You will find yourself changing traits between most encounters and sometimes even trait line. Below will be explained all the used traits from used traitlines, what they bring and in which situations they are used.
                                 Only the used traits have been highlighted so that you don't need to spend time learning about unused traits but feel free to look at the other traits/trait-lines too.
-                </p>
+                            </p>
                         </SectionIntro>
                         <NavTabs tabNames={["Skirmishing", "Nature Magic", "Druid", "Marksmanship"]} hrefs={["skirmishing", "nature-magic", "druid-trait", "marksmanship"]}>
                             <TabPane tabName="skirmishing" active="true">
@@ -91,7 +89,7 @@ const DragonunterGuide = () => {
                             </TabPane>
                         </NavTabs>
                     </SectionContent>
-                }
+                
 
                 <SectionHeader onClick={toggleUtilities}>
                     <p>Utilities</p>
@@ -102,8 +100,7 @@ const DragonunterGuide = () => {
                         transition={{ duration: "0.5" }}
                     />
                 </SectionHeader>
-                {utilitiesVisible &&
-                    <SectionContent>
+                    <SectionContent style={{display: utilitiesVisible ? 'block': 'none'}}>
                         <SectionIntro>
                             <p>
                                 Druid is a very situational class. Even though your general build will look like this:
@@ -130,10 +127,9 @@ const DragonunterGuide = () => {
                             </TabPane>
                         </NavTabs>
                     </SectionContent>
-                }
 
                 <SectionHeader onClick={toggleGear}>
-                <p>Gear</p>
+                    <p>Gear</p>
                     <ArrowMoreButton
                         src={Arrow}
                         variants={variantsArrow}
@@ -141,8 +137,7 @@ const DragonunterGuide = () => {
                         transition={{ duration: "0.5" }}
                     />
                 </SectionHeader>
-                {gearVisible &&
-                    <SectionContent>
+                    <SectionContent style={{display: gearVisible ? 'block': 'none'}}>
                         <SectionIntro>
                             <p>
                                 Druid is a very situational class. Even though your general build will look like this:
@@ -169,11 +164,10 @@ const DragonunterGuide = () => {
                             </TabPane>
                         </NavTabs>
                     </SectionContent>
-                }
 
 
                 <SectionHeader onClick={toggleRotation}>
-                <p>Rotation</p>
+                    <p>Rotation</p>
                     <ArrowMoreButton
                         src={Arrow}
                         variants={variantsArrow}
@@ -181,8 +175,7 @@ const DragonunterGuide = () => {
                         transition={{ duration: "0.5" }}
                     />
                 </SectionHeader>
-                {rotationVisible &&
-                    <SectionContent>
+                    <SectionContent style={{display: rotationVisible ? 'block': 'none'}}>
                         <SectionIntro>
                             <p>
                                 Druid is a very situational class. Even though your general build will look like this:
@@ -208,12 +201,10 @@ const DragonunterGuide = () => {
                                 <Marksmanship />
                             </TabPane>
                         </NavTabs>
-                    </SectionContent>
-                }
-
-
+                       </SectionContent>
+     
                 <SectionHeader onClick={toggleGuides}>
-                <p>Boss Guides</p>
+                    <p>Boss Guides</p>
                     <ArrowMoreButton
                         src={Arrow}
                         variants={variantsArrow}
@@ -221,8 +212,7 @@ const DragonunterGuide = () => {
                         transition={{ duration: "0.5" }}
                     />
                 </SectionHeader>
-                {guidesVisible &&
-                    <SectionContent>
+                    <SectionContent style={{display: guidesVisible ? 'block': 'none'}}>
                         <SectionIntro>
                             <p>
                                 Druid is a very situational class. Even though your general build will look like this:
@@ -249,7 +239,6 @@ const DragonunterGuide = () => {
                             </TabPane>
                         </NavTabs>
                     </SectionContent>
-                }
             </Container>
         </Wrapper>
     );
