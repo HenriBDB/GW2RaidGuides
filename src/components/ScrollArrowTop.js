@@ -14,8 +14,8 @@ const ScrollArrow = () => {
         cursor: pointer;
         animation: fadeIn 0.3s;
         transition: opacity 0.4s;
+        background: #6DBF52;
         opacity: 1;
-        background-color: rgba(37,39,37,0.8);
             :hover{
                 opacity: 0.5
             }
@@ -47,7 +47,7 @@ const ScrollArrow = () => {
     return (
         <ArrowUp
             onClick={scrollTop}
-            style={{ display: showScroll ? 'flex' : 'none' }}
+            style={{ display: showScroll ? 'flex' : 'none'}}
         />
     )
 }
