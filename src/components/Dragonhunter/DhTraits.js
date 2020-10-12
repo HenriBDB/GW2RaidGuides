@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from 'react-scroll';
 import SectionIntro from '../../components/SectionIntro';
 import NavTabs from '../../components/NavTabs';
 import TabPane from '../../components/TabPane';
 
 
-const DhTraits = () => {
+const DhTraits = (showGear) => {
     return (
         <>
             <SectionIntro>
@@ -12,12 +13,19 @@ const DhTraits = () => {
                 <div data-armory-embed="specializations" data-armory-ids="42,16,27" data-armory-42-traits="634,653,2017" data-armory-16-traits="574,565,1683" data-armory-27-traits="1898,1835,1955"></div>
                 <br />
                 <p>
-                    You will find yourself changing traits between most encounters and sometimes even trait line. Below will be explained all the used traits from used traitlines, what they bring and in which situations they are used.
-                    Only the used traits have been highlighted so that you don't need to spend time learning about unused traits but feel free to look at the other traits/trait-lines too.
+                    There are few bosses which will require you take 1 or 2 different traits (or the entire traitline). Those trait changes will also require gear adjustments (more info in 
+                        <Link to="dh-section-gear" smooth={true} duration={1000}>
+                            <span
+                                style={{ color: "#47b8e0", cursor: "pointer" }}>
+                                &nbsp;Gear&nbsp;
+                            </span>
+                        </Link> 
+                    section). However, you can also use the basic trait set up on every boss as a beginner with 1 gearset.
+                    Navigate with the tabs below to learn more about traits used for power Dragonhunter build (I will only go over actually used traits, to keep this guide concise).
             </p>
             </SectionIntro>
-            <NavTabs tabNames={["Zeal", "Radiance", "Dragonhunter", "Virtues"]} hrefs={["zeal", "radiance", "dragonhunter", "virtues"]}>
-                <TabPane tabName="zeal" active="true">
+            <NavTabs tabNames={["Zeal", "Radiance", "Dragonhunter", "Virtues"]} hrefs={["zeal", "radiance", "dragonhunter", "virtues"]} className="dragonhunter-tabs" gameClass="dragonhunter">
+                <TabPane tabName="zeal" active="true" className="dragonhunter-tabs">
                 </TabPane>
                 <TabPane tabName="radiance">
                 </TabPane>

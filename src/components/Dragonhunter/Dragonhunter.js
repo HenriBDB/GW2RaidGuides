@@ -116,7 +116,7 @@ const Dragonhunter = () => {
                     <DhUtilities />
                 </SectionContent>
                 {/* Gear */}
-                <SectionHeader onClick={toggleGear}>
+                <SectionHeader onClick={toggleGear} id="dh-section-gear">
                     <p>Gear</p>
                     <ArrowMoreButton
                         src={Arrow}
@@ -158,4 +158,5 @@ const Dragonhunter = () => {
         </Wrapper>
     );
 }
+
 export default Dragonhunter;

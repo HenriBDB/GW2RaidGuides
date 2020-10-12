@@ -2,8 +2,8 @@ import React from "react";
 
 const SectionIntro = (props) => {
     return (
-        <div class="centered-flex-row">
-            <div class="section-intro">
+        <div className="centered-flex-row">
+            <div className="section-intro">
                 {props.children}
             </div>
         </div>
