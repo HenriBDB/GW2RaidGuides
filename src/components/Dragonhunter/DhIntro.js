@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from 'react-scroll';
 import GuideTitle from "../../components/GuideTitle";
-import { GuideDescription } from './styles';
+import { GuideDescription, SectionContainer } from './styles';
 
 const DhIntro = ({ showGuides }) => {
     return (
-        <>
+        <SectionContainer>
             <GuideTitle title="Procession of Traps" footer="Raid Dragonhunter Guide by Paula The Vicious" />
             <GuideDescription>
                 <p>&emsp;This guide was made to help you understand how to play Dragonunter in raids <b>efficiently</b>. No speedclear strategies are covered, but even more advanced players will hopefully find some of my tips helpful to master this class. </p>
@@ -28,7 +28,7 @@ const DhIntro = ({ showGuides }) => {
                 section.</p>
                 <p>Enjoy!</p>
             </GuideDescription>
-        </>
+        </SectionContainer>
     )
 }
 export default DhIntro

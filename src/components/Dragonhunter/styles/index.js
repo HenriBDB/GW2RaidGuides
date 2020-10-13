@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import { motion } from "framer-motion"
 import dhBackground from '../../../assets/backgrounds/dragohunter.jpg'
+import { FaYoutube } from 'react-icons/fa';
 
 const dhPrimary = "#47b8e0"
 const bgDark = "rgba(28,30,27,0.9)"
@@ -53,6 +54,11 @@ export const SectionHeader = styled.div`
     margin: 0;
   }
 `
+export const SectionContainer = styled.div`
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+`
+
 export const ArrowMoreButton = styled(motion.img)`
   width: 25px;
   height: 25px;
@@ -62,4 +68,31 @@ export const ArrowMoreButton = styled(motion.img)`
 `
 export const SectionContent = styled.div`
 
+`
+export const VideoWrapper = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+`
+export const VideoPreviewWrapper = styled.div`
+  width: 65%;
+  cursor: pointer;
+  position: relative;
+    :hover :nth-child(2) {
+    transform: translate(-50%, -50%) scale(1.5)
+  }
+`
+export const VideoPreview = styled.img`
+  width: 100%;
+  cursor: pointer;
+`
+export const YoutubePlay = styled(FaYoutube)`
+  font-size: 90px;
+  fill: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition: transform .2s;
 `

@@ -54,7 +54,7 @@ const Dragonhunter = () => {
             <ScrollArrow />
             <Container>
                 {/* Intro */}
-                <DhIntro showGuides={showGuides} />
+                <DhIntro showGuides={showGuides}/>
                 {/* Traits */}
                 <SectionHeader onClick={toggleTraits}>
                     <p> Traits </p>
@@ -105,7 +105,7 @@ const Dragonhunter = () => {
                     />
                 </SectionHeader>
                 <SectionContent style={{ display: rotationVisible ? 'block' : 'none' }}>
-                    <DhRotation />
+                    <DhRotation showGuides={showGuides}/>
                 </SectionContent>
                 {/* Boss guides */}
                 <SectionHeader onClick={toggleGuides} id="dh-section-guides">

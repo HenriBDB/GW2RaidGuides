@@ -1,11 +1,14 @@
 import React from "react";
 import SectionIntro from '../../components/SectionIntro';
+import { SectionContainer } from './styles'
 
 const DhUtilities = () => {
     return (
-        <SectionIntro>
-            <p> UTILITIES </p>
-        </SectionIntro>
+        <SectionContainer>
+            <SectionIntro>
+                <p> UTILITIES </p>
+            </SectionIntro>
+        </SectionContainer>
     )
 }
 export default DhUtilities

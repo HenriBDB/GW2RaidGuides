@@ -3,11 +3,12 @@ import { Link } from 'react-scroll';
 import SectionIntro from '../../components/SectionIntro';
 import NavTabs from '../../components/NavTabs';
 import TabPane from '../../components/TabPane';
+import { SectionContainer } from './styles'
 
 
 const DhTraits = ({ showGear }) => {
     return (
-        <>
+        <SectionContainer>
             <SectionIntro>
                 <p> This is your initial trait setup which you will be using in most groups on most raid encounters:</p>
                 <div data-armory-embed="specializations" data-armory-ids="42,16,27" data-armory-42-traits="634,653,2017" data-armory-16-traits="574,565,1683" data-armory-27-traits="1898,1835,1955">
@@ -33,7 +34,7 @@ const DhTraits = ({ showGear }) => {
                 <TabPane tabName="virtues">
                 </TabPane>
             </NavTabs>
-        </>
+        </SectionContainer>
     )
 }
 export default DhTraits
