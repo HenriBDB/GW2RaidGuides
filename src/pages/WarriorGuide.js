@@ -5,6 +5,7 @@ import SectionIntro from '../components/SectionIntro';
 import NavTabs from '../components/NavTabs';
 import TabPane from '../components/TabPane';
 import {Arms, Berserker, Defense, Discipline, Spellbreaker, Strength, Tactics} from './Warrior/Traits';
+import {Axe, Dagger, Greatsword, Hammer, Longbow, Mace, Rifle, Shield, Sword, Torch, Warhorn} from './Warrior/Weapons';
 
 const WarriorGuide = (props) => {
     return (
@@ -138,7 +139,28 @@ const WarriorGuide = (props) => {
                 </p>
                 </SectionIntro>
                 <NavTabs tabNames={["Axe", "Dagger", "Greatsword", "Hammer", "Longbow", "Mace", "Rifle", "Shield", "Sword", "Torch", "Warhorn"]} hrefs={["Axe", "Dagger", "Greatsword", "Hammer", "Longbow", "Mace", "Rifle", "Shield", "Sword", "Torch", "Warhorn"]}>
-                    <TabPane tabName="Axe">
+                    <TabPane tabName="Axe" active='true'>
+                        <Axe/>
+                    </TabPane>
+                    <TabPane tabName="Dagger">
+                    </TabPane>
+                    <TabPane tabName="Greatsword">
+                    </TabPane>
+                    <TabPane tabName="Hammer">
+                    </TabPane>
+                    <TabPane tabName="Longbow">
+                    </TabPane>
+                    <TabPane tabName="Mace">
+                    </TabPane>
+                    <TabPane tabName="Rifle">
+                    </TabPane>
+                    <TabPane tabName="Shield">
+                    </TabPane>
+                    <TabPane tabName="Sword">
+                    </TabPane>
+                    <TabPane tabName="Torch">
+                    </TabPane>
+                    <TabPane tabName="Warhorn">
                     </TabPane>
                 </NavTabs>
                 <SectionTitle gameClass="warrior" title="Utilities"/>
