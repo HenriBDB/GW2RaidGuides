@@ -2,38 +2,18 @@ import React from 'react';
 import SkillCard from '../../../components/SkillCard';
 import WikiIcon from '../../../components/WikiIcon';
 
-const Axe = () => {
+const Warhorn = () => {
     return (
         <>
         <p>
             TEST
         </p>
-        <SkillCard skillID={[14369,14370,14371]}>
+        <SkillCard skillID={14393}>
             <p>
                 TEST
             </p>
         </SkillCard>
-        <SkillCard skillID={14421}>
-            <p>
-                TEST
-            </p>
-        </SkillCard>
-        <SkillCard skillID={14398}>
-            <p>
-                TEST
-            </p>
-        </SkillCard>
-        <SkillCard skillID={14418}>
-            <p>
-                TEST
-            </p>
-        </SkillCard>
-        <SkillCard skillID={14399}>
-            <p>
-                TEST
-            </p>
-        </SkillCard>
-        <SkillCard skillID={30851}>
+        <SkillCard skillID={14394}>
             <p>
                 TEST
             </p>
@@ -42,4 +22,4 @@ const Axe = () => {
     );
 }
 
-export default Axe;
+export default Warhorn;

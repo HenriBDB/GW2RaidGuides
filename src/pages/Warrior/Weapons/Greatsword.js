@@ -8,32 +8,32 @@ const Axe = () => {
         <p>
             TEST
         </p>
-        <SkillCard skillID={[14369,14370,14371]}>
+        <SkillCard skillID={[14356,14373,14374]}>
             <p>
                 TEST
             </p>
         </SkillCard>
-        <SkillCard skillID={14421}>
+        <SkillCard skillID={14554}>
             <p>
                 TEST
             </p>
         </SkillCard>
-        <SkillCard skillID={14398}>
+        <SkillCard skillID={14447}>
             <p>
                 TEST
             </p>
         </SkillCard>
-        <SkillCard skillID={14418}>
+        <SkillCard skillID={14510}>
             <p>
                 TEST
             </p>
         </SkillCard>
-        <SkillCard skillID={14399}>
+        <SkillCard skillID={14446}>
             <p>
                 TEST
             </p>
         </SkillCard>
-        <SkillCard skillID={30851}>
+        <SkillCard skillID={29852}>
             <p>
                 TEST
             </p>

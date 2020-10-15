@@ -143,24 +143,34 @@ const WarriorGuide = (props) => {
                         <Axe/>
                     </TabPane>
                     <TabPane tabName="Dagger">
+                        <Dagger/>
                     </TabPane>
                     <TabPane tabName="Greatsword">
+                        <Greatsword/>
                     </TabPane>
                     <TabPane tabName="Hammer">
+                        <Hammer/>
                     </TabPane>
                     <TabPane tabName="Longbow">
+                        <Longbow/>
                     </TabPane>
                     <TabPane tabName="Mace">
+                        <Mace/>
                     </TabPane>
                     <TabPane tabName="Rifle">
+                        <Rifle/>
                     </TabPane>
                     <TabPane tabName="Shield">
+                        <Shield/>
                     </TabPane>
                     <TabPane tabName="Sword">
+                        <Sword/>
                     </TabPane>
                     <TabPane tabName="Torch">
+                        <Torch/>
                     </TabPane>
                     <TabPane tabName="Warhorn">
+                        <Warhorn/>
                     </TabPane>
                 </NavTabs>
                 <SectionTitle gameClass="warrior" title="Utilities"/>
