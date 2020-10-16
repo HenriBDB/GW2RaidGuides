@@ -4,6 +4,7 @@ import SectionTitle from "../components/SectionTitle";
 import SectionIntro from '../components/SectionIntro';
 import NavTabs from '../components/NavTabs';
 import TabPane from '../components/TabPane';
+import ScrollArrow from '../components/ScrollArrowTop';
 import {Arms, Berserker, Defense, Discipline, Spellbreaker, Strength, Tactics} from './Warrior/Traits';
 import {Axe, Dagger, Greatsword, Hammer, Longbow, Mace, Rifle, Shield, Sword, Torch, Warhorn} from './Warrior/Weapons';
 import {Healing, Banners, Physical, Rage, Shout, Signet, Stance, Elite, Meditations} from './Warrior/Utilities';
@@ -11,6 +12,7 @@ import {Healing, Banners, Physical, Rage, Shout, Signet, Stance, Elite, Meditati
 const WarriorGuide = (props) => {
     return (
         <div className={"warrior-page pt-5"}>
+            <ScrollArrow />
             <div className="guide-content warrior">
                 <GuideTitle title="Flames of War" footer="King of Fires Edition"/>
                 <br/>
