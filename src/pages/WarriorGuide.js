@@ -6,6 +6,7 @@ import NavTabs from '../components/NavTabs';
 import TabPane from '../components/TabPane';
 import {Arms, Berserker, Defense, Discipline, Spellbreaker, Strength, Tactics} from './Warrior/Traits';
 import {Axe, Dagger, Greatsword, Hammer, Longbow, Mace, Rifle, Shield, Sword, Torch, Warhorn} from './Warrior/Weapons';
+import {Healing, Banners, Physical, Rage, Shout, Signet, Stance, Elite, Meditations} from './Warrior/Utilities';
 
 const WarriorGuide = (props) => {
     return (
@@ -182,8 +183,33 @@ const WarriorGuide = (props) => {
                     The section will be rounded out with skill setups for the different builds.
                 </p>
                 </SectionIntro>
-                <NavTabs tabNames={["Healing", "Banner", "Physical", "Shout", "Signet", "Stance", "Rage", "Elite"]} hrefs={["Healing", "Banner", "Physical", "Shout", "Signet", "Stance", "Rage", "Elite"]}>
-                    <TabPane tabName="Healing">
+                <NavTabs tabNames={["Healing", "Banners", "Meditations", "Physical", "Shout", "Signet", "Stance", "Rage", "Elite"]} hrefs={["Healing", "Banners", "Meditations", "Physical", "Shout", "Signet", "Stance", "Rage", "Elite"]}>
+                    <TabPane tabName="Healing" active='true'>
+                        <Healing/>
+                    </TabPane>
+                    <TabPane tabName="Banners">
+                        <Banners/>
+                    </TabPane>
+                    <TabPane tabName="Meditations">
+                        <Meditations/>
+                    </TabPane>
+                    <TabPane tabName="Physical">
+                        <Physical/>
+                    </TabPane>
+                    <TabPane tabName="Shout">
+                        <Shout/>
+                    </TabPane>
+                    <TabPane tabName="Signet">
+                        <Signet/>
+                    </TabPane>
+                    <TabPane tabName="Stance">
+                        <Stance/>
+                    </TabPane>
+                    <TabPane tabName="Rage">
+                        <Rage/>
+                    </TabPane>
+                    <TabPane tabName="Elite">
+                        <Elite/>
                     </TabPane>
                 </NavTabs>
                 <SectionTitle gameClass="warrior" title="Gear"/>

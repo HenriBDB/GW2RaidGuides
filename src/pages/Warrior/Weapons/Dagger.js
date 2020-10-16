@@ -2,7 +2,7 @@ import React from 'react';
 import SkillCard from '../../../components/SkillCard';
 import WikiIcon from '../../../components/WikiIcon';
 
-const Axe = () => {
+const Dagger = () => {
     return (
         <>
         <p>
@@ -38,8 +38,13 @@ const Axe = () => {
                 TEST
             </p>
         </SkillCard>
+        <SkillCard skillID={44165}>
+            <p>
+                TEST
+            </p>
+        </SkillCard>
         </>
     );
 }
 
-export default Axe;
+export default Dagger;
