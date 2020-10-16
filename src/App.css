@@ -120,6 +120,9 @@ img {
 .guide-content.ranger {
   border-top: 4px solid var(--ranger-primary);
 }
+.guide-content.warrior {
+  border-top: 4px solid var(--war-primary);
+}
 
 /* Nav Tabs */
 
