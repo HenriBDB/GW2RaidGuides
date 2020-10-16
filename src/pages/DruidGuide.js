@@ -4,12 +4,14 @@ import SectionTitle from "../components/SectionTitle";
 import SectionIntro from '../components/SectionIntro';
 import NavTabs from '../components/NavTabs';
 import TabPane from '../components/TabPane';
+import ScrollArrow from '../components/ScrollArrowTop';
 import {Spirits, Spotter, Boons} from './Druid/BoonsAndBuffs';
 import {Skirmishing, NatureMagic, Druid, Marksmanship} from './Druid/Traits';
 
 const DruidGuide = (props) => {
     return (
         <div className={"druid-page pt-5"}>
+            <ScrollArrow />
             <div className="guide-content ranger">
                 <GuideTitle title="The Power of Nature" footer="A Druid Guide for GW2 Raiding by Eren Bole"/>
                 <p>

@@ -24,8 +24,8 @@ const DhTraits = ({ showGear }) => {
                 section). However, you can also use the basic trait set up on every boss as a beginner with 1 gearset.
                 Navigate with the tabs below to learn more about traits used for power Dragonhunter build (I will only go over actually used traits, to keep this guide concise).</p>
             </SectionIntro>
-            <NavTabs tabNames={["Zeal", "Radiance", "Dragonhunter", "Virtues"]} hrefs={["zeal", "radiance", "dragonhunter", "virtues"]} className="dragonhunter-tabs" gameClass="dragonhunter">
-                <TabPane tabName="zeal" active="true" className="dragonhunter-tabs">
+            <NavTabs tabNames={["Zeal", "Radiance", "Dragonhunter", "Virtues"]} hrefs={["zeal", "radiance", "dragonhunter", "virtues"]} gameClass="dragonhunter">
+                <TabPane tabName="zeal" active="true">
                 </TabPane>
                 <TabPane tabName="radiance">
                 </TabPane>
