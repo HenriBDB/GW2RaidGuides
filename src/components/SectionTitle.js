@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 
 const SectionTitle = (props) => {
     return (
-        <div className={"d-flex flex-row justify-content-center section-title " + props.gameClass}>
-            <h3 className="my-1">{props.title}</h3>
+        <div className={"centered-flex-row section-title " + props.gameClass}>
+            <h3>{props.title}</h3>
         </div>
     );
 }
