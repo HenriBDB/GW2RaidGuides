@@ -2,6 +2,7 @@
   font-family: 'DejaVu Serif';
   --ranger-primary: #8ea53a;
   --dh-primary: #47b8e0;
+  --war-primary: #CF8D21;
   --custom-dark: rgba(37,39,37,0.8);
   --custom-dark-opaque: rgb(37,39,37);
   --bg-dark: rgba(28,30,27,0.9);
@@ -28,6 +29,13 @@
   background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FvU3RMgV.jpg&f=1&nofb=1");
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+.warrior-page {
+  background-image: url("./assets/backgrounds/warrior.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
   min-height: 100vh;
 }
@@ -145,6 +153,9 @@ nav.custom-nav a.active {
 nav.custom-nav.dragonhunter a.active {
   color: var(--dh-primary);
 }
+nav.custom-nav.warrior a.active {
+  color: var(--war-primary);
+}
 
 .custom-tab-content {
   background-color: var(--custom-dark);
@@ -179,7 +190,7 @@ nav.custom-nav.dragonhunter a.active {
   color: #6c757d;
 }
 
-.trait-card {
+.trait-card, .trait-card-2 {
   background: transparent;
   border: 0px transparent;
   margin-top: 25px;
@@ -249,6 +260,10 @@ nav.custom-nav.dragonhunter a.active {
 .section-title.ranger {
   border-top: 2px solid var(--ranger-primary);
   border-bottom: 2px solid var(--ranger-primary);
+}
+.section-title.warrior {
+  border-top: 2px solid var(--war-primary);
+  border-bottom: 2px solid var(--war-primary);
 }
 
 .subsection-title {
