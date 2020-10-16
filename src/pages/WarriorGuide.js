@@ -11,7 +11,7 @@ import {Healing, Banners, Physical, Rage, Shout, Signet, Stance, Elite, Meditati
 const WarriorGuide = (props) => {
     return (
         <div className={"warrior-page pt-5"}>
-            <div className="container">
+            <div className="guide-content">
                 <GuideTitle title="Flames of War" footer="King of Fires Edition" footer="version 1.2 Winds of Disenchantment"/>
                 <br/>
                 <p>
