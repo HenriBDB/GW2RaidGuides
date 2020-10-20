@@ -94,16 +94,10 @@ img {
 }
 .dhlink {
   color: var(--dh-primary);
-  position: relative;
-  z-index: 999;
 }
 .dhlink:hover {
   color: var(--dh-primary);
   text-decoration-color: var(--dh-primary);
-}
-.dhskill {
-  position: relative;
-  z-index: 999;
 }
 /* Container (Taken from Bootstrap) */
 
@@ -244,6 +238,11 @@ nav.custom-nav.warrior a.active {
   position: relative;
   display: block;
   overflow: hidden;
+  z-index: 999;
+}
+.trait-card > .trait-description > p {
+  position: relative;
+  z-index: 999;
 }
 .trait-card > .trait-description:after,
 .trait-card > .trait-description:before {
