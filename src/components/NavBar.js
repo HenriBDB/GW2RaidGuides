@@ -9,13 +9,13 @@ const NavBar = () => {
                         <a href="/">Home</a>
                     </li>
                     <li>
+                        <a href="dragonhunter-guide">Dragonhunter</a>
+                    </li>
+                    <li>
                         <a href="druid-guide">Druid</a>
                     </li>
                     <li>
                         <a href="warrior-guide">Warrior</a>
-                    </li>
-                    <li>
-                        <a href="dragonhunter-guide">Dragonhunter</a>
                     </li>
                 </ul>
             </div>

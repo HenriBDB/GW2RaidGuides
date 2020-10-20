@@ -10,6 +10,7 @@ const buffLinks = {
     "Quickness": "https://wiki.guildwars2.com/images/thumb/b/b4/Quickness.png/20px-Quickness.png",
     "Protection": "https://wiki.guildwars2.com/images/thumb/6/6c/Protection.png/20px-Protection.png",
     "Stability": "https://wiki.guildwars2.com/images/thumb/a/ae/Stability.png/20px-Stability.png",
+    "Retaliation": "https://wiki.guildwars2.com/images/thumb/5/53/Retaliation.png/20px-Retaliation.png",
 
     "Superspeed": "https://wiki.guildwars2.com/images/thumb/1/1a/Super_Speed.png/20px-Super_Speed.png",
     "Stealth": "https://wiki.guildwars2.com/images/thumb/1/19/Stealth.png/20px-Stealth.png",
@@ -23,7 +24,10 @@ const buffLinks = {
     "Burning": "https://wiki.guildwars2.com/images/thumb/4/45/Burning.png/20px-Burning.png",
     "Weakness": "https://wiki.guildwars2.com/images/thumb/f/f9/Weakness.png/20px-Weakness.png",
 
-    "Daze": "https://wiki.guildwars2.com/images/thumb/7/79/Daze.png/20px-Daze.png"
+    "Daze": "https://wiki.guildwars2.com/images/thumb/7/79/Daze.png/20px-Daze.png",
+
+    "SpearOfJustice": "https://wiki.guildwars2.com/images/thumb/f/f1/Spear_of_Justice.png/48px-Spear_of_Justice.png",
+    "SwordOfJustice": "https://wiki.guildwars2.com/images/thumb/8/81/Sword_of_Justice.png/48px-Sword_of_Justice.png",
 }
 
 const WikiIcon = (props) => {

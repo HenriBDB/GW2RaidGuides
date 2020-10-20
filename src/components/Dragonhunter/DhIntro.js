@@ -18,14 +18,6 @@ const DhIntro = ({ showGuides }) => {
                         </span>
                     </Link>
                 section) was made to help you achieve it!</p>
-                <p>If you already know the basics, you can skip straight to
-                    <Link to="dh-section-guides" smooth={true} duration={1000} onClick={showGuides}>
-                        <span
-                            style={{ color: "#47b8e0", cursor: "pointer" }}>
-                            &nbsp;Boss Guides&nbsp;
-                        </span>
-                    </Link>
-                section.</p>
                 <p>Enjoy!</p>
             </GuideDescription>
         </SectionContainer>

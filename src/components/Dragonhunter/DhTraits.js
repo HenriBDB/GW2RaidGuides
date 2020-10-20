@@ -3,6 +3,8 @@ import { Link } from 'react-scroll';
 import SectionIntro from '../../components/SectionIntro';
 import NavTabs from '../../components/NavTabs';
 import TabPane from '../../components/TabPane';
+import Zeal from './Traits/Zeal';
+import Radiance from './Traits/Radiance';
 import { SectionContainer } from './styles'
 
 
@@ -26,8 +28,10 @@ const DhTraits = ({ showGear }) => {
             </SectionIntro>
             <NavTabs tabNames={["Zeal", "Radiance", "Dragonhunter", "Virtues"]} hrefs={["zeal", "radiance", "dragonhunter", "virtues"]} gameClass="dragonhunter">
                 <TabPane tabName="zeal" active="true">
+                    <Zeal />
                 </TabPane>
                 <TabPane tabName="radiance">
+                    <Radiance />
                 </TabPane>
                 <TabPane tabName="dragonhunter">
                 </TabPane>
