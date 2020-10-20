@@ -13,7 +13,7 @@ const DhIntro = ({ showGuides }) => {
                 <p>It is a class which I would recommend to beginners, as it is fairly easy to play, but if you expect to deal very good damage with it and compete with classes which bench higher on golem, you will need a fair amount of boss fight experience and an in-depth class understanding to shine. This guide (especially
                     <Link to="dh-section-guides" smooth={true} duration={1000} onClick={showGuides}>
                         <span
-                            style={{ color: "#47b8e0", cursor: "pointer" }}>
+                            style={{ color: "#69CCE7", cursor: "pointer" }}>
                             &nbsp;Boss Guides&nbsp;
                         </span>
                     </Link>

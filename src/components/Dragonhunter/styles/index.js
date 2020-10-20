@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 import dhBackground from '../../../assets/backgrounds/dragohunter.jpg'
 import { FaYoutube } from 'react-icons/fa';
 
-const dhPrimary = "#47b8e0"
+const dhPrimary = "#69CCE7"
 const bgDark = "rgba(28,30,27,0.9)"
 
 export const Wrapper = styled.div`

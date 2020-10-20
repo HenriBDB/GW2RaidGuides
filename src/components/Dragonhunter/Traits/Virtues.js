@@ -2,7 +2,7 @@ import React from 'react';
 import TraitCard from '../../../components/TraitCard';
 import WikiIcon from '../../../components/WikiIcon';
 
-const Radiance = () => {
+const Virtues = () => {
     return (
         <>
             <div className="mb-3" data-armory-embed="specializations" data-armory-ids="16" data-armory-16-traits="572,574,566,571,565,568,579,1683"></div>
@@ -75,4 +75,4 @@ const Radiance = () => {
     );
 }
 
-export default Radiance;
+export default Virtues;

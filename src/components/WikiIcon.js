@@ -26,8 +26,9 @@ const buffLinks = {
 
     "Daze": "https://wiki.guildwars2.com/images/thumb/7/79/Daze.png/20px-Daze.png",
 
-    "SpearOfJustice": "https://wiki.guildwars2.com/images/thumb/f/f1/Spear_of_Justice.png/48px-Spear_of_Justice.png",
-    "SwordOfJustice": "https://wiki.guildwars2.com/images/thumb/8/81/Sword_of_Justice.png/48px-Sword_of_Justice.png",
+    "Power": "https://wiki.guildwars2.com/images/thumb/d/d6/Power_attribute.png/20px-Power_attribute.png",
+
+    "Recharge": "https://wiki.guildwars2.com/images/f/f4/Tango-recharge-darker.png",
 }
 
 const WikiIcon = (props) => {

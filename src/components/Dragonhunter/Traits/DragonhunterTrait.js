@@ -2,7 +2,7 @@ import React from 'react';
 import TraitCard from '../../../components/TraitCard';
 import WikiIcon from '../../../components/WikiIcon';
 
-const Radiance = () => {
+const DragonhunterTrait = () => {
     return (
         <>
             <div className="mb-3" data-armory-embed="specializations" data-armory-ids="16" data-armory-16-traits="572,574,566,571,565,568,579,1683"></div>
@@ -13,7 +13,7 @@ const Radiance = () => {
             <div className="row justify-content-center">
                 <h4 className="mb-0">Minor Adept</h4>
             </div>
-            <TraitCard traitID={648}>
+            <TraitCard traitID={648} gameClass="dragonhunter">
                 <p>
                     Casts a Lesser Symbol of Wrath when you are struck while below 75% health.
                 </p>
@@ -75,4 +75,4 @@ const Radiance = () => {
     );
 }
 
-export default Radiance;
+export default DragonhunterTrait;

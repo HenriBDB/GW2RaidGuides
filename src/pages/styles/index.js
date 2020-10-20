@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { motion } from "framer-motion"
 import dhBackground from '../../assets/backgrounds/dragohunter.jpg'
 
-const dhPrimary = "#47b8e0"
+const dhPrimary = "#69CCE7"
 const bgDark = "rgba(28,30,27,0.9)"
 
 export const Wrapper = styled.div`

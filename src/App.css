@@ -1,7 +1,7 @@
 * {
   font-family: 'DejaVu Serif';
   --ranger-primary: #8ea53a;
-  --dh-primary: #47b8e0;
+  --dh-primary: #69CCE7;
   --war-primary: #CF8D21;
   --custom-dark: rgba(37,39,37,0.8);
   --custom-dark-opaque: rgb(37,39,37);
@@ -71,6 +71,12 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+.dragonhunter .gw2a--M9jBV :first-child {
+  color: var(--dh-primary);
+}
+.dragonhunter .gw2a--M9jBV a:hover {
+  text-decoration-color: var(--dh-primary);
+}
 
 .gw2a--t1hk1 {
   position: absolute;
@@ -86,7 +92,19 @@ img {
 .fake-button {
   cursor: pointer;
 }
-
+.dhlink {
+  color: var(--dh-primary);
+  position: relative;
+  z-index: 999;
+}
+.dhlink:hover {
+  color: var(--dh-primary);
+  text-decoration-color: var(--dh-primary);
+}
+.dhskill {
+  position: relative;
+  z-index: 999;
+}
 /* Container (Taken from Bootstrap) */
 
 .guide-content {

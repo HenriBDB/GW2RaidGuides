@@ -20,7 +20,7 @@ const DhRotation = ({ showGuides }) => {
                 <p>My idea for this video was to help you understand the standard scepter rotation and help you adjust in a real raid scenario (you will find boss specific adaptations in
                     <Link to="dh-section-guides" smooth={true} duration={1000} onClick={showGuides}>
                         <span
-                            style={{ color: "#47b8e0", cursor: "pointer" }}>
+                            style={{ color: "#69CCE7", cursor: "pointer" }}>
                             &nbsp;Boss Guides&nbsp;
                         </span>
                     </Link>
