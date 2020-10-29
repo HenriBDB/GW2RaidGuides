@@ -24,7 +24,7 @@ const DhRotation = ({ showGuides }) => {
                             &nbsp;Boss Guides&nbsp;
                         </span>
                     </Link>
-            section). Sword and virtues variant will be covered in another video sometime soon(tm). Make sure to read the description of the video as well!</p>
+            section). You will learn why some boons are very important for your damage. Sword and virtues variant will be covered in another video sometime soon(tm). Make sure to read the description of the video as well!</p>
             </SectionIntro>
             <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="7GA9Q6Iej8A" onClose={() => setOpen(false)} />
             <VideoWrapper>

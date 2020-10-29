@@ -48,6 +48,9 @@ const Dragonhunter = () => {
     const showGuides = () => {
         setGuidesVisible(true)
     }
+    const showRotation = () => {
+        setRotationVisible(true)
+    }
 
     return (
         <Wrapper>
@@ -66,7 +69,7 @@ const Dragonhunter = () => {
                     />
                 </SectionHeader>
                 <SectionContent style={{ display: traitsVisible ? 'block' : 'none' }}>
-                    <DhTraits showGear={showGear}/>
+                    <DhTraits showGear={showGear} showRotation={showRotation} showGuides={showGuides}/>
                 </SectionContent>
                 {/* Utilities */}
                 <SectionHeader onClick={toggleUtilities}>
@@ -95,7 +98,7 @@ const Dragonhunter = () => {
                     <DhGear />
                 </SectionContent>
                 {/* Rotation */}
-                <SectionHeader onClick={toggleRotation}>
+                <SectionHeader onClick={toggleRotation} id="dh-section-rotation">
                     <p>Rotation</p>
                     <ArrowMoreButton
                         src={Arrow}
@@ -105,7 +108,7 @@ const Dragonhunter = () => {
                     />
                 </SectionHeader>
                 <SectionContent style={{ display: rotationVisible ? 'block' : 'none' }}>
-                    <DhRotation showGuides={showGuides}/>
+                    <DhRotation showGuides={showGuides} />
                 </SectionContent>
                 {/* Boss guides */}
                 <SectionHeader onClick={toggleGuides} id="dh-section-guides">

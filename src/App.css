@@ -240,7 +240,7 @@ nav.custom-nav.warrior a.active {
   overflow: hidden;
   z-index: 999;
 }
-.trait-card > .trait-description > p {
+.trait-card > .trait-description > * {
   position: relative;
   z-index: 999;
 }

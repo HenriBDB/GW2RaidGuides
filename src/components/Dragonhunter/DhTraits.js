@@ -10,7 +10,7 @@ import DragonhunterTrait from './Traits/DragonhunterTrait';
 import { SectionContainer } from './styles'
 
 
-const DhTraits = ({ showGear }) => {
+const DhTraits = ({ showGear, showRotation, showGuides }) => {
     return (
         <SectionContainer>
             <SectionIntro>
@@ -33,7 +33,7 @@ const DhTraits = ({ showGear }) => {
                     <Zeal />
                 </TabPane>
                 <TabPane tabName="radiance">
-                    <Radiance />
+                    <Radiance showRotation={showRotation} showGuides={showGuides} showGear={showGear}/>
                 </TabPane>
                 <TabPane tabName="virtues">
                     <Virtues />

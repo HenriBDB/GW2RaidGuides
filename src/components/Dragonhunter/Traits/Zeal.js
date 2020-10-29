@@ -28,7 +28,6 @@ const Zeal = () => {
                 <p>
                     Increases direct damage dealt to enemies with <WikiIcon name="Burning"/> Burning by 7%.
                 </p>
-
                 <p>
                     You should always have <WikiIcon name={"Burning"} /> Burning on the boss, for example from your <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="29887" className="dhskill"></span>, from druid's Sun Spirit, firebrand's Flame Mantra, etc. This trait is a pure damage increase and it's the most worth taking from Major Adept set.
                 </p>
