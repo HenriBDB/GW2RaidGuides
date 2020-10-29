@@ -71,10 +71,10 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-.dragonhunter .gw2a--M9jBV :first-child {
+.dragonhunter .gw2a--M9jBV :first-child, .dh-trait-intro :first-child{
   color: var(--dh-primary);
 }
-.dragonhunter .gw2a--M9jBV a:hover {
+.dragonhunter .gw2a--M9jBV a:hover, .dh-trait-intro a:hover {
   text-decoration-color: var(--dh-primary);
 }
 

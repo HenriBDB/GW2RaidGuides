@@ -36,7 +36,7 @@ const DhTraits = ({ showGear, showRotation, showGuides }) => {
                     <Radiance showRotation={showRotation} showGuides={showGuides} showGear={showGear}/>
                 </TabPane>
                 <TabPane tabName="virtues">
-                    <Virtues />
+                    <Virtues showGear={showGear}/>
                 </TabPane>
                 <TabPane tabName="dragonhunter">
                     <DragonhunterTrait />
