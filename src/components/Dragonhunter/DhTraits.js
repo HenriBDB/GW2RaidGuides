@@ -39,7 +39,7 @@ const DhTraits = ({ showGear, showRotation, showGuides }) => {
                     <Virtues showGear={showGear}/>
                 </TabPane>
                 <TabPane tabName="dragonhunter">
-                    <DragonhunterTrait />
+                    <DragonhunterTrait showRotation={showRotation}/>
                 </TabPane>
             </NavTabs>
         </SectionContainer>

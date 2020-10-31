@@ -7,7 +7,7 @@ const Zeal = () => {
         <>
             <div className="mb-3" data-armory-embed="specializations" data-armory-ids="42" data-armory-42-traits="648,634,646,653,649,2017"></div>
             <p>
-                Zeal traitline is strictly related to Symbols (which are unique area effects of a Guardian), increasing damage to enemies caught in them. It also enhances your Greatsword skills.
+                Zeal traitline is strictly related to Symbols (which are unique area effects of a Guardian), increasing damage to enemies caught in them and granting boons to allies. It also enhances your Greatsword skills.
                 This is the go-to traitline in all raid power Guardian builds, which you should never swap out. The below breakdown should help you understand why Symbols play such an important part in Dragonhunter's rotation.
             </p>
             <div className="row justify-content-center">

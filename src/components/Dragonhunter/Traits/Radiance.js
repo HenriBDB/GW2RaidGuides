@@ -111,11 +111,11 @@ const Radiance = ({ showRotation, showGuides, showGear }) => {
                     Reduces <WikiIcon name={"Recharge"} /> cooldown on Signets by 20%, improves passive effect of Signets and shares the passive effects of Signet with allies.
                 </p>
                 <p>
-                    In case of <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="9241" className="dhskill"></span>, while it's passive, it grants you +180 <WikiIcon name={"Power"} /> Power by default. With this trait, it grants you +216 <WikiIcon name={"Power"} /> Power. When you activate the signet, +216 <WikiIcon name={"Power"} /> Power buff is shared with your party (max 5 targets, including you). With this trait you don't lose your passive <WikiIcon name={"Power"} /> Power increase when you activate the Signet. The <WikiIcon name={"Recharge"} /> recharge on the Signet gets reduced from 30s to 24s (without <WikiIcon name={"Alacrity"} /> Alacrity).
+                    In case of <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="9241" className="dhskill"></span>, while it's passive, it grants you +180 <WikiIcon name={"Power"} /> Power by default. With this trait, it grants you +216 <WikiIcon name={"Power"} /> Power. When you activate the signet, +216 <WikiIcon name={"Power"} /> Power buff is shared with your party for 10 seconds (max 5 targets, including you). With this trait you don't lose your passive <WikiIcon name={"Power"} /> Power increase when you activate the Signet. The <WikiIcon name={"Recharge"} /> recharge on the Signet gets reduced from 30s to 24s (without <WikiIcon name={"Alacrity"} /> Alacrity).
                 </p>
                 <p>
                     Taking this trait makes you lose 25% Crit Chance from <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1683" className="dhskill"></span>, this is why you need to adjust your gear to compensate for it. See
-                    <Link to="dh-section-guides" smooth={true} duration={1000} onClick={showGear}>
+                    <Link to="dh-section-gear" smooth={true} duration={1000} onClick={showGear}>
                         <span
                             style={{ color: "#69CCE7", cursor: "pointer" }}>
                             &nbsp;Gear&nbsp;
@@ -132,7 +132,7 @@ const Radiance = ({ showRotation, showGuides, showGear }) => {
                     </Link>to see it in practice. Sometimes it will also be worth taking just to share the <WikiIcon name={"Power"} /> Power buff with your party, but I recommend doing it only in organized groups with well thought strats.
                 </p>
                 <p>
-                    If there are few guardians using this trait, the Signet buffs stack. To benefit the most from it, be the first guardian to use the Signet to get all the stacks from others (using the Signet makes you lose all stacks you had before).
+                    If there are few guardians using Signet with this trait, the Signet buffs stack. To benefit the most from it, be the first guardian to use the Signet to get all the stacks from others (using the Signet makes you lose all stacks you had before).
                 </p>
             </TraitCard>
         </>
