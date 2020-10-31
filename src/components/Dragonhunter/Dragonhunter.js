@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-scroll';
 import ScrollArrow from '../../components/ScrollArrowTop';
 import {
     Wrapper,
@@ -57,69 +58,79 @@ const Dragonhunter = () => {
             <ScrollArrow />
             <Container>
                 {/* Intro */}
-                <DhIntro showGuides={showGuides}/>
+                <DhIntro showGuides={showGuides} />
                 {/* Traits */}
-                <SectionHeader onClick={toggleTraits}>
-                    <p> Traits </p>
-                    <ArrowMoreButton
-                        src={Arrow}
-                        variants={variantsArrow}
-                        animate={traitsVisible ? "opened" : "closed"}
-                        transition={{ duration: "0.5" }}
-                    />
-                </SectionHeader>
+                <Link to="dh-section-traits" smooth={true} duration={1000} onClick={toggleTraits}>
+                    <SectionHeader id="dh-section-traits">
+                        <p> Traits </p>
+                        <ArrowMoreButton
+                            src={Arrow}
+                            variants={variantsArrow}
+                            animate={traitsVisible ? "opened" : "closed"}
+                            transition={{ duration: "0.5" }}
+                        />
+                    </SectionHeader>
+                </Link>
                 <SectionContent style={{ display: traitsVisible ? 'block' : 'none' }}>
-                    <DhTraits showGear={showGear} showRotation={showRotation} showGuides={showGuides}/>
+                    <DhTraits showGear={showGear} showRotation={showRotation} showGuides={showGuides} />
                 </SectionContent>
                 {/* Utilities */}
-                <SectionHeader onClick={toggleUtilities}>
-                    <p>Utilities</p>
-                    <ArrowMoreButton
-                        src={Arrow}
-                        variants={variantsArrow}
-                        animate={utilitiesVisible ? "opened" : "closed"}
-                        transition={{ duration: "0.5" }}
-                    />
-                </SectionHeader>
+                <Link to="dh-section-utilities" smooth={true} duration={1000} onClick={toggleUtilities}>
+                    <SectionHeader id="dh-section-utilities">
+                        <p>Utilities</p>
+                        <ArrowMoreButton
+                            src={Arrow}
+                            variants={variantsArrow}
+                            animate={utilitiesVisible ? "opened" : "closed"}
+                            transition={{ duration: "0.5" }}
+                        />
+                    </SectionHeader>
+                </Link>
                 <SectionContent style={{ display: utilitiesVisible ? 'block' : 'none' }}>
                     <DhUtilities />
                 </SectionContent>
                 {/* Gear */}
-                <SectionHeader onClick={toggleGear} id="dh-section-gear">
-                    <p>Gear</p>
-                    <ArrowMoreButton
-                        src={Arrow}
-                        variants={variantsArrow}
-                        animate={gearVisible ? "opened" : "closed"}
-                        transition={{ duration: "0.5" }}
-                    />
-                </SectionHeader>
+                <Link to="dh-section-gear" smooth={true} duration={1000} onClick={toggleGear}>
+                    <SectionHeader id="dh-section-gear">
+                        <p>Gear</p>
+                        <ArrowMoreButton
+                            src={Arrow}
+                            variants={variantsArrow}
+                            animate={gearVisible ? "opened" : "closed"}
+                            transition={{ duration: "0.5" }}
+                        />
+                    </SectionHeader>
+                </Link>
                 <SectionContent style={{ display: gearVisible ? 'block' : 'none' }}>
                     <DhGear />
                 </SectionContent>
                 {/* Rotation */}
-                <SectionHeader onClick={toggleRotation} id="dh-section-rotation">
-                    <p>Rotation</p>
-                    <ArrowMoreButton
-                        src={Arrow}
-                        variants={variantsArrow}
-                        animate={rotationVisible ? "opened" : "closed"}
-                        transition={{ duration: "0.5" }}
-                    />
-                </SectionHeader>
+                <Link to="dh-section-rotation" smooth={true} duration={1000} onClick={toggleRotation}>
+                    <SectionHeader id="dh-section-rotation">
+                        <p>Rotation</p>
+                        <ArrowMoreButton
+                            src={Arrow}
+                            variants={variantsArrow}
+                            animate={rotationVisible ? "opened" : "closed"}
+                            transition={{ duration: "0.5" }}
+                        />
+                    </SectionHeader>
+                </Link>
                 <SectionContent style={{ display: rotationVisible ? 'block' : 'none' }}>
                     <DhRotation showGuides={showGuides} />
                 </SectionContent>
                 {/* Boss guides */}
-                <SectionHeader onClick={toggleGuides} id="dh-section-guides">
-                    <p>Boss Guides</p>
-                    <ArrowMoreButton
-                        src={Arrow}
-                        variants={variantsArrow}
-                        animate={guidesVisible ? "opened" : "closed"}
-                        transition={{ duration: "0.5" }}
-                    />
-                </SectionHeader>
+                <Link to="dh-section-guides" smooth={true} duration={1000} onClick={toggleGuides}>
+                    <SectionHeader id="dh-section-guides">
+                        <p>Boss Guides</p>
+                        <ArrowMoreButton
+                            src={Arrow}
+                            variants={variantsArrow}
+                            animate={guidesVisible ? "opened" : "closed"}
+                            transition={{ duration: "0.5" }}
+                        />
+                    </SectionHeader>
+                </Link>
                 <SectionContent style={{ display: guidesVisible ? 'block' : 'none' }}>
                     <DhBossGuides />
                 </SectionContent>
