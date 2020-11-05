@@ -11,6 +11,7 @@ import {
 import Arrow from '../../assets/icons/arrow-white.png';
 import DhIntro from './DhIntro';
 import DhTraits from './DhTraits';
+import DhWeapons from './DhWeapons';
 import DhUtilities from './DhUtilities';
 import DhGear from './DhGear';
 import DhRotation from './DhRotation';
@@ -19,6 +20,7 @@ import DhBossGuides from './DhBossGuides';
 
 const Dragonhunter = () => {
     const [traitsVisible, setTraitsVisible] = useState(false)
+    const [weaponsVisible, setWeaponsVisible] = useState(false)
     const [utilitiesVisible, setUtilitiesVisible] = useState(false)
     const [gearVisible, setGearVisible] = useState(false)
     const [rotationVisible, setRotationVisible] = useState(false)
@@ -30,6 +32,9 @@ const Dragonhunter = () => {
     }
     const toggleTraits = () => {
         setTraitsVisible(!traitsVisible)
+    }
+    const toggleWeapons = () => {
+        setWeaponsVisible(!weaponsVisible)
     }
     const toggleUtilities = () => {
         setUtilitiesVisible(!utilitiesVisible)
@@ -52,6 +57,9 @@ const Dragonhunter = () => {
     const showRotation = () => {
         setRotationVisible(true)
     }
+    const showTraits = () => {
+        setTraitsVisible(true)
+    }
 
     return (
         <Wrapper>
@@ -73,6 +81,21 @@ const Dragonhunter = () => {
                 </Link>
                 <SectionContent style={{ display: traitsVisible ? 'block' : 'none' }}>
                     <DhTraits showGear={showGear} showRotation={showRotation} showGuides={showGuides} />
+                </SectionContent>
+                 {/* Weapons */}
+                 <Link to="dh-section-weapons" smooth={true} duration={1000} onClick={toggleWeapons}>
+                    <SectionHeader id="dh-section-weapons">
+                        <p> Weapons</p>
+                        <ArrowMoreButton
+                            src={Arrow}
+                            variants={variantsArrow}
+                            animate={traitsVisible ? "opened" : "closed"}
+                            transition={{ duration: "0.5" }}
+                        />
+                    </SectionHeader>
+                </Link>
+                <SectionContent style={{ display: weaponsVisible ? 'block' : 'none' }}>
+                    <DhWeapons showTraits={showTraits} />
                 </SectionContent>
                 {/* Utilities */}
                 <Link to="dh-section-utilities" smooth={true} duration={1000} onClick={toggleUtilities}>
@@ -117,7 +140,7 @@ const Dragonhunter = () => {
                     </SectionHeader>
                 </Link>
                 <SectionContent style={{ display: rotationVisible ? 'block' : 'none' }}>
-                    <DhRotation showGuides={showGuides} />
+                    <DhRotation showGuides={showGuides} showTraits={showTraits}/>
                 </SectionContent>
                 {/* Boss guides */}
                 <Link to="dh-section-guides" smooth={true} duration={1000} onClick={toggleGuides}>

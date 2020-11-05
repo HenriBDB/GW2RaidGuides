@@ -11,7 +11,7 @@ import {
     SectionContainer,
 } from './styles'
 
-const DhRotation = ({ showGuides }) => {
+const DhRotation = ({ showGuides, showTraits }) => {
     const [isOpen, setOpen] = useState(false)
     return (
         <SectionContainer>
@@ -24,12 +24,22 @@ const DhRotation = ({ showGuides }) => {
                             &nbsp;Boss Guides&nbsp;
                         </span>
                     </Link>
-            section). You will learn why some boons are very important for your damage. Sword and virtues variant will be covered in another video sometime soon(tm). Make sure to read the description of the video as well!</p>
+                section). You will learn why some boons are very important for your damage. Sword and virtues variant will be covered in another video sometime soon(tm). Make sure to read the description of the video as well!</p>
+                <p>
+                    Before watching the video, make sure that you have read
+                    <Link to="dh-section-traits" smooth={true} duration={1000} onClick={showTraits}>
+                        <span
+                            style={{ color: "#69CCE7", cursor: "pointer" }}>
+                            &nbsp;Traits&nbsp;
+                        </span>
+                    </Link>
+                section, as the below video covers only few of them. Understanding your traits is the key to success!
+                </p>
             </SectionIntro>
             <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="7GA9Q6Iej8A" onClose={() => setOpen(false)} />
             <VideoWrapper>
                 <VideoPreviewWrapper onClick={() => setOpen(true)}>
-                    <VideoPreview src={RotationPreview}/>
+                    <VideoPreview src={RotationPreview} />
                     <YoutubePlay />
                 </VideoPreviewWrapper>
             </VideoWrapper>

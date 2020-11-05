@@ -57,6 +57,12 @@ export const SectionHeader = styled.div`
 export const SectionContainer = styled.div`
   padding-top: 1rem;
   padding-bottom: 1rem;
+  .gw2a--M9jBV :first-child{
+    color: ${dhPrimary};
+  }
+  .gw2a--M9jBV a:hover {
+    text-decoration-color: ${dhPrimary};
+  }
 `
 
 export const ArrowMoreButton = styled(motion.img)`

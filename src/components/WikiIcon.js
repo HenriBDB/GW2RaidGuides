@@ -34,6 +34,8 @@ const buffLinks = {
     "Ferocity": "https://wiki.guildwars2.com/images/f/f1/Ferocity.png",
 
     "Recharge": "https://wiki.guildwars2.com/images/f/f4/Tango-recharge-darker.png",
+
+    "Vg": "https://wiki.guildwars2.com/images/f/fb/Mini_Vale_Guardian.png",
 }
 
 const WikiIcon = (props) => {
