@@ -159,7 +159,7 @@ const DhWeapons = ({ showTraits }) => {
                             - <span style={{ color: "#69CCE7" }}>scepter</span> - safe option if you are on pillar duty, it lines up well when pillars appear, so all you need to do is to continue your rotation while moving out to place the pillar;<br />
                         </p>
                         <p>
-                            - <span style={{ color: "#69CCE7" }}>sword</span> - more risky option if you are on pillar duty, which requires you to dodge out with pillar last second, then <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="9097" className="dhskill" style={{ color: '#69CCE7', textDecorationColor: '#69CCE7' }}></span> or <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="9097" className="dhskill" style={{ color: '#69CCE7', textDecorationColor: '#69CCE7' }}></span> back to the boss.
+                            - <span style={{ color: "#69CCE7" }}>sword</span> - more risky option if you are on pillar duty, which requires you to dodge out with pillar last second, then <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="9097" className="dhskill" style={{ color: '#69CCE7', textDecorationColor: '#69CCE7' }}></span> or <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="9080" className="dhskill" style={{ color: '#69CCE7', textDecorationColor: '#69CCE7' }}></span> back to the boss.
                        </p>
                     </BossCard>
                 </TabPane>

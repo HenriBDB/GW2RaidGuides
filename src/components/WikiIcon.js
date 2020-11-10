@@ -28,6 +28,8 @@ const buffLinks = {
     "Slow": "https://wiki.guildwars2.com/images/f/f5/Slow.png",
 
     "Daze": "https://wiki.guildwars2.com/images/thumb/7/79/Daze.png/20px-Daze.png",
+    "Knockdown": "https://wiki.guildwars2.com/images/3/36/Knockdown.png",
+    "Pull": "https://wiki.guildwars2.com/images/a/a4/Radius.png",
 
     "Power": "https://wiki.guildwars2.com/images/2/23/Power.png",
     "Precision": "https://wiki.guildwars2.com/images/e/ee/Precision.png",

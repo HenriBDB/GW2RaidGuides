@@ -287,6 +287,56 @@ nav.custom-nav.warrior a.active {
   border: 1px solid rgba(200, 200, 200, 0.5);
   border-width: 0px 0px 1px 1px;
 }
+/* Copy Template area */
+.copy-template {
+  display: flex;
+  padding-left: 5%;
+  padding-right: 5%
+}
+.copy-template form {
+  display: flex;
+  width: 100%;
+}
+.copy-template-name {
+  font-weight: bold;
+  padding: 7px 0;
+  height: 38px;
+  width: 120px;
+  margin-right: 20px;
+  text-align: center;
+}
+.copy-template-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  padding-bottom: 20px;
+}
+.copy-template-button {
+  background-color: aquamarine;
+  font-weight: bold;
+  padding: 7px 20px;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+  cursor: pointer;
+  margin-bottom: 10px;
+  height: 38px;
+  width: 170px;
+}
+.copy-template-button.dragonhunter {
+  background-color: var(--dh-primary);
+}
+.copy-template-button:hover {
+  box-shadow: inset 0 0 5px black;
+}
+.copy-template-area {
+  background-color: var(--bg-dark);
+  padding: 7px 20px;
+  border: none;
+  height: 38px;
+  width: 100%;
+}
 
 /* Sections */
 
