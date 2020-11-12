@@ -17,12 +17,12 @@ const WarriorGuide = (props) => {
                 <GuideTitle title="Flames of War" footer="King of Fires Edition" footer="version 1.2 Winds of Disenchantment"/>
                 <br/>
                 <p>
-                    Warrior is brought in practically every raid comp because of the support they provide through Banner of Strength and Banner of Discipline (and Empower Allies for certain Power Comps).
-                    These banners bring 400 points worth of offensive stats to everyone in the squad, which is an immense boost to group DPS.
-                    The banner warrior build is split into 2 categories, power and condition damage.
-                    The added support these builds provide has some people label banner warrior as a support class, even if its DPS capabilities is on par with many other pure DPS classes.
+                    Warrior is brought in practically every raid comp because of the support they provide through Banner of Strength and Banner of Discipline <br/>(and Empower Allies for certain Power Comps).
+                    These banners bring 400 points worth of offensive stats to everyone in the squad, which is an immense boost to group DPS.<br/>
+                    The banner warrior build is split into 2 categories, power and condition damage.<br/>
+                    The added support these builds provide has some people label banner warrior as a support class, even if its DPS capabilities is on par with many other pure DPS classes. <br/>
                     The label of support also changes the general approach to banner warrior.
-                    Given the mentality of “Oh I’m just support” some make do with subpar DPS and at times even subpar banner uptime as well.
+                    Given the mentality of “Oh I’m just support” some make do with subpar DPS and at times even subpar banner uptime as well. <br/>
                     The goal with this guide is to provide greater insight into how warrior operates at a basic level and then building on top of that foundation of knowledge to provide a more complete understanding of how and why warrior plays out as it does.
                 </p>
                 <p>
