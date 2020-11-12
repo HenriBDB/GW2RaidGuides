@@ -16,22 +16,24 @@ const CopyTemplate = (props) => {
             <div className="copy-template-name">
                 {props.templateName}
             </div>
-            <div className="copy-template-message">
-                <button
-                    className={"copy-template-button " + props.gameClass}
-                    onClick={copyToClipboard}>
-                    Copy template
+            <div className="copy-template-content">
+                <div className="copy-template-message">
+                    <button
+                        className={"copy-template-button " + props.gameClass}
+                        onClick={copyToClipboard}>
+                        Copy template
                 </button>
-                <div className="copy-template-success">
-                    {copySuccess}
+                    <div className="copy-template-success">
+                        {copySuccess}
+                    </div>
                 </div>
+                <form>
+                    <input className="copy-template-area"
+                        ref={textAreaRef}
+                        value={props.template}
+                    />
+                </form>
             </div>
-            <form>
-                <input className="copy-template-area"
-                    ref={textAreaRef}
-                    value={props.template}
-                />
-            </form>
         </div>
     );
 }

@@ -290,20 +290,34 @@ nav.custom-nav.warrior a.active {
 /* Copy Template area */
 .copy-template {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding-left: 5%;
-  padding-right: 5%
+  padding-right: 5%;
 }
 .copy-template form {
   display: flex;
   width: 100%;
 }
+.copy-template-content {
+  display: flex;
+  
+}
+@media (max-width:576px) {
+  .copy-template-content {
+    flex-direction: column;
+  }
+  .copy-template-message {
+    margin-right: 0 !important;
+  }
+  .copy-template {
+    margin-bottom: 20px
+  }
+}
 .copy-template-name {
   font-weight: bold;
-  padding: 7px 0;
-  height: 38px;
-  width: 120px;
-  margin-right: 20px;
   text-align: center;
+  margin-bottom: 20px;
 }
 .copy-template-message {
   display: flex;
