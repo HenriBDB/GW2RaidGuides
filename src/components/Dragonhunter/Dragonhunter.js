@@ -11,11 +11,12 @@ import {
 import Arrow from '../../assets/icons/arrow-white.png';
 import DhIntro from './DhIntro';
 import DhTraits from './DhTraits';
+import DhGear from './DhGear';
 import DhWeapons from './DhWeapons';
 import DhWeaponSkills from './DhWeaponSkills';
 import DhUtilitySkills from './DhUtilitySkills';
+import DhVirtuesSkills from './DhVirtuesSkills';
 import DhCC from './DhCC';
-import DhGear from './DhGear';
 import DhTemplates from './DhTemplates';
 import DhRotation from './DhRotation';
 import DhBossGuides from './DhBossGuides';
@@ -27,6 +28,7 @@ const Dragonhunter = () => {
     const [weaponsVisible, setWeaponsVisible] = useState(false)
     const [weaponSkillsVisible, setWeaponSkillsVisible] = useState(false)
     const [utilitySkillsVisible, setUtilitySkillsVisible] = useState(false)
+    const [virtuesSkillsVisible, setVirtuesSkillsVisible] = useState(false)
     const [ccVisible, setCCVisible] = useState(false)
     const [templatesVisible, setTemplatesVisible] = useState(false)
     const [rotationVisible, setRotationVisible] = useState(false)
@@ -50,6 +52,9 @@ const Dragonhunter = () => {
     }
     const toggleUtilitySkills = () => {
         setUtilitySkillsVisible(!utilitySkillsVisible)
+    }
+    const toggleVirtuesSkills = () => {
+        setVirtuesSkillsVisible(!virtuesSkillsVisible)
     }
     const toggleCC = () => {
         setCCVisible(!ccVisible)
@@ -162,6 +167,21 @@ const Dragonhunter = () => {
                 <SectionContent style={{ display: utilitySkillsVisible ? 'block' : 'none' }}>
                     <DhUtilitySkills />
                 </SectionContent>
+                {/* Vierues Skills */}
+                <Link to="dh-section-virtuesskills" smooth={true} duration={1000} onClick={toggleVirtuesSkills}>
+                    <SectionHeader id="dh-section-virtuesskills">
+                        <p>Virtues</p>
+                        <ArrowMoreButton
+                            src={Arrow}
+                            variants={variantsArrow}
+                            animate={virtuesSkillsVisible ? "opened" : "closed"}
+                            transition={{ duration: "0.5" }}
+                        />
+                    </SectionHeader>
+                </Link>
+                <SectionContent style={{ display: virtuesSkillsVisible ? 'block' : 'none' }}>
+                    <DhVirtuesSkills showRotation={showRotation} showGuides={showGuides}/>
+                </SectionContent>
                 {/* CC */}
                 <Link to="dh-section-cc" smooth={true} duration={1000} onClick={toggleCC}>
                     <SectionHeader id="dh-section-cc">
@@ -175,7 +195,7 @@ const Dragonhunter = () => {
                     </SectionHeader>
                 </Link>
                 <SectionContent style={{ display: ccVisible ? 'block' : 'none' }}>
-                    <DhCC/>
+                    <DhCC />
                 </SectionContent>
                 {/* Templates */}
                 <Link to="dh-section-templates" smooth={true} duration={1000} onClick={toggleTemplates}>
