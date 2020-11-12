@@ -16,7 +16,6 @@
 
 .nav-center {
   width: 90%;
-
 }
 
 .nav-row {
@@ -205,7 +204,7 @@ nav.custom-nav.warrior a.active {
   color: #6c757d;
 }
 
-.trait-card, .trait-card-2, .boss-card {
+.trait-card, .trait-card-2, .boss-card, .gear-card {
   background: transparent;
   border: 0px transparent;
   margin-top: 25px;
@@ -237,8 +236,25 @@ nav.custom-nav.warrior a.active {
   flex-direction: row;
   margin-right: 1em,
 }
+.gear-card > .gear-name {
+  background: transparent;
+  align-items: center;
+  width: 100%;
+  border: 0;
+  padding: 0;
+  position: absolute;
+  top: -13px;
+  z-index: 5;
+  display: flex;
+  flex-direction: row;
+  margin-right: 1em,
+}
+.gear-card > .gear-name > span {
+  margin-right: 15px
+}
 .trait-card > .trait-name > .filler,
-.boss-card > .boss-name > .filler {
+.boss-card > .boss-name > .filler,
+.gear-card > .gear-name > .filler {
   border-top: 1px solid rgba(200, 200, 200, 0.5);
   flex-grow: 1;
 }
@@ -248,7 +264,9 @@ nav.custom-nav.warrior a.active {
 .boss-name-details {
   margin-left: 5px;
 }
-.trait-card > .trait-description, .boss-card > .boss-description {
+.trait-card > .trait-description, 
+.boss-card > .boss-description, 
+.gear-card > .gear-description  {
   margin-left: 25px;
   padding: 1.5em 1.25rem 0 1.25rem;
   border-right: 1px solid rgba(200, 200, 200, 0.5);
@@ -257,21 +275,26 @@ nav.custom-nav.warrior a.active {
   overflow: hidden;
   z-index: 999;
 }
-.trait-card > .trait-description > *, .boss-card > .boss-description > * {
+.trait-card > .trait-description > *, 
+.boss-card > .boss-description > *, 
+.gear-card > .gear-description > * {
   position: relative;
   z-index: 999;
 }
 .trait-card > .trait-description:after,
 .trait-card > .trait-description:before,
 .boss-card > .boss-description:after,
-.boss-card > .boss-description:before
+.boss-card > .boss-description:before,
+.gear-card > .gear-description:before,
+.gear-card > .gear-description:after
  {
   position: absolute;
   content: '';
   z-index: 0;
 }
 .trait-card > .trait-description:before
-.boss-card > .boss-description:before {
+.boss-card > .boss-description:before,
+.gear-card > .gear-description:before {
   width: 80%;
   right: 0px;
   top: 0px;
@@ -279,7 +302,8 @@ nav.custom-nav.warrior a.active {
   border-width: 0px 1px 0px 0px;
 }
 .trait-card > .trait-description:after,
-.boss-card > .boss-description:after {
+.boss-card > .boss-description:after,
+.gear-card > .gear-description:after {
   height: calc(100% - (0.5em + 21px));
   width: 100%;
   bottom: 0px;
