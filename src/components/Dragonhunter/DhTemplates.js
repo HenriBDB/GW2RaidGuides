@@ -5,8 +5,8 @@ import { SectionContainer } from './styles'
 const DhTemplates = () => {
     return (
         <SectionContainer>
-                <CopyTemplate templateName="Radiance" template={'[&DQEQPyo6GzkmDwAAihIAAP4AAABIAQAAtRIAAAAAAAAAAAAAAAAAAAAAAAA=]'} gameClass="dragonhunter" />
-                <CopyTemplate templateName="Virtues" template={'[&DQEuFSo6GzkmDwAAihIAAP4AAABIAQAAtRIAAAAAAAAAAAAAAAAAAAAAAAA=]'} gameClass="dragonhunter" />
+                <CopyTemplate templateName="Radiance" template={'[&DQEqOhA/GzkmDyYPSAFIAYoSLQH+AP4AtRKJEgAAAAAAAAAAAAAAAAAAAAA=]'} gameClass="dragonhunter" />
+                <CopyTemplate templateName="Virtues" template={'[&DQEqOi4VGzkmDyYPSAFIAYoSLQH+AP4AtRKJEgAAAAAAAAAAAAAAAAAAAAA=]'} gameClass="dragonhunter" />
         </SectionContainer>
     )
 }
