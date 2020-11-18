@@ -1,14 +1,15 @@
 import React, { useState } from "react";
 import ModalVideo from 'react-modal-video';
 import SectionIntro from '../../components/SectionIntro';
-import RotationPreview from '../../assets/backgrounds/dh-rotation-preview.png';
-import VgPreview from '../../assets/backgrounds/dh-vg-preview.png';
-import GorsevalPreview from '../../assets/backgrounds/dh-gorseval-preview.png';
-import SabethaPreview from '../../assets/backgrounds/dh-sabetha-preview.png';
-import SlothPreview from '../../assets/backgrounds/dh-sloth-preview.png';
-import KcPreview from '../../assets/backgrounds/dh-kc-preview.png';
-import CairnPreview from '../../assets/backgrounds/dh-cairn-preview.png';
-import SamarogPreview from '../../assets/backgrounds/dh-samarog-preview.png';
+import RotationPreview from '../../assets/backgrounds/dh-guides/dh-rotation-preview.png';
+import VgPreview from '../../assets/backgrounds/dh-guides/dh-vg-preview.png';
+import GorsevalPreview from '../../assets/backgrounds/dh-guides/dh-gorseval-preview.png';
+import SabethaPreview from '../../assets/backgrounds/dh-guides/dh-sabetha-preview.png';
+import SlothPreview from '../../assets/backgrounds/dh-guides/dh-sloth-preview.png';
+import KcPreview from '../../assets/backgrounds/dh-guides/dh-kc-preview.png';
+import CairnPreview from '../../assets/backgrounds/dh-guides/dh-cairn-preview.png';
+import SamarogPreview from '../../assets/backgrounds/dh-guides/dh-samarog-preview.png';
+import DeimosPreview from '../../assets/backgrounds/dh-guides/dh-deimos-preview.png';
 import {
     VideoWrapperMultiple,
     VideoPreviewWrapperMultiple,
@@ -26,6 +27,7 @@ const DhBossGuides = () => {
     const [isOpen6, setOpen6] = useState(false)
     const [isOpen7, setOpen7] = useState(false)
     const [isOpen8, setOpen8] = useState(false)
+    const [isOpen9, setOpen9] = useState(false)
     return (
         <SectionContainer>
             <SectionIntro>
@@ -36,7 +38,7 @@ const DhBossGuides = () => {
                     <br /><br />
                     I strongly recommend opening below videos directly on YouTube - there may be things missed in the videos, but included in descriptions below them.
                     <br /><br />
-                    This project is still work in progress - the following guides are still to be made: Deimos, Dhuum (maybe, needs testing), CA, Qadim 1, Adina, Sabir (maybe, needs testing).
+                    This project is still work in progress - the following guides are still to be made: Dhuum (maybe, needs testing), CA, Qadim, Adina, Sabir.
                 </p>
             </SectionIntro>
             <ModalVideo channel='youtube' autoplay isOpen={isOpen1} videoId="MCI8sfCD5uk" onClose={() => setOpen1(false)} />
@@ -78,6 +80,11 @@ const DhBossGuides = () => {
                 <ModalVideo channel='youtube' autoplay isOpen={isOpen8} videoId="OeEx9WUMDos" onClose={() => setOpen8(false)} />
                 <VideoPreviewWrapperMultiple onClick={() => setOpen8(true)}>
                     <VideoPreview src={SamarogPreview} />
+                    <YoutubePlaySmall />
+                </VideoPreviewWrapperMultiple>
+                <ModalVideo channel='youtube' autoplay isOpen={isOpen9} videoId="ppLpP_V3LhI" onClose={() => setOpen9(false)} />
+                <VideoPreviewWrapperMultiple onClick={() => setOpen9(true)}>
+                    <VideoPreview src={DeimosPreview} />
                     <YoutubePlaySmall />
                 </VideoPreviewWrapperMultiple>
             </VideoWrapperMultiple>

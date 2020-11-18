@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from 'react-scroll';
 import ModalVideo from 'react-modal-video';
 import SectionIntro from '../../components/SectionIntro';
-import RotationPreview from '../../assets/backgrounds/dh-rotation-preview.png';
+import RotationPreview from '../../assets/backgrounds/dh-guides/dh-rotation-preview.png';
 import {
     VideoWrapper,
     VideoPreviewWrapper,

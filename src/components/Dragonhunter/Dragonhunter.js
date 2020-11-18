@@ -125,7 +125,7 @@ const Dragonhunter = () => {
                 {/* Weapons */}
                 <Link to="dh-section-weapons" smooth={true} duration={1000} onClick={toggleWeapons}>
                     <SectionHeader id="dh-section-weapons">
-                        <p>Weapons</p>
+                        <p>Weapon Choice</p>
                         <ArrowMoreButton
                             src={Arrow}
                             variants={variantsArrow}

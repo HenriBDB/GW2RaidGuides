@@ -311,6 +311,16 @@ nav.custom-nav.warrior a.active {
   border: 1px solid rgba(200, 200, 200, 0.5);
   border-width: 0px 0px 1px 1px;
 }
+.gear-title {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--bg-dark);
+  font-weight: bold;
+}
+.gear-title.dragonhunter {
+  background-color: var(--dh-primary);
+}
 /* Copy Template area */
 .copy-template {
   display: flex;

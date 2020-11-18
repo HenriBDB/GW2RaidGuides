@@ -9,7 +9,7 @@ const Virtues = ({ showGear }) => {
             <div className="mb-3" data-armory-embed="specializations" data-armory-ids="46" data-armory-46-traits="621,624,604,603,620,622"></div>
             <p className="dh-trait-intro">
                 This is a situational traitline which is only worth taking over Radiance if you can mantain permanent <WikiIcon name={"Aegis"} /> Aegis. If you know that your <WikiIcon name={"Aegis"} /> Aegis will be stripped and you won't be able to reapply it, play Radiance instead.
-                Taking this traitline you are losing 25% Crit Chance from <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1683" className="dhskill"></span>, so you need to remember to <b>adjust your gear</b> (see
+                Taking this traitline you are losing 25% Crit Chance from <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1683" className="dhskill"></span> and 10% from <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="568" className="dhskill"></span>, so you need to remember to <b>adjust your gear</b> (see
                     <Link to="dh-section-gear" smooth={true} duration={1000} onClick={showGear}>
                     <span
                         style={{ color: "#69CCE7", cursor: "pointer" }}>
