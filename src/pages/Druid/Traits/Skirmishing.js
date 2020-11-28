@@ -52,7 +52,7 @@ const Skirmishing = () => {
             <p>This trait grants 5 allies including yourself a buff that increases precision by 100 stat points. The buff is applied every 3 seconds and lasts for 
             9 seconds with a max stack of 1.</p>
             <p>This trait is very useful for most power dps players as it helps them achieve 100% critical hit chance. 
-            See <span class="font-italic">Boons and Buffs {'>'} Spotter</span> above for when to take this trait (should be most of the time).</p>
+            See <span className="font-italic">Boons and Buffs {'>'} Spotter</span> above for when to take this trait (should be most of the time).</p>
         </TraitCard>
         <TraitCard traitID={1846}>
             <p>This trait increases your <WikiIcon name={"Bleeding"}/> Bleeding damage by 33%.</p>
