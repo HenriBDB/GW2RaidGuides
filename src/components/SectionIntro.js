@@ -2,10 +2,10 @@ import React from "react";
 
 const SectionIntro = (props) => {
     return (
-        <div class="row justify-content-center">
-            <p class="col-lg-8 font-italic">
+        <div className="centered-flex-row">
+            <div className="section-intro">
                 {props.children}
-            </p>
+            </div>
         </div>
     );
 }

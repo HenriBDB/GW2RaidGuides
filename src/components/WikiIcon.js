@@ -10,6 +10,9 @@ const buffLinks = {
     "Quickness": "https://wiki.guildwars2.com/images/thumb/b/b4/Quickness.png/20px-Quickness.png",
     "Protection": "https://wiki.guildwars2.com/images/thumb/6/6c/Protection.png/20px-Protection.png",
     "Stability": "https://wiki.guildwars2.com/images/thumb/a/ae/Stability.png/20px-Stability.png",
+    "Retaliation": "https://wiki.guildwars2.com/images/thumb/5/53/Retaliation.png/20px-Retaliation.png",
+    "Alacrity": "https://wiki.guildwars2.com/images/4/4c/Alacrity.png",
+    "Aegis": "https://wiki.guildwars2.com/images/e/e5/Aegis.png",
 
     "Superspeed": "https://wiki.guildwars2.com/images/thumb/1/1a/Super_Speed.png/20px-Super_Speed.png",
     "Stealth": "https://wiki.guildwars2.com/images/thumb/1/19/Stealth.png/20px-Stealth.png",
@@ -22,8 +25,19 @@ const buffLinks = {
     "Chilled": "https://wiki.guildwars2.com/images/thumb/a/a6/Chilled.png/20px-Chilled.png",
     "Burning": "https://wiki.guildwars2.com/images/thumb/4/45/Burning.png/20px-Burning.png",
     "Weakness": "https://wiki.guildwars2.com/images/thumb/f/f9/Weakness.png/20px-Weakness.png",
+    "Slow": "https://wiki.guildwars2.com/images/f/f5/Slow.png",
 
-    "Daze": "https://wiki.guildwars2.com/images/thumb/7/79/Daze.png/20px-Daze.png"
+    "Daze": "https://wiki.guildwars2.com/images/thumb/7/79/Daze.png/20px-Daze.png",
+    "Knockdown": "https://wiki.guildwars2.com/images/3/36/Knockdown.png",
+    "Pull": "https://wiki.guildwars2.com/images/a/a4/Radius.png",
+
+    "Power": "https://wiki.guildwars2.com/images/2/23/Power.png",
+    "Precision": "https://wiki.guildwars2.com/images/e/ee/Precision.png",
+    "Ferocity": "https://wiki.guildwars2.com/images/f/f1/Ferocity.png",
+
+    "Recharge": "https://wiki.guildwars2.com/images/f/f4/Tango-recharge-darker.png",
+
+    "Vg": "https://wiki.guildwars2.com/images/f/fb/Mini_Vale_Guardian.png",
 }
 
 const WikiIcon = (props) => {
