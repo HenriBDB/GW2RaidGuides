@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const TraitCard = (props) => {
     return (
-        <div className="trait-card">
+        <div className={"trait-card " + props.gameClass}>
             <div className="trait-name">
                 <span data-armory-embed="traits" data-armory-size="40" data-armory-inline-text="wiki" data-armory-ids={props.traitID}></span>
                 <div className="filler"></div>
@@ -18,5 +18,6 @@ const TraitCard = (props) => {
 export default TraitCard;
 
 TraitCard.propTypes = {
+    gameClass: PropTypes.string,
     traitID: PropTypes.number
 }

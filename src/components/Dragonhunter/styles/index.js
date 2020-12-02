@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 import dhBackground from '../../../assets/backgrounds/dragohunter.jpg'
 import { FaYoutube } from 'react-icons/fa';
 
-const dhPrimary = "#47b8e0"
+const dhPrimary = "#69CCE7"
 const bgDark = "rgba(28,30,27,0.9)"
 
 export const Wrapper = styled.div`
@@ -57,6 +57,12 @@ export const SectionHeader = styled.div`
 export const SectionContainer = styled.div`
   padding-top: 1rem;
   padding-bottom: 1rem;
+  .gw2a--M9jBV :first-child{
+    color: ${dhPrimary};
+  }
+  .gw2a--M9jBV a:hover {
+    text-decoration-color: ${dhPrimary};
+  }
 `
 
 export const ArrowMoreButton = styled(motion.img)`
@@ -83,12 +89,46 @@ export const VideoPreviewWrapper = styled.div`
     transform: translate(-50%, -50%) scale(1.5)
   }
 `
+export const VideoWrapperMultiple = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  flex-wrap: wrap
+`
+export const VideoPreviewWrapperMultiple = styled.div`
+  width: 30%;
+  cursor: pointer;
+  margin: 1%;
+  position: relative;
+    :hover :nth-child(2) {
+    transform: translate(-50%, -50%) scale(1.5)
+  }
+  @media (max-width:991px) {
+    width: 40%;
+    margin: 2%
+  }
+  @media (max-width:585px) {
+    width: 80%;
+    margin: 4%
+  }
+`
 export const VideoPreview = styled.img`
   width: 100%;
   cursor: pointer;
 `
 export const YoutubePlay = styled(FaYoutube)`
   font-size: 90px;
+  fill: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition: transform .2s;
+`
+export const YoutubePlaySmall = styled(FaYoutube)`
+  font-size: 50px;
   fill: red;
   position: absolute;
   top: 50%;

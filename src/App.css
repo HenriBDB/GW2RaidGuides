@@ -1,7 +1,7 @@
 * {
   font-family: 'DejaVu Serif';
   --ranger-primary: #8ea53a;
-  --dh-primary: #47b8e0;
+  --dh-primary: #69CCE7;
   --war-primary: #CF8D21;
   --custom-dark: rgba(37,39,37,0.8);
   --custom-dark-opaque: rgb(37,39,37);
@@ -16,7 +16,6 @@
 
 .nav-center {
   width: 90%;
-
 }
 
 .nav-row {
@@ -71,6 +70,12 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+.dragonhunter .gw2a--M9jBV :first-child, .dh-trait-intro :first-child{
+  color: var(--dh-primary);
+}
+.dragonhunter .gw2a--M9jBV a:hover, .dh-trait-intro a:hover {
+  text-decoration-color: var(--dh-primary);
+}
 
 .gw2a--t1hk1 {
   position: absolute;
@@ -86,7 +91,13 @@ img {
 .fake-button {
   cursor: pointer;
 }
-
+.dhlink {
+  color: var(--dh-primary);
+}
+.dhlink:hover {
+  color: var(--dh-primary);
+  text-decoration-color: var(--dh-primary);
+}
 /* Container (Taken from Bootstrap) */
 
 .guide-content {
@@ -193,7 +204,7 @@ nav.custom-nav.warrior a.active {
   color: #6c757d;
 }
 
-.trait-card, .trait-card-2 {
+.trait-card, .trait-card-2, .boss-card, .gear-card {
   background: transparent;
   border: 0px transparent;
   margin-top: 25px;
@@ -212,41 +223,167 @@ nav.custom-nav.warrior a.active {
   display: flex;
   flex-direction: row;
 }
-.trait-card > .trait-name > .filler {
+.boss-card > .boss-name {
+  background: transparent;
+  align-items: center;
+  width: 100%;
+  border: 0;
+  padding: 0;
+  position: absolute;
+  top: -20px;
+  z-index: 5;
+  display: flex;
+  flex-direction: row;
+  margin-right: 1em,
+}
+.gear-card > .gear-name {
+  background: transparent;
+  align-items: center;
+  width: 100%;
+  border: 0;
+  padding: 0;
+  position: absolute;
+  top: -13px;
+  z-index: 5;
+  display: flex;
+  flex-direction: row;
+  margin-right: 1em,
+}
+.gear-card > .gear-name > span {
+  margin-right: 15px
+}
+.trait-card > .trait-name > .filler,
+.boss-card > .boss-name > .filler,
+.gear-card > .gear-name > .filler {
   border-top: 1px solid rgba(200, 200, 200, 0.5);
   flex-grow: 1;
 }
-.trait-card > .trait-name > span {
+.trait-card > .trait-name > span, .boss-name-details {
   margin-right: 1em;
 }
-.trait-card > .trait-description {
+.boss-name-details {
+  margin-left: 5px;
+}
+.trait-card > .trait-description, 
+.boss-card > .boss-description, 
+.gear-card > .gear-description  {
   margin-left: 25px;
   padding: 1.5em 1.25rem 0 1.25rem;
   border-right: 1px solid rgba(200, 200, 200, 0.5);
   position: relative;
   display: block;
   overflow: hidden;
+  z-index: 999;
+}
+.trait-card > .trait-description > *, 
+.boss-card > .boss-description > *, 
+.gear-card > .gear-description > * {
+  position: relative;
+  z-index: 999;
 }
 .trait-card > .trait-description:after,
-.trait-card > .trait-description:before {
+.trait-card > .trait-description:before,
+.boss-card > .boss-description:after,
+.boss-card > .boss-description:before,
+.gear-card > .gear-description:before,
+.gear-card > .gear-description:after
+ {
   position: absolute;
   content: '';
   z-index: 0;
 }
-.trait-card > .trait-description:before {
+.trait-card > .trait-description:before
+.boss-card > .boss-description:before,
+.gear-card > .gear-description:before {
   width: 80%;
   right: 0px;
   top: 0px;
   border: 1px solid rgba(200, 200, 200, 0.5);
   border-width: 0px 1px 0px 0px;
 }
-.trait-card > .trait-description:after {
+.trait-card > .trait-description:after,
+.boss-card > .boss-description:after,
+.gear-card > .gear-description:after {
   height: calc(100% - (0.5em + 21px));
   width: 100%;
   bottom: 0px;
   left: 0px;
   border: 1px solid rgba(200, 200, 200, 0.5);
   border-width: 0px 0px 1px 1px;
+}
+.gear-title {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--bg-dark);
+  font-weight: bold;
+}
+.gear-title.dragonhunter {
+  background-color: var(--dh-primary);
+}
+/* Copy Template area */
+.copy-template {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.copy-template form {
+  display: flex;
+  width: 100%;
+}
+.copy-template-content {
+  display: flex;
+  
+}
+@media (max-width:576px) {
+  .copy-template-content {
+    flex-direction: column;
+  }
+  .copy-template-message {
+    margin-right: 0 !important;
+  }
+  .copy-template {
+    margin-bottom: 20px
+  }
+}
+.copy-template-name {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.copy-template-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  padding-bottom: 20px;
+}
+.copy-template-button {
+  background-color: aquamarine;
+  font-weight: bold;
+  padding: 7px 20px;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+  cursor: pointer;
+  margin-bottom: 10px;
+  height: 38px;
+  width: 170px;
+}
+.copy-template-button.dragonhunter {
+  background-color: var(--dh-primary);
+}
+.copy-template-button:hover {
+  box-shadow: inset 0 0 5px black;
+}
+.copy-template-area {
+  background-color: var(--bg-dark);
+  padding: 7px 20px;
+  border: none;
+  height: 38px;
+  width: 100%;
 }
 
 /* Sections */
