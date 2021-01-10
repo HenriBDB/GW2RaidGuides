@@ -12,7 +12,7 @@ const Druid = () => {
         <TraitCard traitID={1874}>
             <p>
                 This trait gives you access to <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span> which is the 
-                core of the druid specialisation and includes 5 new skills that are discussed below in <span class="font-italic">Skills and Utilities</span>. You can enter <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span> 
+                core of the druid specialisation and includes 5 new skills that are discussed below in <span className="font-italic">Skills and Utilities</span>. You can enter <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span> 
                 only once you have fully charged your Astral Force. You gain 1.5% of Astral Force per healing you give and 0.75% per damage you deal. Your pet's attributes are decreased by 20%.
             </p>
             <p>
@@ -115,7 +115,7 @@ const Druid = () => {
         <TraitCard traitID={2057}>
             <p>
                 Using a Celestial Avatar ability grants up to 10 allies within the radius of the ability <WikiIcon name="Might"/><sub>2</sub> per tick. Details on 
-                might generation through this can be found in <span class="font-italic">Boons and Buffs {'>'} Might and Fury</span>.
+                might generation through this can be found in <span className="font-italic">Boons and Buffs {'>'} Might and Fury</span>.
             </p>
             <p>
                 This is the almighty trait that allows you to provide permanent <WikiIcon name="Might"/><sub>25</sub> Might to the entire squad which increases 
