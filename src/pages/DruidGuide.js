@@ -22,8 +22,10 @@ const DruidGuide = (props) => {
 
                 <SectionTitle gameClass="ranger" title="Boons and Buffs"/>
                 <SectionIntro>
-                    Druids are responsible for many buffs and boons for the entire squad or their sub-squad only. Listed they include:&nbsp;
-                    <strong>spirits</strong>, <strong>spotter</strong>, <strong>might</strong> and <strong>fury</strong>.
+                    <p>
+                        Druids are responsible for many buffs and boons for the entire squad or their sub-squad only. Listed they include:&nbsp;
+                        <strong>spirits</strong>, <strong>spotter</strong>, <strong>might</strong> and <strong>fury</strong>.
+                    </p>
                 </SectionIntro>
                 <NavTabs tabNames={["Spirits", "Spotter", "Boons"]} hrefs={["spirits", "spotter", "boons"]}>
                     <TabPane tabName={"spirits"} active={true}>
