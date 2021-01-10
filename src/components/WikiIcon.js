@@ -42,7 +42,7 @@ const buffLinks = {
 
 const WikiIcon = (props) => {
     return (
-        <span><img alt={props.name+".png"} src={buffLinks[props.name]} width="20" height="20"/></span>
+        <span><img alt={props.name+".png"} src={buffLinks[props.name]} width="20" height="20"/>{props.children}</span>
     );
 }
 
