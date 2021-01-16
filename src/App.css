@@ -321,6 +321,9 @@ nav.custom-nav.warrior a.active {
 .gear-title.dragonhunter {
   background-color: var(--dh-primary);
 }
+.gear-title.ranger {
+  background-color: var(--ranger-primary);
+}
 /* Copy Template area */
 .copy-template {
   display: flex;
