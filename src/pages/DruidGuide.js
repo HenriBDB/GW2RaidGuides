@@ -7,7 +7,7 @@ import TabPane from '../components/TabPane';
 import ScrollArrow from '../components/ScrollArrowTop';
 import {Spirits, Spotter, Boons} from './Druid/BoonsAndBuffs';
 import {Skirmishing, NatureMagic, Druid, Marksmanship} from './Druid/Traits';
-import {Openers} from './Druid/Rotations';
+import {Openers, WeaponSwaps} from './Druid/Rotations';
 
 const DruidGuide = (props) => {
     return (
@@ -86,6 +86,9 @@ const DruidGuide = (props) => {
                 <NavTabs tabNames={["Explosive Openers", "Magical Weapon Swaps", "Ubiquitous Cleansing"]} hrefs={["opener", "weapon-swap", "cleansing"]}>
                     <TabPane tabName="opener" active="true">
                         <Openers/>
+                    </TabPane>
+                    <TabPane tabName="weapon-swap">
+                        <WeaponSwaps/>
                     </TabPane>
                 </NavTabs>
 

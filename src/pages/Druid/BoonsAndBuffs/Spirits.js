@@ -11,8 +11,8 @@ const Spirits = () => {
             from <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12569"></span>). <br/>
             Spirits lose health every second and must be managed so that they do not die and are not forgotten out of range of the stack. 
             The range for the passive effect of any spirit is fairly large at 600 range. <br/>
-            Additionally, spirits can be used actively once spawned to provide 10-player buffs scaled with the druid's boon duration thanks to the following trait which all druids should have: 
-            <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1038"></span>. 
+            Additionally, spirits can be used actively once spawned to provide 10-player buffs scaled with the druid's boon duration thanks to the following trait which all druids should 
+            have: <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1038"></span>. 
             This trait additionally increases spirit-activated skills' radius of effect from 240 to 360 and reduces the rate at which spirits lose health. 
             Using spirit-activated skills teleports the spirit to your location and can be used to keep spirits on the stack.
         </p>

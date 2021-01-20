@@ -1,3 +1,4 @@
 import Openers from './Openers'
+import WeaponSwaps from './WeaponSwaps'
 
-export {Openers};
+export {Openers, WeaponSwaps};

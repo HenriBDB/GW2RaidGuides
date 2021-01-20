@@ -5,7 +5,7 @@ const Openers = () => {
     return (
         <>
         <p>
-            Your ultimate goal during your opener is that everyone has <WikiIcon name="Might"><sub>25</sub></WikiIcon> Might and <WikiIcon name="Fury"/> Fury.
+            &emsp;Your ultimate goal during your opener is that everyone has <WikiIcon name="Might"><sub>25</sub></WikiIcon> Might and <WikiIcon name="Fury"/> Fury.
             The examples below are general examples that should get you started on all bosses. Make sure to check boss guide videos for per-boss variations if any.
             Ignore spirits steps if you do not have them equipped.
         </p>
