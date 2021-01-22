@@ -12,6 +12,16 @@
 .navbar {
   display: flex;
   align-items: center;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  height: 65px;
+}
+.navbar ul {
+  list-style: none;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
 }
 
 .nav-center {

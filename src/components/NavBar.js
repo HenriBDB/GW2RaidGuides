@@ -6,7 +6,7 @@ const NavBar = () => {
             <div className="nav-center">
                 <ul className="nav-row">
                     <li>
-                        <a href="/">Home</a>
+                        <a href="/">Home Example</a>
                     </li>
                     <li>
                         <a href="dragonhunter-guide">Dragonhunter</a>
