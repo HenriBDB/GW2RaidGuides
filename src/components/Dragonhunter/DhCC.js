@@ -28,7 +28,7 @@ const DhCC = () => {
                     <WikiIcon name={"Pull"} /> Pull - 150 breakbar damage (instant)
                 </p>
                 <p>
-                    <WikiIcon name={"Slow"} /> Slow (4s) - 50 breakbar damage per second (over time - 200 total breakbar after 5s)
+                    <WikiIcon name={"Slow"} /> Slow (4s) - 50 breakbar damage per second (over time - 200 total breakbar after 4s)
                 </p>
             </SkillCard>
             <SkillCard skillID={9226}>

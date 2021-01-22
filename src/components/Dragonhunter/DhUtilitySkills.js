@@ -64,7 +64,7 @@ const DhUtilitySkills = () => {
                     </SkillCard>
                     <SkillCard skillID={9251}>
                         <p>
-                            Only take it if you need to refect projectiles and noone else can do it. May be useful for hands on Adina, bubble at Matthias (not a gread idea to play Dragonhunter there) or Slohasor (if your squad struggles with Slubling control).
+                            Only take it if you need to refect projectiles and noone else can do it. May be useful for hands on Adina, bubble at Matthias or projectiles at Slohasor (if your squad struggles with Slubling control).
                         </p>
                     </SkillCard>
                 </TabPane>
@@ -124,7 +124,7 @@ const DhUtilitySkills = () => {
                     </SkillCard>
                     <SkillCard skillID={9154}>
                         <p>
-                            Refreshes your virtues and makes you invulnerable for 3 seconds. Useful on River to refresh <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="30225" className="dhskill"></span> and <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="30039" className="dhskill"></span> for heals and blocks, and on Broken King to not take any damage when the green circle under you is exploding.
+                            Refreshes your virtues and makes you invulnerable for 3 seconds. Useful on River to refresh <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="30225" className="dhskill"></span> and <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="30039" className="dhskill"></span> for heals and blocks, and on Broken King to not take any damage when the green circle under you is exploding. If you want to be a true hero, you can take it on Slothasor to block projectiles from shake (jump in the middle his hitbox while being invulnerable).
                         </p>
                     </SkillCard>
                 </TabPane>
