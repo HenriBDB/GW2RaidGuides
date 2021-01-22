@@ -45,7 +45,7 @@ const DhGear = () => {
                             Force and Impact Sigils
                         </p>
                         <div className="text-center mb-3">
-                            <img src={Weaponswap} width='40' height='40' />
+                            <img src={Weaponswap} width='40' height='40' alt="weaponswap"/>
                         </div>
                         <div className="row justify-content-center">
                             <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46762, 24615, 24868]}></span>
@@ -85,7 +85,7 @@ const DhGear = () => {
                             Force and Accuracy Sigils
                         </p>
                             <div className="text-center mb-3">
-                                <img src={Weaponswap} width='40' height='40' />
+                                <img src={Weaponswap} width='40' height='40' alt="weaponswap"/>
                             </div>
                             <div className="row justify-content-center">
                                 <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46762, 24615, 24618]}></span>
@@ -123,7 +123,7 @@ const DhGear = () => {
                             Force and Accuracy Sigils
                         </p>
                         <div className="text-center mb-3">
-                            <img src={Weaponswap} width='40' height='40' />
+                            <img src={Weaponswap} width='40' height='40' alt="weaponswap"/>
                         </div>
                         <div className="row justify-content-center">
                             <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46762, 24615, 24618]}></span>
@@ -160,7 +160,7 @@ const DhGear = () => {
                             Force and Accuracy Sigils
                         </p>
                         <div className="text-center mb-3">
-                            <img src={Weaponswap} width='40' height='40' />
+                            <img src={Weaponswap} width='40' height='40' alt="weaponswap"/>
                         </div>
                         <div className="row justify-content-center">
                             <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46762, 24615, 24618]}></span>
@@ -197,7 +197,7 @@ const DhGear = () => {
                             Force and Impact Sigils
                         </p>
                         <div className="text-center mb-3">
-                            <img src={Weaponswap} width='40' height='40' />
+                            <img src={Weaponswap} width='40' height='40' alt="weaponswap"/>
                         </div>
                         <div className="row justify-content-center">
                             <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46762, 24615, 24868]}></span>
@@ -236,7 +236,7 @@ const DhGear = () => {
                             Force and Accuracy Sigils
                         </p>
                         <div className="text-center mb-3">
-                            <img src={Weaponswap} width='40' height='40' />
+                            <img src={Weaponswap} width='40' height='40' alt="weaponswap"/>
                         </div>
                         <div className="row justify-content-center">
                             <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46762, 24615, 24618]}></span>
@@ -273,7 +273,7 @@ const DhGear = () => {
                             Force and Accuracy Sigils
                         </p>
                         <div className="text-center mb-3">
-                            <img src={Weaponswap} width='40' height='40' />
+                            <img src={Weaponswap} width='40' height='40' alt="weaponswap"/>
                         </div>
                         <div className="row justify-content-center">
                             <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46762, 24615, 24618]}></span>

@@ -29,7 +29,7 @@ const Virtues = ({ showGear }) => {
             </div>
             <TraitCard traitID={621} gameClass="dragonhunter">
                 <p>
-                    Applies 5s of <WikiIcon name={"Might"} /> Might, <WikiIcon name={"Regeneration"} /> Regeneration and <WikiIcon name={"Protection"} /> Protection to allies (max 5 targets) after activating a <a href="https://wiki.guildwars2.com/wiki/Virtue" target="_blank" className="dhlink">Virtue</a>.
+                    Applies 5s of <WikiIcon name={"Might"} /> Might, <WikiIcon name={"Regeneration"} /> Regeneration and <WikiIcon name={"Protection"} /> Protection to allies (max 5 targets) after activating a <a href="https://wiki.guildwars2.com/wiki/Virtue" target="_blank" rel="noopener noreferrer" className="dhlink">Virtue</a>.
                 </p>
             </TraitCard>
             <div className="row justify-content-center">
@@ -45,7 +45,7 @@ const Virtues = ({ showGear }) => {
             </div>
             <TraitCard traitID={604} gameClass="dragonhunter">
                 <p>
-                    Applies <WikiIcon name={"Retaliation"} /> Retaliation after activating a <a href="https://wiki.guildwars2.com/wiki/Virtue" target="_blank" className="dhlink">Virtue</a>. Duration of <WikiIcon name={"Retaliation"} /> Retaliation is increased by 25%.
+                    Applies <WikiIcon name={"Retaliation"} /> Retaliation after activating a <a href="https://wiki.guildwars2.com/wiki/Virtue" target="_blank" rel="noopener noreferrer" className="dhlink">Virtue</a>. Duration of <WikiIcon name={"Retaliation"} /> Retaliation is increased by 25%.
                </p>
             </TraitCard>
             <div className="row justify-content-center">
@@ -53,7 +53,7 @@ const Virtues = ({ showGear }) => {
             </div>
             <TraitCard traitID={603} gameClass="dragonhunter">
                 <p>
-                    Grants you 10% damage increase for 6s after activating a <a href="https://wiki.guildwars2.com/wiki/Virtue" target="_blank" className="dhlink">Virtue</a>.
+                    Grants you 10% damage increase for 6s after activating a <a href="https://wiki.guildwars2.com/wiki/Virtue" target="_blank" rel="noopener noreferrer" className="dhlink">Virtue</a>.
                 </p>
             </TraitCard>
             <div className="row justify-content-center">
@@ -64,7 +64,7 @@ const Virtues = ({ showGear }) => {
                     Increases damage dealt to enemies by 1% per boon on you. So if you have all 12 boons on you, your damage will be increased by 12%. This is the reason why this traitline works well with a boonthief who provides all boons except <WikiIcon name={"Alacrity"} /> Alacrity (which will be covered by Alacren anyway). It's the second reason why this traitline will perform better than Radiance in certain situations.
                 </p>
                 <p>
-                    Reduces <WikiIcon name={"Recharge"} /> recharge of <a href="https://wiki.guildwars2.com/wiki/Virtue" target="_blank" className="dhlink">Virtues</a> by 15%.
+                    Reduces <WikiIcon name={"Recharge"} /> recharge of <a href="https://wiki.guildwars2.com/wiki/Virtue" target="_blank" rel="noopener noreferrer" className="dhlink">Virtues</a> by 15%.
                 </p>
             </TraitCard>
             <div className="row justify-content-center">

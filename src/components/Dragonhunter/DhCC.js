@@ -47,7 +47,7 @@ const DhCC = () => {
                 </p>
             </SkillCard>
             <p style={{ textAlign: "center", fontWeight: "bold" }}>
-                <a href="https://wiki.guildwars2.com/wiki/Leap_finisher" target="_blank" className="dhlink">Leap finishers</a> into <a href="https://wiki.guildwars2.com/wiki/Lightning_field" target="_blank" className="dhlink">Lightning fields</a>
+                <a href="https://wiki.guildwars2.com/wiki/Leap_finisher" target="_blank" rel="noopener noreferrer" className="dhlink">Leap finishers</a> into <a href="https://wiki.guildwars2.com/wiki/Lightning_field" target="_blank" rel="noopener noreferrer" className="dhlink">Lightning fields</a>
             </p>
             <SkillCard skillID={9080}>
                 <p>

@@ -18,7 +18,7 @@ const Zeal = () => {
                     Casts a <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="13677" className="dhskill"></span> when you are struck while below 75% health.
                 </p>
                 <p>
-                    Grants <WikiIcon name={"Retaliation"} /> Retaliation (2s) to you and your allies standing in the symbol (5 targets). It's also a <a href="https://wiki.guildwars2.com/wiki/Light_field" target="_blank" className="dhlink">Light Field</a>.
+                    Grants <WikiIcon name={"Retaliation"} /> Retaliation (2s) to you and your allies standing in the symbol (5 targets). It's also a <a href="https://wiki.guildwars2.com/wiki/Light_field" target="_blank" rel="noopener noreferrer" className="dhlink">Light Field</a>.
                 </p>
             </TraitCard>
             <div className="row justify-content-center">
