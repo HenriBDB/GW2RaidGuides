@@ -73,7 +73,7 @@ const DhWeapons = ({ showTraits }) => {
                     </BossCard>
                     <BossCard src={Sabetha} bossName={"Sabetha"} gameClass="dragonhunter">
                         <p>
-                            - <span style={{ color: "#69CCE7" }}>scepter</span> if your group has troubles with kiting and there is a lot of flak in the middle of the boss; <br />
+                            - <span style={{ color: "#69CCE7" }}>scepter</span> if your group has troubles with kiting and there is a lot of flak in the middle of the arena; <br />
                         </p>
                         <p>
                             - <span style={{ color: "#69CCE7" }}>sword</span> in any other case.
@@ -83,7 +83,7 @@ const DhWeapons = ({ showTraits }) => {
                 <TabPane tabName="dh-w2">
                     <BossCard src={Sloth} bossName={"Slothasor"} gameClass="dragonhunter">
                         <p>
-                            - <span style={{ color: "#69CCE7" }}>scepter</span> - always (unless you are doing it in a very organized group where you will be sure about movement) - you need range if you get fixation or if Sloth gets stuck in poison due to bad fixation movement, getting cc or being stuck in shake animation.
+                            - <span style={{ color: "#69CCE7" }}>scepter</span> - always (unless you are doing it in a very organized group where you will be sure about movement) - you need range if you get fixation or if Sloth gets stuck in poison (which can happen due to bad fixation movement, getting cc or being stuck in shake animation).
                         </p>
                     </BossCard>
                     <BossCard src={Trio} bossName={"Trio"} gameClass="dragonhunter">
@@ -100,7 +100,7 @@ const DhWeapons = ({ showTraits }) => {
                     </BossCard>
                     <BossCard src={KC} bossName={"Keep Construct"} gameClass="dragonhunter">
                         <p>
-                            - <span style={{ color: "#69CCE7" }}>scepter</span> if you are doing wall strat, so you can attack from range while boss is coming towards the group;<br />
+                            - <span style={{ color: "#69CCE7" }}>scepter</span> if you are doing wall strat, so you can attack from range while boss is coming towards the group and if you need to spread out with bombs;<br />
                         </p>
                         <p>
                             - <span style={{ color: "#69CCE7" }}>sword</span> if you are doing mid strat.
