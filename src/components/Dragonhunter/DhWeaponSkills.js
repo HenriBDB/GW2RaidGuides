@@ -21,17 +21,17 @@ const DhWeaponSkills = ({ showGuides, showWeapons }) => {
                     </SkillCard>
                     <SkillCard skillID={9081}>
                         <p>
-                            Damage goes BRRRRRRRRRRRRRR! Your highest dps skill. It hits 14 times - 7 hits from the spin, 7 hits from projectiles which fly out. In order to get all projectiles to hit the boss, you always want to use this skill in the middle of the hitbox of the boss. As usual, last hit of this skill deals the highest damage, so be careful to not cancel it by accident by using another skill or weaponswapping too early. It can hit up to 5 targets. It's also a <a href="https://wiki.guildwars2.com/wiki/Whirl_finisher" target="_blank" className="dhlink">Whirl finisher</a>.
+                            Damage goes BRRRRRRRRRRRRRR! Your highest dps skill. It hits 14 times - 7 hits from the spin, 7 hits from projectiles which fly out. In order to get all projectiles to hit the boss, you always want to use this skill in the middle of the hitbox of the boss. As usual, last hit of this skill deals the highest damage, so be careful to not cancel it by accident by using another skill or weaponswapping too early. It can hit up to 5 targets. It's also a <a href="https://wiki.guildwars2.com/wiki/Whirl_finisher" target="_blank" rel="noopener noreferrer" className="dhlink">Whirl finisher</a>.
                         </p>
                     </SkillCard>
                     <SkillCard skillID={9080}>
                         <p>
-                            Helps with movement and allows you to get the boss faster (for example you can leap to Adina from the pillar instead of walking). It does a small amount of healing and it <WikiIcon name={"Blinded"} /> Blinds your target. It can hit up to 5 targets. It's also a <a href="https://wiki.guildwars2.com/wiki/Leap_finisher" target="_blank" className="dhlink">Leap finisher</a>.
+                            Helps with movement and allows you to get the boss faster (for example you can leap to Adina from the pillar instead of walking). It does a small amount of healing and it <WikiIcon name={"Blinded"} /> Blinds your target. It can hit up to 5 targets. It's also a <a href="https://wiki.guildwars2.com/wiki/Leap_finisher" target="_blank" rel="noopener noreferrer" className="dhlink">Leap finisher</a>.
                         </p>
                     </SkillCard>
                     <SkillCard skillID={9146}>
                         <p>
-                            Pulses 5 times dealing damage to the enemy and granting 1s of <WikiIcon name={"Retaliation"} /> Retaliation with every pulse to you and 4 other allies standing in it. Due to <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="646" className="dhskill"></span> it also applies <WikiIcon name={"Vulnerability"} /> Vulnerability to your target. Grants 5 stacks of <a href="https://wiki.guildwars2.com/wiki/Symbolic_Avenger_(effect)" target="_blank" className="dhlink">Symbolic Avenger</a> increasing your damage by 10%. It's also a <a href="https://wiki.guildwars2.com/wiki/Light_field" target="_blank" className="dhlink">Light field</a>.
+                            Pulses 5 times dealing damage to the enemy and granting 1s of <WikiIcon name={"Retaliation"} /> Retaliation with every pulse to you and 4 other allies standing in it. Due to <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="646" className="dhskill"></span> it also applies <WikiIcon name={"Vulnerability"} /> Vulnerability to your target. Grants 5 stacks of <a href="https://wiki.guildwars2.com/wiki/Symbolic_Avenger_(effect)" target="_blank" rel="noopener noreferrer" className="dhlink">Symbolic Avenger</a> increasing your damage by 10%. It's also a <a href="https://wiki.guildwars2.com/wiki/Light_field" target="_blank" rel="noopener noreferrer" className="dhlink">Light field</a>.
                         </p>
                         <p>
                             This skill has a pretty long aftercast which you can cancel by moving or stowing your weapons right after the Symbol appears on the ground. Cancelling the aftercast of this skill will bring you over ~1k dps increase (golem number).
@@ -45,13 +45,13 @@ const DhWeaponSkills = ({ showGuides, showWeapons }) => {
                                     style={{ color: "#69CCE7", cursor: "pointer" }}>
                                     &nbsp;Boss Guides
                                     </span>
-                            </Link>. It's also a <a href="https://wiki.guildwars2.com/wiki/Whirl_finisher" target="_blank" className="dhlink">Whirl finisher</a>.
+                            </Link>. It's also a <a href="https://wiki.guildwars2.com/wiki/Whirl_finisher" target="_blank" rel="noopener noreferrer" className="dhlink">Whirl finisher</a>.
                         </p>
                         <p>
                             This skill also has an aftercast which can be cancelled - by stowing your weapons right after projectiles are thrown.
                         </p>
                         <p>
-                            The second skill of the sequence is a pull which allows you to pull mobs which get hit by the projectiles. Pulling the enemies will end the <a href="https://wiki.guildwars2.com/wiki/Binding_Blade_(effect)" target="_blank" className="dhlink">Binding Blade</a> effect.
+                            The second skill of the sequence is a pull which allows you to pull mobs which get hit by the projectiles. Pulling the enemies will end the <a href="https://wiki.guildwars2.com/wiki/Binding_Blade_(effect)" target="_blank" rel="noopener noreferrer" className="dhlink">Binding Blade</a> effect.
                         </p>
                     </SkillCard>
                 </TabPane>
@@ -72,7 +72,7 @@ const DhWeaponSkills = ({ showGuides, showWeapons }) => {
                     </SkillCard>
                     <SkillCard skillID={9090}>
                         <p>
-                            Hits the boss multiple times (8 impacts). Pulses 5 times granting 1s of <WikiIcon name={"Might"} /> Might with every pulse to you and 4 other allies standing in it. Due to <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="646" className="dhskill"></span> it also applies <WikiIcon name={"Vulnerability"} /> Vulnerability to your target. Grants 4 stacks of <a href="https://wiki.guildwars2.com/wiki/Symbolic_Avenger_(effect)" target="_blank" className="dhlink">Symbolic Avenger</a> (unlike <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="9146" className="dhskill"></span>, the first pulse doesn't apply Avenger stacks). It's also a <a href="https://wiki.guildwars2.com/wiki/Light_field" target="_blank" className="dhlink">Light field</a>.
+                            Hits the boss multiple times (8 impacts). Pulses 5 times granting 1s of <WikiIcon name={"Might"} /> Might with every pulse to you and 4 other allies standing in it. Due to <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="646" className="dhskill"></span> it also applies <WikiIcon name={"Vulnerability"} /> Vulnerability to your target. Grants 4 stacks of <a href="https://wiki.guildwars2.com/wiki/Symbolic_Avenger_(effect)" target="_blank" rel="noopener noreferrer" className="dhlink">Symbolic Avenger</a> (unlike <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="9146" className="dhskill"></span>, the first pulse doesn't apply Avenger stacks). It's also a <a href="https://wiki.guildwars2.com/wiki/Light_field" target="_blank" rel="noopener noreferrer" className="dhlink">Light field</a>.
                         </p>
                         <p>
                             It has a small aftercast which can be cancelled by autoattacking afterwards.
@@ -102,7 +102,7 @@ const DhWeaponSkills = ({ showGuides, showWeapons }) => {
                     </SkillCard>
                     <SkillCard skillID={9097}>
                         <p>
-                            Teleports you to the target, applies <WikiIcon name={"Blinded"} /> Blindness to your enemy and creates a Symbol which pulses 5 times and grants <WikiIcon name={"Fury"} /> Fury with every pulse to you and 4 other allies standing in it. Due to <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="646" className="dhskill"></span> it also applies <WikiIcon name={"Vulnerability"} /> Vulnerability to your target. Grants 5 stacks of <a href="https://wiki.guildwars2.com/wiki/Symbolic_Avenger_(effect)" target="_blank" className="dhlink">Symbolic Avenger</a> increasing your damage by 10%. It's also a <a href="https://wiki.guildwars2.com/wiki/Light_field" target="_blank" className="dhlink">Light field</a>.
+                            Teleports you to the target, applies <WikiIcon name={"Blinded"} /> Blindness to your enemy and creates a Symbol which pulses 5 times and grants <WikiIcon name={"Fury"} /> Fury with every pulse to you and 4 other allies standing in it. Due to <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="646" className="dhskill"></span> it also applies <WikiIcon name={"Vulnerability"} /> Vulnerability to your target. Grants 5 stacks of <a href="https://wiki.guildwars2.com/wiki/Symbolic_Avenger_(effect)" target="_blank" rel="noopener noreferrer" className="dhlink">Symbolic Avenger</a> increasing your damage by 10%. It's also a <a href="https://wiki.guildwars2.com/wiki/Light_field" target="_blank" rel="noopener noreferrer" className="dhlink">Light field</a>.
                         </p>
                     </SkillCard>
                     <SkillCard skillID={9107}>
@@ -122,7 +122,7 @@ const DhWeaponSkills = ({ showGuides, showWeapons }) => {
                     </SkillCard>
                     <SkillCard skillID={9082}>
                         <p>
-                            Creates a shield that blocks the next 3 attacks within the next 4 seconds. Explodes when it ends, dealing damage to enemies. It's a kind of skill which you can use to negate some mechanics like for example Slam on Gorseval or as a panic button when you have no dodges available. If you feel safe, you can just use it in your rotation for damage. It's also a <a href="https://wiki.guildwars2.com/wiki/Blast_finisher" target="_blank" className="dhlink">Blast finisher</a> which is triggered when you activate the skill.
+                            Creates a shield that blocks the next 3 attacks within the next 4 seconds. Explodes when it ends, dealing damage to enemies. It's a kind of skill which you can use to negate some mechanics like for example Slam on Gorseval or as a panic button when you have no dodges available. If you feel safe, you can just use it in your rotation for damage. It's also a <a href="https://wiki.guildwars2.com/wiki/Blast_finisher" target="_blank" rel="noopener noreferrer" className="dhlink">Blast finisher</a> which is triggered when you activate the skill.
                         </p>
                     </SkillCard>
                 </TabPane>

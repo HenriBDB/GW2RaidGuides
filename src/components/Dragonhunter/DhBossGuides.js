@@ -10,6 +10,7 @@ import KcPreview from '../../assets/backgrounds/dh-guides/dh-kc-preview.png';
 import CairnPreview from '../../assets/backgrounds/dh-guides/dh-cairn-preview.png';
 import SamarogPreview from '../../assets/backgrounds/dh-guides/dh-samarog-preview.png';
 import DeimosPreview from '../../assets/backgrounds/dh-guides/dh-deimos-preview.png';
+import CAPreview from '../../assets/backgrounds/dh-guides/dh-ca-preview.png';
 import {
     VideoWrapperMultiple,
     VideoPreviewWrapperMultiple,
@@ -28,17 +29,18 @@ const DhBossGuides = () => {
     const [isOpen7, setOpen7] = useState(false)
     const [isOpen8, setOpen8] = useState(false)
     const [isOpen9, setOpen9] = useState(false)
+    const [isOpen10, setOpen10] = useState(false)
     return (
         <SectionContainer>
             <SectionIntro>
                 <p>
-                    My videoguides are directed to raiders who prefer visual aids over written tips (available for example on SC website). They were all recorded with average pug groups (I aim for 100-250 LI groups usually). There will be no secret knowledge shared here, everything shown in below guides is already available in other sources, but maybe seeing it all in action in average groups with live explanation what and why is happening will help you becoming more conscious DH player and improving your performance. Don't expect perfect gameplay, this is my average performance in pugs, better results are possible on every boss with a perfect rotation while implementing the tips presented in guides.
+                    My videoguides are directed to raiders who prefer visual aids over written tips (available for example on SC website). They were all recorded with average pug groups (I aim for 100-250 LI groups usually). There will be no secret knowledge shared here, everything shown in below guides is already available in other sources, but maybe seeing it all in action in average groups with live explanation what and why is happening will help you becoming more conscious DH player and improving your performance. Don't expect perfect gameplay, this is my average performance in pugs and none of those kills are grinded, better results are possible on every boss with a perfect rotation while implementing the tips presented in guides.
                     <br /><br />
-                    I can't stop you from playing Dragonhunter on all bosses (like Matthias where the boss moves a lot and will move out of your traps constantly in pugs causing you to lose damage or like Soulless Horror for example, where playing Dragonhunter would be a mistake for several reasons, one of them being that your traps can instantly kill Tormented Dead on the group and can cause a wipe), but below videos will cover only the bosses where I feel Dragonhunter can perform on a sdecent level.
+                    Below videos will cover only the bosses where I feel Dragonhunter can perform on a decent level.
                     <br /><br />
                     I strongly recommend opening below videos directly on YouTube - there may be things missed in the videos, but included in descriptions below them.
                     <br /><br />
-                    This project is still work in progress - the following guides are still to be made: Dhuum (maybe, needs testing), CA, Qadim, Adina, Sabir.
+                    This project is still work in progress - the following guides are still to be made: Matthias, Dhuum (maybe, needs testing), Qadim, Adina, Sabir.
                 </p>
             </SectionIntro>
             <ModalVideo channel='youtube' autoplay isOpen={isOpen1} videoId="MCI8sfCD5uk" onClose={() => setOpen1(false)} />
@@ -85,6 +87,11 @@ const DhBossGuides = () => {
                 <ModalVideo channel='youtube' autoplay isOpen={isOpen9} videoId="ppLpP_V3LhI" onClose={() => setOpen9(false)} />
                 <VideoPreviewWrapperMultiple onClick={() => setOpen9(true)}>
                     <VideoPreview src={DeimosPreview} />
+                    <YoutubePlaySmall />
+                </VideoPreviewWrapperMultiple>
+                <ModalVideo channel='youtube' autoplay isOpen={isOpen10} videoId="Ug5Kw43K1eQ" onClose={() => setOpen10(false)} />
+                <VideoPreviewWrapperMultiple onClick={() => setOpen10(true)}>
+                    <VideoPreview src={CAPreview} />
                     <YoutubePlaySmall />
                 </VideoPreviewWrapperMultiple>
             </VideoWrapperMultiple>

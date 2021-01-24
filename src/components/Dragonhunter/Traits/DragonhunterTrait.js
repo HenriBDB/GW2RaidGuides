@@ -15,7 +15,7 @@ const DragonhunterTrait = ({ showRotation }) => {
             </div>
             <TraitCard traitID={1848} gameClass="dragonhunter">
                 <p>
-                    Replaces your standard Guardian <a href="https://wiki.guildwars2.com/wiki/Virtue" target="_blank" className="dhlink">Virtues</a> with <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="29887" className="dhskill"></span>, <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="30225" className="dhskill"></span> and <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="30039" className="dhskill"></span>.
+                    Replaces your standard Guardian <a href="https://wiki.guildwars2.com/wiki/Virtue" target="_blank" rel="noopener noreferrer" className="dhlink">Virtues</a> with <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="29887" className="dhskill"></span>, <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="30225" className="dhskill"></span> and <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="30039" className="dhskill"></span>.
                 </p>
             </TraitCard>
             <div className="row justify-content-center">
