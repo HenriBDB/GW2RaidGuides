@@ -574,3 +574,62 @@ nav.custom-nav.warrior a.active {
   border-radius: 5px;
   margin-top: -6px;
 }
+
+/* Rotation */
+
+#rotation-content {
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* Timeline */
+
+.rotation {
+  border-left: 4px solid black;
+  list-style-type: none;
+  color: fade(white, 80%);
+  margin: 20px auto;
+  margin-top: 0px;
+  position: relative;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  font-weight: 100;
+  max-width: 80%;
+}
+
+.event {
+  padding-left: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  position: relative;
+}
+
+.event:last-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.event:after {
+  position: absolute;
+  display: block;
+  top: 5px;
+  left: -59px;
+  box-shadow: 0 0 0 4px black;
+  background: var(--custom-dark);
+  height: 22px;
+  border-radius: 10%;
+  width: 35px;
+  content: attr(timestamp);
+  text-align: center;
+  align-items: top;
+}
+  
+.event.mechanic {
+  border-left: 4px solid white;
+}
+
+.event.ranger-skill {
+  border-left: 4px solid var(--ranger-primary);
+}

@@ -11,7 +11,7 @@ import {Openers, WeaponSwaps} from './Druid/Rotations';
 
 const DruidGuide = (props) => {
     return (
-        <div className={"druid-page pt-5"}>
+        <div className={"druid-page py-5"}>
             <ScrollArrow />
             <div className="guide-content ranger">
                 <GuideTitle title="The Power of Nature" footer="A Druid Guide for GW2 Raiding by Eren Bole"/>
@@ -83,7 +83,7 @@ const DruidGuide = (props) => {
                         Many of them will depend on the boss and adapt to mechanics timings while others can be used on every boss.
                     </p>
                 </SectionIntro>
-                <NavTabs tabNames={["Explosive Openers", "Magical Weapon Swaps", "Ubiquitous Cleansing"]} hrefs={["opener", "weapon-swap", "cleansing"]}>
+                <NavTabs tabNames={["Explosive Openers", "Magical Weapon Swaps"]} hrefs={["opener", "weapon-swap"]}>
                     <TabPane tabName="opener" active="true">
                         <Openers/>
                     </TabPane>
