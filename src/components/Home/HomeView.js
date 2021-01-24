@@ -4,10 +4,14 @@ import {
     PanelContainer,
     Panel,
     PanelTitle,
+    Link
 } from './styles'
 import dhBackground from '../../assets/backgrounds/dragohunter.jpg'
 import druidBackground from '../../assets/backgrounds/druid.jpg'
 import warriorBackground from '../../assets/backgrounds/warrior.jpg'
+import dhTitle from '../../assets/titles/DragonhunterTitle.png';
+import druidTitle from '../../assets/titles/DruidTitle.png';
+import warriorTitle from '../../assets/titles/WarriorTitle.png';
 
 const HomeView = () => {
     const [panelDhExpanded, setDhPanelExpanded] = useState(true)
@@ -36,26 +40,47 @@ const HomeView = () => {
                 <Panel
                     style={{
                         flex: panelDhExpanded ? '5' : '1',
-                        backgroundImage: `url(${dhBackground})`
+                        cursor: panelDhExpanded ? 'auto' : 'pointer',
+                        backgroundImage: `url(${dhBackground})`,
+                        backgroundColor: panelDhExpanded ? '#69CCE7' : '#000000',
                     }}
                     onClick={expandDhPanel}>
-                    <PanelTitle>Dragonhunter</PanelTitle>
+                    {panelDhExpanded && (
+                        <Link href="dragonhunter-guide" style={{ color: '#69CCE7' }}>Go to guide</Link>
+                    )}
+                    <PanelTitle>
+                        <img src={dhTitle} alt="Dragonhunter" height="25" />
+                    </PanelTitle>
                 </Panel>
                 <Panel
                     style={{
                         flex: panelDruidExpanded ? '5' : '1',
-                        backgroundImage: `url(${druidBackground})`
+                        cursor: panelDruidExpanded ? 'auto' : 'pointer',
+                        backgroundImage: `url(${druidBackground})`,
+                        backgroundColor: panelDruidExpanded ? '#8ea53a' : '#000000',
                     }}
                     onClick={expandDruidPanel}>
-                    <PanelTitle>Druid</PanelTitle>
+                    {panelDruidExpanded && (
+                        <Link href="druid-guide" style={{ color: '#8ea53a' }}>Go to guide</Link>
+                    )}
+                    <PanelTitle>
+                        <img src={druidTitle} alt="Druid" height="25" />
+                    </PanelTitle>
                 </Panel>
                 <Panel
                     style={{
                         flex: panelWarriorExpanded ? '5' : '1',
-                        backgroundImage: `url(${warriorBackground})`
+                        cursor: panelDhExpanded ? 'auto' : 'pointer',
+                        backgroundImage: `url(${warriorBackground})`,
+                        backgroundColor: panelWarriorExpanded ? '#CF8D21' : '#000000',
                     }}
                     onClick={expandWarriorPanel}>
-                    <PanelTitle>Warrior</PanelTitle>
+                    {panelWarriorExpanded && (
+                        <Link style={{ color: '#CF8D21' }} href="warrior-guide">Go to guide</Link>
+                    )}
+                    <PanelTitle>
+                        <img src={warriorTitle} alt="Warrior" height="25" />
+                    </PanelTitle>
                 </Panel>
             </PanelContainer>
         </HomeContainer>

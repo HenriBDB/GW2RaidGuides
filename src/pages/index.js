@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from '../components/NavBar';
-// import Footer from './components/footer'; TODO
+import Footer from '../components/Footer/Footer';
 import Home from './Home';
 import DragonhunterGuide from './DragonhunterGuide';
 import DruidGuide from './DruidGuide';
@@ -20,7 +20,7 @@ const HomePage = () => {
           <Route exact path="/warrior-guide/" component={WarriorGuide} />
           {/* <Route component={Error} /> */}
         </Switch>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </>
   );
