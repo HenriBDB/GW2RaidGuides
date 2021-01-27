@@ -7,9 +7,9 @@ import TabPane from '../components/TabPane';
 import ScrollArrow from '../components/ScrollArrowTop';
 import {Spirits, Spotter, Boons} from './Druid/BoonsAndBuffs';
 import {Skirmishing, NatureMagic, Druid, Marksmanship} from './Druid/Traits';
-import {Openers, WeaponSwaps} from './Druid/Rotations';
+import {Openers, WeaponSwaps, BossRotations} from './Druid/Rotations';
 
-const DruidGuide = (props) => {
+const DruidGuide = () => {
     return (
         <div className={"druid-page py-5"}>
             <ScrollArrow />
@@ -83,12 +83,15 @@ const DruidGuide = (props) => {
                         Many of them will depend on the boss and adapt to mechanics timings while others can be used on every boss.
                     </p>
                 </SectionIntro>
-                <NavTabs tabNames={["Explosive Openers", "Magical Weapon Swaps"]} hrefs={["opener", "weapon-swap"]}>
+                <NavTabs tabNames={["Explosive Openers", "Magical Weapon Swaps", "Boss Examples"]} hrefs={["opener", "weapon-swap", "boss-rotations"]}>
                     <TabPane tabName="opener" active="true">
                         <Openers/>
                     </TabPane>
                     <TabPane tabName="weapon-swap">
                         <WeaponSwaps/>
+                    </TabPane>
+                    <TabPane tabName="boss-rotations">
+                        <BossRotations/>
                     </TabPane>
                 </NavTabs>
 
