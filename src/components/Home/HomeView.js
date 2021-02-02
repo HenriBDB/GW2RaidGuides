@@ -45,9 +45,14 @@ const HomeView = () => {
                         backgroundColor: panelDhExpanded ? '#69CCE7' : '#000000',
                     }}
                     onClick={expandDhPanel}>
-                    {panelDhExpanded && (
-                        <Link href="dragonhunter-guide" style={{ color: '#69CCE7' }}>Go to guide</Link>
-                    )}
+                    <Link
+                        style={{
+                            color: '#69CCE7',
+                            visibility: panelDhExpanded ? 'visible' : 'hidden',
+                            opacity: panelDhExpanded ? 1 : 0,
+                            transition: 'visibility 0s, opacity 0.5s linear',
+                        }}
+                        href="dragonhunter-guide">Go to guide</Link>
                     <PanelTitle>
                         <img src={dhTitle} alt="Dragonhunter" height="25" />
                     </PanelTitle>
@@ -60,9 +65,14 @@ const HomeView = () => {
                         backgroundColor: panelDruidExpanded ? '#8ea53a' : '#000000',
                     }}
                     onClick={expandDruidPanel}>
-                    {panelDruidExpanded && (
-                        <Link href="druid-guide" style={{ color: '#8ea53a' }}>Go to guide</Link>
-                    )}
+                    <Link
+                        style={{
+                            color: '#8ea53a',
+                            visibility: panelDruidExpanded ? 'visible' : 'hidden',
+                            opacity: panelDruidExpanded ? 1 : 0,
+                            transition: 'visibility 0s, opacity 0.5s linear',
+                        }}
+                        href="druid-guide">Go to guide</Link>
                     <PanelTitle>
                         <img src={druidTitle} alt="Druid" height="25" />
                     </PanelTitle>
@@ -70,14 +80,19 @@ const HomeView = () => {
                 <Panel
                     style={{
                         flex: panelWarriorExpanded ? '5' : '1',
-                        cursor: panelDhExpanded ? 'auto' : 'pointer',
+                        cursor: panelWarriorExpanded ? 'auto' : 'pointer',
                         backgroundImage: `url(${warriorBackground})`,
                         backgroundColor: panelWarriorExpanded ? '#CF8D21' : '#000000',
                     }}
                     onClick={expandWarriorPanel}>
-                    {panelWarriorExpanded && (
-                        <Link style={{ color: '#CF8D21' }} href="warrior-guide">Go to guide</Link>
-                    )}
+                    <Link
+                        style={{
+                            color: '#CF8D21',
+                            visibility: panelWarriorExpanded ? 'visible' : 'hidden',
+                            opacity: panelWarriorExpanded ? 1 : 0,
+                            transition: 'visibility 0s, opacity 0.5s linear',
+                        }}
+                        href="warrior-guide">Go to guide</Link>
                     <PanelTitle>
                         <img src={warriorTitle} alt="Warrior" height="25" />
                     </PanelTitle>
