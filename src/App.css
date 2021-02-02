@@ -577,7 +577,7 @@ nav.custom-nav.warrior a.active {
 
 /* Rotation */
 
-#rotation-content {
+.rotation-content {
   margin-top: 15px;
   text-align: center;
 }
@@ -632,4 +632,10 @@ nav.custom-nav.warrior a.active {
 
 .event.ranger-skill {
   border-left: 4px solid var(--ranger-primary);
+}
+
+.rota-btn {
+  display: flex;
+  color: white;
+  justify-content: center;
 }
