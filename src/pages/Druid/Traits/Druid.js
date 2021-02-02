@@ -37,7 +37,7 @@ const Druid = () => {
         <TraitCard traitID={1935}>
             <p>
                 This trait reduces recharge rates on staff skills by 20% and causes you to <WikiIcon name="Daze"/> Daze (1s) up to 5 targets in a 
-                300 radius when swapping to staff. The trigger for this trait is on an 8 seconds cooldown.
+                300 radius when swapping to staff AND when entering Celestial Avatar form. The trigger for this trait is on an 8 seconds cooldown.
             </p>
             <p>
                 The recharge on staff skills can be useful when extra healing is needed, as all staff skills apart from <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31700"></span> 
