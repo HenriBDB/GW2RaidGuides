@@ -40,7 +40,7 @@ const DhUtilitySkills = () => {
                     </div>
                     <SkillCard skillID={44846}>
                         <p>
-                            <a href="https://wiki.guildwars2.com/wiki/Spirit_Weapon" target="_blank" className="dhlink">Spirit Weapon</a> with 3 charges. You will use most charges in combination with <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="29887" className="dhskill"></span>, however if you have a charge available outside the burst loop, always use it in combination with a symbol - <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="9090" className="dhskill"></span> or <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="9097" className="dhskill"></span>. It hits 4 times applying 3 stacks of <WikiIcon name={"Vulnerability"} /> Vulnerability per hit (max 12 stacks) and 3s of <WikiIcon name={"Crippled"} /> Cripple.
+                            <a href="https://wiki.guildwars2.com/wiki/Spirit_Weapon" target="_blank" rel="noopener noreferrer" className="dhlink">Spirit Weapon</a> with 3 charges. You will use most charges in combination with <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="29887" className="dhskill"></span>, however if you have a charge available outside the burst loop, always use it in combination with a symbol - <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="9090" className="dhskill"></span> or <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="9097" className="dhskill"></span>. It hits 4 times applying 3 stacks of <WikiIcon name={"Vulnerability"} /> Vulnerability per hit (max 12 stacks) and 3s of <WikiIcon name={"Crippled"} /> Cripple.
                         </p>
                         <p>
                             If you ever have to replace any of your utility skills for something else, you should replace this one for the least damage loss (the other 2 default utility skills are just too valuable for a power Dragonhunter).
@@ -64,7 +64,7 @@ const DhUtilitySkills = () => {
                     </SkillCard>
                     <SkillCard skillID={9251}>
                         <p>
-                            Only take it if you need to refect projectiles and noone else can do it. May be useful for hands on Adina, bubble at Matthias (not a gread idea to play Dragonhunter there) or Slohasor (if your squad struggles with Slubling control).
+                            Only take it if you need to refect projectiles and noone else can do it. May be useful for hands on Adina, bubble at Matthias or projectiles at Slohasor (if your squad struggles with Slubling control).
                         </p>
                     </SkillCard>
                 </TabPane>
@@ -124,7 +124,7 @@ const DhUtilitySkills = () => {
                     </SkillCard>
                     <SkillCard skillID={9154}>
                         <p>
-                            Refreshes your virtues and makes you invulnerable for 3 seconds. Useful on River to refresh <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="30225" className="dhskill"></span> and <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="30039" className="dhskill"></span> for heals and blocks, and on Broken King to not take any damage when the green circle under you is exploding.
+                            Refreshes your virtues and makes you invulnerable for 3 seconds. Useful on River to refresh <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="30225" className="dhskill"></span> and <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="30039" className="dhskill"></span> for heals and blocks, and on Broken King to not take any damage when the green circle under you is exploding. If you want to be a true hero, you can take it on Slothasor to block projectiles from shake (jump in the middle his hitbox while being invulnerable).
                         </p>
                     </SkillCard>
                 </TabPane>

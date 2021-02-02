@@ -16,7 +16,7 @@ const Radiance = ({ showRotation, showGuides, showGear }) => {
             </div>
             <TraitCard traitID={572} gameClass="dragonhunter">
                 <p>
-                    Grants <a href="https://wiki.guildwars2.com/wiki/Light_Aura" target="_blank" className="dhlink">Light Aura</a> (gain <WikiIcon name={"Retaliation"} /> Retaliation when struck) and <WikiIcon name="Blinded" /> Blinds (3s) nearby foes when you activate <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="29887" className="dhskill"></span>
+                    Grants <a href="https://wiki.guildwars2.com/wiki/Light_Aura" target="_blank" rel="noopener noreferrer" className="dhlink">Light Aura</a> (gain <WikiIcon name={"Retaliation"} /> Retaliation when struck) and <WikiIcon name="Blinded" /> Blinds (3s) nearby foes when you activate <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="29887" className="dhskill"></span>
                 </p>
             </TraitCard>
             <div className="row justify-content-center">

@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
   background-size: cover;
   background-attachment: fixed;
   min-height: 100vh;
-  padding-top: 3rem;
+  padding-top: 7rem;
 `
 export const Container = styled.div`
   width: 60%;

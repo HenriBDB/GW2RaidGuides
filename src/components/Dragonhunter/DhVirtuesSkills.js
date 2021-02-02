@@ -10,7 +10,7 @@ const DhVirtuesSkills = ({ showRotation, showGuides }) => {
         <SectionContainer>
             <SectionIntro>
                 <p>
-                    <a href="https://wiki.guildwars2.com/wiki/Virtue" target="_blank" className="dhlink">Virtues</a> are special abilities available only to Guardians. They have both passive and active effects and you can find them in your F1-F3 slots by default.
+                    <a href="https://wiki.guildwars2.com/wiki/Virtue" target="_blank" rel="noopener noreferrer" className="dhlink">Virtues</a> are special abilities available only to Guardians. They have both passive and active effects and you can find them in your F1-F3 slots by default.
                 </p>
             </SectionIntro>
             <SkillCard skillID={[29887, 33134]}>
@@ -38,7 +38,7 @@ const DhVirtuesSkills = ({ showRotation, showGuides }) => {
             </SkillCard>
             <SkillCard skillID={30225}>
                 <p>
-                    It's a targeted skill which allows you to leap to the target area within 800 range, healing you and allies around you and cleansing 2 conditions from you. It provides 100 breakbar damage if used as a <a href="https://wiki.guildwars2.com/wiki/Leap_finisher" target="_blank" className="dhlink">Leap finisher</a> into <a href="https://wiki.guildwars2.com/wiki/Lightning_field" target="_blank" className="dhlink">Lightning field</a>.
+                    It's a targeted skill which allows you to leap to the target area within 800 range, healing you and allies around you and cleansing 2 conditions from you. It provides 100 breakbar damage if used as a <a href="https://wiki.guildwars2.com/wiki/Leap_finisher" target="_blank" rel="noopener noreferrer" className="dhlink">Leap finisher</a> into <a href="https://wiki.guildwars2.com/wiki/Lightning_field" target="_blank" rel="noopener noreferrer" className="dhlink">Lightning field</a>.
                 </p>
                 <p>
                     Very useful for movement (getting to the boss, getting to Sabetha cannons, dropping poison on Slothasor, etc.) and self condi cleanse for example on Dhuum if your healers are struggling.

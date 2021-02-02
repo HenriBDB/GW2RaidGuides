@@ -5,7 +5,7 @@ const BossCard = (props) => {
     return (
         <div className={"boss-card " + props.gameClass}>
             <div className="boss-name">
-                <img src={props.src} alt="" width="40" height="40" />
+                <img src={props.src} width="40" height="40" alt={props.bossName + " icon"}/>
                 <div className="boss-name-details">{props.bossName}</div>
                 <div className="filler"></div>
             </div>
