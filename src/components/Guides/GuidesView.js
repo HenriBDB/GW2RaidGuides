@@ -14,7 +14,7 @@ import druidTitle from '../../assets/titles/DruidTitle.png';
 import warriorTitle from '../../assets/titles/WarriorTitle.png';
 
 const GuidesView = () => {
-    const [panelDhExpanded, setDhPanelExpanded] = useState(true)
+    const [panelDhExpanded, setDhPanelExpanded] = useState(false)
     const [panelDruidExpanded, setDruidPanelExpanded] = useState(false)
     const [panelWarriorExpanded, setWarriorPanelExpanded] = useState(false)
 
@@ -44,7 +44,7 @@ const GuidesView = () => {
                         backgroundImage: `url(${dhBackground})`,
                         backgroundColor: panelDhExpanded ? '#69CCE7' : '#000000',
                     }}
-                    onClick={expandDhPanel}>
+                    onMouseEnter={expandDhPanel}>
                     <Link
                         style={{
                             color: '#69CCE7',
@@ -64,7 +64,7 @@ const GuidesView = () => {
                         backgroundImage: `url(${druidBackground})`,
                         backgroundColor: panelDruidExpanded ? '#8ea53a' : '#000000',
                     }}
-                    onClick={expandDruidPanel}>
+                    onMouseEnter={expandDruidPanel}>
                     <Link
                         style={{
                             color: '#8ea53a',
@@ -84,7 +84,7 @@ const GuidesView = () => {
                         backgroundImage: `url(${warriorBackground})`,
                         backgroundColor: panelWarriorExpanded ? '#CF8D21' : '#000000',
                     }}
-                    onClick={expandWarriorPanel}>
+                    onMouseEnter={expandWarriorPanel}>
                     <Link
                         style={{
                             color: '#CF8D21',

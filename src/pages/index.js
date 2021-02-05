@@ -19,8 +19,8 @@ const HomePage = () => {
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/guides/" component={Guides} />
-          <Route exact path="/squadmaking/" component={Squadmaking} />
+          <Route exact path="/commander-guide/" component={Squadmaking} />
+          <Route exact path="/class-guides/" component={Guides} />
           <Route exact path="/authors/" component={Authors} />
           <Route exact path="/dragonhunter-guide/" component={DragonhunterGuide} />
           <Route exact path="/druid-guide/" component={DruidGuide} />
