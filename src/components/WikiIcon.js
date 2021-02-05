@@ -13,6 +13,7 @@ const buffLinks = {
     "Retaliation": "https://wiki.guildwars2.com/images/thumb/5/53/Retaliation.png/20px-Retaliation.png",
     "Alacrity": "https://wiki.guildwars2.com/images/4/4c/Alacrity.png",
     "Aegis": "https://wiki.guildwars2.com/images/e/e5/Aegis.png",
+    "Resistance": "https://wiki.guildwars2.com/images/thumb/4/4b/Resistance.png/20px-Resistance.png",
 
     "Superspeed": "https://wiki.guildwars2.com/images/thumb/1/1a/Super_Speed.png/20px-Super_Speed.png",
     "Stealth": "https://wiki.guildwars2.com/images/thumb/1/19/Stealth.png/20px-Stealth.png",

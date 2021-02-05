@@ -7,10 +7,11 @@ import TabPane from '../components/TabPane';
 import ScrollArrow from '../components/ScrollArrowTop';
 import {Spirits, Spotter, Boons} from './Druid/BoonsAndBuffs';
 import {Skirmishing, NatureMagic, Druid, Marksmanship} from './Druid/Traits';
+import {Openers, WeaponSwaps, BossRotations} from './Druid/Rotations';
 
-const DruidGuide = (props) => {
+const DruidGuide = () => {
     return (
-        <div className={"druid-page pt-5"}>
+        <div className={"druid-page py-5"}>
             <ScrollArrow />
             <div className="guide-content ranger">
                 <GuideTitle title="The Power of Nature" footer="A Druid Guide for GW2 Raiding by Eren Bole"/>
@@ -65,6 +66,63 @@ const DruidGuide = (props) => {
                         <Marksmanship/>
                     </TabPane>
                 </NavTabs>
+
+                <SectionTitle gameClass="ranger" title="Gear"/>
+                <SectionIntro>
+                    <p>
+                        A druid will most of the time take a Staff and Axe/Warhorn. However there exists a few other weapons of choice that can be very useful in 
+                        specific situations.
+                    </p>
+                </SectionIntro>
+
+                <SectionTitle gameClass="ranger" title="Rotations"/>
+                <SectionIntro>
+                    <p>
+                        Many people believe that Druids don't have any rotations and that all skills are casted dependent on the current state of the fight.
+                        However, this is simply not true. There are plenty rotations that you can easily follow to ensure efficient healing and boon uptimes.
+                        Many of them will depend on the boss and adapt to mechanics timings while others can be used on every boss.
+                    </p>
+                </SectionIntro>
+                <NavTabs tabNames={["Explosive Openers", "Magical Weapon Swaps", "Boss Examples"]} hrefs={["opener", "weapon-swap", "boss-rotations"]}>
+                    <TabPane tabName="opener" active="true">
+                        <Openers/>
+                    </TabPane>
+                    <TabPane tabName="weapon-swap">
+                        <WeaponSwaps/>
+                    </TabPane>
+                    <TabPane tabName="boss-rotations">
+                        <BossRotations/>
+                    </TabPane>
+                </NavTabs>
+
+                <SectionTitle gameClass="ranger" title="CC"/>
+                <SectionIntro>
+                    <p>
+                        
+                    </p>
+                </SectionIntro>
+
+                <SectionTitle gameClass="ranger" title="Pets"/>
+                <SectionIntro>
+                    <p>
+                        I like warthog.
+                    </p>
+                </SectionIntro>
+
+                <SectionTitle gameClass="ranger" title="Boss Guides"/>
+                <SectionIntro>
+                    <p>
+                        Below a collection of written and video guides that provide example Druid gameplay. 
+                        Make sure to read all the notes so that you know why and when decisions are made.
+                    </p>
+                </SectionIntro>
+
+                <SectionTitle gameClass="ranger" title="Extra Resources"/>
+                <SectionIntro>
+                    <p>
+                        Here you will find all the crunchy data that can help you find the best setup for your druid.
+                    </p>
+                </SectionIntro>
             </div>
         </div>
     );
