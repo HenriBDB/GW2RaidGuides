@@ -3,6 +3,10 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from '../components/NavBar';
 import Footer from '../components/Footer/Footer';
 import Home from './Home';
+import Guides from './Guides';
+import Squadmaking from './Squadmaking';
+import Authors from './Authors';
+import Error from './Error';
 import DragonhunterGuide from './DragonhunterGuide';
 import DruidGuide from './DruidGuide';
 import WarriorGuide from './WarriorGuide';
@@ -15,10 +19,13 @@ const HomePage = () => {
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route exact path="/guides/" component={Guides} />
+          <Route exact path="/squadmaking/" component={Squadmaking} />
+          <Route exact path="/authors/" component={Authors} />
           <Route exact path="/dragonhunter-guide/" component={DragonhunterGuide} />
           <Route exact path="/druid-guide/" component={DruidGuide} />
           <Route exact path="/warrior-guide/" component={WarriorGuide} />
-          {/* <Route component={Error} /> */}
+          <Route component={Error} />
         </Switch>
         <Footer />
       </Router>
