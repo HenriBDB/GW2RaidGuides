@@ -72,6 +72,7 @@ export const Link = styled.a`
     text-align: center;
     :hover {
         text-decoration: none;
+        background: rgba(0,0,0,1);
     }
     @media (max-width: 1080px) {
         bottom: 45%;
