@@ -1,20 +1,23 @@
 import React from 'react';
+import PageLogo from '../assets/logo.png'
 
 const NavBar = () => {
     return (
         <nav className="navbar" id="navbar">
-            <div className="nav-center">
+            <div className="nav-container">
                 <ul className="nav-row">
                     <li>
-                        <a href="/">Home</a>
+                        <a href="/">
+                            <img src={PageLogo} width="60" height="60" alt="page-logo" />
+                        </a>
                     </li>
-                    <li>
+                    <li className="menu-item">
                         <a href="class-guides">Class guides</a>
                     </li>
-                    <li>
+                    <li className="menu-item">
                         <a href="commander-guide">Commander guide</a>
                     </li>
-                    <li>
+                    <li className="menu-item">
                         <a href="authors">Authors</a>
                     </li>
                 </ul>

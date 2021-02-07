@@ -6,7 +6,7 @@ export const GuidesContainer = styled.div`
     width: 100%;
     height: calc(100vh - 70px);
     background: ${bgDark};
-    padding-top: 4rem;
+    padding-top: 75px;
 `
 export const PanelContainer = styled.div`
     display: flex;
@@ -21,13 +21,13 @@ export const Panel = styled.div`
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: calc(100vh - 65px - 70px);
+    height: calc(100vh - 75px - 70px);
     color: #fff;
     position: relative;
     -webkit-transition: all 500ms ease-in;
     background-blend-mode: luminosity;
     @media (max-width: 1080px) {
-        height: calc((100vh - 65px - 70px)/3);
+        height: calc((100vh - 75px - 70px)/3);
     }
 `
 export const PanelTitle = styled.div`

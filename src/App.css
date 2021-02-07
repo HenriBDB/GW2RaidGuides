@@ -11,10 +11,11 @@
 
 .navbar {
   display: flex;
+  justify-content: center;
   align-items: center;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(28,30,27,0.8);
   color: white;
-  height: 65px;
+  height: 75px;
   position: absolute;
   width: 100%;
 }
@@ -24,18 +25,36 @@
 .navbar a {
   color: white;
   text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
 }
-
-.nav-center {
-  width: 90%;
+.menu-item a {
+  padding-bottom: 5px;
 }
-
+.menu-item a:after {
+  content: '';
+  display: block;
+  border-bottom: 2px solid white;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+.menu-item a:hover::after {
+  transform: scaleX(1); 
+}
+.nav-container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
 .nav-row {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0;
   margin: 0;
 }
-
 .druid-page {
   background-image: url("./assets/backgrounds/druid.jpg");
   background-repeat: no-repeat;

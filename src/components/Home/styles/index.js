@@ -34,7 +34,7 @@ export const HomeContainer = styled.div`
     width: 100%;
     height: calc(100vh - 70px);
     background: ${bgDark};
-    padding-top: 4rem;
+    padding-top: 75px;
     display: flex;
     overflow: hidden;
     @media (max-width: 870px) {
