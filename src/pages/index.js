@@ -21,7 +21,7 @@ const HomePage = () => {
           <Route exact path="/" component={Home} />
           <Route exact path="/commander-guide/" component={Squadmaking} />
           <Route exact path="/class-guides/" component={Guides} />
-          <Route exact path="/authors/" component={Authors} />
+          <Route exact path="/creators/" component={Authors} />
           <Route exact path="/dragonhunter-guide/" component={DragonhunterGuide} />
           <Route exact path="/druid-guide/" component={DruidGuide} />
           <Route exact path="/warrior-guide/" component={WarriorGuide} />

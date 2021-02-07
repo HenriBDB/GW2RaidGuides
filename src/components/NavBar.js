@@ -1,15 +1,16 @@
-import React, { useState, useEffect, useCallback } from 'react'
+import React, { useState, useEffect } from 'react'
 import PageLogo from '../assets/logo.png'
 import { HamburgerSpring } from 'react-animated-burgers'
+import { AnimatePresence } from "framer-motion"
 
 const NavBar = () => {
-    const [isActive, setIsActive] = useState(false)
-    const [burgerVisible, setBurgerVisible] = useState(false)
-    const toggleButton = useCallback(
-        () => setIsActive(prevState => !prevState),
-        [],
-    );
-    const [width, setWidth] = useState(window.innerWidth)
+    const [isActive, setIsActive] = useState(false);
+    const [burgerVisible, setBurgerVisible] = useState(false);
+    const [width, setWidth] = useState(window.innerWidth);
+    const toggleButton = () => {
+        setIsActive(!isActive)
+    }
+
     useEffect(() => {
         function handleResize() {
             setWidth(window.innerWidth);
@@ -17,6 +18,7 @@ const NavBar = () => {
         window.addEventListener('resize', handleResize);
         return () => window.removeEventListener('resize', handleResize);
     }, []);
+
     useEffect(() => {
         if (width < 780) {
             setBurgerVisible(true)
@@ -31,7 +33,7 @@ const NavBar = () => {
             <div className="nav-container">
                 <ul className="nav-row">
                     <li>
-                        <a href="/">
+                        <a href="/" onClick={() => setIsActive(false)}>
                             <img src={PageLogo} width="60" height="60" alt="page-logo" />
                         </a>
                     </li>
@@ -43,7 +45,7 @@ const NavBar = () => {
                             <a href="commander-guide">Commander guide</a>
                         </li>
                         <li className="menu-item">
-                            <a href="authors">Authors</a>
+                            <a href="Creators">Creators</a>
                         </li>
                     </ul>
                     {burgerVisible && (
@@ -55,6 +57,32 @@ const NavBar = () => {
                             />
                         </li>
                     )}
+                    {/* <AnimatePresence> */}
+                        {isActive && (
+                            <div class="mobile-nav"
+                                // isActive={isActive}
+                                // initial={{ transform: "translate3d(100%, 0, 0)" }}
+                                // animate={{ transform: "translate3d(0%, 0, 0" }}
+                                // exit={{ transform: "translate3d(100%, 0, 0)" }}
+                                // transition={{
+                                //     duration: 0.5,
+                                //     ease: [0.82, 0.0, 0.195, 1.0],
+                                // }}
+                            >
+                                <ul className="mobile-menu-items">
+                                    <li className="mobile-menu-item">
+                                        <a href="class-guides" onClick={() => setIsActive(false)}>Class guides</a>
+                                    </li>
+                                    <li className="mobile-menu-item">
+                                        <a href="commander-guide" onClick={() => setIsActive(false)}>Commander guide</a>
+                                    </li>
+                                    <li className="mobile-menu-item">
+                                        <a href="creators" onClick={() => setIsActive(false)}>Creators</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        )}
+                    {/* </AnimatePresence> */}
                 </ul>
             </div>
         </nav>
