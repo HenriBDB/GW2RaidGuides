@@ -53,17 +53,15 @@
   padding: 0;
   margin: 0;
 }
-@media (max-width: 750px) {
+@media (max-width: 780px) {
   .menu-items  {
     display: none;
-  }
-  .navbar-row {
-    padding-left: 20px;
-    padding-right: 20px;
   }
 }
 .nav-row {
   justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .menu-items {
   justify-content: flex-end;
@@ -170,8 +168,11 @@ img {
   }
 }
 @media (min-width:1200px) {
-  .guide-content, .nav-container {
+  .guide-content {
     max-width:1140px
+  }
+  .nav-container {
+    max-width: 1600px;
   }
 }
 .guide-content.ranger {
