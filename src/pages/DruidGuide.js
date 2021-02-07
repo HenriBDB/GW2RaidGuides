@@ -53,7 +53,7 @@ const DruidGuide = () => {
                 </p>
                 </SectionIntro>
                 <NavTabs tabNames={["Skirmishing", "Nature Magic", "Druid", "Marksmanship"]} hrefs={["skirmishing", "nature-magic", "druid-trait", "marksmanship"]}>
-                    <TabPane tabName="skirmishing" active="true">
+                    <TabPane tabName="skirmishing" active={true}>
                         <Skirmishing/>
                     </TabPane>
                     <TabPane tabName="nature-magic">
@@ -84,7 +84,7 @@ const DruidGuide = () => {
                     </p>
                 </SectionIntro>
                 <NavTabs tabNames={["Explosive Openers", "Magical Weapon Swaps", "Boss Examples"]} hrefs={["opener", "weapon-swap", "boss-rotations"]}>
-                    <TabPane tabName="opener" active="true">
+                    <TabPane tabName="opener" active={true}>
                         <Openers/>
                     </TabPane>
                     <TabPane tabName="weapon-swap">

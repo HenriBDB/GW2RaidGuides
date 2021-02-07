@@ -6,7 +6,7 @@ const NavTabs = (props) => {
         <>
         <nav className={"nav custom-nav " + props.gameClass}>
             {props.tabNames.map((name, index) => (
-                <a className={""+(index === 0 ? " active" : '')} href={"#"+props.hrefs[index]} id={name+"-tab"} data-toggle="pill" role="tab" aria-controls={name} aria-selected={index === 0 ? "true" : "false"}>{name}</a>
+                <a key={index} className={""+(index === 0 ? " active" : '')} href={"#"+props.hrefs[index]} id={name+"-tab"} data-toggle="pill" role="tab" aria-controls={name} aria-selected={index === 0 ? "true" : "false"}>{name}</a>
             ))}
         </nav>
         <div className="tab-content custom-tab-content">

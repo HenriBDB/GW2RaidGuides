@@ -43,17 +43,30 @@
   transform: scaleX(1); 
 }
 .nav-container {
-  max-width: 1140px;
   width: 100%;
   margin: 0 auto;
 }
-.nav-row {
+.nav-row, .menu-items {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   width: 100%;
   padding: 0;
   margin: 0;
+}
+@media (max-width: 750px) {
+  .menu-items  {
+    display: none;
+  }
+  .navbar-row {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.nav-row {
+  justify-content: space-between;
+}
+.menu-items {
+  justify-content: flex-end;
 }
 .druid-page {
   background-image: url("./assets/backgrounds/druid.jpg");
@@ -152,12 +165,12 @@ img {
   }
 }
 @media (min-width:992px) {
-  .guide-content {
+  .guide-content, .nav-container {
     max-width:960px
   }
 }
 @media (min-width:1200px) {
-  .guide-content {
+  .guide-content, .nav-container {
     max-width:1140px
   }
 }

@@ -8,9 +8,9 @@ const RotationSection = () => {
     return (
         <>
         <NavTabs tabNames={["Power", "Condi"]} hrefs={["Power-r", "Condi-r"]} gameClass="warrior">
-            <TabPane tabName="Power-r" active="true">
+            <TabPane tabName="Power-r" active={true}>
                 <NavTabs tabNames={["Axe-only", "No-swap axe", "Greatsword", "CC"]} hrefs={["Axe-only", "No-swap axe", "Greatsword-r", "CC"]} gameClass="warrior">
-                    <TabPane tabName="Axe-only" active="true">
+                    <TabPane tabName="Axe-only" active={true}>
                         <p>TEST</p>
                     </TabPane>
                     <TabPane tabName="No-swap axe">
