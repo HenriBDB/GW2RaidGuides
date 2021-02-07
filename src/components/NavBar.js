@@ -53,6 +53,7 @@ const NavBar = () => {
                             <HamburgerSpring
                                 buttonColor="transparent"
                                 barColor="white"
+                                style={{outline: "none"}}
                                 {...{ isActive, toggleButton }}
                             />
                         </li>
