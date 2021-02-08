@@ -8,7 +8,7 @@ import {
     NavWrapper,
     NavRow,
     NavLi,
-    Link,
+    NavLink,
     Logo,
     MenuItem,
     MenuItems,
@@ -23,6 +23,9 @@ const Navbar = () => {
 
     const toggleButton = () => {
         setIsActive(!isActive)
+    }
+    const closeMenu = () => {
+        setIsActive(false)
     }
 
     useEffect(() => {
@@ -47,23 +50,21 @@ const Navbar = () => {
             <NavWrapper>
                 <NavRow>
                     <NavLi>
-                        <Link href="/" onClick={toggleButton}>
+                        <NavLink to="/" onClick={closeMenu}>
                             <Logo src={PageLogo} width="60" height="60" alt="page-logo" />
-                        </Link>
+                        </NavLink>
                     </NavLi>
-                    {!burgerVisible && (
-                        <MenuItems>
-                            <MenuItem style={{ paddingRight: 40 }}>
-                                <Link href="class-guides">Class guides</Link>
-                            </MenuItem>
-                            <MenuItem style={{ paddingRight: 40 }}>
-                                <Link href="commander-guide">Commander guide</Link>
-                            </MenuItem>
-                            <MenuItem>
-                                <Link href="creators">Creators</Link>
-                            </MenuItem>
-                        </MenuItems>
-                    )}
+                    <MenuItems>
+                        <MenuItem style={{ paddingRight: 40 }}>
+                            <NavLink to="/class-guides">Class guides</NavLink>
+                        </MenuItem>
+                        <MenuItem style={{ paddingRight: 40 }}>
+                            <NavLink to="/commander-guide">Commander guide</NavLink>
+                        </MenuItem>
+                        <MenuItem>
+                            <NavLink to="/creators">Creators</NavLink>
+                        </MenuItem>
+                    </MenuItems>
                     {burgerVisible && (
                         <NavLi>
                             <HamburgerSpring
@@ -88,13 +89,13 @@ const Navbar = () => {
                             >
                                 <MobileMenuItems>
                                     <MobileMenuItem>
-                                        <Link href="class-guides" onClick={toggleButton}>Class guides</Link>
+                                        <NavLink to="/class-guides" onClick={closeMenu}>Class guides</NavLink>
                                     </MobileMenuItem>
                                     <MobileMenuItem>
-                                        <Link href="commander-guide" onClick={toggleButton}>Commander guide</Link>
+                                        <NavLink to="/commander-guide" onClick={closeMenu}>Commander guide</NavLink>
                                     </MobileMenuItem>
                                     <MobileMenuItem>
-                                        <Link href="creators" onClick={toggleButton}>Creators</Link>
+                                        <NavLink to="/creators" onClick={closeMenu}>Creators</NavLink>
                                     </MobileMenuItem>
                                 </MobileMenuItems>
                             </MobileNavWrapper>
