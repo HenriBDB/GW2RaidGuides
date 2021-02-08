@@ -17,7 +17,7 @@ import WarriorGuide from './WarriorGuide';
 const HomePage = () => {
   return (
     <>
-      <Router>
+      <Router onUpdate={() => window.scrollTo(0, 0)}>
         <Navbar />
         <CookieConsent
           location="top"

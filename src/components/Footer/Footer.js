@@ -35,7 +35,7 @@ const Footer = () => {
                 </FooterCol>
                     <FooterCol>
                         <FooterTitle>
-                            <FooterLink to="/privacy-policy">
+                            <FooterLink to="/privacy-policy" onClick={() => window.scrollTo(0, 0)}>
                                 <LinkIcon style={{ fontSize: 16 }} /> Privacy Policy
                             </FooterLink>
                         </FooterTitle>
