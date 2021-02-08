@@ -3,15 +3,15 @@ import React from "react";
 const Boons = () => {
     return (
         <>
-        <div class="row">
-            <div class="col-1 my-auto"><p class="vertical-text flip"><span><img class="clockwise" alt="Might.png" src="https://wiki.guildwars2.com/images/thumb/7/7c/Might.png/20px-Might.png" width="20" height="20"/></span> Might</p></div>
-            <div class="col-11">
+        <div className="row">
+            <div className="col-1 my-auto"><p className="vertical-text flip"><span><img className="clockwise" alt="Might.png" src="https://wiki.guildwars2.com/images/thumb/7/7c/Might.png/20px-Might.png" width="20" height="20"/></span> Might</p></div>
+            <div className="col-11">
                 <p>
                     &emsp;As a Druid, you are responsible to upkeep <span><img alt="Might.png" src="https://wiki.guildwars2.com/images/thumb/7/7c/Might.png/20px-Might.png" width="20" height="20"/><sub>25</sub></span> 
                     Might on the whole squad. This is done using the Druid trait: <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="2057"></span>. 
                     This causes your <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span> skills 
                     to generate 10-man might when used affected by the Druid's boon duration. Fully channelled, <br/>
-                    <ul class="mt-0">
+                    <ul className="mt-0">
                         <li><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31796"></span>, 
                             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32242"></span>, 
                             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32364"></span> generate each 
@@ -31,9 +31,9 @@ const Boons = () => {
             </div>
         </div>
         <hr/>
-        <div class="row">
-            <div class="col-1 my-auto"><p class="vertical-text flip"><span><img class="clockwise" alt="Fury.png" src="https://wiki.guildwars2.com/images/thumb/4/46/Fury.png/20px-Fury.png" width="20" height="20"/></span> Fury</p></div>
-            <div class="col-11">
+        <div className="row">
+            <div className="col-1 my-auto"><p className="vertical-text flip"><span><img className="clockwise" alt="Fury.png" src="https://wiki.guildwars2.com/images/thumb/4/46/Fury.png/20px-Fury.png" width="20" height="20"/></span> Fury</p></div>
+            <div className="col-11">
                 <p>
                     &emsp;You are also responsible for your sub's <span><img alt="Fury.png" src="https://wiki.guildwars2.com/images/thumb/4/46/Fury.png/20px-Fury.png" width="20" height="20"/></span> 
                     Fury and potentially also that of the squad. Your main source of <span><img alt="Fury.png" src="https://wiki.guildwars2.com/images/thumb/4/46/Fury.png/20px-Fury.png" width="20" height="20"/></span> 
@@ -47,16 +47,16 @@ const Boons = () => {
                     Fury uptime by swapping pets off-cooldown. In this scenario, a fury pet like Red Moa with <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12712"></span> 
                     or <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12493"></span> 
                     can be used to cover the gaps if no-one else in your sub is generating <span><img alt="Fury.png" src="https://wiki.guildwars2.com/images/thumb/4/46/Fury.png/20px-Fury.png" width="20" height="20"/></span> Fury.
-                    Once again refer to <span class="font-italic">Extra Resources</span> for Fury uptimes. <br/>
+                    Once again refer to <span className="font-italic">Extra Resources</span> for Fury uptimes. <br/>
                     In scnearios where you are using the Marksmanship trait-line instead of Skirmishing, you can also use the trait <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="986"></span> 
                     to help upkeep <span><img alt="Fury.png" src="https://wiki.guildwars2.com/images/thumb/4/46/Fury.png/20px-Fury.png" width="20" height="20"/></span> Fury.
                 </p>
             </div>
         </div>
         <hr/>
-        <div class="row">
-            <div class="col-1 my-auto"><p class="vertical-text flip"><span><img class="clockwise" alt="Regeneration.png" src="https://wiki.guildwars2.com/images/thumb/5/53/Regeneration.png/20px-Regeneration.png" width="20" height="20"/></span> Regeneration</p></div>
-            <div class="col-11">
+        <div className="row">
+            <div className="col-1 my-auto"><p className="vertical-text flip"><span><img className="clockwise" alt="Regeneration.png" src="https://wiki.guildwars2.com/images/thumb/5/53/Regeneration.png/20px-Regeneration.png" width="20" height="20"/></span> Regeneration</p></div>
+            <div className="col-11">
                 <p>
                     &emsp;Last but not least, we have <span><img alt="Regeneration.png" src="https://wiki.guildwars2.com/images/thumb/5/53/Regeneration.png/20px-Regeneration.png" width="20" height="20"/></span> 
                     Regeneration. If you factor in <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1992"></span>, <span data-armory-embed="items" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="24842"></span>, 

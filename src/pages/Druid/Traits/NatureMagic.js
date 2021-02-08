@@ -103,7 +103,7 @@ const NatureMagic = () => {
             <p>
                 This trait is very useful in ensuring your spirits stay alive and helping with buff uptimes using their active abilities. The passive buffs of your spirits are very powerful 
                 and your spirits staying alive longer means that the passive buff uptimes will be better. Always aim for 100% spirit uptimes during main phases. More about spirits and the buffs 
-                they provide using this trait can be found in <span class="font-italic">Boons and Buffs {'>'} Spirits</span>. A druid in raids should always have this trait.
+                they provide using this trait can be found in <span className="font-italic">Boons and Buffs {'>'} Spirits</span>. A druid in raids should always have this trait.
             </p>
         </TraitCard>
         </>
