@@ -59,7 +59,7 @@ export const MenuItems = styled.ul`
   padding: 0;
   margin: 0;
   justify-content: flex-end;
-  @media (max-width:992px) {
+  @media (max-width:780px) {
     display: none;
 }
 `
