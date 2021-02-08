@@ -4,7 +4,7 @@ const bgDark = "rgba(0, 0, 0, 0.9)"
 
 export const GuidesContainer = styled.div`
   width: 100%;
-  height: calc(100vh - 70px);
+  height: 100vh;
   background: ${bgDark};
   padding-top: 75px;
 `
@@ -21,13 +21,13 @@ export const Panel = styled.div`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: calc(100vh - 75px - 70px);
+  height: calc(100vh - 75px);
   color: #fff;
   position: relative;
   -webkit-transition: all 500ms ease-in;
   background-blend-mode: luminosity;
   @media (max-width: 1080px) {
-      height: calc((100vh - 75px - 70px)/3);
+      height: calc((100vh - 75px)/3);
   }
 `
 export const PanelTitle = styled.div`

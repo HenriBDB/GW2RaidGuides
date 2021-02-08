@@ -15,6 +15,7 @@
   background-attachment: fixed;
   min-height: 100vh;
   padding-top: 7rem !important;
+  padding-bottom: 4rem !important;
 }
 .warrior-page {
   background-image: url("./assets/backgrounds/warrior.jpg");
@@ -23,6 +24,7 @@
   background-attachment: fixed;
   min-height: 100vh;
   padding-top: 7rem !important;
+  padding-bottom: 4rem !important;
 }
 
 span[data-armory-size="20"] {

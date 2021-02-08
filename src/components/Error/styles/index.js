@@ -5,7 +5,7 @@ const color = "#69CCE7"
 
 export const ErrorContainer = styled.div`
   width: 100%;
-  height: calc(100vh - 70px);
+  height: 100vh;
   background: ${bgDark};
   padding-top: 10rem;
   display: flex;

@@ -32,7 +32,7 @@ const fadeIn = keyframes`
 `
 export const HomeContainer = styled.div`
   width: 100%;
-  height: calc(100vh - 70px);
+  height: 100vh;
   background: ${bgDark};
   padding-top: 75px;
   display: flex;
@@ -66,7 +66,7 @@ export const LeftContainer = styled.div`
   position: relative;
   width: 50%;
   height: 100%;
-  transform: translate(-100%, 0);
+  transform: translate(-101%, 0);
   animation: ${slideInLeft} 2s ease-out 1s;
   animation-fill-mode: forwards;
   :hover {
