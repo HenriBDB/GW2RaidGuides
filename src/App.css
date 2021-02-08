@@ -8,94 +8,6 @@
   --bg-dark: rgba(28,30,27,0.9);
   color: white;
 }
-
-.navbar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: rgba(28,30,27,0.8);
-  color: white;
-  height: 75px;
-  position: absolute;
-  width: 100%;
-  padding: 0;
-}
-.navbar ul {
-  list-style: none;
-}
-.navbar a {
-  color: white;
-  text-decoration: none;
-  font-size: 20px;
-  letter-spacing: 0.4px;
-  text-transform: uppercase;
-}
-.menu-item a {
-  padding-bottom: 5px;
-}
-.menu-item a:after {
-  content: '';
-  display: block;
-  border-bottom: 2px solid white;  
-  transform: scaleX(0);  
-  transition: transform 250ms ease-in-out;
-}
-.menu-item a:hover::after {
-  transform: scaleX(1); 
-}
-.nav-container {
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-}
-.nav-row, .menu-items {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-}
-@media (max-width: 780px) {
-  .menu-items  {
-    display: none;
-  }
-}
-.nav-row {
-  justify-content: space-between;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-.menu-items {
-  justify-content: flex-end;
-}
-.mobile-nav {
-  position: absolute;
-  top: 65px;
-  right: 0%;
-  width: 100%;
-  z-index: 1;
-  background-color:rgba(27,29,27,1);
-}
-.mobile-menu-items {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 0 20px 0;
-}
-.mobile-menu-items li {
-   width: 100%;
-   text-align: center;
-}
-.mobile-menu-items a {
-  padding: 15px 0; 
-  width: 100%;
-  display: block;
-}
-.mobile-menu-item a:hover {
-  color: rgba(27,29,27,1) !important;
-  background: white;
-}
 .druid-page {
   background-image: url("./assets/backgrounds/druid.jpg");
   background-repeat: no-repeat;
@@ -193,16 +105,13 @@ img {
   }
 }
 @media (min-width:992px) {
-  .guide-content, .nav-container {
+  .guide-content {
     max-width:960px
   }
 }
 @media (min-width:1200px) {
   .guide-content {
     max-width:1140px
-  }
-  .nav-container {
-    max-width: 1600px;
   }
 }
 .guide-content.ranger {
