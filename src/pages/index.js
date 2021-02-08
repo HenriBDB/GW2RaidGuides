@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import CookieConsent, { Cookies } from "react-cookie-consent";
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
 import PrivacyPolicy from '../components/PrivacyPolicy/PrivacyPolicy';
@@ -18,6 +19,18 @@ const HomePage = () => {
     <>
       <Router>
         <Navbar />
+        <CookieConsent
+          location="top"
+          buttonText="Continue to the site"
+          cookieName="GW2RaidGuidesCookie"
+          style={{ background: "rgb(37,39,37)", fontSize: "16px", textAlign: "center", display: "flex", alignItems: "center", justifyContent: 'center'
+          , paddingLeft: 50, paddingRight: 50 }}
+          buttonStyle={{ color: "white", fontSize: "16px", background: "#008000", padding: "15px" }}
+          expires={365}
+          overlay
+        >
+          This website uses cookies to enhance the user experience. By continuing to browse this website, you declare to accept the use of cookies.
+        </CookieConsent>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/commander-guide/" component={Squadmaking} />
