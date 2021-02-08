@@ -5,6 +5,6 @@ import FastHands from './Fast-Hands';
 import Greatsword from './Greatsword';
 import Leapfrog from './Leapfrog';
 import Longbow from './Longbow';
-import NoSwap from './No-Swap';
+import NoSwap from './AxeMaces';
 
 export {AxeOnly, CC, Condi, FastHands, Greatsword, Leapfrog, Longbow, NoSwap};

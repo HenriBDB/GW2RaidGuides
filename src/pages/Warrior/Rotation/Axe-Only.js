@@ -7,7 +7,11 @@ const AxeOnly = () => {
         <>
         <SkillIcon skillID={[30343,30435,30851,30189,30851]}>
             <p>
-                Standard opener, not much to say.
+                This is pretty much the same for every power build, it instantly fills out adrenaline which means we can activate berserk right after Head Butt.
+                This is a combination you should get very comfortable with.
+                It is the way to use the healing skill for a DPS increase.
+                While Decapitate resets its own cooldown, Blood Reckoning still gives 10 adrenaline, which fuels another Decapitate.
+                If timed right, this combo can be executed very quickly.
             </p>
         </SkillIcon>
         <SkillIcon skillID={[14421,14398,30851,14418,14398,30851]}>
