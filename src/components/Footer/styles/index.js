@@ -10,6 +10,7 @@ export const FooterWrapper = styled.footer`
   background-color: rgba(27,29,27,1);
   color: white;
   padding-top: 30px;
+  min-height: 200px;
 `
 export const FooterContent = styled.div`
   max-width: 1400px;
