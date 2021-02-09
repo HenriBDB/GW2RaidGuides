@@ -14,7 +14,7 @@ const PrivacyPolicy = () => {
 
     return (
         <PrivacyWrapper>
-            <ScrollArrow />
+            <ScrollArrow background='#7289DA'/>
             <PrivacyContainer>
                 <Title>
                     Privacy Policy

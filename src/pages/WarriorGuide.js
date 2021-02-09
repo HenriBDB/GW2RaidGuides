@@ -12,7 +12,7 @@ import ScrollArrow from '../components/ScrollArrowTop';
 const WarriorGuide = (props) => {
     return (
         <div className={"warrior-page pt-5"}>
-            <ScrollArrow />
+            <ScrollArrow background='#CF8D21'/>
             <div className="guide-content warrior">
                 <GuideTitle title="Flames of War" footer="King of Fires Edition" footer="version 1.2 Winds of Disenchantment"/>
                 <br/>
