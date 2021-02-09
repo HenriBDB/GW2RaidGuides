@@ -12,7 +12,7 @@ import {Openers, WeaponSwaps, BossRotations} from './Druid/Rotations';
 const DruidGuide = () => {
     return (
         <div className={"druid-page py-5"}>
-            <ScrollArrow />
+            <ScrollArrow background='#8ea53a'/>
             <div className="guide-content ranger">
                 <GuideTitle title="The Power of Nature" footer="A Druid Guide for GW2 Raiding by Eren Bole"/>
                 <p>

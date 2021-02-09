@@ -11,7 +11,6 @@ export const ArrowUp = styled(ArrowUpS)`
   cursor: pointer;
   animation: fadeIn 0.3s;
   transition: opacity 0.4s;
-  background: #6DBF52;
   opacity: 1;
     :hover{
         opacity: 0.5

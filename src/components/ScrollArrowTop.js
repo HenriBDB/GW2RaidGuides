@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ArrowUp } from './styles'
 
-const ScrollArrow = () => {
+const ScrollArrow = ({background}) => {
     const [showScroll, setShowScroll] = useState(false)
 
     const checkScrollTop = () => {
@@ -21,7 +21,7 @@ const ScrollArrow = () => {
     return (
         <ArrowUp
             onClick={scrollTop}
-            style={{ display: showScroll ? 'flex' : 'none'}}
+            style={{ display: showScroll ? 'flex' : 'none', background:`${background}`}}
         />
     )
 }
