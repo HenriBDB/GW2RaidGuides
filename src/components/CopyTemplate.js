@@ -31,6 +31,7 @@ const CopyTemplate = (props) => {
                     <input className="copy-template-area"
                         ref={textAreaRef}
                         value={props.template}
+                        readOnly
                     />
                 </form>
             </div>
@@ -42,6 +43,6 @@ export default CopyTemplate;
 
 CopyTemplate.propTypes = {
     gameClass: PropTypes.string,
-    template: PropTypes.number,
+    template: PropTypes.string,
     templateName: PropTypes.string
 }

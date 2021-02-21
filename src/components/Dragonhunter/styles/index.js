@@ -13,6 +13,7 @@ export const Wrapper = styled.div`
   background-attachment: fixed;
   min-height: 100vh;
   padding-top: 7rem;
+  padding-bottom: 4rem;
 `
 export const Container = styled.div`
   width: 60%;

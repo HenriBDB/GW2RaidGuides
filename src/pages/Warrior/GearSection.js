@@ -8,9 +8,9 @@ const GearSection = () => {
     return (
         <>
         <NavTabs tabNames={["Power", "Condi"]} hrefs={["Power-g", "Condi-g"]} gameClass="warrior">
-            <TabPane tabName="Power-g" active="true">
+            <TabPane tabName="Power-g" active={true}>
                 <NavTabs tabNames={["Thief", "Eagle", "Strength", "Misc"]} hrefs={["Thief", "Eagle", "Strength-g", "Misc"]} gameClass="warrior">
-                    <TabPane tabName="Thief" active="true">
+                    <TabPane tabName="Thief" active={true}>
                         <div className="row justify-content-center">
                             <span data-armory-embed="items" data-armory-size="75" data-armory-ids={[24818,46759,24615,46759,24868]}></span>
                         </div>

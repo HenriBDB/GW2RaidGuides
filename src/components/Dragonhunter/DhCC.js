@@ -18,12 +18,12 @@ const DhCC = () => {
             <p style={{ textAlign: "center", fontWeight: "bold" }}>
                 Skills
             </p>
-            <SkillCard skillID={9241}>
+            <SkillCard skillID={[9241]}>
                 <p>
                     <WikiIcon name={"Knockdown"} /> Knockback - 300 breakbar damage (instant)
                 </p>
             </SkillCard>
-            <SkillCard skillID={30273}>
+            <SkillCard skillID={[30273]}>
                 <p>
                     <WikiIcon name={"Pull"} /> Pull - 150 breakbar damage (instant)
                 </p>
@@ -31,17 +31,17 @@ const DhCC = () => {
                     <WikiIcon name={"Slow"} /> Slow (4s) - 50 breakbar damage per second (over time - 200 total breakbar after 4s)
                 </p>
             </SkillCard>
-            <SkillCard skillID={9226}>
+            <SkillCard skillID={[9226]}>
                 <p>
                     <WikiIcon name={"Pull"} /> Pull - 150 breakbar damage (instant)
                 </p>
             </SkillCard>
-            <SkillCard skillID={33134}>
+            <SkillCard skillID={[33134]}>
                 <p>
                     <WikiIcon name={"Pull"} /> Pull - 150 breakbar damage (instant)
                 </p>
             </SkillCard>
-            <SkillCard skillID={9099}>
+            <SkillCard skillID={[9099]}>
                 <p>
                     <WikiIcon name={"Immobile"} /> Immobilize (5s) - 50 breakbar damage per second (over time - 250 total breakbar after 5s)
                 </p>
@@ -49,12 +49,12 @@ const DhCC = () => {
             <p style={{ textAlign: "center", fontWeight: "bold" }}>
                 <a href="https://wiki.guildwars2.com/wiki/Leap_finisher" target="_blank" rel="noopener noreferrer" className="dhlink">Leap finishers</a> into <a href="https://wiki.guildwars2.com/wiki/Lightning_field" target="_blank" rel="noopener noreferrer" className="dhlink">Lightning fields</a>
             </p>
-            <SkillCard skillID={9080}>
+            <SkillCard skillID={[9080]}>
                 <p>
                     <WikiIcon name={"Daze"} /> Daze (1s) - 100 breakbar damage (instant)
                 </p>
             </SkillCard>
-            <SkillCard skillID={30225}>
+            <SkillCard skillID={[30225]}>
                 <p>
                     <WikiIcon name={"Daze"} /> Daze (1s) - 100 breakbar damage (instant)
                 </p>

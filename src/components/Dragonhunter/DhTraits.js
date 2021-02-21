@@ -29,7 +29,7 @@ const DhTraits = ({ showGear, showRotation, showGuides }) => {
                 Navigate with the tabs below to learn more about traits used for power Dragonhunter build (I will only go over actually used traits to keep this guide concise).</p>
             </SectionIntro>
             <NavTabs tabNames={["Zeal", "Radiance", "Virtues", "Dragonhunter"]} hrefs={["zeal", "radiance", "virtues", "dragonhunter"]} gameClass="dragonhunter">
-                <TabPane tabName="zeal" active="true">
+                <TabPane tabName="zeal" active={true}>
                     <Zeal />
                 </TabPane>
                 <TabPane tabName="radiance">

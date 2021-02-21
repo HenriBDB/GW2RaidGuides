@@ -59,7 +59,7 @@ const UtilitySection = () => {
             30 adrenaline.
         </p>
         <NavTabs tabNames={["Power", "Condi"]} hrefs={["Power-ub", "Condi-ub"]} gameClass="warrior">
-            <TabPane tabName="Power-ub" active="true">
+            <TabPane tabName="Power-ub" active={true}>
                 <SkillCard skillID={14404}>
                     <p>
                         For power we primarily fill the remaining slot with Signet of Might.

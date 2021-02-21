@@ -36,7 +36,7 @@ const DhVirtuesSkills = ({ showRotation, showGuides }) => {
                     </Link>.
                 </p>
             </SkillCard>
-            <SkillCard skillID={30225}>
+            <SkillCard skillID={[30225]}>
                 <p>
                     It's a targeted skill which allows you to leap to the target area within 800 range, healing you and allies around you and cleansing 2 conditions from you. It provides 100 breakbar damage if used as a <a href="https://wiki.guildwars2.com/wiki/Leap_finisher" target="_blank" rel="noopener noreferrer" className="dhlink">Leap finisher</a> into <a href="https://wiki.guildwars2.com/wiki/Lightning_field" target="_blank" rel="noopener noreferrer" className="dhlink">Lightning field</a>.
                 </p>
@@ -44,7 +44,7 @@ const DhVirtuesSkills = ({ showRotation, showGuides }) => {
                     Very useful for movement (getting to the boss, getting to Sabetha cannons, dropping poison on Slothasor, etc.) and self condi cleanse for example on Dhuum if your healers are struggling.
                 </p>
             </SkillCard>
-            <SkillCard skillID={30039}>
+            <SkillCard skillID={[30039]}>
                 <p>
                     Passive skill grants you <WikiIcon name={"Aegis"} /> Aegis every 40 seconds. Active skill grants <WikiIcon name={"Aegis"} /> Aegis to you and 4 of your allies. It also creates a shield in front of you which will block attacks for 3 seconds (it will not block attacks from the side or behind). It will also block the AoEs under your feet like blue teleports at Cairn or VG, pizza on Deimos, tantrum on Slothasor, provided that you don't move after casting it.
                 </p>
