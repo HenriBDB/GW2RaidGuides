@@ -12,7 +12,9 @@ const Spotter = () => {
         All power classes require <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1016"></span> apart from: 
         <ul>
             <li>Power Holosmith</li>
-            <li>Power Dragonhunter</li>
+            <li>Power Dragonhunter (except if running PI or Virtues)</li>
+            <li>Power Daredevil</li>
+            <li>Power Soulbeast</li>
         </ul>
 
         Some condition classes also benefit from <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1016"></span> including: 

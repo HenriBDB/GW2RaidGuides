@@ -18,7 +18,7 @@ const WeaponSwaps = () => {
         
         <BossCard src={VG} bossName={"Vale Guardian"} gameClass="ranger">
             <p>
-                VG is a low-pressure boss that requires little to no continuous healing yet heal bursts are needed after green explosions. The ideal 
+                On VG heals are mostly required before and after green explosions to ensure players don't down from them. The ideal 
                 is therefore to limit your <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span> to 
                 green explosions (while still ensureing 25 might ofc). Since boss phases are similar, a template loop rotation can be applied to all 3.
                 Entangle is not included in the rotation as timing will vary on tanking position but don't forget to entangle seekers!!!

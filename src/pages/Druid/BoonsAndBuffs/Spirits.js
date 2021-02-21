@@ -97,7 +97,7 @@ const Spirits = () => {
 
         <p><strong>When To Take Which:</strong></p>
         <ul>
-            <li>On fights that are condition heavy; Slothasor, Matthias without 90%+ <WikiIcon name="Resistance"/> Resistance uptime, Xera, 
+            <li>On fights that are condition heavy; Slothasor, Matthias without 90%+ <WikiIcon name="Resistance"/> Resistance uptime, Xera, Dhuum,
             Soulless Horror, Largos, you should take <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12489"></span> otherwise 
             take <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="21773"></span>.</li>
             <li>Whenever you have power dps classes, you should always take <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12497"></span>.</li>
@@ -109,7 +109,7 @@ const Spirits = () => {
             It should always be taken except if protection is covered by a Boon Thief or if protection is not needed such as on Samarog.</li>
             <li>For your elite skill, <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12569"></span> is 
             taken on most fights. Few cases with condition bursts allow you to take <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31677"></span> instead 
-            like KC after orb collection phase and Trio during Zane pulsing blind field. Finally, <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12580"></span> is 
+            like KC after orb collection phase and Trio during Zane pulsing blind field, Sloth shake and Dhuum torment. Finally, <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12580"></span> is 
             taken on fights that require <WikiIcon name="Immobile"/> Immobilise such as Vale Guardian and Escort.</li>
         </ul>
         </>
