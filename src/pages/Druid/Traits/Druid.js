@@ -69,7 +69,7 @@ const Druid = () => {
                 while in <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span>.
             </p>
             <p>
-                Do not take this trait if it can mess with tanking or aggroing as the stealth will change enemy targeting for example on Slothasor, Samarog or kiting flaks on Sabetha. 
+                Do not take this trait if it can mess with tanking or aggroing as the stealth will change enemy targeting for example on Slothasor, KC (statues) or kiting flaks on Sabetha. 
                 Otherwise, feel free to take this trait when the extra mobility comes in handly, Dhuum kiting being a prime example. As the <WikiIcon name="Superspeed"/> Superspeed 
                 is also applied to allies, you can use it to help them move back to boss after split, move away from stack for a mechanic etc...
             </p>

@@ -1,8 +1,6 @@
 import React from 'react'
 import BossCard from '../../../components/BossCard';
 import VG from '../../../assets/bosses/vg.png';
-import Sabetha from '../../../assets/bosses/sabetha.png';
-import Samarog from '../../../assets/bosses/samarog.png';
 import SH from '../../../assets/bosses/sh.png';
 import Sabir from '../../../assets/bosses/sabir.png';
 
@@ -18,22 +16,22 @@ const WeaponSwaps = () => {
         
         <BossCard src={VG} bossName={"Vale Guardian"} gameClass="ranger">
             <p>
-                VG is a low-pressure boss that requires little to no continuous healing yet heal bursts are needed after green explosions. The ideal 
+                On VG heals are mostly required before and after green explosions to ensure players don't down from them. The ideal 
                 is therefore to limit your <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span> to 
                 green explosions (while still ensureing 25 might ofc). Since boss phases are similar, a template loop rotation can be applied to all 3.
                 Entangle is not included in the rotation as timing will vary on tanking position but don't forget to entangle seekers!!!
             </p>
 
-            <a class="rota-btn" data-toggle="collapse" href="#vgRota" role="button" aria-expanded="false" aria-controls="vgRota">
+            <a className="rota-btn" data-toggle="collapse" href="#vgRota" role="button" aria-expanded="false" aria-controls="vgRota">
                 Toggle Rotation
             </a>
 
             <div className="collapse rotation-content" id="vgRota">
-                <ul class="rotation">
-                    <li class="event ranger-skill" timestamp="-1">
+                <ul className="rotation">
+                    <li className="event ranger-skill" timestamp="-1">
                         <p>Pre-cast offensive spirits</p>
                     </li>
-                    <li class="event ranger-skill" timestamp="0">
+                    <li className="event ranger-skill" timestamp="0">
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12621"></span></p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span></p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32253"></span></p>
@@ -46,10 +44,10 @@ const WeaponSwaps = () => {
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="21775"></span></p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12595"></span></p>
                     </li>
-                    <li class="event mechanic" timestamp="12">
+                    <li className="event mechanic" timestamp="12">
                         <p>Green appears</p>
                     </li>
-                    <li class="event ranger-skill" timestamp="12">
+                    <li className="event ranger-skill" timestamp="12">
                         <p>Swap to Staff</p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31889"></span></p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31496"></span></p>
@@ -58,10 +56,10 @@ const WeaponSwaps = () => {
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span></p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31318"></span></p>
                     </li>
-                    <li class="event mechanic" timestamp="18">
+                    <li className="event mechanic" timestamp="18">
                         <p>Green explodes</p>
                     </li>
-                    <li class="event ranger-skill" timestamp="18">
+                    <li className="event ranger-skill" timestamp="18">
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32253"></span></p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32242"></span></p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="34070"></span></p>
@@ -72,35 +70,35 @@ const WeaponSwaps = () => {
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31496"></span></p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31535"></span></p>
                     </li>
-                    <li class="event ranger-skill" timestamp="22">
+                    <li className="event ranger-skill" timestamp="22">
                         <p>Swap to Warhorn</p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12621"></span></p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="21775"></span></p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12595"></span></p>
                         <p>Use spirits, control seekers and use warhorn skills off-cooldown</p>
                     </li>
-                    <li class="event mechanic" timestamp="27">
+                    <li className="event mechanic" timestamp="27">
                         <p>Green appears</p>
                     </li>
-                    <li class="event ranger-skill" timestamp="31">
+                    <li className="event ranger-skill" timestamp="31">
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span></p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32253"></span></p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32242"></span></p>
                     </li>
-                    <li class="event mechanic" timestamp="33">
+                    <li className="event mechanic" timestamp="33">
                         <p>Green explodes</p>
                     </li>
-                    <li class="event ranger-skill" timestamp="33">
+                    <li className="event ranger-skill" timestamp="33">
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31318"></span></p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32242"></span></p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="34070"></span></p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32242"></span></p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31411"></span></p>
                     </li>
-                    <li class="event ranger-skill" timestamp="37">
+                    <li className="event ranger-skill" timestamp="37">
                         <p>Use spirits, control seekers and use warhorn skills off-cooldown</p>
                     </li>
-                    <li class="event mechanic" timestamp="42">
+                    <li className="event mechanic" timestamp="42">
                         <p>Repeat from second 12</p>
                     </li>
                 </ul>
@@ -119,22 +117,22 @@ const WeaponSwaps = () => {
                 are about to move.
             </p>
 
-            <a class="rota-btn" data-toggle="collapse" href="#shRota" role="button" aria-expanded="false" aria-controls="shRota">
+            <a className="rota-btn" data-toggle="collapse" href="#shRota" role="button" aria-expanded="false" aria-controls="shRota">
                 Toggle Rotation
             </a>
 
             <div className="collapse rotation-content" id="shRota">
-                <ul class="rotation">
-                    <li class="event mechanic" timestamp="0">
+                <ul className="rotation">
+                    <li className="event mechanic" timestamp="0">
                         <p>Tormented dead spawns</p>
                         <p>Let it come closer to stack</p>
                     </li>
-                    <li class="event ranger-skill" timestamp="3">
+                    <li className="event ranger-skill" timestamp="3">
                         <p>Swap to Longbow and push</p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="30448"></span></p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12511"></span></p>
                     </li>
-                    <li class="event ranger-skill" timestamp="5">
+                    <li className="event ranger-skill" timestamp="5">
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span></p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32242"></span></p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32364"></span></p>
@@ -147,28 +145,28 @@ const WeaponSwaps = () => {
                         </p>
                         <p>Use spirits if off cooldown once CA is depleted.</p>
                     </li>
-                    <li class="event mechanic" timestamp="20">
+                    <li className="event mechanic" timestamp="20">
                         <p>Tormented dead spawns</p>
                         <p>Let it come closer to stack</p>
                     </li>
-                    <li class="event ranger-skill" timestamp="21">
+                    <li className="event ranger-skill" timestamp="21">
                         <p>
                             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="21775"></span> if solo-healing
                             or <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12489"></span> otherwise.
                         </p>
                     </li>
-                    <li class="event ranger-skill" timestamp="23">
+                    <li className="event ranger-skill" timestamp="23">
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="30448"></span></p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12511"></span></p>
                     </li>
-                    <li class="event ranger-skill" timestamp="25">
+                    <li className="event ranger-skill" timestamp="25">
                         <p>Swap to Staff</p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31889"></span></p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31496"></span></p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31535"></span></p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31710"></span></p>
                     </li>
-                    <li class="event ranger-skill" timestamp="29">
+                    <li className="event ranger-skill" timestamp="29">
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span></p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32242"></span></p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32364"></span></p>
@@ -176,12 +174,12 @@ const WeaponSwaps = () => {
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32253"></span></p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32242"></span></p>
                     </li>
-                    <li class="event ranger-skill" timestamp="37">
+                    <li className="event ranger-skill" timestamp="37">
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31411"></span></p>
                         <p>Use spirits if off cooldown</p>
                         <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31889"></span></p>
                     </li>
-                    <li class="event mechanic" timestamp="40">
+                    <li className="event mechanic" timestamp="40">
                         <p>Repeat from start</p>
                     </li>
                 </ul>
@@ -195,19 +193,19 @@ const WeaponSwaps = () => {
                 and a staff in the other weapon set. It also assumes coordinated CC is completed 15s after the breakbar appears which should accurately represent a pug scenario.
             </p>
 
-            <a class="rota-btn" data-toggle="collapse" href="#sabirRota" role="button" aria-expanded="false" aria-controls="sabirRota">
+            <a className="rota-btn" data-toggle="collapse" href="#sabirRota" role="button" aria-expanded="false" aria-controls="sabirRota">
                 Toggle Rotation
             </a>
 
             <div className="collapse" id="sabirRota">
                 <p>Platform 3: </p>
                 <div className="rotation-content">
-                    <ul class="rotation">
-                        <li class="event ranger-skill" timestamp="-1">
+                    <ul className="rotation">
+                        <li className="event ranger-skill" timestamp="-1">
                             <p>Prestack might just before arriving on big platform.</p>
                             <p>Start on staff</p>
                         </li>
-                        <li class="event ranger-skill" timestamp="0">
+                        <li className="event ranger-skill" timestamp="0">
                             <p>While moving to boss:</p>
                             <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31889"></span></p>
                             <p>Offensive spirits</p>
@@ -219,10 +217,10 @@ const WeaponSwaps = () => {
                             <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31710"></span></p>
                             <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31889"></span></p>
                         </li>
-                        <li class="event mechanic" timestamp="12">
+                        <li className="event mechanic" timestamp="12">
                             <p>Go to tornado or use SAK to skip shockwave.</p>
                         </li>
-                        <li class="event ranger-skill" timestamp="15">
+                        <li className="event ranger-skill" timestamp="15">
                             <p>Swap to Shortbow</p>
                             <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span></p>
                             <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32253"></span></p>
@@ -231,10 +229,10 @@ const WeaponSwaps = () => {
                             <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32242"></span></p>
                             <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31411"></span></p>
                         </li>
-                        <li class="event mechanic" timestamp="30">
+                        <li className="event mechanic" timestamp="30">
                             <p>CC</p>
                         </li>
-                        <li class="event ranger-skill" timestamp="30">
+                        <li className="event ranger-skill" timestamp="30">
                             <p>When CC is called by commander, do as much as needed of:</p>
                             <p>Flash Discharge (SAK)</p>
                             <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12508"></span></p>
@@ -242,13 +240,13 @@ const WeaponSwaps = () => {
                             <p>Swap to staff for primal echoes and swap pets</p>
                             <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="43636"></span></p>
                         </li>
-                        <li class="event mechanic" timestamp="32">
+                        <li className="event mechanic" timestamp="32">
                             <p>Move out with bomb</p>
                         </li>
-                        <li class="event mechanic" timestamp="42">
+                        <li className="event mechanic" timestamp="42">
                             <p>Bubbles Spawn</p>
                         </li>
-                        <li class="event ranger-skill" timestamp="42">
+                        <li className="event ranger-skill" timestamp="42">
                             <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span></p>
                             <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31503"></span></p>
                             <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32253"></span> while moving to bubble</p>
@@ -256,7 +254,7 @@ const WeaponSwaps = () => {
                             <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32242"></span></p>
                             <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31411"></span></p>
                         </li>
-                        <li class="event mechanic" timestamp="48">
+                        <li className="event mechanic" timestamp="48">
                             <p>Repeat from Step 0 until 30%</p>
                             <p>Note that after first loop, step 0 is only 7 seconds long instead of 12 seconds.</p>
                             <p>For the loop after 30%, replace seconds 12-32 with the below:</p>
@@ -264,11 +262,11 @@ const WeaponSwaps = () => {
                     </ul>
                 </div>
                 <div id="rotation-content">
-                    <ul class="rotation">
-                        <li class="event mechanic" timestamp="12">
+                    <ul className="rotation">
+                        <li className="event mechanic" timestamp="12">
                             <p>Uncoordinated CC</p>
                         </li>
-                        <li class="event ranger-skill" timestamp="12">
+                        <li className="event ranger-skill" timestamp="12">
                             <p>Swap to Shortbow</p>
                             <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12508"></span></p>
                             <p>Flash Discharge (SAK)</p>
@@ -286,7 +284,7 @@ const WeaponSwaps = () => {
                             <p>Swap to staff for primal echoes</p>
                             <p>Use Flash Discharge (SAK) off cooldown</p>
                         </li>
-                        <li class="event mechanic" timestamp="32">
+                        <li className="event mechanic" timestamp="32">
                             <p>Move out with bomb</p>
                         </li>
                     </ul>

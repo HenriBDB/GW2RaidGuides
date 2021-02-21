@@ -11,21 +11,21 @@ const Boons = () => {
                     &emsp;As a Druid, you are responsible to upkeep <WikiIcon name="Might"><sub>25</sub></WikiIcon> Might on the whole squad. This is done using 
                     the Druid trait: <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="2057"></span>. 
                     This causes your <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span> skills 
-                    to generate 10-man might when used affected by the Druid's boon duration. Fully channelled, <br/>
-                    <ul className="mt-0">
-                        <li><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31796"></span>,&nbsp;
-                            <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32242"></span>,&nbsp;
-                            <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32364"></span> generate 
-                            each <WikiIcon name="Might"><sub>2</sub></WikiIcon> Might (12s).
-                        </li>
-                        <li>
-                            <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32253"></span> generates <WikiIcon name="Might"><sub>10</sub></WikiIcon> Might (12s).
-                        </li>
-                        <li>
-                            <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="34070"></span> generates <WikiIcon name="Might"><sub>8</sub></WikiIcon> Might (12s).
-                        </li>
-                    </ul>
+                    to generate 10-man might when used affected by the Druid's boon duration. Fully channelled, 
                 </p>
+                <ul className="mt-0">
+                    <li><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31796"></span>,&nbsp;
+                        <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32242"></span>,&nbsp;
+                        <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32364"></span> generate 
+                        each <WikiIcon name="Might"><sub>2</sub></WikiIcon> Might (12s).
+                    </li>
+                    <li>
+                        <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32253"></span> generates <WikiIcon name="Might"><sub>10</sub></WikiIcon> Might (12s).
+                    </li>
+                    <li>
+                        <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="34070"></span> generates <WikiIcon name="Might"><sub>8</sub></WikiIcon> Might (12s).
+                    </li>
+                </ul>
             </div>
         </div>
         <hr/>

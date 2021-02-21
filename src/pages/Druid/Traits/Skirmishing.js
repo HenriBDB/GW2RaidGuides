@@ -33,7 +33,7 @@ const Skirmishing = () => {
                 This trait is particularly useful when combined with <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12489"></span> as 
                 it allows you to heal more often, cleanse conditions more often, and ensures permanent <WikiIcon name={"Regeneration"}/> Regeneration for your 
                 sub-squad. Take this trait when you are taking <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12489"></span> for 
-                all the above reasons. Particularly useful on condition heavy bosses like Largos and Soulless Horror.
+                all the above reasons. Particularly useful on condition heavy bosses like Largos and Soulless Horror or to remove torment on Dhuum after the Greater Death Mark.
             </p>
         </TraitCard>
         <div className="row justify-content-center">
