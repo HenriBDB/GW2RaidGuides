@@ -93,7 +93,8 @@ const CommBasics = () => {
                             </p>
                         </BoonColumnDesc>
                     </BoonRow>
-                    <p className="text-center mb-0 mt-5">
+                    <div style={{width: '60%', height: 1, borderBottom: '1px solid white', margin: '40px auto 0'}}></div>
+                    <p className="text-center mb-0 mt-4">
                         For reference, here are boons your everyday squad should have with respective uptimes
                     </p>
                     <p className="text-center" style={{ fontStyle: "italic", fontSize: 12 }}>
