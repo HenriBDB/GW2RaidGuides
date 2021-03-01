@@ -5,6 +5,7 @@
   --ranger-primary: #8ea53a;
   --dh-primary: #69CCE7;
   --war-primary: #CF8D21;
+  --comm-primary: #B125D3;
   --custom-dark: rgba(37,39,37,0.8);
   --custom-dark-opaque: rgb(37,39,37);
   --bg-dark: rgba(28,30,27,0.9);
@@ -163,9 +164,11 @@ nav.custom-nav a.active {
   border: 1px solid #dee2e6;
   border-bottom: 1px transparent;
 }
-
 nav.custom-nav.dragonhunter a.active {
   color: var(--dh-primary);
+}
+nav.custom-nav.commander a.active {
+  color: var(--comm-primary);
 }
 nav.custom-nav.warrior a.active {
   color: var(--war-primary);
@@ -197,6 +200,7 @@ nav.custom-nav.warrior a.active {
 .title-card > .title {
   font-size: 1.25em;
   font-style: italic;
+  text-align: center;
 }
 .title-card > .title > footer {
   display: block;
