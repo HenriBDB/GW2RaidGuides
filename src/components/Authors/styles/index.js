@@ -8,9 +8,8 @@ export const AuthorsWrapper = styled.div`
   background: ${bgDark};
   padding-top: 75px;
   color: white;
-  min-height: calc(100vh - 200px);
+  min-height: 100vh;
   height: 100%;
-
 `
 export const AuthorsContainer = styled.div`
   width: 80%;

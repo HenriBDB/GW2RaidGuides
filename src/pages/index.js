@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import CookieConsent, { Cookies } from "react-cookie-consent";
+import CookieConsent from "react-cookie-consent";
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
 import PrivacyPolicy from '../components/PrivacyPolicy/PrivacyPolicy';

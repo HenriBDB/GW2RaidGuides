@@ -7,6 +7,7 @@ export const GuidesContainer = styled.div`
   height: 100vh;
   background: ${bgDark};
   padding-top: 75px;
+  overflow: hidden;
 `
 export const PanelContainer = styled.div`
   display: flex;
