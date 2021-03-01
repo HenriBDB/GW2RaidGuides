@@ -70,7 +70,7 @@ const Navbar = () => {
                                 activeStyle={{
                                     borderBottom: "2px solid white"
                                 }}>
-                                Commander guides
+                                Commander guide
                                             </NavLink>
                         </MenuItem>
                         <MenuItem>
@@ -123,7 +123,7 @@ const Navbar = () => {
                                                 color: "rgb(27,29,27)",
                                                 background: "white"
                                             }}>
-                                            Commander guides
+                                            Commander guide
                                             </NavLink>
                                     </MobileMenuItem>
                                     <MobileMenuItem>
