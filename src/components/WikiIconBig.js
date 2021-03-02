@@ -25,8 +25,8 @@ const buffLinks = {
     // "Crippled": "https://wiki.guildwars2.com/images/thumb/f/fb/Crippled.png/20px-Crippled.png",
     // "Chilled": "https://wiki.guildwars2.com/images/thumb/a/a6/Chilled.png/20px-Chilled.png",
     // "Burning": "https://wiki.guildwars2.com/images/thumb/4/45/Burning.png/20px-Burning.png",
-    // "Weakness": "https://wiki.guildwars2.com/images/thumb/f/f9/Weakness.png/20px-Weakness.png",
-    // "Slow": "https://wiki.guildwars2.com/images/f/f5/Slow.png",
+    "Weakness": "https://wiki.guildwars2.com/images/f/f9/Weakness.png",
+    "Slow": "https://wiki.guildwars2.com/images/f/f5/Slow.png",
 
 }
 

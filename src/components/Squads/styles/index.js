@@ -138,3 +138,46 @@ export const BoonOnDemand = styled.div`
     margin-right: 0;
   }
 `
+export const CondiRow = styled.div`
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  @media (max-width:720px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+`
+export const CondiColumn = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  @media (max-width:720px) {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 0.7rem;
+  }
+  @media (max-width:420px) {
+    justify-content: space-between;
+  }
+  @media (max-width:377px) {
+    flex-direction: column;
+    justify-content: center;
+    > div {
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+    }
+  }
+`
+export const CondiColumnDesc = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  width: 70%;
+  @media (max-width:720px) {
+    width: 100%;
+  }
+`
