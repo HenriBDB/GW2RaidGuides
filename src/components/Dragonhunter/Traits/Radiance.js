@@ -71,7 +71,7 @@ const Radiance = ({ showRotation, showGuides, showGear }) => {
                     <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="29887" className="dhskill"></span> gets renewed (i.e. fully <WikiIcon name={"Recharge"} /> recharged) when you kill a foe.
                 </p>
                 <p>
-                    This will work only with enemies that give you experience after they are killed, for example Blue, Green and Red Guardians at VG, Sappers at Sabetha, Slublings at Sabetha. This trait allows you to use <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="29887" className="dhskill"></span> more often in some fights which leads to dps increase. To see how it works in practice on different bosses check out
+                    This will work only with enemies that give you experience after they are killed, for example Blue, Green and Red Guardians at <WikiIcon name={"Vg"} /> VG, Sappers at <WikiIcon name={"Sabetha"} /> Sabetha, Slublings at <WikiIcon name={"Slothasor"} /> Sloth. This trait allows you to use <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="29887" className="dhskill"></span> more often in some fights which leads to dps increase. To see how it works in practice on different bosses check out
                     <Link to="dh-section-guides" smooth={true} duration={1000} onClick={showGuides}>
                         <span
                             style={{ color: "#69CCE7", cursor: "pointer" }}>
@@ -123,7 +123,7 @@ const Radiance = ({ showRotation, showGuides, showGear }) => {
                     </Link>for details.
                 </p>
                 <p>
-                    So when is it worth taking over <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1683" className="dhskill"></span>? Definitely in CC heavy fights like Slothasor or Samarog. See
+                    So when is it worth taking over <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1683" className="dhskill"></span>? Definitely in CC heavy fights like <WikiIcon name={"Slothasor"} /> Slothasor or <WikiIcon name={"Samarog"} /> Samarog. See
                     <Link to="dh-section-guides" smooth={true} duration={1000} onClick={showGuides}>
                         <span
                             style={{ color: "#69CCE7", cursor: "pointer" }}>

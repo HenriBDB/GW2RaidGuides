@@ -22,7 +22,7 @@ const DhUtilitySkills = () => {
                     </div>
                     <SkillCard skillID={[21664]}>
                         <p>
-                            Very powerful heal skill in your build with the shortest cast time. 33% of damage which you deal to enemies is returned to you as healing. The duration of this effect is 6 seconds, which makes it a great skill for fights like Gorseval (where you can safely damage the boss during CC phase after you use this heal skill), Adina (to keep damaging her when she gets <WikiIcon name={"Retaliation"} /> Retaliation) or VG (to get back to 100% health right after green explosion).
+                            Very powerful heal skill in your build with the shortest cast time. 33% of damage which you deal to enemies is returned to you as healing. The duration of this effect is 6 seconds, which makes it a great skill for fights like <WikiIcon name="Gorseval"/> Gorseval (where you can safely damage the boss during CC phase after you use this heal skill), <WikiIcon name="Adina"/> Adina (to keep damaging her when she gets <WikiIcon name={"Retaliation"} /> Retaliation) or <WikiIcon name="Vg"/> VG (to get back to 100% health right after green explosion).
                         </p>
                     </SkillCard>
                     <div className="row justify-content-center">
@@ -51,7 +51,7 @@ const DhUtilitySkills = () => {
                     </div>
                     <SkillCard skillID={[9153]}>
                         <p>
-                            Grants <WikiIcon name={"Retaliation"} /> Retaliation (5s) and <WikiIcon name={"Stability"} /> Stability (5 stacks for 6s) for the whole squad (10 people). You can use it when your <WikiIcon name={"Retaliation"} />Retaliation uptime is almost non existent (although at this point you may wanna play some other class) or when you need 10 man <WikiIcon name={"Stability"} /> Stability, for example on Slothasor or Cairn. Only take this skill if literally noone else can provide <WikiIcon name={"Stability"} /> Stability, which would be very rare because you will have a <WikiIcon name={"Firebrand"} /> Healbrand, <WikiIcon name={"Firebrand"} /> Quickbrand, <WikiIcon name={"Renegade"} /> Alacrity Renegade or 2 <WikiIcon name={"Chronomancer"} /> Chronos in almost every pug squad (and any of those can provide <WikiIcon name={"Stability"} /> Stability at almost no cost).
+                            Grants <WikiIcon name={"Retaliation"} /> Retaliation (5s) and <WikiIcon name={"Stability"} /> Stability (5 stacks for 6s) for the whole squad (10 people). You can use it when your <WikiIcon name={"Retaliation"} />Retaliation uptime is almost non existent (although at this point you may wanna play some other class) or when you need 10 man <WikiIcon name={"Stability"} /> Stability, for example on <WikiIcon name={"Slothasor"} /> Slothasor or <WikiIcon name={"Cairn"} /> Cairn. Only take this skill if literally noone else can provide <WikiIcon name={"Stability"} /> Stability, which would be very rare because you will have a <WikiIcon name={"Firebrand"} /> Healbrand, <WikiIcon name={"Firebrand"} /> Quickbrand, <WikiIcon name={"Renegade"} /> Alacrity Renegade or 2 <WikiIcon name={"Chronomancer"} /> Chronos in almost every pug squad (and any of those can provide <WikiIcon name={"Stability"} /> Stability at almost no cost).
                         </p>
                         <p>
                             Feel free to take this skill on meaningless events like Trio for Narella's tornadoes or on Escort for annoying mobs that could kick you into mines.
@@ -64,7 +64,7 @@ const DhUtilitySkills = () => {
                     </SkillCard>
                     <SkillCard skillID={[9251]}>
                         <p>
-                            Only take it if you need to refect projectiles and noone else can do it. May be useful for hands on Adina, bubble at Matthias or projectiles at Slohasor (if your squad struggles with Slubling control).
+                            Only take it if you need to refect projectiles and noone else can do it. May be useful for hands on <WikiIcon name={"Adina"} /> Adina, bubble at <WikiIcon name={"Matthias"} /> Matthias or projectiles at <WikiIcon name={"Slothasor"} /> Slothasor (if your squad struggles with Slubling control).
                         </p>
                     </SkillCard>
                 </TabPane>
@@ -119,12 +119,12 @@ const DhUtilitySkills = () => {
                     </SkillCard>
                     <SkillCard skillID={[30461]}>
                         <p>
-                            Provides a bit of healing on 5 targets every 3 seconds when it's passive and helps upkeeping scholar bonus on power classes. Active skill regenerates your and allies health to 100%. Useful in no healer comps (for example MO, Adina), which are not seen in pugs, but rather in more tryhard statics. 
+                            Provides a bit of healing on 5 targets every 3 seconds when it's passive and helps upkeeping scholar bonus on power classes. Active skill regenerates your and allies health to 100%. Useful in no healer comps (for example <WikiIcon name={"MO"} /> MO, <WikiIcon name={"Adina"} /> Adina), which are not seen in pugs, but rather in more tryhard statics. 
                         </p>
                     </SkillCard>
                     <SkillCard skillID={[9154]}>
                         <p>
-                            Refreshes your virtues and makes you invulnerable for 3 seconds. Useful on River to refresh <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="30225" className="dhskill"></span> and <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="30039" className="dhskill"></span> for heals and blocks, and on Broken King to not take any damage when the green circle under you is exploding. If you want to be a true hero, you can take it on Slothasor to block projectiles from shake (jump in the middle his hitbox while being invulnerable).
+                            Refreshes your virtues and makes you invulnerable for 3 seconds. Useful on River to refresh <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="30225" className="dhskill"></span> and <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="30039" className="dhskill"></span> for heals and blocks, and on Broken King to not take any damage when the green circle under you is exploding. If you want to be a true hero, you can take it on <WikiIcon name={"Slothasor"} /> Slothasor to block projectiles from shake (jump in the middle his hitbox while being invulnerable).
                         </p>
                     </SkillCard>
                 </TabPane>

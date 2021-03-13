@@ -26,7 +26,7 @@ const DhWeaponSkills = ({ showGuides, showWeapons }) => {
                     </SkillCard>
                     <SkillCard skillID={[9080]}>
                         <p>
-                            Helps with movement and allows you to get the boss faster (for example you can leap to Adina from the pillar instead of walking). It does a small amount of healing and it <WikiIcon name={"Blinded"} /> Blinds your target. It can hit up to 5 targets. It's also a <a href="https://wiki.guildwars2.com/wiki/Leap_finisher" target="_blank" rel="noopener noreferrer" className="dhlink">Leap finisher</a>.
+                            Helps with movement and allows you to get the boss faster (for example you can leap to <WikiIcon name={"Adina"} /> Adina from the pillar instead of walking). It does a small amount of healing and it <WikiIcon name={"Blinded"} /> Blinds your target. It can hit up to 5 targets. It's also a <a href="https://wiki.guildwars2.com/wiki/Leap_finisher" target="_blank" rel="noopener noreferrer" className="dhlink">Leap finisher</a>.
                         </p>
                     </SkillCard>
                     <SkillCard skillID={[9146]}>
@@ -39,7 +39,7 @@ const DhWeaponSkills = ({ showGuides, showWeapons }) => {
                     </SkillCard>
                     <SkillCard skillID={[9147, 9226]}>
                         <p>
-                            Throws projectiles and deals damage over time. It can hit up to 5 targets which are in 600 range, but if you use it inside the hitbox of the boss while other targets are around, it will hit once with all 5 projectiles, i.e. the boss will get all hits. This skill makes <WikiIcon name={"Dragonhunter"} /> Dragonhunter a strong choice in fights where mobs are around (for example Seekers at VG, Spirits at Gorseval, Slublings at Sloth, Statues at KC, and more). You will find instructions on how to use this skill in the most efficient way in different fights in
+                            Throws projectiles and deals damage over time. It can hit up to 5 targets which are in 600 range, but if you use it inside the hitbox of the boss while other targets are around, it will hit once with all 5 projectiles, i.e. the boss will get all hits. This skill makes <WikiIcon name={"Dragonhunter"} /> Dragonhunter a strong choice in fights where mobs are around (for example Seekers at <WikiIcon name={"Vg"} /> VG, Spirits at <WikiIcon name={"Gorseval"} /> Gorseval, Slublings at <WikiIcon name={"Slothasor"} /> Sloth, Statues at <WikiIcon name={"KC"} /> KC, and more). You will find instructions on how to use this skill in the most efficient way in different fights in
                             <Link to="dh-section-guides" smooth={true} duration={1000} onClick={showGuides}>
                                 <span
                                     style={{ color: "#69CCE7", cursor: "pointer" }}>
@@ -81,7 +81,7 @@ const DhWeaponSkills = ({ showGuides, showWeapons }) => {
                     </SkillCard>
                     <SkillCard skillID={[9099]}>
                         <p>
-                            Immobilizes and applies <WikiIcon name={"Vulnerability"} /> Vulnerability to your enemy. This skill is not a part of your rotation and it will be mostly used to immobilize targets like Rigom at Samarog or Pride at Deimos.
+                            Immobilizes and applies <WikiIcon name={"Vulnerability"} /> Vulnerability to your enemy. This skill is not a part of your rotation and it will be mostly used to immobilize targets like Rigom at <WikiIcon name={"Samarog"} /> Samarog or Pride at <WikiIcon name={"Deimos"} /> Deimos.
                         </p>
                     </SkillCard>
                 </TabPane>
@@ -122,7 +122,7 @@ const DhWeaponSkills = ({ showGuides, showWeapons }) => {
                     </SkillCard>
                     <SkillCard skillID={[9082]}>
                         <p>
-                            Creates a shield that blocks the next 3 attacks within the next 4 seconds. Explodes when it ends, dealing damage to enemies. It's a kind of skill which you can use to negate some mechanics like for example Slam on Gorseval or as a panic button when you have no dodges available. If you feel safe, you can just use it in your rotation for damage. It's also a <a href="https://wiki.guildwars2.com/wiki/Blast_finisher" target="_blank" rel="noopener noreferrer" className="dhlink">Blast finisher</a> which is triggered when you activate the skill.
+                            Creates a shield that blocks the next 3 attacks within the next 4 seconds. Explodes when it ends, dealing damage to enemies. It's a kind of skill which you can use to negate some mechanics like for example Slam on <WikiIcon name={"Gorseval"} /> Gorseval or as a panic button when you have no dodges available. If you feel safe, you can just use it in your rotation for damage. It's also a <a href="https://wiki.guildwars2.com/wiki/Blast_finisher" target="_blank" rel="noopener noreferrer" className="dhlink">Blast finisher</a> which is triggered when you activate the skill.
                         </p>
                     </SkillCard>
                 </TabPane>

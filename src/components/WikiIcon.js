@@ -34,12 +34,26 @@ const icons = {
     "Daze": "https://wiki.guildwars2.com/images/7/79/Daze.png",
     "Knockdown": "https://wiki.guildwars2.com/images/3/36/Knockdown.png",
     "Pull": "https://wiki.guildwars2.com/images/a/a4/Radius.png",
+    "Exposed": "https://wiki.guildwars2.com/images/6/6b/Exposed.png",
     //Attributes
     "Power": "https://wiki.guildwars2.com/images/2/23/Power.png",
     "Precision": "https://wiki.guildwars2.com/images/e/ee/Precision.png",
     "Ferocity": "https://wiki.guildwars2.com/images/f/f1/Ferocity.png",
     //Bosses
     "Vg": "https://wiki.guildwars2.com/images/f/fb/Mini_Vale_Guardian.png",
+    "Gorseval": "https://wiki.guildwars2.com/images/d/d1/Mini_Gorseval_the_Multifarious.png",
+    "Sabetha": "https://wiki.guildwars2.com/images/5/54/Mini_Sabetha.png",
+    "Slothasor": "https://wiki.guildwars2.com/images/1/12/Mini_Slothasor.png",
+    "Matthias": "https://wiki.guildwars2.com/images/5/5d/Mini_Matthias_Abomination.png",
+    "KC": "https://wiki.guildwars2.com/images/e/ea/Mini_Keep_Construct.png",
+    "Xera": "https://wiki.guildwars2.com/images/4/4b/Mini_Xera.png",
+    "Cairn": "https://wiki.guildwars2.com/images/b/b8/Mini_Cairn_the_Indomitable.png",
+    "MO": "https://wiki.guildwars2.com/images/c/c8/Mini_Mursaat_Overseer.png",
+    "Samarog": "https://wiki.guildwars2.com/images/f/f0/Mini_Samarog.png",
+    "Deimos": "https://i.imgur.com/S42DqS4.png",
+    "Dhuum": "https://wiki.guildwars2.com/images/e/e4/Mini_Dhuum.png",
+    "CA": "https://i.imgur.com/deYk1Q2.png",
+    "Adina": "https://i.imgur.com/xenhase.png",
     //Professions
     "Guardian": "https://wiki.guildwars2.com/images/6/6c/Guardian_tango_icon_200px.png",
     "Dragonhunter": "https://wiki.guildwars2.com/images/1/1f/Dragonhunter_tango_icon_200px.png",
@@ -70,6 +84,7 @@ const icons = {
     "Scourge": "https://wiki.guildwars2.com/images/8/8a/Scourge_tango_icon_200px.png",
     //Other
     "Recharge": "https://wiki.guildwars2.com/images/f/f4/Tango-recharge-darker.png",
+    "Signet": "https://wiki.guildwars2.com/images/5/56/Bane_Signet.png",
 }
 
 const WikiIcon = (props) => {

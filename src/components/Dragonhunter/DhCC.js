@@ -12,7 +12,7 @@ const DhCC = () => {
                     Below you can find CC skills which are easily accesible without the need to change weapons or utility skills.
                 </p>
                 <p>
-                    Remember that not all of the below CCs will be effective on every boss. For example, Samarog doesn't take any new conditions when breakbar appears, so trying to CC it with <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="9099" className="dhskill"></span> will have no result, unless you manage to cast it right before the breakbar.
+                    Remember that not all of the below CCs will be effective on every boss. For example, <WikiIcon name={"Samarog"} /> Samarog doesn't take any new conditions when breakbar appears, so trying to CC it with <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="9099" className="dhskill"></span> will have no result, unless you manage to cast it right before the breakbar.
                 </p>
             </SectionIntro>
             <p style={{ textAlign: "center", fontWeight: "bold" }}>
