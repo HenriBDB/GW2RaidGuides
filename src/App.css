@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 * {
   font-family: 'Noto Serif';
@@ -170,6 +171,22 @@ nav.custom-nav.dragonhunter a.active {
 nav.custom-nav.commander a.active {
   color: var(--comm-primary);
 }
+.comm-buffs span {
+  color: white !important;
+  font-family: 'Montserrat';
+}
+.comm-to-remember span {
+  color: white !important;
+}
+.comm-to-remember a {
+  text-decoration: none !important;
+}
+.comm-buffs a {
+  text-decoration: none !important;
+}
+.comm-buffs .gw2a-traits-embed {
+  display: inline !important;
+}
 nav.custom-nav.warrior a.active {
   color: var(--war-primary);
 }
@@ -252,6 +269,9 @@ nav.custom-nav.warrior a.active {
   display: flex;
   flex-direction: row;
   margin-right: 1em,
+}
+.comm-name > span {
+  color: var(--comm-primary) !important
 }
 .gear-card > .gear-name > span {
   margin-right: 15px

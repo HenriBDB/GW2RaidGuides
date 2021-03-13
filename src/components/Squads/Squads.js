@@ -11,12 +11,15 @@ import {
 import Arrow from '../../assets/icons/arrow-white.png';
 import CommIntro from './CommIntro';
 import CommBasics from './CommBasics';
+import CommRoles from './CommRoles';
+import CommProviders from './CommProviders';
+import CommSubgroups from './CommSubgroups';
 
 const Squads = () => {
     const [basicsVisible, setBasicsVisible] = useState(false)
     const [rolesVisible, setRolesVisible] = useState(false)
     const [providersVisible, setProvidersVisible] = useState(false)
-    const [subgroupsVisible, setSubgroupsVisible] = useState(false)
+    const [subgroupsVisible, setSubgroupsVisible] = useState(true)
     const [classesVisible, setClassesVisible] = useState(false)
     const [summaryVisible, setSummaryVisible] = useState(false)
 
@@ -77,7 +80,7 @@ const Squads = () => {
                     </SectionHeader>
                 </Link>
                 <SectionContent style={{ display: rolesVisible ? 'block' : 'none' }}>
-                    <CommBasics />
+                    <CommRoles />
                 </SectionContent>
                 {/* Providers */}
                 <Link to="comm-section-providers" smooth={true} duration={1000} onClick={toggleProviders}>
@@ -92,7 +95,7 @@ const Squads = () => {
                     </SectionHeader>
                 </Link>
                 <SectionContent style={{ display: providersVisible ? 'block' : 'none' }}>
-                    <CommBasics />
+                    <CommProviders />
                 </SectionContent>
                 {/* Subgroups */}
                 <Link to="comm-section-subgroups" smooth={true} duration={1000} onClick={toggleSubgroups}>
@@ -107,7 +110,7 @@ const Squads = () => {
                     </SectionHeader>
                 </Link>
                 <SectionContent style={{ display: subgroupsVisible ? 'block' : 'none' }}>
-                    <CommBasics />
+                    <CommSubgroups />
                 </SectionContent>
                 {/* Classes */}
                 <Link to="comm-section-classes" smooth={true} duration={1000} onClick={toggleClasses}>

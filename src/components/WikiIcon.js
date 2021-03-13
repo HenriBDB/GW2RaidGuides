@@ -39,21 +39,27 @@ const icons = {
     "Power": "https://wiki.guildwars2.com/images/2/23/Power.png",
     "Precision": "https://wiki.guildwars2.com/images/e/ee/Precision.png",
     "Ferocity": "https://wiki.guildwars2.com/images/f/f1/Ferocity.png",
+    "Toughness": "https://wiki.guildwars2.com/images/1/12/Toughness.png",
     //Bosses
     "Vg": "https://wiki.guildwars2.com/images/f/fb/Mini_Vale_Guardian.png",
     "Gorseval": "https://wiki.guildwars2.com/images/d/d1/Mini_Gorseval_the_Multifarious.png",
     "Sabetha": "https://wiki.guildwars2.com/images/5/54/Mini_Sabetha.png",
     "Slothasor": "https://wiki.guildwars2.com/images/1/12/Mini_Slothasor.png",
     "Matthias": "https://wiki.guildwars2.com/images/5/5d/Mini_Matthias_Abomination.png",
+    "Escort": "https://wiki.guildwars2.com/images/b/b5/Mini_McLeod_the_Silent.png",
     "KC": "https://wiki.guildwars2.com/images/e/ea/Mini_Keep_Construct.png",
     "Xera": "https://wiki.guildwars2.com/images/4/4b/Mini_Xera.png",
     "Cairn": "https://wiki.guildwars2.com/images/b/b8/Mini_Cairn_the_Indomitable.png",
     "MO": "https://wiki.guildwars2.com/images/c/c8/Mini_Mursaat_Overseer.png",
     "Samarog": "https://wiki.guildwars2.com/images/f/f0/Mini_Samarog.png",
     "Deimos": "https://i.imgur.com/S42DqS4.png",
+    "SH": "https://wiki.guildwars2.com/images/d/d4/Mini_Desmina.png",
+    "Eater": "https://i.imgur.com/YjWhv6q.png",
     "Dhuum": "https://wiki.guildwars2.com/images/e/e4/Mini_Dhuum.png",
     "CA": "https://i.imgur.com/deYk1Q2.png",
+    "Largos": "https://wiki.guildwars2.com/images/4/4b/Mini_Largos.png",
     "Adina": "https://i.imgur.com/xenhase.png",
+    "QTP": "https://wiki.guildwars2.com/images/8/8b/Mini_Qadim_the_Peerless.png",
     //Professions
     "Guardian": "https://wiki.guildwars2.com/images/6/6c/Guardian_tango_icon_200px.png",
     "Dragonhunter": "https://wiki.guildwars2.com/images/1/1f/Dragonhunter_tango_icon_200px.png",
@@ -85,6 +91,7 @@ const icons = {
     //Other
     "Recharge": "https://wiki.guildwars2.com/images/f/f4/Tango-recharge-darker.png",
     "Signet": "https://wiki.guildwars2.com/images/5/56/Bane_Signet.png",
+    "Plasma": "https://wiki.guildwars2.com/images/3/3d/Detonate_Plasma.png",
 }
 
 const WikiIcon = (props) => {
