@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from 'react-scroll';
 import SectionIntro from '../../components/SectionIntro';
+import WikiIcon from '../../components/WikiIcon';
 import NavTabs from '../../components/NavTabs';
 import TabPane from '../../components/TabPane';
 import Zeal from './Traits/Zeal';
@@ -26,7 +27,7 @@ const DhTraits = ({ showGear, showRotation, showGuides }) => {
                         </span>
                     </Link>
                 section). However, you can also use the basic trait set up on every boss as a beginner with 1 gearset.
-                Navigate with the tabs below to learn more about traits used for power zDragonhunter build (I will only go over actually used traits to keep this guide concise).</p>
+                Navigate with the tabs below to learn more about traits used for <WikiIcon name={"Dragonhunter"} /> Power Dragonhunter build (I will only go over actually used traits to keep this guide concise).</p>
             </SectionIntro>
             <NavTabs tabNames={["Zeal", "Radiance", "Virtues", "Dragonhunter"]} hrefs={["zeal", "radiance", "virtues", "dragonhunter"]} gameClass="dragonhunter">
                 <TabPane tabName="zeal" active={true}>

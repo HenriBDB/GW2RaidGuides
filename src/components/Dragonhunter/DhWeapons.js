@@ -27,7 +27,7 @@ const DhWeapons = ({ showTraits }) => {
         <SectionContainer style={{ paddingLeft: '2rem', paddingRight: '2rem' }}>
             <SectionIntro>
                 <p>
-                    As a power Dragonhunter you will always play Greatsword (due to the <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="653" className="dhskill"></span> trait explained in
+                    As a <WikiIcon name={"Dragonhunter"} /> Power Dragonhunter you will always play Greatsword (due to the <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="653" className="dhskill"></span> trait explained in
                 <Link to="dh-section-traits" smooth={true} duration={1000} onClick={showTraits}>
                         <span
                             style={{ color: "#69CCE7", cursor: "pointer" }}>

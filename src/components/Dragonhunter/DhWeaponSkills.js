@@ -12,7 +12,7 @@ const DhWeaponSkills = ({ showGuides, showWeapons }) => {
             <NavTabs tabNames={["Greatsword", "Scepter", "Sword", "Focus"]} hrefs={["dh-gs", "dh-scepter", "dh-sword", "dh-focus"]} gameClass="dragonhunter">
                 <TabPane tabName="dh-gs" active={true}>
                     <p>
-                        As mentioned in previous sections, Greatsword is the go-to weapon for a power Dragonhunter. It deals massive damage, has access to a powerful Symbol and some squad utility.
+                        As mentioned in previous sections, Greatsword is the go-to weapon for a <WikiIcon name={"Dragonhunter"} /> Power Dragonhunter. It deals massive damage, has access to a powerful Symbol and some squad utility.
                     </p><br />
                     <SkillCard skillID={[9137, 9138, 9139]}>
                         <p>
@@ -39,7 +39,7 @@ const DhWeaponSkills = ({ showGuides, showWeapons }) => {
                     </SkillCard>
                     <SkillCard skillID={[9147, 9226]}>
                         <p>
-                            Throws projectiles and deals damage over time. It can hit up to 5 targets which are in 600 range, but if you use it inside the hitbox of the boss while other targets are around, it will hit once with all 5 projectiles, i.e. the boss will get all hits. This skill makes Dragonhunter a strong choice in fights where mobs are around (for example Seekers at VG, Spirits at Gorseval, Slublings at Sloth, Statues at KC, and more). You will find instructions on how to use this skill in the most efficient way in different fights in
+                            Throws projectiles and deals damage over time. It can hit up to 5 targets which are in 600 range, but if you use it inside the hitbox of the boss while other targets are around, it will hit once with all 5 projectiles, i.e. the boss will get all hits. This skill makes <WikiIcon name={"Dragonhunter"} /> Dragonhunter a strong choice in fights where mobs are around (for example Seekers at VG, Spirits at Gorseval, Slublings at Sloth, Statues at KC, and more). You will find instructions on how to use this skill in the most efficient way in different fights in
                             <Link to="dh-section-guides" smooth={true} duration={1000} onClick={showGuides}>
                                 <span
                                     style={{ color: "#69CCE7", cursor: "pointer" }}>
@@ -113,7 +113,7 @@ const DhWeaponSkills = ({ showGuides, showWeapons }) => {
                 </TabPane>
                 <TabPane tabName="dh-focus">
                     <p>
-                        Focus is the only off-hand weapon you will take as a Dragonhunter on the fights where you want to deal damage. Sometimes you can take Shield instead, for example on Escort when you are on tower duty or on River when you are on Desmina duty, but I will not cover it in this guide.
+                        Focus is the only off-hand weapon you will take as a <WikiIcon name={"Dragonhunter"} /> Dragonhunter on the fights where you want to deal damage. Sometimes you can take Shield instead, for example on Escort when you are on tower duty or on River when you are on Desmina duty, but I will not cover it in this guide.
                     </p><br />
                     <SkillCard skillID={[9112]}>
                         <p>

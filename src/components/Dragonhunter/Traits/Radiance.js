@@ -38,7 +38,7 @@ const Radiance = ({ showRotation, showGuides, showGear }) => {
                     This is the go-to trait if you are playing sword. However, you have to remember, that by taking this trait you will lose <WikiIcon name={"Retaliation"} /> Retaliation from your heal skill.
                 </p>
                 <p>
-                    So, before taking this trait you have to consider if you will get enough <WikiIcon name={"Retaliation"} /> Retaliation from other sources (for example other guardians or boonthief):
+                    So, before taking this trait you have to consider if you will get enough <WikiIcon name={"Retaliation"} /> Retaliation from other sources (for example other Guardians or <WikiIcon name={"Thief"} /> Boonthief):
                 </p>
                 <ol>
                     <li>
@@ -51,7 +51,7 @@ const Radiance = ({ showRotation, showGuides, showGear }) => {
                                 if they are fast, you will most likely not benefit from the reduced sword skills <WikiIcon name={"Recharge"} /> recharge, so in such case you can trait <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="574" className="dhskill"></span> instead;
                             </li>
                             <li>
-                                if they are slow, you can still take <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="574" className="dhskill"></span> for better <WikiIcon name={"Retaliation"} /> Retaliation uptime, but you have to remember that your sword rotation won't line up well in such case. You can also just take this trait and suffer from missing <WikiIcon name={"Retaliation"} /> Retaliation. My recommendation here would be just to play scepter at this point. If you want to learn why <WikiIcon name={"Retaliation"} /> Retaliation is such an important boon for power Dragonhunter, go to
+                                if they are slow, you can still take <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="574" className="dhskill"></span> for better <WikiIcon name={"Retaliation"} /> Retaliation uptime, but you have to remember that your sword rotation won't line up well in such case. You can also just take this trait and suffer from missing <WikiIcon name={"Retaliation"} /> Retaliation. My recommendation here would be just to play scepter at this point. If you want to learn why <WikiIcon name={"Retaliation"} /> Retaliation is such an important boon for <WikiIcon name={"Dragonhunter"} /> Power Dragonhunter, go to
                                 <Link to="dh-section-rotation" smooth={true} duration={1000} onClick={showRotation}>
                                     <span
                                         style={{ color: "#69CCE7", cursor: "pointer" }}>
@@ -103,7 +103,7 @@ const Radiance = ({ showRotation, showGuides, showGear }) => {
                 <p> Grants 25% Crit Chance if you have <WikiIcon name={"Retaliation"} /> Retaliation (which is yet another reason why you want to upkeep high <WikiIcon name={"Retaliation"} /> Retaliation uptime on you - without this boon you are not crit capped). It also grants 6s of <WikiIcon name={"Might"} /> Might every second.
                 </p>
                 <p>
-                    It is your default choice, as your standard gearset assumes you are getting 25% Crit Chance from this trait..
+                    It is your default choice, as your standard gearset assumes you are getting 25% Crit Chance from this trait.
                 </p>
             </TraitCard>
             <TraitCard traitID={579} gameClass="dragonhunter">
@@ -132,7 +132,7 @@ const Radiance = ({ showRotation, showGuides, showGear }) => {
                     </Link>to see it in practice. Sometimes it will also be worth taking just to share the <WikiIcon name={"Power"} /> Power buff with your party, but I recommend doing it only in organized groups with well thought strats.
                 </p>
                 <p>
-                    If there are few guardians using Signet with this trait, the Signet buffs stack. After the recent fix, using the Signet doesn't make you lose all your previous stacks anymore.
+                    If there are few Guardians using Signet with this trait, the Signet buffs stack. After the recent fix, using the Signet doesn't make you lose all your previous stacks anymore.
                 </p>
             </TraitCard>
         </>
