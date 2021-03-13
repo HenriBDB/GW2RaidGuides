@@ -18,7 +18,7 @@ const DhCC = () => {
             <p style={{ textAlign: "center", fontWeight: "bold" }}>
                 Skills
             </p>
-            <SkillCard skillID={[9241]}>
+            <SkillCard skillID={[9093]}>
                 <p>
                     <WikiIcon name={"Knockdown"} /> Knockback - 300 breakbar damage (instant)
                 </p>

@@ -20,7 +20,7 @@ const icons = {
     "Stealth": "https://wiki.guildwars2.com/images/1/19/Stealth.png",
     //Conditions
     "Vulnerability": "https://wiki.guildwars2.com/images/a/af/Vulnerability.png",
-    "Immobile": "https://wiki.guildwars2.com/images/3/32/Immobile.png/20px-Immobile.png",
+    "Immobile": "https://wiki.guildwars2.com/images/3/32/Immobile.png",
     "Blinded": "https://wiki.guildwars2.com/images/3/33/Blinded.png",
     "Bleeding": "https://wiki.guildwars2.com/images/3/33/Bleeding.png",
     "Crippled": "https://wiki.guildwars2.com/images/f/fb/Crippled.png",
@@ -32,7 +32,7 @@ const icons = {
     "Torment": "https://wiki.guildwars2.com/images/0/08/Torment.png",
     //CC
     "Daze": "https://wiki.guildwars2.com/images/7/79/Daze.png",
-    "Knockdown": "https://wiki.guildwars2.com/images/3/36",
+    "Knockdown": "https://wiki.guildwars2.com/images/3/36/Knockdown.png",
     "Pull": "https://wiki.guildwars2.com/images/a/a4/Radius.png",
     //Attributes
     "Power": "https://wiki.guildwars2.com/images/2/23/Power.png",
