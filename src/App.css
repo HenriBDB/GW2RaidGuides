@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab&display=swap');
 
 * {
-  font-family: 'Noto Serif';
+  font-family: 'Montserrat';
   --ranger-primary: #8ea53a;
   --dh-primary: #69CCE7;
   --war-primary: #CF8D21;
@@ -11,6 +11,9 @@
   --custom-dark-opaque: rgb(37,39,37);
   --bg-dark: rgba(28,30,27,0.9);
   color: white;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Noto Serif";
 }
 /* Scrollbar */
 ::-webkit-scrollbar {
@@ -53,6 +56,7 @@ img {
 .vertical-text {
   writing-mode: vertical-rl;
   text-orientation: mixed;
+  font-family: "Noto serif"
 }
 
 .flip {
@@ -78,7 +82,18 @@ img {
 .dragonhunter .gw2a--M9jBV a:hover, .dh-trait-intro a:hover {
   text-decoration-color: var(--dh-primary);
 }
-
+.warrior .gw2a--M9jBV :first-child, .warrior-trait-intro :first-child{
+  color: var(--war-primary);
+}
+.warrior .gw2a--M9jBV a:hover, .warrior-trait-intro a:hover {
+  text-decoration-color: var(--war-primary);
+}
+.ranger .gw2a--M9jBV :first-child, .ranger-trait-intro :first-child{
+  color: var(--ranger-primary);
+}
+.ranger .gw2a--M9jBV a:hover, .ranger-trait-intro a:hover {
+  text-decoration-color: var(--ranger-primary);
+}
 .gw2a--t1hk1 {
   position: absolute;
   background-position: bottom left;
@@ -89,7 +104,6 @@ img {
   opacity: 0.4;
   background-position-x: -118px;
 }
-
 .fake-button {
   cursor: pointer;
 }
@@ -147,8 +161,8 @@ nav.custom-nav {
   margin-bottom: 0;
   list-style: none;
 }
-
 nav.custom-nav a {
+  font-family: "Noto Serif";
   color: white;
   border-bottom: 1px solid #dee2e6;
   border-radius: 0;
@@ -157,7 +171,6 @@ nav.custom-nav a {
   padding: .5rem 1rem;
   flex: 1 1 auto;
 }
-
 nav.custom-nav a.active {
   color: var(--ranger-primary);
   text-decoration: underline;
@@ -190,14 +203,12 @@ nav.custom-nav.commander a.active {
 nav.custom-nav.warrior a.active {
   color: var(--war-primary);
 }
-
 .custom-tab-content {
   background-color: var(--custom-dark);
   border: 1px solid #dee2e6;
   border-top: 0px solid;
   padding: 2em;
 }
-
 .custom-tab-content {
   background-color: var(--custom-dark);
   border: 1px solid #dee2e6;
@@ -206,7 +217,6 @@ nav.custom-nav.warrior a.active {
 }
 
 /* Cards */
-
 .title-card {
   border-radius: 0;
   border: 2px solid white;
@@ -220,6 +230,7 @@ nav.custom-nav.warrior a.active {
   text-align: center;
 }
 .title-card > .title > footer {
+  font-family: "Noto serif";
   display: block;
   font-size: 80%;
   color: #6c757d;
@@ -662,4 +673,32 @@ nav.custom-nav.warrior a.active {
   display: flex;
   color: white;
   justify-content: center;
+}
+.rota-btn:hover {
+  color: var(--ranger-primary)
+}
+.triangle-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+.triangle {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 130px 200px 130px;
+  border-color: transparent transparent white transparent;
+}
+.triangle .empty {
+  position: absolute;
+  top:9px;
+  left:-120px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 120px 186px 120px;
+  border-color: transparent transparent var(--custom-dark-opaque) transparent;
 }

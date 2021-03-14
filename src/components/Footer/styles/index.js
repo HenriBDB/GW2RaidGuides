@@ -44,6 +44,7 @@ export const FooterCol = styled.div`
   }
 `
 export const FooterTitle = styled.p`
+  font-family: "Noto serif";
   font-size: 20px;
   letter-spacing: 0.4px;
   @media(max-width: 870px) {
@@ -51,6 +52,7 @@ export const FooterTitle = styled.p`
   }
 `
 export const FooterLink = styled(Link)`
+  font-family: "Noto serif";
   font-size: 20px;
   color: white;
   :hover {
@@ -63,6 +65,7 @@ export const FooterLink = styled(Link)`
   }
 `
 export const ExternalLink = styled.a`
+  font-family: "Noto serif";
   font-size: 16px;
   padding-bottom: 5px;
   color: white;
@@ -85,5 +88,6 @@ export const LinkIcon = styled(FaLink)`
   fill: white;
 `
 export const Copyright = styled.p`
+  font-family: 'Noto Serif';
   font-size: 12px;
 `

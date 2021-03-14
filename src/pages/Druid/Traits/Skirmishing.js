@@ -81,7 +81,7 @@ const Skirmishing = () => {
             <p>The trait allows you to cast certain skills more often which can often have it's benefits like 
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12621"></span> for better <WikiIcon name={"Fury"}/> Fury, 
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32364"></span> for better CC, or even 
-            <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="34070"></span> for more <WikiIcon name={"Immobile"}/> Immobilise (Deimos prides, Rigom and Gorseval Spirits are example use cases).
+            <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="34070"></span> for more <WikiIcon name={"Immobile"}/> Immobilize (Deimos prides, Rigom and Gorseval Spirits are example use cases).
             These benefits give you a larger margin of error which makes this trait a comfortable choice in all scenarios. I myself always have it when I don't use Shortbow.</p>
         </TraitCard>
         <TraitCard traitID={1912}>

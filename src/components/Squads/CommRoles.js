@@ -19,7 +19,7 @@ const CommRoles = () => {
                     Rest we can break down to simple categories.
                 </p>
             </SectionIntro>
-            <NavTabs tabNames={["DPS", "Banners", "Supports", "Tank", "Special Roles"]} hrefs={["squad-dps", "squad-banners", "squad-suports", "squad-tank", "squad-special-roles"]} gameClass="commander">
+            <NavTabs tabNames={["DPS", "Banners", "Supports", "Tank", "Special Roles"]} hrefs={["squad-dps", "squad-banners", "squad-supports", "squad-tank", "squad-special-roles"]} gameClass="commander">
                 <TabPane tabName="squad-dps" active={true}>
                     <p>
                         Damage dealers of all kinds. It’s definitely better if dps players help the team in other ways than just hitting the boss as hard as they can, but in your everyday group, the expectations are simple - outdamage supports, deal with certain mechanics and survive.
@@ -30,10 +30,23 @@ const CommRoles = () => {
                         DPS Warrior with two banners as utility skills. Not a pure dps build, but also definitely not a support, comfortably sitting in a category of his own.
                     </p>
                 </TabPane>
-                <TabPane tabName="squad-suports" active={false}>
+                <TabPane tabName="squad-supports" active={false}>
                     <p>
                         We can further divide them into healers, damage dealers and tanks, but at their core, they (should) always provide boons at the same time. Tanking is a bit special, as it’s mostly trivial/non existent, but in a few cases there’s need for a dedicated tank.
                     </p>
+                    <div className="triangle-container">
+                        <div className="triangle">
+                            <p style={{position: "absolute", top: -25, left: -25}}>Boons</p>
+                            <p style={{position: "absolute", bottom: -245,left: -160}}>Damage</p>
+                            <p style={{position: "absolute", bottom: -245, right: -160}}>Healing</p>
+                            <p style={{position: "absolute", bottom: -130, left: "-50%", transform: "translate(-50%, 0)", display: 'flex', fontSize: "0.8rem", zIndex: 2}}><WikiIcon name={"Renegade"} />&nbsp;Alaren</p>
+                            <p style={{position: "absolute", bottom: -180, left: "-50%", transform: "translate(-50%, 0)", display: 'flex', fontSize: "0.8rem", zIndex: 2}}><WikiIcon name={"Firebrand"} />&nbsp;Quickbrand</p>
+                            <p style={{position: "absolute", bottom: -245, left: "-50%", transform: "translate(-50%, 0)", display: 'flex', fontSize: "0.8rem"}}><WikiIcon name={"Scourge"} />&nbsp;Healscourge</p>
+                            <p style={{position: "absolute", bottom: -122, left: -136, transform: "rotate(-56deg)", display: 'flex', fontSize: "0.8rem", zIndex: 2}}><WikiIcon name={"Chronomancer"} />&nbsp;STM Chrono</p>
+                            <p style={{position: "absolute", bottom: -113, right: -109, transform: "rotate(56deg)", display: 'flex', fontSize: "0.8rem", zIndex: 2}}><WikiIcon name={"Druid"} />&nbsp;Druid</p>
+                            <div className="empty"></div>
+                        </div>
+                    </div>
                     <p>
                         No support should only do one thing. That’s why we don’t see <WikiIcon name={"Scrapper"} /> Heal scrappers that much for example, but <WikiIcon name={"Druid"} /> Druid is staple in almost every squad due to the sheer utility and dps boost they provide.
                     </p>
@@ -80,7 +93,7 @@ const CommRoles = () => {
                             <WikiIcon name={"Chronomancer"} /> Chronomancer build played on <WikiIcon name={"Escort"} /> Escort only, you will be separated from the rest of the team to capture towers - either solo or by portaling the rest of the team there.
                         </p>
                     </CommCard>
-                    <p style={{textAlign: 'center' }}>
+                    <p style={{ textAlign: 'center' }}>
                         People ask for more roles in lfg - like cannons, pushers, kiters (Dhuum/Sabetha) - however all of those can be done by anyone or will be done by classes that are already in the squad (with some adjustment to the build if needed) for different reasons.
                     </p>
                 </TabPane>

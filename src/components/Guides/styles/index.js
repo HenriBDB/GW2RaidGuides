@@ -59,6 +59,7 @@ export const PanelTitle = styled.div`
   }
 `
 export const Link = styled.a`
+  font-family: "Noto serif";
   position: absolute;
   bottom: 35%;
   left: 50%;

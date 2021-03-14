@@ -14,12 +14,13 @@ import CommBasics from './CommBasics';
 import CommRoles from './CommRoles';
 import CommProviders from './CommProviders';
 import CommSubgroups from './CommSubgroups';
+import CommClasses from './CommClasses';
 
 const Squads = () => {
     const [basicsVisible, setBasicsVisible] = useState(false)
     const [rolesVisible, setRolesVisible] = useState(false)
     const [providersVisible, setProvidersVisible] = useState(false)
-    const [subgroupsVisible, setSubgroupsVisible] = useState(true)
+    const [subgroupsVisible, setSubgroupsVisible] = useState(false)
     const [classesVisible, setClassesVisible] = useState(false)
     const [summaryVisible, setSummaryVisible] = useState(false)
 
@@ -115,7 +116,7 @@ const Squads = () => {
                 {/* Classes */}
                 <Link to="comm-section-classes" smooth={true} duration={1000} onClick={toggleClasses}>
                     <SectionHeader id="comm-section-classes">
-                        <p> What class to choose </p>
+                        <p> Utility &amp; DPS </p>
                         <ArrowMoreButton
                             src={Arrow}
                             variants={variantsArrow}
@@ -125,7 +126,7 @@ const Squads = () => {
                     </SectionHeader>
                 </Link>
                 <SectionContent style={{ display: classesVisible ? 'block' : 'none' }}>
-                    <CommBasics />
+                    <CommClasses />
                 </SectionContent>
                 {/* Summary */}
                 <Link to="comm-section-summary" smooth={true} duration={1000} onClick={toggleSummary}>
@@ -140,7 +141,7 @@ const Squads = () => {
                     </SectionHeader>
                 </Link>
                 <SectionContent style={{ display: summaryVisible ? 'block' : 'none' }}>
-                    <CommBasics />
+                    {/* <CommBasics /> */}
                 </SectionContent>
             </Container>
         </Wrapper>

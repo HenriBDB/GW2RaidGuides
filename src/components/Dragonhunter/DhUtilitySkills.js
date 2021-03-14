@@ -124,7 +124,7 @@ const DhUtilitySkills = () => {
                     </SkillCard>
                     <SkillCard skillID={[9154]}>
                         <p>
-                            Refreshes your virtues and makes you invulnerable for 3 seconds. Useful on River to refresh <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="30225" className="dhskill"></span> and <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="30039" className="dhskill"></span> for heals and blocks, and on Broken King to not take any damage when the green circle under you is exploding. If you want to be a true hero, you can take it on <WikiIcon name={"Slothasor"} /> Slothasor to block projectiles from shake (jump in the middle his hitbox while being invulnerable).
+                            Refreshes your virtues and makes you <WikiIcon name={"Invuln"} /> invulnerable for 3 seconds. Useful on River to refresh <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="30225" className="dhskill"></span> and <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="30039" className="dhskill"></span> for heals and blocks, and on Broken King to not take any damage when the green circle under you is exploding. If you want to be a true hero, you can take it on <WikiIcon name={"Slothasor"} /> Slothasor to block projectiles from shake (jump in the middle his hitbox while being <WikiIcon name={"Invuln"} /> invulnerable).
                         </p>
                     </SkillCard>
                 </TabPane>

@@ -30,6 +30,7 @@ const icons = {
     "Weakness": "https://wiki.guildwars2.com/images/f/f9/Weakness.png",
     "Slow": "https://wiki.guildwars2.com/images/f/f5/Slow.png",
     "Torment": "https://wiki.guildwars2.com/images/0/08/Torment.png",
+    "Confusion": "https://wiki.guildwars2.com/images/e/e6/Confusion.png",
     //CC
     "Daze": "https://wiki.guildwars2.com/images/7/79/Daze.png",
     "Knockdown": "https://wiki.guildwars2.com/images/3/36/Knockdown.png",
@@ -92,6 +93,9 @@ const icons = {
     "Recharge": "https://wiki.guildwars2.com/images/f/f4/Tango-recharge-darker.png",
     "Signet": "https://wiki.guildwars2.com/images/5/56/Bane_Signet.png",
     "Plasma": "https://wiki.guildwars2.com/images/3/3d/Detonate_Plasma.png",
+    "Invuln": "https://wiki.guildwars2.com/images/e/eb/Determined.png",
+    "UnnaturalSignet": "https://wiki.guildwars2.com/images/2/20/Unnatural_Signet.png",
+    "Fractured": "https://wiki.guildwars2.com/images/7/78/Branded_Aura.png",
 }
 
 const WikiIcon = (props) => {

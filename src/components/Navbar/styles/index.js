@@ -12,6 +12,7 @@ export const NavContainer = styled.nav`
   width: 100%;
   padding: 0;
   a {
+    font-family: "Noto Serif";
     color: white;
     text-decoration: none;
     font-size: 20px;

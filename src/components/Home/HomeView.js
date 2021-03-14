@@ -30,14 +30,14 @@ const HomeView = () => {
                         backgroundImage: `url(${warriorBg})`,
                         backgroundPosition: 'left'
                     }} />
-                <PanelTitle href="class-guides"><span>Class </span><span>guides</span></PanelTitle>
+                <PanelTitle href="class-guides"><span style={{fontFamily:"Noto serif"}}>Class </span><span style={{fontFamily:"Noto serif"}}>guides</span></PanelTitle>
             </LeftContainer>
             <RightContainer
                 style={{
                     backgroundImage: `url(${squadsBg})`,
                     backgroundPosition: 'center'
                 }}>
-                <PanelTitle href="commander-guide"><span>Commander </span><span>guide</span></PanelTitle>
+                <PanelTitle href="commander-guide"><span style={{fontFamily:"Noto serif"}}>Commander </span><span style={{fontFamily:"Noto serif"}}>guide</span></PanelTitle>
             </RightContainer>
         </HomeContainer>
     )

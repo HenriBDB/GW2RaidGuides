@@ -18,7 +18,7 @@ const Druid = () => {
             <p>
                 <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span> skills are one of the main toolset for a Druid. Most of your 
                 healing will come from this as well as all your squad-wide <WikiIcon name="Might"/> Might generation. Other features part of it include access 
-                to <WikiIcon name="Blinded"/> Blind, <WikiIcon name="Immobile"/> Immobilise and condition cleansing.
+                to <WikiIcon name="Blinded"/> Blind, <WikiIcon name="Immobile"/> Immobilize and condition cleansing.
             </p>
         </TraitCard>
         <div className="row justify-content-center">

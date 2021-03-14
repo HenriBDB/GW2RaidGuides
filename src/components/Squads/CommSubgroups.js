@@ -12,7 +12,7 @@ const CommSubgroups = () => {
         <SectionContainer>
             <SectionIntro>
                 <p style={{ fontStyle: "normal", textAlign: 'center' }}>
-                    Splitting into subgroups allows us to achieve our desired distribution of boons, buffs and heals. .
+                    Splitting into subgroups allows us to achieve our desired distribution of boons, buffs and heals.
                 </p>
             </SectionIntro>
             <NavTabs tabNames={["Boon priority", "Buff Sharing", "Rules to remember"]} hrefs={["boon-priority", "buff-sharing", "rules-to-remember"]} gameClass="commander">
@@ -20,18 +20,18 @@ const CommSubgroups = () => {
                     <p>
                         Each skill has a maximum <b>number of targets</b> it can effect at once - Either 5 or 10 (or unlimited). In raid scenario, the boon priority looks like:
                     </p>
-                    <p style={{ fontSize: "1.2rem", textAlign: 'center', fontFamily: 'Montserrat' }}>
+                    <p style={{ fontSize: "1.2rem", textAlign: 'center', fontWeight: "bold"}}>
                         Subgroup &gt; Squad &gt; Minions (clones, spirits) &gt; NPCs (Desmina)
                     </p>
                     <p>
-                        All boons are based on <b>proximity</b>: If all targets are in the same subgroup (or all are in different ones), whoever is closest to the center of the boon source will get the boons
+                        All boons are based on <b>proximity</b>: If all targets are in the same subgroup (or all are in different ones), whoever is closest to the center of the boon source will get the boons.
                     </p>
                 </TabPane>
                 <TabPane tabName="buff-sharing" active={false}>
                     <p>
-                        Buffs share the same priority as boons, however with how passive buffs application work, we can achieve great uptimes on more than 5 players
+                        Buffs share the same priority as boons, however with how passive buffs application work, we can achieve great uptimes on more than 5 players.
                     </p>
-                    <p style={{ fontSize: "1.2rem", textAlign: 'center', fontFamily: 'Montserrat' }} className="comm-buffs">
+                    <p style={{ fontSize: "1.2rem", textAlign: 'center'}} className="comm-buffs">
                         <span data-armory-embed="traits" data-armory-size="30" data-armory-inline-text="wiki" data-armory-ids="1016"></span>, <span data-armory-embed="traits" data-armory-size="30" data-armory-inline-text="wiki" data-armory-ids="1786"></span>, <span data-armory-embed="traits" data-armory-size="30" data-armory-inline-text="wiki" data-armory-ids="1482"></span>, <span data-armory-embed="traits" data-armory-size="30" data-armory-inline-text="wiki" data-armory-ids="1984"></span>
                     </p>
                     <p>

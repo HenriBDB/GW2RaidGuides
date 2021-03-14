@@ -49,6 +49,7 @@ export const SectionHeader = styled.div`
   position: relative;
   cursor: pointer;
   > p {
+    font-family: "Noto serif";
     height: 33px;
     line-height: 33px;
     margin: 0;
@@ -163,7 +164,7 @@ export const CondiColumn = styled.div`
   @media (max-width:420px) {
     justify-content: space-between;
   }
-  @media (max-width:377px) {
+  @media (max-width:381px) {
     flex-direction: column;
     justify-content: center;
     > div {
