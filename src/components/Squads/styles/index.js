@@ -182,3 +182,21 @@ export const CondiColumnDesc = styled.div`
     width: 100%;
   }
 `
+export const SquadTemplatesContainer = styled.div`
+  display: flex;
+  justify-content: center;
+`
+export const SquadRole = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  > p {
+    margin-top: 5px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    font-style: italic;
+    text-align: center;
+  }
+`

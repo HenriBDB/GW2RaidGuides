@@ -106,7 +106,7 @@ const Spirits = () => {
             <li>You should take <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12493"></span> if 
             ever your squad is lacking fury or missing vulnerability uptime. Fury and vulnerability uptimes can be found in <span className="font-italic">Extra Resources</span>.</li>
             <li><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12495"></span> is taken to provide <WikiIcon name="Protection"/> Protection. 
-            It should always be taken except if protection is covered by a Boon Thief or if protection is not needed such as on Samarog.</li>
+            It should always be taken except if protection is covered by a Boonthief or if protection is not needed such as on Samarog.</li>
             <li>For your elite skill, <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12569"></span> is 
             taken on most fights. Few cases with condition bursts allow you to take <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31677"></span> instead 
             like KC after orb collection phase and Trio during Zane pulsing blind field, Sloth shake and Dhuum torment. Finally, <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12580"></span> is 

@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const buffLinks = {
+    //Buffs
     "Might": "https://wiki.guildwars2.com/images/7/7c/Might.png",
     "Fury": "https://wiki.guildwars2.com/images/4/46/Fury.png",
     "Swiftness": "https://wiki.guildwars2.com/images/a/af/Swiftness.png",
@@ -14,20 +15,21 @@ const buffLinks = {
     "Alacrity": "https://wiki.guildwars2.com/images/4/4c/Alacrity.png",
     "Aegis": "https://wiki.guildwars2.com/images/e/e5/Aegis.png",
     "Resistance": "https://wiki.guildwars2.com/images/4/4b/Resistance.png",
-
-    // "Superspeed": "https://wiki.guildwars2.com/images/thumb/1/1a/Super_Speed.png/20px-Super_Speed.png",
-    // "Stealth": "https://wiki.guildwars2.com/images/thumb/1/19/Stealth.png/20px-Stealth.png",
-
-    // "Vulnerability": "https://wiki.guildwars2.com/images/thumb/a/af/Vulnerability.png/20px-Vulnerability.png",
-    // "Immobile": "https://wiki.guildwars2.com/images/thumb/3/32/Immobile.png/20px-Immobile.png",
-    // "Blinded": "https://wiki.guildwars2.com/images/thumb/3/33/Blinded.png/20px-Blinded.png",
-    // "Bleeding": "https://wiki.guildwars2.com/images/thumb/3/33/Bleeding.png/20px-Bleeding.png",
-    // "Crippled": "https://wiki.guildwars2.com/images/thumb/f/fb/Crippled.png/20px-Crippled.png",
-    // "Chilled": "https://wiki.guildwars2.com/images/thumb/a/a6/Chilled.png/20px-Chilled.png",
-    // "Burning": "https://wiki.guildwars2.com/images/thumb/4/45/Burning.png/20px-Burning.png",
+    "Spotter": "https://wiki.guildwars2.com/images/b/b0/Spotter.png",
+    "Frost": "https://wiki.guildwars2.com/images/c/c6/Frost_Spirit.png",
+    "Sun": "https://wiki.guildwars2.com/images/d/dd/Sun_Spirit.png",
+    "Stone": "https://wiki.guildwars2.com/images/3/35/Stone_Spirit.png",
+    "Storm": "https://wiki.guildwars2.com/images/2/25/Storm_Spirit.png",
+    "AP": "https://wiki.guildwars2.com/images/5/54/Assassin%27s_Presence.png",
+    "Strength": "https://wiki.guildwars2.com/images/e/e1/Banner_of_Strength.png",
+    "Discipline": "https://wiki.guildwars2.com/images/5/5f/Banner_of_Discipline.png",
+    "EA": "https://wiki.guildwars2.com/images/4/4c/Empower_Allies.png",
+    "PD": "https://wiki.guildwars2.com/images/b/bf/Pinpoint_Distribution.png",
+    "BaneSignet": "https://wiki.guildwars2.com/images/5/56/Bane_Signet.png",
+    "WrathSignet": "https://wiki.guildwars2.com/images/1/18/Signet_of_Wrath.png",
+    //Condis
     "Weakness": "https://wiki.guildwars2.com/images/f/f9/Weakness.png",
     "Slow": "https://wiki.guildwars2.com/images/f/f5/Slow.png",
-
 }
 
 const WikiIconBig = (props) => {

@@ -13,6 +13,7 @@ import {
     CondiRow,
     CondiColumn,
     CondiColumnDesc,
+    SquadRole
 } from './styles'
 
 const CommBasics = () => {
@@ -32,7 +33,7 @@ const CommBasics = () => {
                     These are the fundamentals behind every raid squad. <b>The goal is to achieve close to permanent boon uptime with the least amount of supports possible</b>. The more dps, the better. That also goes for support players - just because they’re providing boons, doesn’t mean they are unable to deal damage (or heal for that matter). In other words, <b>role compression</b> is important. There are limited spots in a squad and you want to make each one count.
                 </p>
                 <p style={{ fontStyle: "normal" }}>
-                    We can see a lot of high-end groups <b>utilizing kits</b> of DPS classes in a way that allows them to bypass the requirement of support class and reduce them to bare minimum - <WikiIcon name={"Chronomancer"} /> Chronomancer/<WikiIcon name={"Guardian"} /> Guardian stacking for <WikiIcon name={"Quickness"} /> Quickness, <WikiIcon name={"Soulbeast"} /> Soulbeasts taking <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="45970"> </span>, <WikiIcon name={"Renegade"} /> Renegades supplying <WikiIcon name={"Alacrity"} /> Alacrity and so on.
+                    We can see a lot of high-end groups <b>utilizing kits</b> of DPS classes in a way that allows them to bypass the requirement of support class and reduce them to bare minimum - <WikiIcon name={"Chronomancer"} /> Chronomancer/<WikiIcon name={"Guardian"} /> Guardian stacking for <WikiIcon name={"Quickness"} /> Quickness, <WikiIcon name={"Soulbeast"} /> Soulbeasts taking <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="45970"></span>, <WikiIcon name={"Renegade"} /> Renegades supplying <WikiIcon name={"Alacrity"} /> Alacrity and so on.
                 </p>
                 <p style={{ fontStyle: "normal" }}>
                     This kind of optimization should transfer to pug groups too. Much more lightly of course and mainly focused around supports. If squad requires additional healer, then it should be either <WikiIcon name={"Firebrand"} /> Firebrand or <WikiIcon name={"Renegade"} /> Renegade - they are already in the group to provide their respective boons, so it’s much better for one of them to take on the role of a healing instead of dedicating whole new slot for ‘just’ a healer.
@@ -139,12 +140,131 @@ const CommBasics = () => {
                     </div>
                 </TabPane>
                 <TabPane tabName="squad-buffs" active={false}>
-                    <p>
-                        Due to <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="574" className="dhskill"></span> you will gain <WikiIconBig name={"Retaliation"} /> Retaliation when you use a heal skill, so on fights where you don't need to save it for certain mechanics to heal up, you can use it as a <WikiIconBig name={"Retaliation"} /> Retaliation source.
+                    <BoonRow>
+                        <BoonColumn>
+                            <h4 className="mb-0 text-center">Druid (Soulbeast)</h4>
+                            <div className="row justify-content-center mt-2">
+                                <div className="d-flex flex-row justify-content-center">
+                                    <div className="mr-3">
+                                        <SquadRole>
+                                            <WikiIconBig name={"Spotter"} />
+                                            <p style={{ textTransform: 'capitalize', fontSize: '0.7rem' }}>Spotter</p>
+                                        </SquadRole>
+                                    </div>
+                                    <SquadRole>
+                                        <div className="d-flex flex-row justify-content-center">
+                                            <WikiIconBig name={"Frost"} />
+                                            <WikiIconBig name={"Sun"} />
+                                            <WikiIconBig name={"Stone"} />
+                                            <WikiIconBig name={"Storm"} />
+                                        </div>
+                                        <p style={{ textTransform: 'capitalize', fontSize: '0.7rem' }}>Spirits</p>
+                                    </SquadRole>
+                                </div>
+                            </div>
+                        </BoonColumn>
+                        <BoonColumnDesc>
+                            <p>
+                                <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1016"></span> is a trait that passively gives +100 <WikiIcon name={"Precision"} /> Precision to 4 nearby players and spirits give extra on hit effect for everyone.
+                            </p>
+                            <p>
+                                <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12497"></span> increases damage by 5%, <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12498"></span> applies <WikiIcon name={"Burning"} />Burning, <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12493"></span> applies <WikiIcon name={"Vulnerability"} /> Vulnerability and <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12495"></span> applies <WikiIcon name={"Protection"} />Protection to players. These will be commonly taken by <WikiIcon name={"Druid"} /> Druid, however <WikiIcon name={"Soulbeast"} /> Soulbeast can take one spirit of choice if needed (and <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1016"></span> if he’s power)
+                            </p>
+                        </BoonColumnDesc>
+                    </BoonRow>
+                    <BoonRow>
+                        <BoonColumn>
+                            <h4 className="mb-0 text-center">Alaren</h4>
+                            <div className="row justify-content-center mt-2">
+                                <div className="d-flex flex-row justify-content-center">
+                                    <SquadRole>
+                                        <WikiIconBig name={"AP"} />
+                                        <p style={{ textTransform: 'capitalize', fontSize: '0.7rem' }} className="mb-0">AP</p>
+                                    </SquadRole>
+                                </div>
+                            </div>
+                        </BoonColumn>
+                        <BoonColumnDesc>
+                            <p className="mb-0">
+                                <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1786"></span> is a trait taken by every <WikiIcon name={"Renegade"} /> alacrity renegade - be it power or heal version. It passively gives 150 <WikiIcon name={"Ferocity"} /> Ferocity to 4 nearby players, therefore power classes will benefit the most from it.
+                            </p>
+                        </BoonColumnDesc>
+                    </BoonRow>
+                    <BoonRow>
+                        <BoonColumn>
+                            <h4 className="mb-0 text-center">Warrior</h4>
+                            <div className="row justify-content-center mt-2">
+                                <div className="d-flex flex-row justify-content-center">
+                                    <SquadRole>
+                                        <div className="d-flex flex-row justify-content-center">
+                                            <WikiIconBig name={"Strength"} />
+                                            <WikiIconBig name={"Discipline"} />
+                                        </div>
+                                        <p style={{ textTransform: 'capitalize', fontSize: '0.7rem' }} className="mb-0">Banners</p>
+                                    </SquadRole>
+                                </div>
+                            </div>
+                        </BoonColumn>
+                        <BoonColumnDesc>
+                            <p className="mb-0">
+                                Banners are pure stat boosts and once placed, they improve stats of everyone in the squad.<br />
+                                <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="14405"></span> increases <WikiIcon name={"Power"} /> Power and <WikiIcon name={"CondiDamage"} /> Condition damage by 100.<br />
+                                <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="14407"></span> increases <WikiIcon name={"Precision"} /> Precision and <WikiIcon name={"Ferocity"} /> Ferocity by 100
+                            </p>
+                        </BoonColumnDesc>
+                    </BoonRow>
+                    <p style={{ fontStyle: 'italic', textAlign: 'center', marginTop: 45, marginBottom: 45 }}>
+                        The above buffs you will encounter in pretty much every squad. All are really powerful, and they can be either easily picked (i.e. traitline is already taken for different reasons/there are no better skill options), or the benefits they give to the squad simply outweighs personal dps loss one will suffer.
                     </p>
-                    <div className="row justify-content-center">
-                        <h4 className="mb-0">Default</h4>
-                    </div>
+                    <BoonRow>
+                        <BoonColumn>
+                            <div className="row justify-content-center mt-2">
+                                <div className="d-flex flex-row justify-content-center">
+                                    <div className="mr-3">
+                                        <SquadRole>
+                                            <h4 className="mb-2 text-center">Warrior</h4>
+                                            <WikiIconBig name={"EA"} />
+                                            <p style={{ textTransform: 'capitalize', fontSize: '0.7rem' }}>Empower Allies</p>
+                                        </SquadRole>
+                                    </div>
+                                    <SquadRole>
+                                        <h4 className="mb-2 text-center">Engineer</h4>
+                                        <WikiIconBig name={"PD"} />
+                                        <p style={{ textTransform: 'capitalize', fontSize: '0.7rem' }}>Pinpoint Distribution</p>
+                                    </SquadRole>
+                                </div>
+                            </div>
+                        </BoonColumn>
+                        <BoonColumnDesc>
+                            <p className="mb-0">
+                                Both <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1482"></span> (+100 <WikiIcon name={"Power"} /> Power to 4 nearby players) and <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1984"></span> (+100 <WikiIcon name={"CondiDamage"} /> Condition damage to 4 nearby players) are good, however the cost for taking them is too big and is only worth it in specific scenarios/groups.
+                            </p>
+                        </BoonColumnDesc>
+                    </BoonRow>
+                    <BoonRow>
+                        <BoonColumn>
+                            <h4 className="mb-0 text-center">Guardian</h4>
+                            <div className="row justify-content-center mt-2">
+                                <div className="d-flex flex-row justify-content-center">
+                                    <div className="mr-3">
+                                        <SquadRole>
+                                            <WikiIconBig name={"BaneSignet"} />
+                                            <p style={{ textTransform: 'capitalize', fontSize: '0.7rem' }} className="mb-0">Bane Signet</p>
+                                        </SquadRole>
+                                    </div>
+                                    <SquadRole>
+                                        <WikiIconBig name={"WrathSignet"} />
+                                        <p style={{ textTransform: 'capitalize', fontSize: '0.7rem' }} className="mb-0">Signet of Wrath</p>
+                                    </SquadRole>
+                                </div>
+                            </div>
+                        </BoonColumn>
+                        <BoonColumnDesc>
+                            <p className="mb-0">
+                                <a href="https://wiki.guildwars2.com/wiki/Signet#Guardian" target="_blank" rel="noopener noreferrer" className="commlink">Signets</a> are not permanent - if traited, they share their effects (+216 <WikiIcon name={"Power"} /> Power/<WikiIcon name={"CondiDamage"} /> Condition damage respectively) to 4 nearby players for 10 seconds upon activation. They’re somewhat common even in pugs, but treat them as extra bonus only.
+                            </p>
+                        </BoonColumnDesc>
+                    </BoonRow>
                 </TabPane>
                 <TabPane tabName="squad-conditions" active={false}>
                     <p style={{ fontStyle: 'normal' }}>
@@ -165,18 +285,18 @@ const CommBasics = () => {
                             </p>
                         </CondiColumnDesc>
                         <CondiColumn>
-                            <div style={{display: 'flex', alignItems: 'center', marginTop: 20, marginBottom: 20}}>
+                            <div style={{ display: 'flex', alignItems: 'center', marginTop: 20, marginBottom: 20 }}>
                                 <WikiIconBig name={"Slow"} />
-                                <div style={{display: 'block'}}>
-                                    <p className="my-0" style={{fontSize: '1.2rem', lineHeight: 1}}>Slow</p>
-                                    <p className="my-0" style={{fontSize: '0.8rem'}}>Power Chrono</p>
+                                <div style={{ display: 'block' }}>
+                                    <p className="my-0" style={{ fontSize: '1.2rem', lineHeight: 1 }}>Slow</p>
+                                    <p className="my-0" style={{ fontSize: '0.8rem' }}>Power Chrono</p>
                                 </div>
                             </div>
-                            <div style={{display: 'flex', alignItems: 'center', marginTop: 20, marginBottom: 20}}>
+                            <div style={{ display: 'flex', alignItems: 'center', marginTop: 20, marginBottom: 20 }}>
                                 <WikiIconBig name={"Weakness"} />
-                                <div style={{display: 'block'}}>
-                                    <p className="my-0" style={{fontSize: '1.2rem', lineHeight: 1}}>Weakness</p>
-                                    <p className="my-0" style={{fontSize: '0.8rem'}}>Power Weaver</p>
+                                <div style={{ display: 'block' }}>
+                                    <p className="my-0" style={{ fontSize: '1.2rem', lineHeight: 1 }}>Weakness</p>
+                                    <p className="my-0" style={{ fontSize: '0.8rem' }}>Power Weaver</p>
                                 </div>
                             </div>
                         </CondiColumn>

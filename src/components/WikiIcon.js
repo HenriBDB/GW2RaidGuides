@@ -41,6 +41,7 @@ const icons = {
     "Precision": "https://wiki.guildwars2.com/images/e/ee/Precision.png",
     "Ferocity": "https://wiki.guildwars2.com/images/f/f1/Ferocity.png",
     "Toughness": "https://wiki.guildwars2.com/images/1/12/Toughness.png",
+    "CondiDamage": "https://wiki.guildwars2.com/images/5/54/Condition_Damage.png",
     //Bosses
     "Vg": "https://wiki.guildwars2.com/images/f/fb/Mini_Vale_Guardian.png",
     "Gorseval": "https://wiki.guildwars2.com/images/d/d1/Mini_Gorseval_the_Multifarious.png",
@@ -59,6 +60,7 @@ const icons = {
     "Dhuum": "https://wiki.guildwars2.com/images/e/e4/Mini_Dhuum.png",
     "CA": "https://i.imgur.com/deYk1Q2.png",
     "Largos": "https://wiki.guildwars2.com/images/4/4b/Mini_Largos.png",
+    "Qadim": "https://wiki.guildwars2.com/images/f/f2/Mini_Qadim.png",
     "Adina": "https://i.imgur.com/xenhase.png",
     "QTP": "https://wiki.guildwars2.com/images/8/8b/Mini_Qadim_the_Peerless.png",
     //Professions

@@ -63,7 +63,7 @@ const CommRoles = () => {
                     <p>
                         Some mechanics will require a specific type of build in order to deal with them and people have certain expectations when looking for those.
                     </p>
-                    <CommCard text={["Boon Thief"]}>
+                    <CommCard text={["Boonthief"]}>
                         <p>
                             Either <WikiIcon name={"Daredevil"} /> Daredevil or <WikiIcon name={"Thief"} /> Core Thief. Playable only on bosses with <WikiIcon name={"Plasma"} /> Detonate Plasma as their stolen skill, as without it BT can’t function - most commonly <WikiIcon name={"Adina"} /> Adina, <WikiIcon name={"Matthias"} /> Matthias and <WikiIcon name={"MO"} /> Mursaat Overseer. Can cover every boon in the game permanently with the exception of <WikiIcon name={"Alacrity"} /> Alacrity.  Replaces both quickness supports (can partially function as healer too if build for it)
                         </p>
