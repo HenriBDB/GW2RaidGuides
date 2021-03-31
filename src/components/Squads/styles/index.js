@@ -205,24 +205,47 @@ export const RoleSectionContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 40px;
 `
 export const RoleSectionRow = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   height: 260px;
+  width: 550px;
+  justify-content: center;
+  @media (max-width:560px) {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
 `
 export const ProviderSection = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  margin-right: 3rem;
   height: 100%;
+  width: 40%;
+  @media (max-width:858px) {
+    width: 35%;
+  }
+  @media (max-width:560px) {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
 `
 export const ProviderImg = styled.img`
   width: 200px;
   height: 200px;
+  @media (max-width:858px) {
+    width: 150px;
+    height: 150px;
+  }
+  @media (max-width:560px) {
+    width: 100px;
+    height: 100px;
+  }
 `
 export const ProviderName = styled.div`
 `
@@ -233,7 +256,15 @@ export const BoonsSection = styled.div`
   align-items: center;
   justify-content: space-around;
   height: 100%;
+  width: 60%;
+  @media (max-width:858px) {
+    width: 65%;
+  }
+  @media (max-width:560px) {
+    width: 100%;
+  }
 `
 export const DescriptionSection = styled.div`
   margin-top: 2rem;
+  max-width: 900px;
 `

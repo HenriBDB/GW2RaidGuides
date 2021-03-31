@@ -21,7 +21,7 @@ import CommAbbreviations from './CommAbbreviations';
 const Squads = () => {
     const [basicsVisible, setBasicsVisible] = useState(false)
     const [rolesVisible, setRolesVisible] = useState(false)
-    const [providersVisible, setProvidersVisible] = useState(true)
+    const [providersVisible, setProvidersVisible] = useState(false)
     const [subgroupsVisible, setSubgroupsVisible] = useState(false)
     const [classesVisible, setClassesVisible] = useState(false)
     const [summaryVisible, setSummaryVisible] = useState(false)
@@ -93,7 +93,7 @@ const Squads = () => {
                     {/* Providers */}
                     <Link to="comm-section-providers" smooth={true} duration={1000} onClick={toggleProviders}>
                         <SectionHeader id="comm-section-providers">
-                            <p> Who provides what (boons &amp; condis) </p>
+                            <p> Who provides what </p>
                             <ArrowMoreButton
                                 src={Arrow}
                                 variants={variantsArrow}
