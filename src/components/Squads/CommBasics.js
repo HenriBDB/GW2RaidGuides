@@ -107,11 +107,11 @@ const CommBasics = () => {
                     </p>
                     <div className="row justify-content-center mt-2 font-weight-bold">
                         <div className="d-flex flex-column justify-content-center align-items-center">
-                            <p className="mb-0">23+</p>
+                            <p className="mb-0" style={{fontFamily: "Noto Serif"}}>23+</p>
                             <WikiIconBig name={"Might"} />
                         </div>
                         <div className="d-flex flex-column justify-content-center align-items-center">
-                            <p className="mb-0">90% - 100%</p>
+                            <p className="mb-0" style={{fontFamily: "Noto Serif"}}>90% - 100%</p>
                             <div>
                                 <WikiIconBig name={"Fury"} />
                                 <WikiIconBig name={"Alacrity"} />
@@ -119,19 +119,19 @@ const CommBasics = () => {
                             </div>
                         </div>
                         <div className="d-flex flex-column justify-content-center align-items-center">
-                            <p className="mb-0">90%</p>
+                            <p className="mb-0" style={{fontFamily: "Noto Serif"}}>90%</p>
                             <WikiIconBig name={"Swiftness"} />
                         </div>
                         <div className="d-flex flex-column justify-content-center align-items-center">
-                            <p className="mb-0">75%</p>
+                            <p className="mb-0" style={{fontFamily: "Noto Serif"}}>75%</p>
                             <WikiIconBig name={"Regeneration"} />
                         </div>
                         <div className="d-flex flex-column justify-content-center align-items-center">
-                            <p className="mb-0">55%</p>
+                            <p className="mb-0" style={{fontFamily: "Noto Serif"}}>55%</p>
                             <WikiIconBig name={"Protection"} />
                         </div>
                         <BoonOnDemand>
-                            <p className="mb-0">On demand</p>
+                            <p className="mb-0" style={{fontFamily: "Noto Serif"}}>On demand</p>
                             <div>
                                 <WikiIconBig name={"Aegis"} />
                                 <WikiIconBig name={"Stability"} />

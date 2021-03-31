@@ -21,7 +21,7 @@ import CommAbbreviations from './CommAbbreviations';
 const Squads = () => {
     const [basicsVisible, setBasicsVisible] = useState(false)
     const [rolesVisible, setRolesVisible] = useState(false)
-    const [providersVisible, setProvidersVisible] = useState(false)
+    const [providersVisible, setProvidersVisible] = useState(true)
     const [subgroupsVisible, setSubgroupsVisible] = useState(false)
     const [classesVisible, setClassesVisible] = useState(false)
     const [summaryVisible, setSummaryVisible] = useState(false)
@@ -32,7 +32,7 @@ const Squads = () => {
         closed: { rotate: 0 }
     }
     const toggleBasics = () => {
-        setBasicsVisible(!basicsVisible)
+        setBasicsVisible(!basicsVisible) 
     }
     const toggleRoles = () => {
         setRolesVisible(!rolesVisible)

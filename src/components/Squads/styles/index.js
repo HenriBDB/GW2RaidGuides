@@ -200,3 +200,40 @@ export const SquadRole = styled.div`
     text-align: center;
   }
 `
+export const RoleSectionContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`
+export const RoleSectionRow = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 260px;
+`
+export const ProviderSection = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 3rem;
+  height: 100%;
+`
+export const ProviderImg = styled.img`
+  width: 200px;
+  height: 200px;
+`
+export const ProviderName = styled.div`
+`
+export const BoonsSection = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+`
+export const DescriptionSection = styled.div`
+  margin-top: 2rem;
+`
