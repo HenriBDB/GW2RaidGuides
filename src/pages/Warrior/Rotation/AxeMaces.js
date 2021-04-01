@@ -28,7 +28,23 @@ const NoSwap = () => {
         <SkillIcon skillID={[14369,14370,30851,14421,14398,30851]}>
             <p>
                 At this point we are out of weaponskills to use, so we have to make do with chop + double chop.
-                Since we used Cyclone Axe first in the previous combo,it will be off cooldown again
+                Since we used Cyclone Axe first in the previous combo,it will be off cooldown again after the chop+double chop combo.
+                This time it is instead combined with chop since Throw Axe is still on cooldown.
+            </p>
+        </SkillIcon>
+        <SkillIcon skillID={[14369,14370,30851,14369,14370,30851,14399,30851,30189,30851,14421,14398,30851,14418,14398,30851]}>
+            <p>
+                The remainder of the berserk is just a combination of things already discussed and if executed
+                right berserk should run out just as you press the last Decapitate.
+            </p>
+        </SkillIcon>
+        <SkillIcon skillID={[14369,14370,14371,14421,14369,14370,14371,14369,14370,14371,14421,14398,14369,14370,14371,30435]}>
+            <p>
+                This is not the optimal out of berserk sequence, but with it the rotation loops perfectly and you can just
+                start over from the top with Decapitate, heal, Decapitate.
+                The reason why Cyclone Axe is used, and Dual Strike is not, is because it has a much shorter cooldown
+                and will thus always be off cooldown after the opening combo of Berserk, where Dual Strike have a longer
+                cooldown that does not line up as well.
             </p>
         </SkillIcon>
         </>
