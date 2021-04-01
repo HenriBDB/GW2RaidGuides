@@ -50,10 +50,9 @@ const RotationSection = () => {
                     </TabPane>
                     <TabPane tabName="Longbow-r">
                         <p>
-                            This rotation has a near perfect loop, where the only thing that can change from loop to loop
-                            is swapping a Throw axe with a chop, and vice versa. This is a very bursty rotation that spikes
-                            higher than the other rotations and faster, but falls off just as fast. It is only suited for
-                            short phases or burst heavy encounters.
+                            This rotation has a  perfect loop so everything is the same from berserk to berserk if done correctly.
+                            This is a very bursty rotation that spikes higher than the other rotations and faster,
+                            but falls off just as fast. It is only suited for short phases or burst heavy encounters.
                         </p>
                         <Longbow/>
                     </TabPane>
