@@ -1,6 +1,5 @@
 import React from 'react';
 import SkillCard from '../../components/SkillCard';
-import WikiIcon from '../../components/WikiIcon';
 import NavTabs from '../../components/NavTabs';
 import TabPane from '../../components/TabPane';
 import {AxeOnly, CC, Condi, FastHands, Greatsword, Leapfrog, Longbow, NoSwap} from './Rotation'
@@ -24,7 +23,7 @@ const RotationSection = () => {
 
                    not wasting any time interrupting auto-attacks because of being slow at casting skills.
                </p>
-                <NavTabs tabNames={["Axe-only", "No-swap-axe", "Greatsword", "CC"]} hrefs={["Axe-only", "No-swap-axe", "Greatsword-r", "CC"]} gameClass="warrior">
+                <NavTabs tabNames={["Axe-only", "No-swap-axe", "Greatsword", "Longbow", "CC"]} hrefs={["Axe-only", "No-swap-axe", "Greatsword-r", "Longbow-r", "CC"]} gameClass="warrior">
                     <TabPane tabName="Axe-only" active="true">
                         <p>
                             For this rotation, the parts of it which matches the standard rotation will not be described in detail, only the parts which deviates from the core will be described.
@@ -38,6 +37,7 @@ const RotationSection = () => {
                             This rotation works well everywhere, some of the other rotations might beat it in certain circumstances, but that should not take anything away from this rotation.
                             You can see plenty of success knowing this rotation and the CC part alone.
                         </p>
+                        <NoSwap/>
                     </TabPane>
                     <TabPane tabName="Greatsword-r">
                         <p>
@@ -46,6 +46,16 @@ const RotationSection = () => {
                             paying attention to detail. The idea is much the same as the burst Axe rotation, but instead of
                             using Whirling Axe as buffer, the Greatsword is the buffer.
                         </p>
+                        <Greatsword/>
+                    </TabPane>
+                    <TabPane tabName="Longbow-r">
+                        <p>
+                            This rotation has a near perfect loop, where the only thing that can change from loop to loop
+                            is swapping a Throw axe with a chop, and vice versa. This is a very bursty rotation that spikes
+                            higher than the other rotations and faster, but falls off just as fast. It is only suited for
+                            short phases or burst heavy encounters.
+                        </p>
+                        <Longbow/>
                     </TabPane>
                     <TabPane tabName="CC">
                         <p>
@@ -56,16 +66,48 @@ const RotationSection = () => {
                             back to Axes. The rotations outlined here are the order in which you want to cast your skills to
                             fit in as much CC as you can in the 5 seconds swap cooldown.
                         </p>
+                        <CC/>
                     </TabPane>
                 </NavTabs>
             </TabPane>
             <TabPane tabName="Condi-r">
+                <p>
+                    The condition damage guide will explain the structure of the rotation in a more approachable
+                    way than most other sources do. The condition rotations are significantly harder than the power
+                    rotations, given that they are not only fast paced, but also very unforgiving when it comes to mistakes.
+                    Depending on the scale of the mistakes made, they may or may not haunt you further down the
+                    rotation. This section will cover the standard rotation and my own creations, the leapfrog-
+                     and "Faster-Hands" rotation.
+                </p>
                 <NavTabs tabNames={["Standard", "Leapfrog", "Faster-Hands"]} hrefs={["Standard", "Leapfrog", "Faster-Hands"]} gameClass="warrior">
                     <TabPane tabName="Standard" active="true">
+                        <p>
+                            The easiest way to present the structure of the condition rotation is to lay out parts of it in the
+                            form of building blocks.
+                        </p>
+                        <Condi/>
                     </TabPane>
                     <TabPane tabName="Leapfrog">
+                        <p>
+                            Savage Leap is seemingly useless in the standard rotation, but if used in a fire field you gain fire
+                            aura from the combo finisher. This fire aura can then be detonated thanks to King of Fires. This
+                            is the concept the leapfrog rotation was designed around, weaving in Savage Leap and
+                            detonating the fire aura for additional damage. The rotation is incredibly greedy at times, which
+                            makes different parts of it hard to execute without a perfect rotation, and is in itself mostly
+                            useless in a real raid scenario since getting a non-fire field finisher with Savage Leap destroys
+                            the whole point of the rotation.
+                        </p>
+                        <Leapfrog/>
                     </TabPane>
                     <TabPane tabName="Faster-Hands">
+                        <p>
+                            This rotation is a slight adaptation of the standard condition rotation, swapping off
+                            sword/torch earlier than you would otherwise, which in turns makes all your skills line up
+                            differently. This means that you end your rotation on the golem on sword which slightly
+                            inflates the damage of the benchmark. It should only be seen as an alternative to the standard
+                            rotation,not a replacement of it.
+                        </p>
+                        <FastHands/>
                     </TabPane>
                 </NavTabs>
             </TabPane>
