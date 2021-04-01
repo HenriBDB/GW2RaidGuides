@@ -52,7 +52,7 @@ const WeaponSection = () => {
             than others. This section will cover the weapon setups for the power- and condition build.
         </p>
         <NavTabs tabNames={["Power", "Condi"]} hrefs={["Power-wb", "Condi-wb"]} gameClass="warrior">
-            <TabPane tabName="Power-wb" active="true">
+            <TabPane tabName="Power-wb" active={true}>
                 <p>
                     For power there is only really 1 truth, and that truth is running Axe/Axe as the main damaging
                     weapons. This is because of how well the power traits synergizes with how the Axes play, and

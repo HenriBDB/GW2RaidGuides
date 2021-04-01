@@ -88,7 +88,7 @@ const Dragonhunter = () => {
 
     return (
         <Wrapper>
-            <ScrollArrow />
+            <ScrollArrow background='#69CCE7'/>
             <Container>
                 {/* Intro */}
                 <DhIntro showGuides={showGuides} />

@@ -8,10 +8,12 @@ const GearSection = () => {
     return (
         <>
         <NavTabs tabNames={["Power", "Condi"]} hrefs={["Power-g", "Condi-g"]} gameClass="warrior">
-            <TabPane tabName="Power-g" active="true">
+            <TabPane tabName="Power-g" active={true}>
                 <NavTabs tabNames={["Thief", "Eagle", "Strength", "Misc"]} hrefs={["Thief", "Eagle", "Strength-g", "Misc"]} gameClass="warrior">
-                    <TabPane tabName="Thief" active="true">
-                        <span data-armory-embed="items" data-armory-size="75" data-armory-ids={[24818,46759,24615,46759,24868]} className="row justify-content-center"></span>
+                    <TabPane tabName="Thief" active={true}>
+                        <div className="row justify-content-center">
+                            <span data-armory-embed="items" data-armory-size="75" data-armory-ids={[24818,46759,24615,46759,24868]}></span>
+                        </div>
                         <p className="row justify-content-center">Weapons with Berserkers stats</p>
                         <span data-armory-embed="items" data-armory-size="75" data-armory-ids={[48075,48131,48073,48074,48076,48072]} className="row justify-content-center"></span>
                         <p className="row justify-content-center">Assassins shoulders, the rest as Berserkers</p>

@@ -9,7 +9,7 @@ const TraitSection = () => {
     return (
         <>
         <NavTabs tabNames={["Arms", "Berserker", "Defense", "Discipline", "Spellbreaker", "Strength", "Tactics"]} hrefs={["Arms", "Berserker", "Defense", "Discipline", "Spellbreaker", "Strength", "Tactics"]} gameClass="warrior">
-            <TabPane tabName="Arms" active="true">
+            <TabPane tabName="Arms" active={true}>
                 <Arms/>
             </TabPane>
             <TabPane tabName="Berserker">
@@ -40,7 +40,7 @@ const TraitSection = () => {
             This section will cover Power builds, Condition builds, and a few extra builds such as Spellbreaker and hand-kiter.
         </p>
         <NavTabs tabNames={["Power", "Condi", "Extra"]} hrefs={["Power-tb", "Condi-tb", "Extra-tb"]} gameClass="warrior">
-            <TabPane tabName="Power-tb" active="true">
+            <TabPane tabName="Power-tb" active={true}>
                 <p>
                     For power you want to run:
                 </p>

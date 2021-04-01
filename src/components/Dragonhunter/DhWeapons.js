@@ -54,7 +54,7 @@ const DhWeapons = ({ showTraits }) => {
             </p>
             </SectionIntro>
             <NavTabs tabNames={["Wing 1", "Wing 2", "Wing 3", "Wing 4", "Wing 6", "Wing 7"]} hrefs={["dh-w1", "dh-w2", "dh-w3", "dh-w4", "dh-w6", "dh-w7"]} gameClass="dragonhunter">
-                <TabPane tabName="dh-w1" active="true">
+                <TabPane tabName="dh-w1" active={true}>
                     <BossCard src={VG} bossName={"Vale Guardian"} gameClass="dragonhunter">
                         <p>
                             - <span style={{ color: "#69CCE7" }}>scepter</span> if you are doing standard pug wall strat - allows you to attack the boss from range when he is running towards you while you are standing in the group getting all boons which are already being provided, like <WikiIcon name={"Might"} /> Might (range is useful if your tank steps in blues, ports around and makes the boss move a lot);<br />
