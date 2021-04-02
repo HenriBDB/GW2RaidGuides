@@ -2,7 +2,7 @@ import React from 'react';
 import SkillCard from '../../components/SkillCard';
 import NavTabs from '../../components/NavTabs';
 import TabPane from '../../components/TabPane';
-import {AxeOnly, CC, Condi, FastHands, Greatsword, Leapfrog, Longbow, NoSwap} from './Rotation'
+import {AxeOnly, Basics, CC, Condi, FastHands, Greatsword, Leapfrog, Longbow, NoSwap} from './Rotation'
 
 const RotationSection = () => {
     return (
@@ -78,11 +78,17 @@ const RotationSection = () => {
                     rotation. This section will cover the standard rotation and my own creations, the leapfrog-
                      and "Faster-Hands" rotation.
                 </p>
-                <NavTabs tabNames={["Standard", "Leapfrog", "Faster-Hands"]} hrefs={["Standard", "Leapfrog", "Faster-Hands"]} gameClass="warrior">
-                    <TabPane tabName="Standard" active="true">
+                <NavTabs tabNames={["Basics","Standard", "Leapfrog", "Faster-Hands"]} hrefs={["basics","Standard", "Leapfrog", "Faster-Hands"]} gameClass="warrior">
+                    <TabPane tabName="Basics" active="true">
                         <p>
                             The easiest way to present the structure of the condition rotation is to lay out parts of it in the
                             form of building blocks.
+                        </p>
+                        <Basics/>
+                    </TabPane>
+                    <TabPane tabName="Standard">
+                        <p>
+                            You start out the rotation on Sword/Torch.
                         </p>
                         <Condi/>
                     </TabPane>
