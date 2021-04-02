@@ -15,7 +15,7 @@ const BossGuideSection = () => {
                         patterns for the different bosses are not very demanding or complicated either, given that
                         phases does not drag out too long.
                     </p>
-                    <NavTabs tabNames={["Vale Guardian","Spirit Woods", "Gorseval the Multifarious", "Sabetha the Saboteur"]} hrefs={["vg","spirit","gorse","sab"]}>
+                    <NavTabs tabNames={["Vale Guardian","Spirit Woods", "Gorseval the Multifarious", "Sabetha the Saboteur"]} hrefs={["vg","spirit","gorse","sab"]} gameClass="warrior">
                         <TabPane tabName="vg" active="true">
                         </TabPane>
                     </NavTabs>
@@ -27,7 +27,7 @@ const BossGuideSection = () => {
                         far better than the alternative. In this wing the first real challenge in terms of bannering shows
                         itself, but this is only for one of the encounters for this wing, the rest are fairly linear.
                     </p>
-                    <NavTabs tabNames={["Slothasor", "Prison Camp", "Matthias Gabrel"]} hrefs={["sloth", "trio", "matthias"]}>
+                    <NavTabs tabNames={["Slothasor", "Prison Camp", "Matthias Gabrel"]} hrefs={["sloth", "trio", "matthias"]} gameClass="warrior">
                         <TabPane tabName="sloth" active="true">
                         </TabPane>
                     </NavTabs>
@@ -38,7 +38,7 @@ const BossGuideSection = () => {
                         one of the bosses in the wing. Here we will once again see some more complex banner patterns,
                         as well as more breakbars which would like some Maces to help break them.
                     </p>
-                    <NavTabs tabNames={["Siege The Stronghold", "Keep Construct","Twisted Castle", "Xera"]} hrefs={["escort", "kc", "tc", "xera"]}>
+                    <NavTabs tabNames={["Siege The Stronghold", "Keep Construct","Twisted Castle", "Xera"]} hrefs={["escort", "kc", "tc", "xera"]} gameClass="warrior">
                         <TabPane tabName="escort" active="true">
                         </TabPane>
                     </NavTabs>
@@ -52,7 +52,7 @@ const BossGuideSection = () => {
                         difficult for the first few encounters, but the later encounters can be harder to manage. Head
                         Butt can be used to break the float from not going to greens in a clutch.
                     </p>
-                    <NavTabs tabNames={["Cairn the Indomitable", "Mursaat Overseer", "Samarog", "Deimos"]} hrefs={["cairn", "mo", "sana", "deimos"]}>
+                    <NavTabs tabNames={["Cairn the Indomitable", "Mursaat Overseer", "Samarog", "Deimos"]} hrefs={["cairn", "mo", "sana", "deimos"]} gameClass="warrior">
                         <TabPane tabName="cairn" active="true">
                         </TabPane>
                     </NavTabs>
@@ -65,7 +65,7 @@ const BossGuideSection = () => {
                         specific mechanics that is more complex than the previous wings have had. Both power and
                         condition are viable for the whole wing.
                     </p>
-                    <NavTabs tabNames={["Soulless Horror", "River of Souls", "Statues of Grenth", "Dhuum"]} hrefs={["sh", "river", "statues", "dhuum"]}>
+                    <NavTabs tabNames={["Soulless Horror", "River of Souls", "Statues of Grenth", "Dhuum"]} hrefs={["sh", "river", "statues", "dhuum"]} gameClass="warrior">
                         <TabPane tabName="sh" active="true">
                         </TabPane>
                     </NavTabs>
@@ -77,7 +77,7 @@ const BossGuideSection = () => {
                         condition build is ahead. Most of the wing is fairly simple in its banner patterns, but the end
                         boss is rather complex if done optimally.
                     </p>
-                    <NavTabs tabNames={["Conjured Amalgamate", "Twin Largos", "Qadim"]} hrefs={["ca", "largos", "qadim"]}>
+                    <NavTabs tabNames={["Conjured Amalgamate", "Twin Largos", "Qadim"]} hrefs={["ca", "largos", "qadim"]} gameClass="warrior">
                         <TabPane tabName="ca" active="true">
                         </TabPane>
                     </NavTabs>
@@ -89,7 +89,7 @@ const BossGuideSection = () => {
                         on a couple of encounters. Banner patterns for these encounters are not too complex, and
                         decent uptimes are easily achievable throughout the entire wing.
                     </p>
-                    <NavTabs tabNames={["Gates of Ahdashim", "Cardinal Adina", "Cardinal Sabir", "Qadim the Peerless"]} hrefs={["gate", "adina", "sabir", "qtp"]}>
+                    <NavTabs tabNames={["Gates of Ahdashim", "Cardinal Adina", "Cardinal Sabir", "Qadim the Peerless"]} hrefs={["gate", "adina", "sabir", "qtp"]} gameClass="warrior">
                         <TabPane tabName="gate" active="true">
                         </TabPane>
                     </NavTabs>
