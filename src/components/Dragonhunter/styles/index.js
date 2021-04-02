@@ -53,6 +53,7 @@ export const SectionHeader = styled.div`
   cursor: pointer;
   > p {
     margin: 0;
+    font-family: "Noto Serif";
   }
 `
 export const SectionContainer = styled.div`

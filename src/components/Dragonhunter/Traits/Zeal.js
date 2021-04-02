@@ -8,7 +8,7 @@ const Zeal = () => {
             <div className="mb-3" data-armory-embed="specializations" data-armory-ids="42" data-armory-42-traits="648,634,646,653,649,2017"></div>
             <p>
                 Zeal traitline is strictly related to Symbols (which are unique area effects of a Guardian), increasing damage to enemies caught in them and granting boons to allies. It also enhances your Greatsword skills.
-                This is the go-to traitline in all raid power Guardian builds, which you should never swap out. The below breakdown should help you understand why Symbols play such an important part in Dragonhunter's rotation.
+                This is the go-to traitline in all raid power Guardian builds, which you should never swap out. The below breakdown should help you understand why Symbols play such an important part in <WikiIcon name={"Dragonhunter"} /> Dragonhunter's rotation.
             </p>
             <div className="row justify-content-center">
                 <h4 className="mb-0">Minor Adept</h4>
@@ -29,7 +29,7 @@ const Zeal = () => {
                     Increases direct damage dealt to enemies with <WikiIcon name="Burning"/> Burning by 7%.
                 </p>
                 <p>
-                    You should always have <WikiIcon name={"Burning"} /> Burning on the boss, for example from your <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="29887" className="dhskill"></span>, from druid's Sun Spirit, firebrand's Flame Mantra, etc. This trait is a pure damage increase and it's the most worth taking from Major Adept set.
+                    You should always have <WikiIcon name={"Burning"} /> Burning on the boss, for example from your <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="29887" className="dhskill"></span>, from <WikiIcon name={"Druid"} /> Druid's <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12498" className="dhskill"></span>, <WikiIcon name={"Firebrand"} /> Firebrand's <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="45082" className="dhskill"></span>, etc. This trait is a pure damage increase and it's the most worth taking from Major Adept set.
                 </p>
             </TraitCard>
             <div className="row justify-content-center">
@@ -48,7 +48,7 @@ const Zeal = () => {
             </div>
             <TraitCard traitID={653} gameClass="dragonhunter">
                 <p>
-                    Grants 120 additional <WikiIcon name={"Power"} /> Power (on any weaponset) and additional 120 <WikiIcon name={"Power"} /> Power while wielding a Greatsword (so 240 more <WikiIcon name={"Power"} /> Power in total) and reduces the <WikiIcon name={"Recharge"} /> cooldown of Greatsword skills by 20%. This trait is the main reason why Greatsword is the go-to weapon for a power Dragonhunter.
+                    Grants 120 additional <WikiIcon name={"Power"} /> Power (on any weaponset) and additional 120 <WikiIcon name={"Power"} /> Power while wielding a Greatsword (so 240 more <WikiIcon name={"Power"} /> Power in total) and reduces the <WikiIcon name={"Recharge"} /> cooldown of Greatsword skills by 20%. This trait is the main reason why Greatsword is the go-to weapon for a <WikiIcon name={"Dragonhunter"} /> Power Dragonhunter.
                 </p>
             </TraitCard>
             <div className="row justify-content-center">

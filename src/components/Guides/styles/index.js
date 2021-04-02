@@ -7,6 +7,7 @@ export const GuidesContainer = styled.div`
   height: 100vh;
   background: ${bgDark};
   padding-top: 75px;
+  overflow: hidden;
 `
 export const PanelContainer = styled.div`
   display: flex;
@@ -58,6 +59,7 @@ export const PanelTitle = styled.div`
   }
 `
 export const Link = styled.a`
+  font-family: "Noto serif";
   position: absolute;
   bottom: 35%;
   left: 50%;

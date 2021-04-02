@@ -38,7 +38,7 @@ const Radiance = ({ showRotation, showGuides, showGear }) => {
                     This is the go-to trait if you are playing sword. However, you have to remember, that by taking this trait you will lose <WikiIcon name={"Retaliation"} /> Retaliation from your heal skill.
                 </p>
                 <p>
-                    So, before taking this trait you have to consider if you will get enough <WikiIcon name={"Retaliation"} /> Retaliation from other sources (for example other guardians or boonthief):
+                    So, before taking this trait you have to consider if you will get enough <WikiIcon name={"Retaliation"} /> Retaliation from other sources (for example other Guardians or <WikiIcon name={"Thief"} /> Boonthief):
                 </p>
                 <ol>
                     <li>
@@ -51,7 +51,7 @@ const Radiance = ({ showRotation, showGuides, showGear }) => {
                                 if they are fast, you will most likely not benefit from the reduced sword skills <WikiIcon name={"Recharge"} /> recharge, so in such case you can trait <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="574" className="dhskill"></span> instead;
                             </li>
                             <li>
-                                if they are slow, you can still take <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="574" className="dhskill"></span> for better <WikiIcon name={"Retaliation"} /> Retaliation uptime, but you have to remember that your sword rotation won't line up well in such case. You can also just take this trait and suffer from missing <WikiIcon name={"Retaliation"} /> Retaliation. My recommendation here would be just to play scepter at this point. If you want to learn why <WikiIcon name={"Retaliation"} /> Retaliation is such an important boon for power Dragonhunter, go to
+                                if they are slow, you can still take <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="574" className="dhskill"></span> for better <WikiIcon name={"Retaliation"} /> Retaliation uptime, but you have to remember that your sword rotation won't line up well in such case. You can also just take this trait and suffer from missing <WikiIcon name={"Retaliation"} /> Retaliation. My recommendation here would be just to play scepter at this point. If you want to learn why <WikiIcon name={"Retaliation"} /> Retaliation is such an important boon for <WikiIcon name={"Dragonhunter"} /> Power Dragonhunter, go to
                                 <Link to="dh-section-rotation" smooth={true} duration={1000} onClick={showRotation}>
                                     <span
                                         style={{ color: "#69CCE7", cursor: "pointer" }}>
@@ -71,7 +71,7 @@ const Radiance = ({ showRotation, showGuides, showGear }) => {
                     <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="29887" className="dhskill"></span> gets renewed (i.e. fully <WikiIcon name={"Recharge"} /> recharged) when you kill a foe.
                 </p>
                 <p>
-                    This will work only with enemies that give you experience after they are killed, for example Blue, Green and Red Guardians at VG, Sappers at Sabetha, Slublings at Sabetha. This trait allows you to use <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="29887" className="dhskill"></span> more often in some fights which leads to dps increase. To see how it works in practice on different bosses check out
+                    This will work only with enemies that give you experience after they are killed, for example Blue, Green and Red Guardians at <WikiIcon name={"Vg"} /> VG, Sappers at <WikiIcon name={"Sabetha"} /> Sabetha, Slublings at <WikiIcon name={"Slothasor"} /> Sloth. This trait allows you to use <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="29887" className="dhskill"></span> more often in some fights which leads to dps increase. To see how it works in practice on different bosses check out
                     <Link to="dh-section-guides" smooth={true} duration={1000} onClick={showGuides}>
                         <span
                             style={{ color: "#69CCE7", cursor: "pointer" }}>
@@ -103,7 +103,7 @@ const Radiance = ({ showRotation, showGuides, showGear }) => {
                 <p> Grants 25% Crit Chance if you have <WikiIcon name={"Retaliation"} /> Retaliation (which is yet another reason why you want to upkeep high <WikiIcon name={"Retaliation"} /> Retaliation uptime on you - without this boon you are not crit capped). It also grants 6s of <WikiIcon name={"Might"} /> Might every second.
                 </p>
                 <p>
-                    It is your default choice, as your standard gearset assumes you are getting 25% Crit Chance from this trait..
+                    It is your default choice, as your standard gearset assumes you are getting 25% Crit Chance from this trait.
                 </p>
             </TraitCard>
             <TraitCard traitID={579} gameClass="dragonhunter">
@@ -111,7 +111,7 @@ const Radiance = ({ showRotation, showGuides, showGear }) => {
                     Reduces <WikiIcon name={"Recharge"} /> cooldown on Signets by 20%, improves passive effect of Signets and shares the passive effects of Signet with allies.
                 </p>
                 <p>
-                    In case of <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="9241" className="dhskill"></span>, while it's passive, it grants you +180 <WikiIcon name={"Power"} /> Power by default. With this trait, it grants you +216 <WikiIcon name={"Power"} /> Power. When you activate the signet, +216 <WikiIcon name={"Power"} /> Power buff is shared with your party for 10 seconds (max 5 targets, including you). With this trait you don't lose your passive <WikiIcon name={"Power"} /> Power increase when you activate the Signet. The <WikiIcon name={"Recharge"} /> recharge on the Signet gets reduced from 30s to 24s (without <WikiIcon name={"Alacrity"} /> Alacrity).
+                    In case of <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="9093" className="dhskill"></span>, while it's passive, it grants you +180 <WikiIcon name={"Power"} /> Power by default. With this trait, it grants you +216 <WikiIcon name={"Power"} /> Power. When you activate the signet, +216 <WikiIcon name={"Power"} /> Power buff is shared with your party for 10 seconds (max 5 targets, including you). With this trait you don't lose your passive <WikiIcon name={"Power"} /> Power increase when you activate the Signet. The <WikiIcon name={"Recharge"} /> recharge on the Signet gets reduced from 30s to 24s (without <WikiIcon name={"Alacrity"} /> Alacrity).
                 </p>
                 <p>
                     Taking this trait makes you lose 25% Crit Chance from <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1683" className="dhskill"></span>, this is why you need to adjust your gear to compensate for it. See
@@ -123,7 +123,7 @@ const Radiance = ({ showRotation, showGuides, showGear }) => {
                     </Link>for details.
                 </p>
                 <p>
-                    So when is it worth taking over <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1683" className="dhskill"></span>? Definitely in CC heavy fights like Slothasor or Samarog. See
+                    So when is it worth taking over <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1683" className="dhskill"></span>? Definitely in CC heavy fights like <WikiIcon name={"Slothasor"} /> Slothasor or <WikiIcon name={"Samarog"} /> Samarog. See
                     <Link to="dh-section-guides" smooth={true} duration={1000} onClick={showGuides}>
                         <span
                             style={{ color: "#69CCE7", cursor: "pointer" }}>
@@ -132,7 +132,7 @@ const Radiance = ({ showRotation, showGuides, showGear }) => {
                     </Link>to see it in practice. Sometimes it will also be worth taking just to share the <WikiIcon name={"Power"} /> Power buff with your party, but I recommend doing it only in organized groups with well thought strats.
                 </p>
                 <p>
-                    If there are few guardians using Signet with this trait, the Signet buffs stack. To benefit the most from it, be the first guardian to use the Signet to get all the stacks from others (using the Signet makes you lose all stacks you had before).
+                    If there are few Guardians using Signet with this trait, the Signet buffs stack. After the recent fix, using the Signet doesn't make you lose all your previous stacks anymore.
                 </p>
             </TraitCard>
         </>

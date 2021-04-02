@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { NavLink } from 'react-router-dom'
 import PageLogo from '../../assets/logo.png'
 import { HamburgerSpring } from 'react-animated-burgers'
 import { AnimatePresence } from "framer-motion"
@@ -8,7 +9,6 @@ import {
     NavWrapper,
     NavRow,
     NavLi,
-    NavLink,
     Logo,
     MenuItem,
     MenuItems,
@@ -56,13 +56,31 @@ const Navbar = () => {
                     </NavLi>
                     <MenuItems>
                         <MenuItem style={{ paddingRight: 40 }}>
-                            <NavLink to="/class-guides">Class guides</NavLink>
+                            <NavLink to="/class-guides"
+                                onClick={closeMenu}
+                                activeStyle={{
+                                    borderBottom: "2px solid white"
+                                }}>
+                                Class guides
+                                            </NavLink>
                         </MenuItem>
                         <MenuItem style={{ paddingRight: 40 }}>
-                            <NavLink to="/commander-guide">Commander guide</NavLink>
+                            <NavLink to="/commander-guide"
+                                onClick={closeMenu}
+                                activeStyle={{
+                                    borderBottom: "2px solid white"
+                                }}>
+                                Commander guide
+                                            </NavLink>
                         </MenuItem>
                         <MenuItem>
-                            <NavLink to="/creators">Creators</NavLink>
+                            <NavLink to="/creators"
+                                onClick={closeMenu}
+                                activeStyle={{
+                                    borderBottom: "2px solid white"
+                                }}>
+                                Creators
+                                            </NavLink>
                         </MenuItem>
                     </MenuItems>
                     {burgerVisible && (
@@ -89,13 +107,34 @@ const Navbar = () => {
                             >
                                 <MobileMenuItems>
                                     <MobileMenuItem>
-                                        <NavLink to="/class-guides" onClick={closeMenu}>Class guides</NavLink>
+                                        <NavLink to="/class-guides"
+                                            onClick={closeMenu}
+                                            activeStyle={{
+                                                color: "rgb(27,29,27)",
+                                                background: "white"
+                                            }}>
+                                            Class guides
+                                            </NavLink>
                                     </MobileMenuItem>
                                     <MobileMenuItem>
-                                        <NavLink to="/commander-guide" onClick={closeMenu}>Commander guide</NavLink>
+                                        <NavLink to="/commander-guide"
+                                            onClick={closeMenu}
+                                            activeStyle={{
+                                                color: "rgb(27,29,27)",
+                                                background: "white"
+                                            }}>
+                                            Commander guide
+                                            </NavLink>
                                     </MobileMenuItem>
                                     <MobileMenuItem>
-                                        <NavLink to="/creators" onClick={closeMenu}>Creators</NavLink>
+                                        <NavLink to="/creators"
+                                            onClick={closeMenu}
+                                            activeStyle={{
+                                                color: "rgb(27,29,27)",
+                                                background: "white"
+                                            }}>
+                                            Creators
+                                            </NavLink>
                                     </MobileMenuItem>
                                 </MobileMenuItems>
                             </MobileNavWrapper>

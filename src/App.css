@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab&display=swap');
+
 * {
-  font-family: 'DejaVu Serif';
+  font-family: 'Montserrat';
   --ranger-primary: #8ea53a;
   --dh-primary: #69CCE7;
   --war-primary: #CF8D21;
+  --comm-primary: #B125D3;
   --custom-dark: rgba(37,39,37,0.8);
   --custom-dark-opaque: rgb(37,39,37);
   --bg-dark: rgba(28,30,27,0.9);
   color: white;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Noto Serif";
 }
 /* Scrollbar */
 ::-webkit-scrollbar {
@@ -49,6 +56,7 @@ img {
 .vertical-text {
   writing-mode: vertical-rl;
   text-orientation: mixed;
+  font-family: "Noto serif"
 }
 
 .flip {
@@ -74,7 +82,24 @@ img {
 .dragonhunter .gw2a--M9jBV a:hover, .dh-trait-intro a:hover {
   text-decoration-color: var(--dh-primary);
 }
-
+.warrior .gw2a--M9jBV :first-child, .warrior-trait-intro :first-child{
+  color: var(--war-primary);
+}
+.warrior .gw2a--M9jBV a:hover, .warrior-trait-intro a:hover {
+  text-decoration-color: var(--war-primary);
+}
+.ranger .gw2a--M9jBV :first-child, .ranger-trait-intro :first-child{
+  color: var(--ranger-primary);
+}
+.ranger .gw2a--M9jBV a:hover, .ranger-trait-intro a:hover {
+  text-decoration-color: var(--ranger-primary);
+}
+.commander .gw2a--M9jBV :first-child, .commander-trait-intro :first-child{
+  color: var(--commander-primary);
+}
+.commander .gw2a--M9jBV a:hover, .commander-trait-intro a:hover {
+  text-decoration-color: var(--commander-primary);
+}
 .gw2a--t1hk1 {
   position: absolute;
   background-position: bottom left;
@@ -85,7 +110,6 @@ img {
   opacity: 0.4;
   background-position-x: -118px;
 }
-
 .fake-button {
   cursor: pointer;
 }
@@ -95,6 +119,13 @@ img {
 .dhlink:hover {
   color: var(--dh-primary);
   text-decoration-color: var(--dh-primary);
+}
+.commlink {
+  color: var(--comm-primary);
+}
+.commlink:hover {
+  color: var(--comm-primary);
+  text-decoration-color: var(--comm-primary);
 }
 /* Container (Taken from Bootstrap) */
 
@@ -143,8 +174,8 @@ nav.custom-nav {
   margin-bottom: 0;
   list-style: none;
 }
-
 nav.custom-nav a {
+  font-family: "Noto Serif";
   color: white;
   border-bottom: 1px solid #dee2e6;
   border-radius: 0;
@@ -153,7 +184,6 @@ nav.custom-nav a {
   padding: .5rem 1rem;
   flex: 1 1 auto;
 }
-
 nav.custom-nav a.active {
   color: var(--ranger-primary);
   text-decoration: underline;
@@ -161,21 +191,34 @@ nav.custom-nav a.active {
   border: 1px solid #dee2e6;
   border-bottom: 1px transparent;
 }
-
 nav.custom-nav.dragonhunter a.active {
   color: var(--dh-primary);
+}
+nav.custom-nav.commander a.active {
+  color: var(--comm-primary);
+}
+.comm-buffs span {
+  color: white !important;
+  font-family: 'Montserrat';
+}
+.comm-summary > .gear-card > .gear-name > span {
+  font-weight: bold
+}
+.comm-buffs a {
+  text-decoration: none !important;
+}
+.comm-buffs .gw2a-traits-embed {
+  display: inline !important;
 }
 nav.custom-nav.warrior a.active {
   color: var(--war-primary);
 }
-
 .custom-tab-content {
   background-color: var(--custom-dark);
   border: 1px solid #dee2e6;
   border-top: 0px solid;
   padding: 2em;
 }
-
 .custom-tab-content {
   background-color: var(--custom-dark);
   border: 1px solid #dee2e6;
@@ -184,7 +227,6 @@ nav.custom-nav.warrior a.active {
 }
 
 /* Cards */
-
 .title-card {
   border-radius: 0;
   border: 2px solid white;
@@ -195,8 +237,10 @@ nav.custom-nav.warrior a.active {
 .title-card > .title {
   font-size: 1.25em;
   font-style: italic;
+  text-align: center;
 }
 .title-card > .title > footer {
+  font-family: "Noto serif";
   display: block;
   font-size: 80%;
   color: #6c757d;
@@ -246,6 +290,9 @@ nav.custom-nav.warrior a.active {
   display: flex;
   flex-direction: row;
   margin-right: 1em,
+}
+.comm-name > span {
+  color: var(--comm-primary) !important
 }
 .gear-card > .gear-name > span {
   margin-right: 15px
@@ -636,4 +683,203 @@ nav.custom-nav.warrior a.active {
   display: flex;
   color: white;
   justify-content: center;
+}
+.rota-btn:hover {
+  color: var(--ranger-primary)
+}
+.triangle-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+.triangle {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 130px 200px 130px;
+  border-color: transparent transparent white transparent;
+}
+.triangle .empty {
+  position: absolute;
+  top:9px;
+  left:-120px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 120px 186px 120px;
+  border-color: transparent transparent var(--custom-dark-opaque) transparent;
+}
+/*Squad templates*/
+.firebrigade-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "sub1-1 sub1-2 sub1-3 sub1-4 sub1-5" "sub2-1 sub2-2 sub2-3 sub2-4 sub2-5";
+  max-width: 300px;
+  gap: 5px 10px;
+}
+.sub1-1 { 
+  grid-area: sub1-1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sub1-2 { 
+  grid-area: sub1-2; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sub1-3 { 
+  grid-area: sub1-3; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sub1-4 { 
+  grid-area: sub1-4; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sub1-5 { 
+  grid-area: sub1-5; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sub2-1 { 
+  grid-area: sub2-1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sub2-2 { 
+  grid-area: sub2-2; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sub2-3 { 
+  grid-area: sub2-3; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sub2-4 { 
+  grid-area: sub2-4; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sub2-5 { 
+  grid-area: sub2-5; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.boonthief-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "btsub1-1 . . ." "btsub2-1 btsub2-2 btsub2-3 btsub2-4" "btsub3-1 btsub3-2 btsub3-3 ." "btsub4-1 . . ." "btsub5-1 . . .";
+  max-width: 300px;
+  gap: 5px 10px;
+}
+
+.btsub1-1 { 
+  grid-area: btsub1-1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btsub2-1 { 
+  grid-area: btsub2-1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btsub2-2 { 
+  grid-area: btsub2-2; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btsub2-3 { 
+  grid-area: btsub2-3; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btsub2-4 { 
+  grid-area: btsub2-4; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btsub3-1 { 
+  grid-area: btsub3-1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btsub3-2 { 
+  grid-area: btsub3-2; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btsub3-3 { 
+  grid-area: btsub3-3; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btsub4-1 { 
+  grid-area: btsub4-1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btsub5-1 { 
+  grid-area: btsub5-1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
 }

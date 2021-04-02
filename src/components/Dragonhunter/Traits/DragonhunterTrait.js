@@ -23,7 +23,7 @@ const DragonhunterTrait = ({ showRotation }) => {
             </div>
             <TraitCard traitID={1898} gameClass="dragonhunter">
                 <p>
-                    Reduces <WikiIcon name={"Recharge"} /> cooldown of your traps by 20%. Your traps now apply <WikiIcon name={"Slow"} /> Slow (1,5s) to enemies (this trait makes your power Chronos happy).
+                    Reduces <WikiIcon name={"Recharge"} /> cooldown of your traps by 20%. Your traps now apply <WikiIcon name={"Slow"} /> Slow (1,5s) to enemies (this trait makes your <WikiIcon name={"Chronomancer"} />  Power Chronos happy).
                 </p>
             </TraitCard>
             <div className="row justify-content-center">
@@ -47,7 +47,7 @@ const DragonhunterTrait = ({ showRotation }) => {
             </div>
             <TraitCard traitID={1926} gameClass="dragonhunter">
                 <p>
-                    Grants damage increase based on your distance to the enemy. The further you stay from the boss, the more damage increase you will get (min 5%, max 15%). Given that as a Dragonhunter you will mostly be very close to the boss (especially when spinning inside the hitbox with your GS skills), you will get 5% damage increase most of the time.
+                    Grants damage increase based on your distance to the enemy. The further you stay from the boss, the more damage increase you will get (min 5%, max 15%). Given that as a <WikiIcon name={"Dragonhunter"} /> Dragonhunter you will mostly be very close to the boss (especially when spinning inside the hitbox with your GS skills), you will get 5% damage increase most of the time.
                 </p>
             </TraitCard>
             <div className="row justify-content-center">

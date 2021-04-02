@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from 'react-scroll';
 import ModalVideo from 'react-modal-video';
 import SectionIntro from '../../components/SectionIntro';
+import WikiIcon from '../../components/WikiIcon';
 import RotationPreview from '../../assets/backgrounds/dh-guides/dh-rotation-preview.png';
 import {
     VideoWrapper,
@@ -16,7 +17,7 @@ const DhRotation = ({ showGuides, showTraits }) => {
     return (
         <SectionContainer>
             <SectionIntro>
-                <p>Dragonhunter rotation revolves around damage modifiers and it is very easy to learn once you know the basics. You can already find written rotation breakdown on Snow Crows website, so here I will be focusing on explaining why DH rotation is build like this in the form of the video.</p>
+                <p><WikiIcon name={"Dragonhunter"} /> Dragonhunter's rotation revolves around damage modifiers and it is very easy to learn once you know the basics. You can already find written rotation breakdown on Snow Crows website, so here I will be focusing on explaining why <WikiIcon name={"Dragonhunter"} /> DH rotation is built like this in the form of the video.</p>
                 <p>My idea for this video was to help you understand the standard scepter rotation and help you adjust in a real raid scenario (you will find boss specific adaptations in
                     <Link to="dh-section-guides" smooth={true} duration={1000} onClick={showGuides}>
                         <span

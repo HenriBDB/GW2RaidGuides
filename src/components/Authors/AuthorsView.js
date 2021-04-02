@@ -3,9 +3,11 @@ import ScrollArrow from '../../components/ScrollArrowTop';
 import Costa from '../../assets/avatars/avatar_costa.png';
 import Eren from '../../assets/avatars/avatar_eren.png';
 import Paula from '../../assets/avatars/avatar_paula.jpg';
+import Wasabi from '../../assets/avatars/avatar_wasabi.png';
 import warrior from '../../assets/icons/warrior-icon.png';
 import ranger from '../../assets/icons/ranger-icon.png';
 import dh from '../../assets/icons/dh-icon.png';
+import comm from '../../assets/icons/comm-icon.png';
 import {
     AuthorsWrapper,
     AuthorsContainer,
@@ -92,6 +94,24 @@ const AuthorsView = () => {
                         </Socials>
                         <AuthorsRole><CoderIcon />Developer</AuthorsRole>
                         <AuthorsRole><ContentIcon src={dh} height="25" />Content Creator</AuthorsRole>
+                    </AuthorsCol>
+                    <AuthorsCol>
+                        <AuthorsImg src={Wasabi} width="200" height="200" />
+                        <AuthorsName>Wasabi</AuthorsName>
+                        <Socials>
+                            <Link href="https://www.youtube.com/channel/UCx0ivehxK1NO6XbLcLX3dfw" target="_blank">
+                                <YtIcon />
+                            </Link>
+                            <Tooltip>
+                                <DiscordIcon />
+                                <TooltipText>Wasabi#8826</TooltipText>
+                            </Tooltip>
+                            <Tooltip>
+                                <GameIcon />
+                                <TooltipText>Wasaabii.4605</TooltipText>
+                            </Tooltip>
+                        </Socials>
+                        <AuthorsRole><ContentIcon src={comm} height="25" />Content Creator</AuthorsRole>
                     </AuthorsCol>
                 </AuthorsRow>
             </AuthorsContainer>

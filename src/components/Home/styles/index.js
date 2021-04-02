@@ -86,6 +86,7 @@ export const LeftContainer = styled.div`
 `
 export const PanelTitle = styled.a`
   color: white;
+  letter-spacing: 1px;
   position: absolute;
   bottom: 50%;
   left: 50%;
