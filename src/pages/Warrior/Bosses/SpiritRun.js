@@ -5,7 +5,9 @@ import WikiIcon from '../../../components/WikiIcon';
 const SpiritRun = () => {
     return (
         <>
-        <p>TODO</p>
+            <p>
+                TODO
+            </p>
         </>
     );
 }
