@@ -110,7 +110,7 @@ const RotationSection = () => {
                             sword/torch earlier than you would otherwise, which in turns makes all your skills line up
                             differently. This means that you end your rotation on the golem on sword which slightly
                             inflates the damage of the benchmark. It should only be seen as an alternative to the standard
-                            rotation,not a replacement of it.
+                            rotation, not a replacement of it.
                         </p>
                         <FastHands/>
                     </TabPane>
