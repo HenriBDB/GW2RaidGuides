@@ -5,7 +5,9 @@ import WikiIcon from '../../../components/WikiIcon';
 const TC = () => {
     return (
         <>
-        <p>TODO</p>
+            <p>
+                TODO
+            </p>
         </>
     );
 }
