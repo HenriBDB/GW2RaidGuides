@@ -48,7 +48,10 @@ const Elite = () => {
         </SkillCard>
         <SkillCard skillID={45333}>
             <p>
-                TEST
+                This skill has probably seen as many changes as chrono has at this point.
+                Jokes aside, what it does, it does well. The boon strip is highly relevant in high end groups for Qadim
+                who skips all Pyres, though for worse groups you are better off playing berserker and killing any missing
+                pyre over playing spellbreaker with this elite.
             </p>
         </SkillCard>
         </>

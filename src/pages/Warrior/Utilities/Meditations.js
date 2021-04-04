@@ -6,26 +6,37 @@ const Meditations = () => {
     return (
         <>
         <p>
-            TEST
+            These are the Spellbreaker specific utilities. Most of them are mediocre at best, but there are a few gold nuggets
+            here and there. Overall you will find that most of these skills are very lacklustre and not worth bringing to
+            any encounter.
         </p>
         <SkillCard skillID={45380}>
             <p>
-                TEST
+                Decent superspeed and resistance duration, but the cooldown and usability of the skill makes it overall bad
+                for most, if not all, raid scenarios.
             </p>
         </SkillCard>
         <SkillCard skillID={43745}>
             <p>
-                TEST
+                If you are playing Spellbreaker you are likely capped on crit anyways, so the guaranteed crit is useless.
+                The blind is also fairly useless, and the reveal does not help much either outside of Largos, and you would not
+                want to play Spellbreaker on largos.
             </p>
         </SkillCard>
         <SkillCard skillID={41919}>
             <p>
-                TEST
+                Taunt is always respectable since it can help out chronomancers, but the cooldown is way too long for how
+                little taunt you are getting, and the same goes for the self retaliation and adrenaline. Pretty much useless
+                in a raid setting.
             </p>
         </SkillCard>
         <SkillCard skillID={43123}>
             <p>
-                TEST
+                The saving grace for Spellbreaker. This skill is immensely powerful when stripping boons, but sadly it is
+                a utility skill, meaning it uses unequipped weaponstrength for its damage calculation, otherwise it could have been
+                even stronger. It deals decent damage even without the boonstrip, but if this were to be truly viable in raids
+                the bosses would need more frequent boon application. The cooldown is short, the radius fairly big, and it can
+                hit multiple targets at once. Great skill.
             </p>
         </SkillCard>
         </>

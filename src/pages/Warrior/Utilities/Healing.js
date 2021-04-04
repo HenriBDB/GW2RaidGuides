@@ -46,7 +46,8 @@ const Healing = () => {
         </SkillCard>
         <SkillCard skillID={41100}>
             <p>
-                TEST
+                The self healing is crazy good, but the skill is still dead on arrival due to the fact it strips your boons
+                 too on top of cleansing conditions, which makes it overall really bad.
             </p>
         </SkillCard>
         </>
