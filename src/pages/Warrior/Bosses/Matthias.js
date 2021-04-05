@@ -1,6 +1,7 @@
 import React from 'react';
 import SkillIcon from '../../../components/SkillIcon';
 import WikiIcon from '../../../components/WikiIcon';
+import MattIMG from '../../../assets/bannerimages/matt_banners.png';
 
 const Matthias = () => {
     return (
@@ -34,7 +35,9 @@ const Matthias = () => {
                 this, as it only reflects a few projectiles. This is a fight where you might need to run Sundering
                 Bursts in the Arms trait-line in case there is problems with Vulnerability stacks.
             </p>
-            //TODO: INSERT IMAGE
+            <div className="row justify-content-center">
+                <img src={MattIMG} alt="Matthias Banners"/>
+            </div>
         </>
     );
 }

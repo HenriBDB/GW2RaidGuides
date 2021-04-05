@@ -1,6 +1,7 @@
 import React from 'react';
 import SkillIcon from '../../../components/SkillIcon';
 import WikiIcon from '../../../components/WikiIcon';
+import KCIMG from '../../../assets/bannerimages/kc_banners.png';
 
 const KC = () => {
     return (
@@ -40,7 +41,9 @@ const KC = () => {
                 banners before the fight starts so you do not have to waste time doing it in the beginning of the
                 fight.
             </p>
-            <br/> //TODO: INSERT IMAGE
+            <div className="row justify-content-center">
+                <img src={KCIMG} alt="KC Banners"/>
+            </div>
             <p>
                 Once the breakbar has been broken you pick up your banners and recast them near the middle
                 from the green you are positioned in. This banner should be left here until the burn phase is

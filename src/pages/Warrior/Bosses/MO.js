@@ -1,6 +1,7 @@
 import React from 'react';
 import SkillIcon from '../../../components/SkillIcon';
 import WikiIcon from '../../../components/WikiIcon';
+import MOIMG from '../../../assets/bannerimages/mo_banners.png';
 
 const MO = () => {
     return (
@@ -31,7 +32,9 @@ const MO = () => {
                 Scorched Earth until they have moved further down the lanes but do still remain lined up for all
                 skills to ensure you are not misjudging the range.
             </p>
-            <br/> //TODO: INSERT IMAGE
+            <div className="row justify-content-center">
+                <img src={MOIMG} alt="Mursaat Banners"/>
+            </div>
             <p>
                 As mentioned earlier the banner pattern is practically the same as with Cairn. Keep the banners
                 in the corner of the piece you are currently stacking on and pick them up and replace them

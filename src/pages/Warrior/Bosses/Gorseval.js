@@ -1,6 +1,7 @@
 import React from 'react';
 import SkillIcon from '../../../components/SkillIcon';
 import WikiIcon from '../../../components/WikiIcon';
+import GorseIMG from '../../../assets/bannerimages/gorsebanners.png';
 
 const Gorseval = () => {
     return (
@@ -51,7 +52,9 @@ const Gorseval = () => {
                 away in the same position. If the phases and splits are slow you might want to delay replacing
                 the banners until the last spirit is about to be killed.
             </p>
-            //TODO: INSERT IMAGE
+            <div className="row justify-content-center">
+                <img src={GorseIMG} alt="Gorse Banners"/>
+            </div>
         </>
     );
 }

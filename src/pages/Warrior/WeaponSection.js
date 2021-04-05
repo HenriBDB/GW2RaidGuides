@@ -9,7 +9,7 @@ const WeaponSection = () => {
     return (
         <>
         <NavTabs tabNames={["Axe", "Dagger", "Greatsword", "Hammer", "Longbow", "Mace", "Rifle", "Shield", "Sword", "Torch", "Warhorn"]} hrefs={["Axe", "Dagger", "Greatsword", "Hammer", "Longbow", "Mace", "Rifle", "Shield", "Sword", "Torch", "Warhorn"]} gameClass="warrior">
-            <TabPane tabName="Axe" active='true'>
+            <TabPane tabName="Axe" active="true">
                 <Axe/>
             </TabPane>
             <TabPane tabName="Dagger">

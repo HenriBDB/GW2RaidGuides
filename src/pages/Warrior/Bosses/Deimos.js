@@ -1,6 +1,7 @@
 import React from 'react';
 import SkillIcon from '../../../components/SkillIcon';
 import WikiIcon from '../../../components/WikiIcon';
+import DeimosIMG from '../../../assets/bannerimages/deimos_banners.png';
 
 const Deimos = () => {
     return (
@@ -42,7 +43,9 @@ const Deimos = () => {
                 for picking up the banners again, and refreshing the cooldown completely in doing so, otherwise
                 wait until you return.
             </p>
-            <br/> //TODO: INSERT IMAGE
+            <div className="row justify-content-center">
+                <img src={DeimosIMG} alt="Deimos Banners"/>
+            </div>
             <p>
                 Upon returning place your banners slightly towards the side where Deimos will be tanked from
                 60% and towards the direction you rotate around the arena.

@@ -1,6 +1,7 @@
 import React from 'react';
 import SkillIcon from '../../../components/SkillIcon';
 import WikiIcon from '../../../components/WikiIcon';
+import SHIMG from '../../../assets/bannerimages/sh_banners.png';
 
 const SH = () => {
     return (
@@ -33,7 +34,9 @@ const SH = () => {
                 use Head Butt for CC, and Sundering Leap for movement over open area. Depending on the
                 group setup you Might have to run Sundering Bursts to help cover Vulnerability uptime.
             </p>
-            <br/> //TODO: INSERT IMAGE
+            <div className="row justify-content-center">
+                <img src={SHIMG} alt="Soulless Horror Banners"/>
+            </div>
             <p>
                 Given the nature of the encounter it is very hard to outline a clear pattern of how banners
                 should be approached. So instead a set of guidelines will be outlined rather than a definite

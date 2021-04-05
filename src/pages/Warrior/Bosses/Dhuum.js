@@ -1,6 +1,7 @@
 import React from 'react';
 import SkillIcon from '../../../components/SkillIcon';
 import WikiIcon from '../../../components/WikiIcon';
+import DhuumIMG from '../../../assets/bannerimages/dhuum_banners.png';
 
 const Dhuum = () => {
     return (
@@ -44,7 +45,9 @@ const Dhuum = () => {
             <p>
                 For banners on this boss I am assuming a no-throne tanking pattern.
             </p>
-            <br/> //TODO: INSERT IMAGE
+            <div className="row justify-content-center">
+                <img src={DhuumIMG} alt="Dhuum Banners"/>
+            </div>
             <p>
                 Before doing your second green you want to put down banners such that they are in place
                 before the boss spawns (banner position “a”) and is moved to the first position. When you get

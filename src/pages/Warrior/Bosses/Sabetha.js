@@ -1,6 +1,7 @@
 import React from 'react';
 import SkillIcon from '../../../components/SkillIcon';
 import WikiIcon from '../../../components/WikiIcon';
+import SabIMG from '../../../assets/bannerimages/sab_banners.png'
 
 const Sabetha = () => {
     return (
@@ -41,7 +42,9 @@ const Sabetha = () => {
                 replace banners after the mini boss dies as well. Another fail-safe approach to banners on this
                 fight is replacing banners every time berserk ends.
             </p>
-            //TODO: INSERT IMAGE
+            <div className="row justify-content-center">
+                <img src={SabIMG} alt="Sabetha Banners"/>
+            </div>
         </>
     );
 }

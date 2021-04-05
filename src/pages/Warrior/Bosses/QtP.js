@@ -1,6 +1,7 @@
 import React from 'react';
 import SkillIcon from '../../../components/SkillIcon';
 import WikiIcon from '../../../components/WikiIcon';
+import QtPIMG from '../../../assets/bannerimages/QtP_banners.png';
 
 const QtP = () => {
     return (
@@ -33,7 +34,9 @@ const QtP = () => {
                 cleave the anomalies as they walk towards Qadim using Scorched Earth and Flaming Flurry to
                 not only help kill them, but also to gain some addition stacks of Furious Surge.
             </p>
-            <br/> //TODO: INSERT IMAGE
+            <div className="row justify-content-center">
+                <img src={QtPIMG} alt="Qadim the Peerless Banners"/>
+            </div>
             <p>
                 For banners you should keep the banners close to the group at all times such that they are easy
                 to grab before the boss phases so you do not get locked out of grabbing them while dealing with

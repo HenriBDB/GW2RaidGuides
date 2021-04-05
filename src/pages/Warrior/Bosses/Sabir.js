@@ -1,6 +1,7 @@
 import React from 'react';
 import SkillIcon from '../../../components/SkillIcon';
 import WikiIcon from '../../../components/WikiIcon';
+import SabirIMG from '../../../assets/bannerimages/sabir_banners.png';
 
 const Sabir = () => {
     return (
@@ -50,7 +51,9 @@ const Sabir = () => {
             them. Aim to recast banners every time you get out of berserk or when you return from clearing
             Wisps, to ensure that the banners are steadily refreshed.
         </p>
-        //TODO: INSERT IMAGE
+        <div className="row justify-content-center">
+            <img src={SabirIMG} alt="Sabir Banners"/>
+        </div>
         </>
     );
 }

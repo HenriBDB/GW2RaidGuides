@@ -1,6 +1,10 @@
 import React from 'react';
 import SkillIcon from '../../../components/SkillIcon';
 import WikiIcon from '../../../components/WikiIcon';
+import AdinaPhaseIMG from '../../../assets/bannerimages/adina_banners_phases.png';
+import AdinaSplit1IMG from '../../../assets/bannerimages/adina_banners_split1.png';
+import AdinaSplit2IMG from '../../../assets/bannerimages/adina_banners_split2.png';
+import AdinaSplit3IMG from '../../../assets/bannerimages/adina_banners_split3.png';
 
 const Adina = () => {
     return (
@@ -32,7 +36,8 @@ const Adina = () => {
                 hands and shooting at the other, but it will still be hard to compete with the power damage.
                 You can use Shattering Blow to reflect rocks from hands during the splits.
             </p>
-            <br/> //TODO: INSERT IMAGE AND DESCRIPTION
+            <img src={AdinaPhaseIMG} alt="Adina Phases Banners" style={{display: "block", marginLeft: "auto", marginRight: "auto"}}/>
+            <p style={{textAlign: "center"}}>Phases (Phase 1 specifically), a & b representing north/south tanking positions.</p>
             <p>
                 The banner patterns on this boss is fairly easy. Before you start the fight make sure to precast
                 banners in the middle, this is to save you the time of doing so when the fight has already begun
@@ -48,7 +53,12 @@ const Adina = () => {
                 you were to pick up the banners. With closer to the boss I mean 3 hexagons away instead of 4
                 (one closer than what is displayed on Split 3 illustration)
             </p>
-            //TODO: INSERT IMAGES AND DESCRIPTIONS
+            <img src={AdinaSplit1IMG} alt="Adina Split 1 Banners" style={{display: "block", marginLeft: "auto", marginRight: "auto"}}/>
+            <p style={{textAlign: "center"}}>Split 1</p>
+            <img src={AdinaSplit2IMG} alt="Adina Split 2 Banners" style={{display: "block", marginLeft: "auto", marginRight: "auto"}}/>
+            <p style={{textAlign: "center"}}>Split 2</p>
+            <img src={AdinaSplit3IMG} alt="Adina Split 3 Banners" style={{display: "block", marginLeft: "auto", marginRight: "auto"}}/>
+            <p style={{textAlign: "center"}}>Split 3</p>
         </>
     );
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import SkillIcon from '../../../components/SkillIcon';
 import WikiIcon from '../../../components/WikiIcon';
+import VGIMG from '../../../assets/bannerimages/vg_banners.png';
 
 const VG = () => {
     return (
@@ -49,7 +50,9 @@ const VG = () => {
                 recharge before the next phase.
                 For the wall tanking strategy the group starts at position 1 on the following graph.
             </p>
-            <br/> //TODO: INSERT IMAGE
+            <div className="row justify-content-center">
+                <img src={VGIMG} alt="VG Banners"/>
+            </div>
             <p>
                 Position 1 is roughly where the group will be for all of phase 1, and likewise the banners should
                 be just slightly behind the stacks such that the banners are easy to pick up when moving to

@@ -1,6 +1,7 @@
 import React from 'react';
 import SkillIcon from '../../../components/SkillIcon';
 import WikiIcon from '../../../components/WikiIcon';
+import LargosIMG from '../../../assets/bannerimages/largos_banners.png';
 
 const Largos = () => {
     return (
@@ -37,7 +38,9 @@ const Largos = () => {
                 moving to the next platform. You might have to recast on the same platform if it takes too long
                 to phase the boss.
             </p>
-            //TODO: INSERT IMAGE
+            <div className="row justify-content-center">
+                <img src={LargosIMG} alt="Largos Banners"/>
+            </div>
         </>
     );
 }

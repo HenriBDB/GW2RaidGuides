@@ -1,6 +1,7 @@
 import React from 'react';
 import SkillIcon from '../../../components/SkillIcon';
 import WikiIcon from '../../../components/WikiIcon';
+import SlothIMG from '../../../assets/bannerimages/sloth_banners.png';
 
 const Sloth = () => {
     return (
@@ -48,7 +49,9 @@ const Sloth = () => {
                 banners should be placed accordingly for the mid strategy, but for other eating patterns the idea
                 will be similar in how you want to place the banners.
             </p>
-            <br/> //TODO: INSERT IMAGE
+            <div className="row justify-content-center">
+                <img src={SlothIMG} alt="Slothasor Banners"/>
+            </div>
             <p>
                 When Starting the fight you want to place the banners behind where Slothasor will be
                 positioned first, such that when moving after the first breakbar, the banners can easily be

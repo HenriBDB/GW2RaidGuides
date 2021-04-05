@@ -1,6 +1,7 @@
 import React from 'react';
 import SkillIcon from '../../../components/SkillIcon';
 import WikiIcon from '../../../components/WikiIcon';
+import SamaIMG from '../../../assets/bannerimages/sama_banners.png';
 
 const Samarog = () => {
     return (
@@ -28,7 +29,9 @@ const Samarog = () => {
                 cleaving the spears for Furious Surge stacks, and use your Head Butt to provide the slight bit of
                 CC you can. Use Pin Down to help lock Rigom up once he has been pushed on top of Samarog.
             </p>
-            <br/> //TODO: INSERT IMAGE
+            <div className="row justify-content-center">
+                <img src={SamaIMG} alt="Samarog Banners"/>
+            </div>
             <p>
                 The Bannering here is split into 2 phases, the main phases and the split phases. If the main
                 phase is fast enough you only need to put down the banners where the group is stacking and

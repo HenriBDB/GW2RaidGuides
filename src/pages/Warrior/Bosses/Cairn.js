@@ -1,6 +1,7 @@
 import React from 'react';
 import SkillIcon from '../../../components/SkillIcon';
 import WikiIcon from '../../../components/WikiIcon';
+import CairnIMG from '../../../assets/bannerimages/cairn_banners.png';
 
 const Cairn = () => {
     return (
@@ -37,7 +38,9 @@ const Cairn = () => {
                 hurting the group with agony. So, you want to place the banners slightly towards the spot you
                 will stay on with the agony.
             </p>
-            //TODO: INSERT IMAGE
+            <div className="row justify-content-center">
+                <img src={CairnIMG} alt="Cairn Banners"/>
+            </div>
         </>
     );
 }

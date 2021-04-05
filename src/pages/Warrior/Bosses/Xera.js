@@ -1,6 +1,7 @@
 import React from 'react';
 import SkillIcon from '../../../components/SkillIcon';
 import WikiIcon from '../../../components/WikiIcon';
+import XeraIMG from '../../../assets/bannerimages/xera_banners.png';
 
 const Xera = () => {
     return (
@@ -39,7 +40,9 @@ const Xera = () => {
                 edge where you will stack so they still cover the group, but also so you get the buff while moving
                 there and while moving back to the middle.
             </p>
-            <br/> //TODO: INSERT IMAGE
+            <div className="row justify-content-center">
+                <img src={XeraIMG} alt="Xera Banners"/>
+            </div>
             <p>
                 Similar ideas present themself for phase 2. The diagram above should somewhat show how the
                 phase plays out. You start with the banner in the middle as you stack there with the group, and

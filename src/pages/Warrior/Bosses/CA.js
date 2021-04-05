@@ -1,6 +1,7 @@
 import React from 'react';
 import SkillIcon from '../../../components/SkillIcon';
 import WikiIcon from '../../../components/WikiIcon';
+import CAIMG from '../../../assets/bannerimages/ca_banners.png';
 
 const CA = () => {
     return (
@@ -54,7 +55,9 @@ const CA = () => {
                 hand(s). Pick up and recast banners whenever you move to collect Swords, and when a burn
                 phase ends.
             </p>
-            //TODO: INSERT IMAGE
+            <div className="row justify-content-center">
+                <img src={CAIMG} alt="Conjured Amalgamate Banners"/>
+            </div>
         </>
     );
 }

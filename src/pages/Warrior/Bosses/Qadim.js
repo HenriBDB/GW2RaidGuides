@@ -1,6 +1,11 @@
 import React from 'react';
 import SkillIcon from '../../../components/SkillIcon';
 import WikiIcon from '../../../components/WikiIcon';
+import Q1P1IMG from '../../../assets/bannerimages/qadim_banners_p1.png'
+import Q1Pre2IMG from '../../../assets/bannerimages/qadim_banners_pre2.png';
+import Q1P2IMG from '../../../assets/bannerimages/qadim_banners_p2.png';
+import Q1Pre3IMG from '../../../assets/bannerimages/qadim_banners_pre3.png';
+import Q1P3IMG from '../../../assets/bannerimages/qadim_banners_p3.png';
 
 const Qadim = () => {
     return (
@@ -58,7 +63,16 @@ const Qadim = () => {
                 Qadim dashes from corner to corner, and when he moves to the final platform. The banners
                 placed on the final platform should be the last and should not need to be refreshed.
             </p>
-            //TODO: INSERT IMAGES AND DESCRIPTIONS
+            <img src={Q1P1IMG} alt="Qadim Phase 1 Banners" style={{display: "block", marginLeft: "auto", marginRight: "auto"}}/>
+            <p style={{textAlign: "center"}}>Pre-Phase 1 and Phase 1</p>
+            <img src={Q1Pre2IMG} alt="Qadim Pre-phase 2 Banners" style={{display: "block", marginLeft: "auto", marginRight: "auto"}}/>
+            <p style={{textAlign: "center"}}>Pre-Phase 2</p>
+            <img src={Q1P2IMG} alt="Qadim Phase 2 Banners" style={{display: "block", marginLeft: "auto", marginRight: "auto"}}/>
+            <p style={{textAlign: "center"}}>Phase 2</p>
+            <img src={Q1Pre3IMG} alt="Qadim Pre-phase 3 Banners" style={{display: "block", marginLeft: "auto", marginRight: "auto"}}/>
+            <p style={{textAlign: "center"}}>Pre-Phase 3</p>
+            <img src={Q1P3IMG} alt="Qadim Phase 3 Banners" style={{display: "block", marginLeft: "auto", marginRight: "auto"}}/>
+            <p style={{textAlign: "center"}}>Phase 3</p>
         </>
     );
 }

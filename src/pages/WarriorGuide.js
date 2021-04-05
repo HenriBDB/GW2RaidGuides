@@ -1,10 +1,8 @@
 import React from "react";
-import SkillCard from '../components/SkillCard';
 import GuideTitle from "../components/GuideTitle";
 import SectionTitle from "../components/SectionTitle";
 import SectionIntro from '../components/SectionIntro';
 import NavTabs from '../components/NavTabs';
-import TabPane from '../components/TabPane';
 import {TraitSection, WeaponSection, UtilitySection, GearSection, RotationSection, BossGuideSection} from './Warrior';
 import ScrollArrow from '../components/ScrollArrowTop';
 
