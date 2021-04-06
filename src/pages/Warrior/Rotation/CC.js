@@ -1,5 +1,6 @@
 import React from 'react';
 import SkillIcon from '../../../components/SkillIcon';
+import WikiIcon from '../../../components/WikiIcon';
 
 const CC = () => {
     return (
@@ -35,7 +36,7 @@ const CC = () => {
                 that weapon swap comes off cooldown as you are about to cast Staggering Blow, but this is also
                 why Staggering Blow is used last, as it is one of the skills whose animation does not line up with
                 the damage. So once the damage goes through, you swap weapons instead of waiting for the
-                animation to finish. Fierce Blow is cast before Backbreaker to ensure that Weakness is on the
+                animation to finish. Fierce Blow is cast before Backbreaker to ensure that Weakness <WikiIcon name="Weakness"/> is on the
                 target, so Backbreaker hits for 400 breakbar damage instead of 300. Overall, this sequence deals
                 1200 breakbar damage.
             </p>

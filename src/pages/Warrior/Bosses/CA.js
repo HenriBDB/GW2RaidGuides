@@ -1,6 +1,4 @@
 import React from 'react';
-import SkillIcon from '../../../components/SkillIcon';
-import WikiIcon from '../../../components/WikiIcon';
 import CAIMG from '../../../assets/bannerimages/ca_banners.png';
 
 const CA = () => {

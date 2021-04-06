@@ -1,5 +1,4 @@
 import React from 'react';
-import SkillIcon from '../../../components/SkillIcon';
 import WikiIcon from '../../../components/WikiIcon';
 import CairnIMG from '../../../assets/bannerimages/cairn_banners.png';
 
@@ -28,7 +27,7 @@ const Cairn = () => {
                 during the animation due to conditions, and the ability to still hit the boss with Longbow. Be
                 very careful with Shattering Blow on this fight as it can reflect the shards from Cairn attacks
                 which can melt the entire group if reflected. Shattering Blow can however also be a great asset
-                as the stability it gives can be used to negate the float from not going to greens.
+                as the Stability <WikiIcon name="Stability"/> it gives can be used to negate the float from not going to greens.
             </p>
             <br/>
             <p>

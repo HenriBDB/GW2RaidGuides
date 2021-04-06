@@ -1,5 +1,4 @@
 import React from 'react';
-import SkillIcon from '../../../components/SkillIcon';
 import WikiIcon from '../../../components/WikiIcon';
 import DhuumIMG from '../../../assets/bannerimages/dhuum_banners.png';
 
@@ -37,7 +36,7 @@ const Dhuum = () => {
             <p>
                 The condition build is not so creative in what it can do as the power build for this encounter.
                 You can use Savage Leap to get to and from the greens, and for other movement around the
-                arena. King of Fires can be used to cleanse the Torment applied during the Soul Suck. Stay on
+                arena. King of Fires can be used to cleanse the Torment <WikiIcon name="Torment"/> applied during the Soul Suck. Stay on
                 Longbow when you carry out bombs or break chains so you can still damage the boss while
                 dealing with the mechanic.
             </p>

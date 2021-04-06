@@ -1,5 +1,4 @@
 import React from 'react';
-import SkillIcon from '../../../components/SkillIcon';
 import WikiIcon from '../../../components/WikiIcon';
 import DeimosIMG from '../../../assets/bannerimages/deimos_banners.png';
 
@@ -17,7 +16,7 @@ const Deimos = () => {
             <br/>
             <p>
                 For power you want to use the burst Axe rotation rather than the standard Axe to make the
-                most out of the unnatural signet. The huge focus on bursts also means that phases easily can get
+                most out of the unnatural signet <WikiIcon name="UnnaturalSignet"/>. The huge focus on bursts also means that phases easily can get
                 too short to make Outrage worthwhile, so stick to Signet of Might for this encounter. When
                 prides and greeds start spawning you should remember to make full use of the additional
                 adrenaline gained from cleaving these.

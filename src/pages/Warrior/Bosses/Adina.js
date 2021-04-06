@@ -1,6 +1,4 @@
 import React from 'react';
-import SkillIcon from '../../../components/SkillIcon';
-import WikiIcon from '../../../components/WikiIcon';
 import AdinaPhaseIMG from '../../../assets/bannerimages/adina_banners_phases.png';
 import AdinaSplit1IMG from '../../../assets/bannerimages/adina_banners_split1.png';
 import AdinaSplit2IMG from '../../../assets/bannerimages/adina_banners_split2.png';

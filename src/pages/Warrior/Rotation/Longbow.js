@@ -32,7 +32,7 @@ const Longbow = () => {
                 Berserk will run out in the middle of Double Chop so just finish the attack chain, dont even try to get
                 the extra Decapitate. Everything from there is a fine order of skills that takes exactly enough time for
                 Berserk to come off cooldown and ensures that you are on longbow with weaponswap ready when that happens.
-                Dual Strike and Cyclone Axe will be off cooldown by the time we swap back to axesso they are free to use
+                Dual Strike and Cyclone Axe will be off cooldown by the time we swap back to axes so they are free to use
                 after Whirling Axe.
             </p>
         </SkillIcon>
