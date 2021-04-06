@@ -90,4 +90,5 @@ export const LinkIcon = styled(FaLink)`
 export const Copyright = styled.p`
   font-family: 'Noto Serif';
   font-size: 12px;
+  text-align: center;
 `

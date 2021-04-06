@@ -20,7 +20,6 @@ const DruidGuide = () => {
                     It has been written with raid clearing in mind and not speedrunning thus hardcore strategies will not be discussed. This guide will walk you through
                     everything that makes a druid good from trait and weapon variations to buff generation and mechanics strategies.
                 </p>
-
                 <SectionCollapsible gameClass="ranger" title="Boons and Buffs" id="druid-boons-and-buffs">
                     <SectionIntro>
                         <p>

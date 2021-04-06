@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import PropTypes from 'prop-types'
 import { Link } from 'react-scroll'
 import Arrow from '../assets/icons/arrow-white.png'
-import { ArrowMoreButton } from './Dragonhunter/styles'
+import { ArrowMoreButton } from './styles'
 
 const SectionCollapsible = (props) => {
     const [sectionVisible, setSectionVisible] = useState(false)

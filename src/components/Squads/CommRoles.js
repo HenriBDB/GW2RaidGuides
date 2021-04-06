@@ -12,10 +12,10 @@ const CommRoles = () => {
     return (
         <SectionContainer>
             <SectionIntro>
-                <p style={{ fontStyle: "normal", textAlign: 'center' }} class="mb-0">
+                <p style={{ fontStyle: "normal", textAlign: 'center' }} className="mb-0">
                     Some roles are related to specific bosses only and all are mentioned under <b>Special roles</b>.
                 </p>
-                <p style={{ fontStyle: "normal", textAlign: 'center' }} class="mt-0">
+                <p style={{ fontStyle: "normal", textAlign: 'center' }} className="mt-0">
                     Rest we can break down to simple categories.
                 </p>
             </SectionIntro>

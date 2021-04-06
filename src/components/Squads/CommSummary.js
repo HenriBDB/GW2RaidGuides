@@ -53,50 +53,50 @@ const CommSummary = () => {
             <NavTabs tabNames={["Firebrigade", "Double Tank", "Boonthief compositions"]} hrefs={["firebrigade", "double-tank", "boonthief-comps"]} gameClass="commander">
                 <TabPane tabName="firebrigade" active={true}>
                     <SquadTemplatesContainer>
-                        <div class="firebrigade-grid-container">
-                            <div class="sub1-1">
+                        <div className="firebrigade-grid-container">
+                            <div className="sub1-1">
                                 <SquadRole>
                                     <WikiIconHuge name={"Chronomancer"} />
                                     <p>STM</p>
                                 </SquadRole>
                             </div>
-                            <div class="sub1-2">
+                            <div className="sub1-2">
                                 <SquadRole>
                                     <WikiIconHuge name={"Druid"} />
                                     <p>Heal</p>
                                 </SquadRole>
                             </div>
-                            <div class="sub1-3">
+                            <div className="sub1-3">
                                 <SquadRole>
                                     <WikiIconHuge name={"Berserker"} />
                                     <p>Banners</p>
                                 </SquadRole>
                             </div>
-                            <div class="sub1-4">
+                            <div className="sub1-4">
                                 <p style={{ marginRight: 10, fontWeight: 'bold' }}>DPS</p>
                             </div>
-                            <div class="sub1-5">
+                            <div className="sub1-5">
                                 <p style={{ fontWeight: 'bold' }}>DPS</p>
                             </div>
-                            <div class="sub2-1">
+                            <div className="sub2-1">
                                 <SquadRole>
                                     <WikiIconHuge name={"Renegade"} />
                                     <p>Alaren</p>
                                 </SquadRole>
                             </div>
-                            <div class="sub2-2">
+                            <div className="sub2-2">
                                 <SquadRole>
                                     <WikiIconHuge name={"Firebrand"} />
                                     <p>Quickbrand</p>
                                 </SquadRole>
                             </div>
-                            <div class="sub2-3">
+                            <div className="sub2-3">
                                 <p style={{ fontWeight: 'bold' }}>DPS</p>
                             </div>
-                            <div class="sub2-4">
+                            <div className="sub2-4">
                                 <p style={{ marginRight: 10, fontWeight: 'bold' }}>DPS</p>
                             </div>
-                            <div class="sub2-5">
+                            <div className="sub2-5">
                                 <p style={{ fontWeight: 'bold' }}>DPS</p>
                             </div>
                         </div>
@@ -118,47 +118,47 @@ const CommSummary = () => {
                 </TabPane>
                 <TabPane tabName="double-tank" active={false}>
                     <SquadTemplatesContainer>
-                        <div class="firebrigade-grid-container">
-                            <div class="sub1-1">
+                        <div className="firebrigade-grid-container">
+                            <div className="sub1-1">
                                 <SquadRole>
                                     <WikiIconHuge name={"Chronomancer"} />
                                     <p>Inspiration</p>
                                 </SquadRole>
                             </div>
-                            <div class="sub1-2">
+                            <div className="sub1-2">
                                 <SquadRole>
                                     <WikiIconHuge name={"Druid"} />
                                     <p>Heal</p>
                                 </SquadRole>
                             </div>
-                            <div class="sub1-3">
+                            <div className="sub1-3">
                                 <SquadRole>
                                     <WikiIconHuge name={"Berserker"} />
                                     <p>Banners</p>
                                 </SquadRole>
                             </div>
-                            <div class="sub1-4">
+                            <div className="sub1-4">
                                 <p style={{ marginRight: 10, fontWeight: 'bold' }}>DPS</p>
                             </div>
-                            <div class="sub1-5">
+                            <div className="sub1-5">
                                 <p style={{ fontWeight: 'bold' }}>DPS</p>
                             </div>
-                            <div class="sub2-1">
+                            <div className="sub2-1">
                                 <SquadRole>
                                     <WikiIconHuge name={"Chronomancer"} />
                                     <p>Inspiration</p>
                                 </SquadRole>
                             </div>
-                            <div class="sub2-2">
+                            <div className="sub2-2">
                                 <p style={{ fontWeight: 'bold' }}>DPS</p>
                             </div>
-                            <div class="sub2-3">
+                            <div className="sub2-3">
                                 <p style={{ marginRight: 10, fontWeight: 'bold' }}>DPS</p>
                             </div>
-                            <div class="sub2-4">
+                            <div className="sub2-4">
                                 <p style={{ marginRight: 10, fontWeight: 'bold' }}>DPS</p>
                             </div>
-                            <div class="sub2-5">
+                            <div className="sub2-5">
                                 <p style={{ fontWeight: 'bold' }}>DPS</p>
                             </div>
                         </div>
@@ -175,44 +175,44 @@ const CommSummary = () => {
                 </TabPane>
                 <TabPane tabName="boonthief-comps" active={false}>
                     <SquadTemplatesContainer>
-                        <div class="boonthief-grid-container">
-                            <div class="btsub1-1">
+                        <div className="boonthief-grid-container">
+                            <div className="btsub1-1">
                                 <SquadRole>
                                     <WikiIconHuge name={"Thief"} />
                                     <p>Boon</p>
                                 </SquadRole>
                             </div>
-                            <div class="btsub2-1">
+                            <div className="btsub2-1">
                                 <p style={{ fontWeight: 'bold' }}>DPS</p>
                             </div>
-                            <div class="btsub2-2">
+                            <div className="btsub2-2">
                                 <p style={{ fontWeight: 'bold' }}>DPS</p>
                             </div>
-                            <div class="btsub2-3">
+                            <div className="btsub2-3">
                                 <p style={{ fontWeight: 'bold' }}>DPS</p>
                             </div>
-                            <div class="btsub2-4">
+                            <div className="btsub2-4">
                                 <p style={{ fontWeight: 'bold' }}>DPS</p>
                             </div>
-                            <div class="btsub3-1">
+                            <div className="btsub3-1">
                                 <SquadRole>
                                     <WikiIconHuge name={"Soulbeast"} />
                                     <p>Spiritbeast</p>
                                 </SquadRole>
                             </div>
-                            <div class="btsub3-2">
+                            <div className="btsub3-2">
                                 <p style={{ fontWeight: 'bold' }}>DPS</p>
                             </div>
-                            <div class="btsub3-3">
+                            <div className="btsub3-3">
                                 <p style={{ fontWeight: 'bold' }}>DPS</p>
                             </div>
-                            <div class="btsub4-1">
+                            <div className="btsub4-1">
                                 <SquadRole>
                                     <WikiIconHuge name={"Renegade"} />
                                     <p>Alaren</p>
                                 </SquadRole>
                             </div>
-                            <div class="btsub5-1">
+                            <div className="btsub5-1">
                                 <SquadRole>
                                     <WikiIconHuge name={"Berserker"} />
                                     <p>Banners</p>

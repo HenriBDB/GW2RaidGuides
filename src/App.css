@@ -462,7 +462,10 @@ nav.custom-nav.warrior a.active {
   border-top: 2px solid var(--war-primary);
   border-bottom: 2px solid var(--war-primary);
 }
-
+.section-title.commander {
+  border-top: 2px solid var(--comm-primary);
+  border-bottom: 2px solid var(--comm-primary);
+}
 .subsection-title {
   padding: 0.5em;
   border-left: 1px solid var(--ranger-primary);
