@@ -40,7 +40,7 @@ const HomePage = () => {
           <Route exact path="/druid-guide/" component={DruidGuide} />
           <Route exact path="/warrior-guide/" component={WarriorGuide} />
           <Route exact path="/privacy-policy/" component={PrivacyPolicy} />
-          <Route component={Error} />
+          <Route path="*" component={Error} />
         </Switch>
         <Footer />
       </Router>
