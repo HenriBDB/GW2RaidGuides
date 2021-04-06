@@ -22,7 +22,7 @@ const Axe = () => {
             <p>
                 The magic number for the power rotation is 3 when it comes to amount of hits, and this skill
                 hitting twice in its short cast time is amazing for quickly generating adrenaline. The
-                Vulnerability is an added bonus, the Fury is great, but the most important thing for this skill is
+                Vulnerability <WikiIcon name="Vulnerability"/> is an added bonus, the Fury is great, but the most important thing for this skill is
                 that it hits twice.
             </p>
         </SkillCard>
@@ -36,8 +36,8 @@ const Axe = () => {
         <SkillCard skillID={14418}>
             <p>
                 Just like Cyclone Axe it is mainly great because it hits twice, but here we also have the added
-                benefit of Quickness for every hit, which over the course of an encounter generates a fair bit of
-                overall quickness along with Burst of Aggression.
+                benefit of Quickness <WikiIcon name="Quickness"/> for every hit, which over the course of an encounter generates a fair bit of
+                overall Quickness <WikiIcon name="Quickness"/> along with Burst of Aggression.
             </p>
         </SkillCard>
         <SkillCard skillID={14399}>

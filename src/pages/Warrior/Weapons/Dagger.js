@@ -12,14 +12,14 @@ const Dagger = () => {
         <SkillCard skillID={[42745,40560,40275]}>
             <p>
                 The auto attack chain has Anet certified consistency. With increased critical damage on the first 2 attacks,
-                and might on the last hit. The whole chain would make much more sense and be a lot better if the final hit
+                and Might <WikiIcon name="Might"/> on the last hit. The whole chain would make much more sense and be a lot better if the final hit
                 had even more critical damage, say 25% instead of 15% like the first 2. This would not make dagger amazing,
                 but certainly make it better in terms of damage.
             </p>
         </SkillCard>
         <SkillCard skillID={46233}>
             <p>
-                Actually a decent source of slow, but should not be used in the rotation as the animation is too long as is
+                Actually a decent source of Slow <WikiIcon name="Slow"/>, but should not be used in the rotation as the animation is too long as is
                 the case with many leap skills. Do use it for CC if you have Winds of Disenchantment up since its a lightning field
                 and the leap finisher would be a dazing strike for some added CC.
             </p>
@@ -41,7 +41,7 @@ const Dagger = () => {
         </SkillCard>
         <SkillCard skillID={45160}>
             <p>
-                Can dish out a decent amount of vulnerability as it applies 2 vulnerability per hit, and it hits 7 times total.
+                Can dish out a decent amount of Vulnerability <WikiIcon name="Vulnerability"/> as it applies 2 Vulnerability <WikiIcon name="Vulnerability"/> per hit, and it hits 7 times total.
                 That is however the greatest thing to be said about the skill as the damage is very low for a channeled skill,
                 and the other effects are not that great either, though the reflect can come in clutch.
             </p>
@@ -57,8 +57,8 @@ const Dagger = () => {
             <p>
                 This is a fantastic skill if used right. While it is not dagger specific, it is Spellbreaker specific, and so are daggers,
                 which is why the skill is listed here. If you time it right it is a block, daze, damage, and an evade, in less than a second.
-                The damage is not even half bad, and the daze gives a stack of Attackers Insight. The stability is mostly a novelty
-                as the block takes precedence over the Stability. Fantastic skill.
+                The damage is not even half bad, and the daze gives a stack of Attackers Insight. The stability <WikiIcon name="Stability"/> is mostly a novelty
+                as the block takes precedence over the Stability <WikiIcon name="Stability"/>. Fantastic skill.
             </p>
         </SkillCard>
         </>

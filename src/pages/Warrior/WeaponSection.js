@@ -115,7 +115,7 @@ const WeaponSection = () => {
                     still pull okay damage under the right circumstances, but Torch still outclass it by a large
                     margin. The main hand Sword gives access to a decent auto-attack chain and Final Thrust which
                     applies solid condition in between bursts and Torch skills while on the Sword + Torch set.
-                    Longbow provides access to a great burst of Burning as well as solid Bleeds through Pin Down.
+                    Longbow provides access to a great burst of Burning <WikiIcon name="Burning"/> as well as solid Bleeds through Pin Down.
                     Both of these weapon sets are strong on their own, but with a fast-paced rotation they form a
                     strong synergy which further boosts their individual powers and push the overall DPS higher.
                     <br/>

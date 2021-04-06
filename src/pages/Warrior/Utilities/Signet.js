@@ -14,14 +14,14 @@ const Signet = () => {
             <p>
                 The passive is great, the active not so much. The passive alone is good enough to take up the last
                 utility slot on the power build over a physical skill for Peak Performance uptime, at least on
-                longer fights and phases, and even then you do not want to replace the extra power but rather
+                longer fights and phases, and even then you do not want to replace the extra power <WikiIcon name="Power"/> but rather
                 the Blood Reckoning.
             </p>
         </SkillCard>
         <SkillCard skillID={14410}>
             <p>
-                The passive precision is neat, but the active is amazing. 360 Ferocity is 24% crit damage which
-                is insane, the precision is not so great for power, but is alright but not good enough for condition
+                The passive Precision <WikiIcon name="Precision"/> is neat, but the active is amazing. 360 Ferocity <WikiIcon name="Ferocity"/> is 24% crit damage which
+                is insane, the Precision <WikiIcon name="Precision"/> is not so great for power, but is alright but not good enough for condition
                 damage, even if that build really wants to crit as well. The only sad part about this skill is that
                 the active effect only lasts 4 seconds.
             </p>
@@ -34,7 +34,7 @@ const Signet = () => {
         </SkillCard>
         <SkillCard skillID={14413}>
             <p>
-                Useless solely because of the toughness it provides. The healing and stability are neat but
+                Useless solely because of the Toughness <WikiIcon name="Toughness"/> it provides. The healing and Stability <WikiIcon name="Stability"/> are neat but
                 overall the signet is just bad for Raids.
             </p>
         </SkillCard>
