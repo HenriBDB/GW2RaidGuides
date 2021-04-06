@@ -5,7 +5,7 @@ import WikiIcon from '../../../components/WikiIcon';
 const Discipline = () => {
     return (
         <>
-        <div className="mb-3" data-armory-embed="specializations" data-armory-ids="51" data-armory-51-traits="1062,978,965,964,1038"></div>
+        <div className="mb-3" data-armory-embed="specializations" data-armory-ids="51" data-armory-51-traits="1329,1413,1381,1484,1489,1709,1369,1317,1657"></div>
         <p>
             This trait-line is probably the strongest trait-line warrior has access to.
             It provides an insane amount of value to both power and condition damage through doubled standards along with Fast Hands.
@@ -31,14 +31,14 @@ const Discipline = () => {
                 This trait is favoured for condition builds as these builds run Longbow.
                 The reduced recharge on Longbow skills ensures that Longbow 2 can be used twice before
                 swapping to the other weapon-set, and that Longbow 5 is available more frequently.
-                The Burn on Longbow 1 helps a lot as it makes the skill viable as a filler while waiting for bursts
+                The Burn <WikiIcon name="Burning"/> on Longbow 1 helps a lot as it makes the skill viable as a filler while waiting for bursts
                 or Longbow 2. The other effects of the trait are irrelevant in a raid scenario.
             </p>
         </TraitCard>
         <TraitCard traitID={1413}>
             <p>
                 This is the go-to trait for the power build. A flat damage modifier is good for power and
-                Swiftness is easily maintained, so it is strictly a 7% damage increase. This trait is also usable for
+                Swiftness <WikiIcon name="Swiftness"/> is easily maintained under normal circumstances, so it is strictly a 7% damage increase. This trait is also usable for
                 the condition build, though it is worse than crack shot. The movement speed increase does not
                 do much in raids along with the immobilize interaction. The great part about this trait is the 7%
                 damage increase.
@@ -96,7 +96,7 @@ const Discipline = () => {
                 This minor trait is mostly useful for the condition build.
                 Decapitate on the power build recharges itself when it hits so it does not benefit from the
                 reduction, but for the condition build the reduction means that you can fit in 2/3 bursts on
-                Longbow without delaying the weapon-swap too much. The Might on weapon-swap is trivial
+                Longbow without delaying the weapon-swap too much. The Might <WikiIcon name="Might"/> on weapon-swap is trivial
                 but can help in a pinch.
             </p>
         </TraitCard>
@@ -105,7 +105,7 @@ const Discipline = () => {
         </div>
         <TraitCard traitID={1369}>
             <p>
-                This trait is what makes the power build and rotation. The ferocity is good and gives a huge
+                This trait is what makes the power build and rotation. The ferocity <WikiIcon name="Ferocity"/> is good and gives a huge
                 boost to crit damage when wielding 2 Axes. The extra adrenaline on top is what allows the
                 power build to be as fast-paced as it is. Since Decapitate resets its cooldown when it lands the
                 power rotation is pretty much a race to fill the bar back up as quickly as possible, and the extra
@@ -115,7 +115,7 @@ const Discipline = () => {
         </TraitCard>
         <TraitCard traitID={1317}>
             <p>
-                This trait is bad, the quickness is lacklustre, and the threshold requirement makes it even worse.
+                This trait is bad, the Quickness <WikiIcon name="Quickness"/> is lacklustre, and the threshold requirement makes it even worse.
                 Never run this ever.
             </p>
         </TraitCard>
