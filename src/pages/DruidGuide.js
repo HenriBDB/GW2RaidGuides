@@ -2,6 +2,7 @@ import React from 'react';
 import GuideTitle from '../components/GuideTitle';
 import SectionIntro from '../components/SectionIntro';
 import SectionCollapsible from '../components/SectionCollapsible';
+import SectionLink from '../components/SectionLink';
 import NavTabs from '../components/NavTabs';
 import TabPane from '../components/TabPane';
 import ScrollArrow from '../components/ScrollArrowTop';
@@ -40,6 +41,9 @@ const DruidGuide = () => {
                         </TabPane>
                     </NavTabs>
                 </SectionCollapsible>
+
+                {/* SectionLink Example will be removed in next update */}
+                <SectionLink sectionId="druid-traits">open traits</SectionLink>
 
                 <SectionCollapsible gameClass="ranger" title="Traits" id="druid-traits">
                     <SectionIntro>
