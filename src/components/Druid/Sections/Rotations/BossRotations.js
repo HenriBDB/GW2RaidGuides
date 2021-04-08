@@ -1,8 +1,8 @@
 import React from 'react'
-import BossCard from '../../../components/BossCard';
-import VG from '../../../assets/bosses/vg.png';
-import SH from '../../../assets/bosses/sh.png';
-import Sabir from '../../../assets/bosses/sabir.png';
+import BossCard from '../../../BossCard';
+import VG from '../../../../assets/bosses/vg.png';
+import SH from '../../../../assets/bosses/sh.png';
+import Sabir from '../../../../assets/bosses/sabir.png';
 
 const WeaponSwaps = () => {
     return (
