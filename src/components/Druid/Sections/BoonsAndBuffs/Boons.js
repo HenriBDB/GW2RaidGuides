@@ -1,5 +1,5 @@
 import React from "react"
-import WikiIcon from '../../../components/WikiIcon'
+import WikiIcon from '../../../WikiIcon'
 
 const Boons = () => {
     return (

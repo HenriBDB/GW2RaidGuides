@@ -135,6 +135,7 @@ img {
   padding-left:15px;
   margin-right:auto;
   margin-left:auto;
+  padding-bottom: 1em;
   background-color: var(--bg-dark);
 }
 @media (min-width:576px) {
@@ -437,10 +438,18 @@ nav.custom-nav.warrior a.active {
 /* Sections */
 
 .section-title {
-  margin-top: 3em;
-  margin-bottom: 2em;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   padding: 0.25rem 0 0.25rem 0;
+  display: flex;
+  justify-content: center;
   background-color: rgba(0, 0, 0, 0.8);
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 1.75rem;
+  position: relative;
+  cursor: pointer;
 }
 .section-title > h3 {
   margin: 0;
