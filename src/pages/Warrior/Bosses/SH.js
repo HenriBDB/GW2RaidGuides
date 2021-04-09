@@ -1,5 +1,4 @@
 import React from 'react';
-import SkillIcon from '../../../components/SkillIcon';
 import WikiIcon from '../../../components/WikiIcon';
 import SHIMG from '../../../assets/bannerimages/sh_banners.png';
 
@@ -19,7 +18,7 @@ const SH = () => {
             <br/>
             <p>
                 If you do play power on this boss you should bring the Maces to help break the bar faster, since
-                the boss is not casting any other skills while the bar is up, which greatly hurt confusion DPS.
+                the boss is not casting any other skills while the bar is up, which greatly hurt confusion <WikiIcon name="Confusion"/> DPS.
                 Outrage is playable for this boss, but keep in mind that Head Butt should be available for the
                 breakbars. The extension to berserk can be a great asset once again with the boss movement in
                 mind. Signet of Might is however the safe and consistent choice.
@@ -32,7 +31,7 @@ const SH = () => {
                 right, which can help mitigate incoming damage. If you do get hit by the spin or any scythes or
                 red pools, you can cleanse some of the conditions with Flames of War. You should remember to
                 use Head Butt for CC, and Sundering Leap for movement over open area. Depending on the
-                group setup you Might have to run Sundering Bursts to help cover Vulnerability uptime.
+                group setup you Might have to run Sundering Bursts to help cover Vulnerability <WikiIcon name="Vulnerability"/> uptime.
             </p>
             <div className="row justify-content-center">
                 <img src={SHIMG} alt="Soulless Horror Banners"/>

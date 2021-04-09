@@ -1,5 +1,4 @@
 import React from 'react';
-import SkillCard from '../../components/SkillCard';
 import NavTabs from '../../components/NavTabs';
 import TabPane from '../../components/TabPane';
 import {AxeOnly, Basics, CC, Condi, FastHands, Greatsword, Leapfrog, Longbow, NoSwap} from './Rotation'

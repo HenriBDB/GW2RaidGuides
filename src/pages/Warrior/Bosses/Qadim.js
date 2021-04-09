@@ -1,6 +1,4 @@
 import React from 'react';
-import SkillIcon from '../../../components/SkillIcon';
-import WikiIcon from '../../../components/WikiIcon';
 import Q1P1IMG from '../../../assets/bannerimages/qadim_banners_p1.png'
 import Q1Pre2IMG from '../../../assets/bannerimages/qadim_banners_pre2.png';
 import Q1P2IMG from '../../../assets/bannerimages/qadim_banners_p2.png';

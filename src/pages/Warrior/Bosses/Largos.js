@@ -1,6 +1,4 @@
 import React from 'react';
-import SkillIcon from '../../../components/SkillIcon';
-import WikiIcon from '../../../components/WikiIcon';
 import LargosIMG from '../../../assets/bannerimages/largos_banners.png';
 
 const Largos = () => {

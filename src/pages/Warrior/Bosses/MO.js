@@ -1,6 +1,4 @@
 import React from 'react';
-import SkillIcon from '../../../components/SkillIcon';
-import WikiIcon from '../../../components/WikiIcon';
 import MOIMG from '../../../assets/bannerimages/mo_banners.png';
 
 const MO = () => {

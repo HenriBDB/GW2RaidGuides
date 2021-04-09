@@ -1,6 +1,4 @@
 import React from 'react';
-import SkillIcon from '../../../components/SkillIcon';
-import WikiIcon from '../../../components/WikiIcon';
 import SabIMG from '../../../assets/bannerimages/sab_banners.png'
 
 const Sabetha = () => {

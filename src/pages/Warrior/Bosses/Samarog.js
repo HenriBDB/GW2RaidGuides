@@ -1,6 +1,4 @@
 import React from 'react';
-import SkillIcon from '../../../components/SkillIcon';
-import WikiIcon from '../../../components/WikiIcon';
 import SamaIMG from '../../../assets/bannerimages/sama_banners.png';
 
 const Samarog = () => {

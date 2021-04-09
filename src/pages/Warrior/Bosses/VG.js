@@ -1,6 +1,4 @@
 import React from 'react';
-import SkillIcon from '../../../components/SkillIcon';
-import WikiIcon from '../../../components/WikiIcon';
 import VGIMG from '../../../assets/bannerimages/vg_banners.png';
 
 const VG = () => {
