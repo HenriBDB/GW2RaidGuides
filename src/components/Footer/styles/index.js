@@ -78,6 +78,20 @@ export const ExternalLink = styled.a`
     font-size: 14px;
   }
 `
+export const InternalLink = styled(Link)`
+  font-family: "Noto serif";
+  font-size: 16px;
+  padding-bottom: 5px;
+  color: white;
+  :hover {
+    color: white;
+    opacity: 0.7;
+    text-decoration: none;
+  }
+  @media(max-width: 870px) {
+    font-size: 14px;
+  }
+`
 export const FooterIcon = styled.img`
 @media(max-width: 870px) {
   height: 25px;

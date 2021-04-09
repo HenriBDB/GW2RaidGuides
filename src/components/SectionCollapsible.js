@@ -16,10 +16,14 @@ const SectionCollapsible = (props) => {
         setSectionVisible(!sectionVisible)
     }
 
+    const setVisible = () => {
+        setSectionVisible(true)
+    }
+
     return (
         <>
         <Link to={props.id} smooth={true} duration={1000} onClick={toggleVisible}>
-            <div className={"centered-flex-row section-title " + props.gameClass} id={props.id}>
+            <div id={props.id} className={"centered-flex-row section-title " + props.gameClass} onCLick={setVisible}>
                 <h3>{props.title}</h3>
                 <ArrowMoreButton
                     src={Arrow}
@@ -30,6 +34,7 @@ const SectionCollapsible = (props) => {
             </div>
         </Link>
         <div style={{ display: sectionVisible ? 'block' : 'none' }}>
+            <div id={props.id+"-section"} onClick={setVisible}></div>
             {props.children}
         </div>
         </>

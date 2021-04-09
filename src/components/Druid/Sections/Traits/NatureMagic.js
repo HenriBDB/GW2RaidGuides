@@ -1,6 +1,6 @@
 import React from 'react';
-import TraitCard from '../../../components/TraitCard';
-import WikiIcon from '../../../components/WikiIcon';
+import TraitCard from '../../../TraitCard';
+import WikiIcon from '../../../WikiIcon';
 
 const NatureMagic = () => {
     return (

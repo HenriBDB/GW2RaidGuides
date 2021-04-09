@@ -8,6 +8,7 @@ import {
     FooterTitle,
     FooterLink,
     ExternalLink,
+    InternalLink,
     FooterIcon,
     LinkIcon,
     Copyright
@@ -30,8 +31,7 @@ const Footer = () => {
                 <MobileWrapper>
                 <FooterCol>
                     <FooterTitle>About the Project</FooterTitle>
-                    <ExternalLink href="https://github.com/HenriBDB/GW2RaidGuides" target="_blank"><LinkIcon /> Changelog</ExternalLink>
-                    <ExternalLink href="https://github.com/HenriBDB/GW2RaidGuides/issues" target="_blank"><LinkIcon /> Bug reports</ExternalLink>
+                    <InternalLink to="/changelog" onClick={() => window.scrollTo(0, 0)}><LinkIcon /> Changelog</InternalLink>
                 </FooterCol>
                     <FooterCol>
                         <FooterTitle>
