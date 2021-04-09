@@ -1,12 +1,12 @@
 import React from "react";
-import { Link } from 'react-scroll';
 import NavTabs from '../../components/NavTabs';
 import TabPane from '../../components/TabPane';
 import SkillCard from '../../components/SkillCard';
 import WikiIcon from '../../components/WikiIcon';
+import SectionLink from '../../components/SectionLink';
 import { SectionContainer } from './styles'
 
-const DhWeaponSkills = ({ showGuides, showWeapons }) => {
+const DhWeaponSkills = () => {
     return (
         <SectionContainer>
             <NavTabs tabNames={["Greatsword", "Scepter", "Sword", "Focus"]} hrefs={["dh-gs", "dh-scepter", "dh-sword", "dh-focus"]} gameClass="dragonhunter">
@@ -40,12 +40,12 @@ const DhWeaponSkills = ({ showGuides, showWeapons }) => {
                     <SkillCard skillID={[9147, 9226]}>
                         <p>
                             Throws projectiles and deals damage over time. It can hit up to 5 targets which are in 600 range, but if you use it inside the hitbox of the boss while other targets are around, it will hit once with all 5 projectiles, i.e. the boss will get all hits. This skill makes <WikiIcon name={"Dragonhunter"} /> Dragonhunter a strong choice in fights where mobs are around (for example Seekers at <WikiIcon name={"Vg"} /> VG, Spirits at <WikiIcon name={"Gorseval"} /> Gorseval, Slublings at <WikiIcon name={"Slothasor"} /> Sloth, Statues at <WikiIcon name={"KC"} /> KC, and more). You will find instructions on how to use this skill in the most efficient way in different fights in
-                            <Link to="dh-section-guides" smooth={true} duration={1000} onClick={showGuides}>
-                                <span
-                                    style={{ color: "#69CCE7", cursor: "pointer" }}>
-                                    &nbsp;Boss Guides
-                                    </span>
-                            </Link>. It's also a <a href="https://wiki.guildwars2.com/wiki/Whirl_finisher" target="_blank" rel="noopener noreferrer" className="dhlink">Whirl finisher</a>.
+                            <SectionLink sectionId="dh-section-guides">
+                        <span
+                            style={{ color: "#69CCE7", cursor: "pointer" }}>
+                            &nbsp;Boss Guides
+                        </span>
+                    </SectionLink>. It's also a <a href="https://wiki.guildwars2.com/wiki/Whirl_finisher" target="_blank" rel="noopener noreferrer" className="dhlink">Whirl finisher</a>.
                         </p>
                         <p>
                             This skill also has an aftercast which can be cancelled - by stowing your weapons right after projectiles are thrown.
@@ -58,12 +58,12 @@ const DhWeaponSkills = ({ showGuides, showWeapons }) => {
                 <TabPane tabName="dh-scepter">
                     <p>
                         Scepter is one of the 2 possible main-hand weapons in the second weaponset, paired with Focus. It's your ranged dps option - all Scepter skills have 900 range. If you are not sure if you should play Scepter or Sword, go back to
-                    <Link to="dh-section-weapons" smooth={true} duration={1000} onClick={showWeapons}>
-                            <span
-                                style={{ color: "#69CCE7", cursor: "pointer" }}>
-                                &nbsp;Weapons
-                            </span>
-                        </Link>.
+                        <SectionLink sectionId="dh-section-weapons">
+                        <span
+                            style={{ color: "#69CCE7", cursor: "pointer" }}>
+                            &nbsp;Weapons
+                        </span>
+                    </SectionLink>.
                     </p><br />
                     <SkillCard skillID={[9098]}>
                         <p>
@@ -88,12 +88,12 @@ const DhWeaponSkills = ({ showGuides, showWeapons }) => {
                 <TabPane tabName="dh-sword">
                     <p>
                         Sword is other one of the 2 possible main-hand weapons in the second weaponset, paired with Focus. It's your melee dps option. If you are not sure if you should play Sword or Scepter, go back to
-                    <Link to="dh-section-weapons" smooth={true} duration={1000} onClick={showWeapons}>
-                            <span
-                                style={{ color: "#69CCE7", cursor: "pointer" }}>
-                                &nbsp;Weapons
-                            </span>
-                        </Link>.
+                        <SectionLink sectionId="dh-section-weapons">
+                        <span
+                            style={{ color: "#69CCE7", cursor: "pointer" }}>
+                            &nbsp;Weapons
+                        </span>
+                    </SectionLink>.
                     </p><br />
                     <SkillCard skillID={[9105, 9106, 9227]}>
                         <p>

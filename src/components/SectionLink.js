@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from 'prop-types'
 import { Link } from 'react-scroll'
 
-// Intended to be ued to open a SectionCollapsible
+// Intended to be used to open a SectionCollapsible
 const SectionLink = (props) => {
     
     const openSection = (sectionId) => {

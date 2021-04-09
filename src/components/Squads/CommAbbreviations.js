@@ -16,7 +16,7 @@ const CommAbbreviations = () => {
                             <tbody>
                                 <tr>
                                     <td style={{ textAlign: 'center', padding: '5px 10px' }}>
-                                        <b>alac/alaren/alacren</b>
+                                        <b>alac<br />alaren<br />alacren</b>
                                     </td>
                                     <td style={{ padding: '5px 10px' }}>
                                         <WikiIcon name={"Renegade"} /> Alacrity renegade build; supplies <WikiIcon name={"Alacrity"} /> Alacrity for whole squad
@@ -72,7 +72,7 @@ const CommAbbreviations = () => {
                                 </tr>
                                 <tr>
                                     <td style={{ textAlign: 'center', padding: '5px 10px' }}>
-                                        <b>dh/dgh</b>
+                                        <b>dh<br />dgh</b>
                                     </td>
                                     <td style={{ padding: '5px 10px' }}>
                                         <WikiIcon name={"Dragonhunter"} /> Dragonhunter
@@ -96,7 +96,7 @@ const CommAbbreviations = () => {
                                 </tr>
                                 <tr>
                                     <td style={{ textAlign: 'center', padding: '5px 10px' }}>
-                                        <b>healalac/healren</b>
+                                        <b>healalac<br />healren</b>
                                     </td>
                                     <td style={{ padding: '5px 10px' }}>
                                         <WikiIcon name={"Renegade"} /> Heal Alacrity renegade build; supplies <WikiIcon name={"Alacrity"} /> Alacrity for whole squad on top of heals
@@ -104,7 +104,7 @@ const CommAbbreviations = () => {
                                 </tr>
                                 <tr>
                                     <td style={{ textAlign: 'center', padding: '5px 10px' }}>
-                                        <b>hb/hfb/hqfb/healbrand</b>
+                                        <b>hb/hfb<br />hqfb<br />healbrand</b>
                                     </td>
                                     <td style={{ padding: '5px 10px' }}>
                                         <WikiIcon name={"Firebrand"} /> Heal Firebrand build; it is expected to cover <WikiIcon name={"Quickness"} /> Quickness for its subgroup
@@ -128,7 +128,7 @@ const CommAbbreviations = () => {
                                 </tr>
                                 <tr>
                                     <td style={{ textAlign: 'center', padding: '5px 10px' }}>
-                                        <b>qb/qfb/quickbrand</b>
+                                        <b>qb/qfb<br />quickbrand</b>
                                     </td>
                                     <td style={{ padding: '5px 10px' }}>
                                         <WikiIcon name={"Firebrand"} /> Quickness Firebrand; <WikiIcon name={"Firebrand"} /> dps firebrand build that also covers <WikiIcon name={"Quickness"} /> Quickness
@@ -225,7 +225,7 @@ const CommAbbreviations = () => {
                                 </tr>
                                 <tr>
                                     <td style={{ textAlign: 'center', padding: '5px 10px' }}>
-                                        <b>SH/Desmina</b>
+                                        <b>SH<br />Desmina</b>
                                     </td>
                                     <td style={{ padding: '5px 10px' }}>
                                         <WikiIcon name={"SH"} />Soulless Horror, first boss in wing 5
@@ -249,7 +249,7 @@ const CommAbbreviations = () => {
                                 </tr>
                                 <tr>
                                     <td style={{ textAlign: 'center', padding: '5px 10px' }}>
-                                        <b>Q2/Qtpie/Qtp</b>
+                                        <b>Q2/Qtp<br />Qtpie</b>
                                     </td>
                                     <td style={{ padding: '5px 10px' }}>
                                         <WikiIcon name={"QTP"} /> Qadim the Peerless, final boss of wing 7

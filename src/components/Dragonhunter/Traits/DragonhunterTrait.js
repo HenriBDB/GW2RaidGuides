@@ -1,9 +1,9 @@
 import React from 'react';
-import { Link } from 'react-scroll';
 import TraitCard from '../../../components/TraitCard';
 import WikiIcon from '../../../components/WikiIcon';
+import SectionLink from '../../../components/SectionLink';
 
-const DragonhunterTrait = ({ showRotation }) => {
+const DragonhunterTrait = () => {
     return (
         <>
             <div className="mb-3" data-armory-embed="specializations" data-armory-ids="27" data-armory-27-traits="1848,1898,1896,1835,1926,1955"></div>
@@ -59,12 +59,12 @@ const DragonhunterTrait = ({ showRotation }) => {
                 </p>
                 <p>
                     Your rotation revolves around this trait - you want to cast all your big dps skills when this damage increase is active. You will find more details in
-                    <Link to="dh-section-rotation" smooth={true} duration={1000} onClick={showRotation}>
+                    <SectionLink sectionId="dh-section-rotation">
                         <span
                             style={{ color: "#69CCE7", cursor: "pointer" }}>
                             &nbsp;Rotation
                         </span>
-                    </Link>.
+                    </SectionLink>.
                 </p>
             </TraitCard>
         </>

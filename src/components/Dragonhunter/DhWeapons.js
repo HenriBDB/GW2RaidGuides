@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from 'react-scroll';
 import { SectionContainer } from './styles'
 import SectionIntro from '../../components/SectionIntro';
+import SectionLink from '../../components/SectionLink';
 import NavTabs from '../../components/NavTabs';
 import TabPane from '../../components/TabPane';
 import BossCard from '../../components/BossCard';
@@ -22,18 +22,18 @@ import CA from '../../assets/bosses/ca.png';
 import Adina from '../../assets/bosses/adina.png';
 
 
-const DhWeapons = ({ showTraits }) => {
+const DhWeapons = () => {
     return (
         <SectionContainer style={{ paddingLeft: '2rem', paddingRight: '2rem' }}>
             <SectionIntro>
                 <p>
                     As a <WikiIcon name={"Dragonhunter"} /> Power Dragonhunter you will always play Greatsword (due to the <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="653" className="dhskill"></span> trait explained in
-                <Link to="dh-section-traits" smooth={true} duration={1000} onClick={showTraits}>
+                    <SectionLink sectionId="dh-section-traits">
                         <span
                             style={{ color: "#69CCE7", cursor: "pointer" }}>
                             &nbsp;Traits
-                    </span>
-                    </Link>). In the other weaponset you will always take Focus as an offhand weapon. But what about mainhand - Scepter or Sword?
+                        </span>
+                    </SectionLink>). In the other weaponset you will always take Focus as an offhand weapon. But what about mainhand - Scepter or Sword?
             </p>
 
                 <p>
@@ -41,12 +41,12 @@ const DhWeapons = ({ showTraits }) => {
             </p>
                 <p>
                     If you choose to play Sword, you have to remember about the issue with Radiance traits (<span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="574" className="dhskill"></span> vs <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="566" className="dhskill"></span>). Go back to
-                <Link to="dh-section-traits" smooth={true} duration={1000} onClick={showTraits}>
+                    <SectionLink sectionId="dh-section-traits">
                         <span
                             style={{ color: "#69CCE7", cursor: "pointer" }}>
                             &nbsp;Traits&nbsp;
-                    </span>
-                    </Link>
+                        </span>
+                    </SectionLink>
                 if you missed it.
             </p>
                 <p>
@@ -118,7 +118,7 @@ const DhWeapons = ({ showTraits }) => {
                 <TabPane tabName="dh-w4">
                     <BossCard src={Cairn} bossName={"Cairn"} gameClass="dragonhunter">
                         <p>
-                            - <span style={{ color: "#69CCE7", fontWeight: "bold"  }}>scepter</span> if you are running to the greens or taking agony;<br />
+                            - <span style={{ color: "#69CCE7", fontWeight: "bold"  }}>scepter</span> if you are running to greens or taking agony;<br />
                         </p>
                         <p>
                             - <span style={{ color: "#69CCE7", fontWeight: "bold"  }}>sword</span> if you are using <WikiIcon name={"Stability"} /> Stability for greens and you are not taking agony.

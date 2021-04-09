@@ -24,7 +24,7 @@ const SectionCollapsible = (props) => {
         <>
         <Link to={props.id} smooth={true} duration={1000} onClick={toggleVisible}>
             <div id={props.id} className={"centered-flex-row section-title " + props.gameClass} onCLick={setVisible}>
-                <h3>{props.title}</h3>
+                <h3 className={props.gameClass}>{props.title}</h3>
                 <ArrowMoreButton
                     src={Arrow}
                     variants={variantsArrow}
