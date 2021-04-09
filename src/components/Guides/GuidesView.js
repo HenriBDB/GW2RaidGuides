@@ -57,7 +57,7 @@ const GuidesView = () => {
                         <img src={dhTitle} alt="Dragonhunter" height="25" />
                     </PanelTitle>
                 </Panel>
-                <Panel
+                {/* <Panel
                     style={{
                         flex: panelDruidExpanded ? '5' : '1',
                         cursor: panelDruidExpanded ? 'auto' : 'pointer',
@@ -76,7 +76,7 @@ const GuidesView = () => {
                     <PanelTitle>
                         <img src={druidTitle} alt="Druid" height="25" />
                     </PanelTitle>
-                </Panel>
+                </Panel> */}
                 <Panel
                     style={{
                         flex: panelWarriorExpanded ? '5' : '1',

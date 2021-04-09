@@ -98,6 +98,7 @@ const icons = {
     "Invuln": "https://wiki.guildwars2.com/images/e/eb/Determined.png",
     "UnnaturalSignet": "https://wiki.guildwars2.com/images/2/20/Unnatural_Signet.png",
     "Fractured": "https://wiki.guildwars2.com/images/7/78/Branded_Aura.png",
+    "Commander": "https://wiki.guildwars2.com/images/c/cb/Commander_tag_%28purple%29.png",
 }
 
 const WikiIcon = (props) => {

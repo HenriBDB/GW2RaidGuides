@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import CookieConsent from "react-cookie-consent";
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
+import Changelog from '../components/Changelog/Changelog';
 import PrivacyPolicy from '../components/PrivacyPolicy/PrivacyPolicy';
 import Home from './Home';
 import Guides from './Guides';
@@ -39,6 +40,7 @@ const HomePage = () => {
           <Route exact path="/dragonhunter-guide/" component={DragonhunterGuide} />
           <Route exact path="/druid-guide/" component={DruidGuide} />
           <Route exact path="/warrior-guide/" component={WarriorGuide} />
+          <Route exact path="/changelog/" component={Changelog} />
           <Route exact path="/privacy-policy/" component={PrivacyPolicy} />
           <Route path="*" component={Error} />
         </Switch>
