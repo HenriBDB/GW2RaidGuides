@@ -1,6 +1,4 @@
 import React from 'react';
-import SkillIcon from '../../../components/SkillIcon';
-import WikiIcon from '../../../components/WikiIcon';
 import GorseIMG from '../../../assets/bannerimages/gorsebanners.png';
 
 const Gorseval = () => {

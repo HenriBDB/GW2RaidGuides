@@ -1,5 +1,4 @@
 import React from 'react';
-import SkillIcon from '../../../components/SkillIcon';
 import WikiIcon from '../../../components/WikiIcon';
 import QtPIMG from '../../../assets/bannerimages/QtP_banners.png';
 
@@ -30,7 +29,7 @@ const QtP = () => {
             <p>
                 For the condition build the most important thing is as previously mentioned to continue dealing
                 damage as Qadim is dashing towards the Pylon. Save Shattering Blow for the shockwave as the
-                stability (and the block if timed right) will negate the knockback. For the later phases you can
+                stability <WikiIcon name="Stability"/> (and the block if timed right) will negate the knockback. For the later phases you can
                 cleave the anomalies as they walk towards Qadim using Scorched Earth and Flaming Flurry to
                 not only help kill them, but also to gain some addition stacks of Furious Surge.
             </p>

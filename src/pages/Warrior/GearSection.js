@@ -1,5 +1,4 @@
 import React from 'react';
-import SkillCard from '../../components/SkillCard';
 import WikiIcon from '../../components/WikiIcon';
 import NavTabs from '../../components/NavTabs';
 import TabPane from '../../components/TabPane';
@@ -20,9 +19,9 @@ const GearSection = () => {
                         <span data-armory-embed="items" data-armory-size="75" data-armory-ids={[39273,37086,37075,49391,39233,39232]} className="row justify-content-center"></span>
                         <p className="row justify-content-center">Full Berserkers trinkets</p>
                         <p>
-                            The main build is running thief runes. This is to get easy access to a lot of precision as well as a hefty 10% damage modifier.
-                            This is because warrior gets no additional precision or crit chance from its traits outside of the 100 precision from doubled standards.
-                            Even with 300 precision from the Thief runes, we are still not capped on crit chance with just Berserker armour.
+                            The main build is running thief runes. This is to get easy access to a lot of precision <WikiIcon name="Precision"/> as well as a hefty 10% damage modifier.
+                            This is because warrior gets no additional precision <WikiIcon name="Precision"/> or crit chance from its traits outside of the 100 precision <WikiIcon name="Precision"/> from doubled standards.
+                            Even with 300 precision <WikiIcon name="Precision"/> from the Thief runes, we are still not capped on crit chance with just Berserker armour.
                             To get as close to the crit cap as we can, we then add 1 assassin piece amongst Gloves/Shoulders/Boots which, with all buffs and boons applied, results in a 99.95% crit chance.
                             The sigils are the go-to for damage since both Force and Impact have a damage modifier which is great for Power DPS.
                             This setup is best in slot for almost every power favoured boss if played competently, except for Sabir where Eagle runes are the better option.
@@ -39,8 +38,8 @@ const GearSection = () => {
                         <p className="row justify-content-center">Full Berserkers trinkets</p>
                         <p>
                             This build works great if you cannot maintain 90%+ flanking uptime (or if it is problematic to do so).
-                            While only providing 175 precision and no assassin’s pieces whatsoever, the difference is evened out with the accuracy sigil.
-                            It overcaps slightly on crit chance, but not enough for a huge amount of stats to have been wasted (the wasted stats equates to roughly 1 precision).
+                            While only providing 175 precision <WikiIcon name="Precision"/> and no assassin’s pieces whatsoever, the difference is evened out with the accuracy sigil.
+                            It overcaps slightly on crit chance, but not enough for a huge amount of stats to have been wasted (the wasted stats equates to roughly 1 precision <WikiIcon name="Precision"/>).
                             The main downside to eagle runes is that the 10% bonus only applies to targets below 50% health, making it noticeable worse than thief runes with high flanking uptimes.
                             It is able to compete up to roughly 90% flanking uptime on thief runes before thief runes are the better option.
                             You need Bowl of Curry Butternut Squash Soup to reach crit cap if you do not have access to spotter.
@@ -54,8 +53,8 @@ const GearSection = () => {
                         <span data-armory-embed="items" data-armory-size="75" data-armory-ids={[39273,37086,37075,49391,67302,67298]} className="row justify-content-center"></span>
                         <p className="row justify-content-center">Assassins ring and accessories, rest Berserkers</p>
                         <p>
-                            This build is for Might generation only, it is significantly weaker than the alternatives, but can generate heaps of Might with Phalanx Strength.
-                            It is built to cap on crit, generate Might, and deal some damage in the process.
+                            This build is for Might <WikiIcon name="Might"/> generation only, it is significantly weaker than the alternatives, but can generate heaps of Might <WikiIcon name="Might"/> with Phalanx Strength.
+                            It is built to cap on crit, generate Might <WikiIcon name="Might"/>, and deal some damage in the process.
                             You need Bowl of Curry Butternut Squash Soup to reach crit cap if you do not have access to spotter.
                         </p>
                     </TabPane>

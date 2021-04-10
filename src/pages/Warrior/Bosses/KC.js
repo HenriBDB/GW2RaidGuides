@@ -1,15 +1,15 @@
 import React from 'react';
-import SkillIcon from '../../../components/SkillIcon';
-import WikiIcon from '../../../components/WikiIcon';
 import KCIMG from '../../../assets/bannerimages/kc_banners.png';
 
 const KC = () => {
     return (
         <>
             <p>
-                Banners are not super important here as by the time you get to the boss at the end of the
-                encounter it is almost dead already, but once you arrive you just place the banners on the group
-                and leave them there until the boss is dead.
+                This encounter is power favoured due to the low toughness on KC as well as the bonus damage
+                gained from impact sigil during the burn phases. Another reason is the breakbar which needs to
+                be broken to get to the pre-burn- and burn phases. This breakbar is 3500, so having the Mace CC
+                can leave a heavy impact on that fairly quickly. There is not much reason to play the condition
+                build here at all.
             </p>
             <br/>
             <p>

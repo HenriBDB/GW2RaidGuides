@@ -1,6 +1,4 @@
 import React from 'react';
-import SkillCard from '../../components/SkillCard';
-import WikiIcon from '../../components/WikiIcon';
 import NavTabs from '../../components/NavTabs';
 import TabPane from '../../components/TabPane';
 import {Adina, CA, Cairn, Deimos, Dhuum, Escort, Gate, Gorseval, KC, Largos, Matthias, MO, Qadim, QtP, River, Sabetha, Sabir, Samarog, SH, Sloth, SpiritRun, Statues, TC, Trio, VG, Xera} from './Bosses';

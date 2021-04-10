@@ -1,5 +1,4 @@
 import React from 'react';
-import SkillIcon from '../../../components/SkillIcon';
 import WikiIcon from '../../../components/WikiIcon';
 import SlothIMG from '../../../assets/bannerimages/sloth_banners.png';
 
@@ -14,7 +13,7 @@ const Sloth = () => {
                 might want you to eat shrooms for this fight, but you should only do so if no one else can or
                 want to do it, because while you are eating your banners will buff Slothasor and the slublings
                 instead of buffing the group, as you are an enemy while eating. If you get forced to eat make sure
-                to bring Banner of Defense as well to give Slothasor and the slublings a sweet 100 toughness
+                to bring Banner of Defense as well to give Slothasor and the slublings a sweet 100 toughness <WikiIcon name="Toughness"/>
                 and vitality boost while eating. You can prestack adrenaline before the fight starts by using the
                 poison from the arena to get into combat, and then stacking adrenaline by weapon swaps.
             </p>
@@ -28,7 +27,7 @@ const Sloth = () => {
                 additional Decapitates. You should not play Outrage here as it is too important to have Head
                 Butt off cooldown for the breakbars to gamble on it lining up with your rotation for a berserk
                 extension you hardly can make use of anyways since you deal no damage while the breakbar is
-                up. Head Butt can mess with any stability you might have gotten in preparation for the fear, so
+                up. Head Butt can mess with any stability <WikiIcon name="Stability"/> you might have gotten in preparation for the fear <WikiIcon name="Fear"/>, so
                 stick on Maces and block the fear with Counterblow just to make sure you are safe.
             </p>
             <br/>
@@ -38,7 +37,7 @@ const Sloth = () => {
                 Flaming Flurry and Scorched Earth. You should however be careful with these skills as well to
                 not cleave any transformed allies who are currently eating. Shattering Blow is also a great tool
                 for this fight as the block can be used for the fear as well shake projectiles if timed right, but if
-                slubling control is poor, the stability could get corrupted into fear instead.
+                slubling control is poor, the stability <WikiIcon name="Stability"/> could get corrupted into fear <WikiIcon name="Fear"/> instead.
             </p>
             <br/>
             <p>

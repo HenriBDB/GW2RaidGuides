@@ -1,5 +1,4 @@
 import React from 'react';
-import SkillIcon from '../../../components/SkillIcon';
 import WikiIcon from '../../../components/WikiIcon';
 import SabirIMG from '../../../assets/bannerimages/sabir_banners.png';
 
@@ -27,7 +26,7 @@ const Sabir = () => {
             of Might help you kill the Wisps faster when you go to clear them. Make sure that you are on
             Maces and use the special action key to jump to Wisps. This will instantly break their bar and
             allow you to swap to Axes right after to kill them faster. Do use Crushing Blow on the Maces
-            before swapping to Axes to apply 20 Vulnerability to the Wisp which ensures that you will melt
+            before swapping to Axes to apply 20 Vulnerability <WikiIcon name="Vulnerability"/> to the Wisp which ensures that you will melt
             it with the Axe attacks. You can run Defiant Stance here to ignore the shockwaves if you are
             struggling with staying alive, without losing much as it will help you maintain your static charge
             stacks.

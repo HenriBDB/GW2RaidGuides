@@ -1,6 +1,4 @@
 import React from 'react';
-import SkillIcon from '../../../components/SkillIcon';
-import WikiIcon from '../../../components/WikiIcon';
 import XeraIMG from '../../../assets/bannerimages/xera_banners.png';
 
 const Xera = () => {
