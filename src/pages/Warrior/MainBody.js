@@ -29,7 +29,7 @@ const MainBody = () => {
                     Lastly, a somewhat complete guide to every boss will be provided, describing tricks and tips on how to approach the bosses as well as bannering on these.
                     Some additional notes will be added throughout the guide to outline certain problems the class can face, as well as how to best tackle these problems to face a minimal loss in banner uptime and/or DPS.
                 </p>
-                <SectionCollapsible gameClass="warrior" title="Traits">
+                <SectionCollapsible gameClass="warrior" title="Traits" id="warrior-section-traits">
                     <SectionIntro>
                     <p>
                         The traits outline the core workings of a class and makes them stand out from the other classes.
@@ -41,7 +41,7 @@ const MainBody = () => {
                     </SectionIntro>
                     <TraitSection/>
                 </SectionCollapsible>
-                <SectionCollapsible gameClass="warrior" title="Weapons">
+                <SectionCollapsible gameClass="warrior" title="Weapons" id="warrior-section-weapons">
                     <SectionIntro>
                     <p>
                         Since the most common builds for banner warrior all run the berserker trait-line the burst skills listed with every weapon will be the primal burst skills the berserker give access to.
@@ -52,7 +52,7 @@ const MainBody = () => {
                     </SectionIntro>
                     <WeaponSection/>
                 </SectionCollapsible>
-                <SectionCollapsible gameClass="warrior" title="Utilities">
+                <SectionCollapsible gameClass="warrior" title="Utilities" id="warrior-section-utilities">
                     <SectionIntro>
                     <p>
                         Warrior has a huge arsenal of utility skills available, but sadly most of them are outright useless in raids or outclassed by better options.
@@ -62,7 +62,7 @@ const MainBody = () => {
                     </SectionIntro>
                     <UtilitySection/>
                 </SectionCollapsible>
-                <SectionCollapsible gameClass="warrior" title="Gear">
+                <SectionCollapsible gameClass="warrior" title="Gear" id="warrior-section-gear">
                     <SectionIntro>
                     <p>
                         With the traits, weapons, and skills covered it is time to cover the gear the different builds run.
@@ -72,7 +72,7 @@ const MainBody = () => {
                     </SectionIntro>
                     <GearSection/>
                 </SectionCollapsible>
-                <SectionCollapsible gameClass="warrior" title="Rotation">
+                <SectionCollapsible gameClass="warrior" title="Rotation" id="warrior-section-rotation">
                     <SectionIntro>
                     <p>
                         A rotation is the ideal order of skills to achieve the highest DPS under general circumstances.
@@ -83,7 +83,7 @@ const MainBody = () => {
                     </SectionIntro>
                     <RotationSection/>
                 </SectionCollapsible>
-                <SectionCollapsible gameClass="warrior" title="Boss Guides">
+                <SectionCollapsible gameClass="warrior" title="Boss Guides" id="warrior-section-guides">
                     <SectionIntro>
                     <p>
                         This section will aim to describe how a banner warrior plays out on the different bosses, ordered by wings.
