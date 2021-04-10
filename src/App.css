@@ -11,6 +11,7 @@
   --custom-dark-opaque: rgb(37,39,37);
   --bg-dark: rgba(28,30,27,0.9);
   color: white;
+  box-sizing: border-box;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: "Noto Serif";
@@ -33,6 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
+  height: 5px;
 }
 ::-webkit-scrollbar-track {
   background: var(--custom-dark-opaque);
@@ -189,6 +191,24 @@ nav.custom-nav {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  overflow: auto;
+}
+nav.custom-nav::-webkit-scrollbar-track {
+  background: #666;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+nav.custom-nav.warrior::-webkit-scrollbar-thumb {
+  background: var(--war-primary);
+}
+nav.custom-nav.ranger::-webkit-scrollbar-thumb {
+  background: var(--ranger-primary);
+}
+nav.custom-nav.dragonhunter::-webkit-scrollbar-thumb {
+  background: var(--dh-primary);
+}
+nav.custom-nav.commander::-webkit-scrollbar-thumb {
+  background: var(--comm-primary);
 }
 nav.custom-nav a {
   font-family: "Noto Serif";
@@ -196,7 +216,10 @@ nav.custom-nav a {
   border-bottom: 1px solid #dee2e6;
   border-radius: 0;
   text-align: center;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: .5rem 1rem;
   flex: 1 1 auto;
 }
@@ -235,13 +258,11 @@ nav.custom-nav.warrior a.active {
   border-top: 0px solid;
   padding: 2em;
 }
-.custom-tab-content {
-  background-color: var(--custom-dark);
-  border: 1px solid #dee2e6;
-  border-top: 0px solid;
-  padding: 2em;
+@media (max-width:535px) {
+  .custom-tab-content {
+    padding: 0.5em;
+  }
 }
-
 /* Cards */
 .title-card {
   border-radius: 0;
@@ -249,6 +270,11 @@ nav.custom-nav.warrior a.active {
   background-color: black;
   padding: 1.5em 3em 1.5em 3em;
   margin: 3em 0 3em 0;
+}
+@media (max-width:535px) {
+  .title-card {
+    padding: 1.5em;
+  }
 }
 .title-card > .title {
   font-size: 1.25em;
@@ -280,6 +306,66 @@ nav.custom-nav.warrior a.active {
   z-index: 5;
   display: flex;
   flex-direction: row;
+}
+@media (max-width: 815px) {
+  #dh-pi-gear > .gear-card {
+    margin-top: 90px;
+    margin-bottom: 90px;
+  }
+  #dh-pi-gear > .gear-card > .gear-name {
+    top: -80px;
+  }
+  #dh-pi-gear > .gear-card > .gear-name > span {
+    display: flex;
+    flex-direction: column;
+  }
+  #dh-pi-gear > .gear-card .filler::before {
+    position: absolute;
+    content: '';
+    z-index: 0;
+    height: 31px;
+    width: 1px;
+    top: 49px;
+    right: 0;
+    border-right: 1px solid rgba(200, 200, 200, 0.5);
+  }
+}
+@media (max-width: 767px) {
+  .trait-card > .trait-name {
+    top: -41px;
+  }
+  .trait-card {
+    margin-top: 66px;
+  }
+  .trait-card .filler::before {
+    position: absolute;
+    content: '';
+    z-index: 0;
+    height: 20px;
+    width: 1px;
+    top: 21px;
+    right: 0;
+    border-right: 1px solid rgba(200, 200, 200, 0.5);
+  }
+  .gw2a-skills-embed.gw2a--3ZW5E {
+    display: flex;
+  }
+  .gw2a--M9jBV {
+    display: flex;
+    align-items: center;
+  }
+}
+@media (max-width: 450px) {
+  #dh-gs > .trait-card:first-of-type > .trait-name > span > .gw2a--3ZW5E > .gw2a--M9jBV > a,
+  #dh-sword > .trait-card:first-of-type > .trait-name > span > .gw2a--3ZW5E > .gw2a--M9jBV > a,
+  #Axe > .trait-card:first-of-type > .trait-name > span > .gw2a--3ZW5E > .gw2a--M9jBV > a,
+  #Dagger > .trait-card:first-of-type > .trait-name > span > .gw2a--3ZW5E > .gw2a--M9jBV > a,
+  #Greatsword > .trait-card:first-of-type > .trait-name > span > .gw2a--3ZW5E > .gw2a--M9jBV > a,
+  #Hammer > .trait-card:first-of-type > .trait-name > span > .gw2a--3ZW5E > .gw2a--M9jBV > a,
+  #Mace > .trait-card:first-of-type > .trait-name > span > .gw2a--3ZW5E > .gw2a--M9jBV > a,
+  #Sword > .trait-card:first-of-type > .trait-name > span > .gw2a--3ZW5E > .gw2a--M9jBV > a  {
+    display: none;
+  }
 }
 .boss-card > .boss-name {
   background: transparent;
@@ -468,6 +554,8 @@ nav.custom-nav.warrior a.active {
 }
 .section-title > h3 {
   margin: 0;
+  height: 33px;
+  line-height: 33px;
 }
 .section-title.dragonhunter {
   border-top: 2px solid var(--dh-primary);

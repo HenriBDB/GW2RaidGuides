@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useLayoutEffect, useEffect } from "react";
 import SkillCard from '../../components/SkillCard';
 import WikiIcon from '../../components/WikiIcon';
 import NavTabs from '../../components/NavTabs';
@@ -6,6 +6,25 @@ import TabPane from '../../components/TabPane';
 import {Healing, Banners, Physical, Rage, Shout, Signet, Stance, Elite, Meditations} from './Utilities';
 
 const UtilitySection = () => {
+    const [width, setWidth] = useState(window.innerWidth)
+    const [armorySize, setArmorySize] = useState(0)
+
+    useLayoutEffect(() => {
+        function handleResize() {
+            setWidth(window.innerWidth)
+        }
+        window.addEventListener('resize', handleResize)
+        handleResize()
+    }, [])
+
+    useEffect(() => {
+        if (width <= 767) {
+            setArmorySize(50)
+        } else {
+            setArmorySize(75)
+        }
+    }, [width])
+
     return (
         <>
         <NavTabs tabNames={["Healing", "Banners", "Meditations", "Physical", "Shout", "Signet", "Stance", "Rage", "Elite"]} hrefs={["Healing", "Banners", "Meditations", "Physical", "Shout", "Signet", "Stance", "Rage", "Elite"]} gameClass="warrior">
@@ -50,7 +69,7 @@ const UtilitySection = () => {
             The go to core for both builds will be the following:
         </p>
         <div className="row justify-content-center">
-            <span data-armory-embed="skills" data-armory-size="75" data-armory-ids={[30189,0,14405,14407,30343]}></span>
+            <span data-armory-embed="skills" data-armory-size={armorySize} data-armory-ids={[30189,0,14405,14407,30343]}></span>
         </div>
         <p>
             Blood Reckoning because it is by far the best healing skill available and helps fuel the rotation.

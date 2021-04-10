@@ -28,7 +28,7 @@ export const Panel = styled.div`
   -webkit-transition: all 500ms ease-in;
   background-blend-mode: luminosity;
   @media (max-width: 1080px) {
-      height: calc((100vh - 75px)/3);
+      height: calc((100vh - 75px)/2);
   }
 `
 export const PanelTitle = styled.div`
@@ -72,7 +72,7 @@ export const Link = styled.a`
   min-width: 250px;
   text-decoration: none;
   text-align: center;
-  :hover {
+  :hover, :focus, :active {
       text-decoration: none;
       background: rgba(0,0,0,1);
   }

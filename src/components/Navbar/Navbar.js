@@ -62,16 +62,16 @@ const Navbar = () => {
                                     borderBottom: "2px solid white"
                                 }}>
                                 Class guides
-                                            </NavLink>
+                            </NavLink>
                         </MenuItem>
                         <MenuItem style={{ paddingRight: 40 }}>
-                            <NavLink to="/commander-guide"
+                            <a href="/commander-guide"
                                 onClick={closeMenu}
                                 activeStyle={{
                                     borderBottom: "2px solid white"
                                 }}>
                                 Commander guide
-                                            </NavLink>
+                            </a>
                         </MenuItem>
                         <MenuItem>
                             <NavLink to="/creators"
@@ -80,7 +80,7 @@ const Navbar = () => {
                                     borderBottom: "2px solid white"
                                 }}>
                                 Creators
-                                            </NavLink>
+                            </NavLink>
                         </MenuItem>
                     </MenuItems>
                     {burgerVisible && (
@@ -107,24 +107,24 @@ const Navbar = () => {
                             >
                                 <MobileMenuItems>
                                     <MobileMenuItem>
-                                        <NavLink to="/class-guides"
+                                        <a href="/class-guides"
                                             onClick={closeMenu}
                                             activeStyle={{
                                                 color: "rgb(27,29,27)",
                                                 background: "white"
                                             }}>
                                             Class guides
-                                            </NavLink>
+                                        </a>
                                     </MobileMenuItem>
                                     <MobileMenuItem>
-                                        <NavLink to="/commander-guide"
+                                        <a href="/commander-guide"
                                             onClick={closeMenu}
                                             activeStyle={{
                                                 color: "rgb(27,29,27)",
                                                 background: "white"
                                             }}>
                                             Commander guide
-                                            </NavLink>
+                                        </a>
                                     </MobileMenuItem>
                                     <MobileMenuItem>
                                         <NavLink to="/creators"
@@ -134,7 +134,7 @@ const Navbar = () => {
                                                 background: "white"
                                             }}>
                                             Creators
-                                            </NavLink>
+                                        </NavLink>
                                     </MobileMenuItem>
                                 </MobileMenuItems>
                             </MobileNavWrapper>

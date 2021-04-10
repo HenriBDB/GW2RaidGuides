@@ -80,7 +80,7 @@ export const MobileNavWrapper = styled(motion.div)`
   top: 65px;
   right: 0%;
   width: 100%;
-  z-index: 1;
+  z-index: 99;
   background-color:rgba(27,29,27,1);
 `
 export const MobileMenuItems = styled.ul`

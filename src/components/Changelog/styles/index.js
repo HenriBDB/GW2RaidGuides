@@ -20,9 +20,6 @@ export const ChangelogContainer = styled.div`
   @media (max-width:768px) {
     width: 90%;
   }
-  @media (max-width:585px) {
-    width: 100%;
-  }
 `
 export const Title = styled.h2`
   margin-top: 5rem;

@@ -17,7 +17,7 @@ const Rotations = () => {
                             Many of them will depend on the boss and adapt to mechanics timings while others can be used on every boss.
                         </p>
                     </SectionIntro>
-                    <NavTabs tabNames={["Explosive Openers", "Magical Weapon Swaps", "Boss Examples"]} hrefs={["opener", "weapon-swap", "boss-rotations"]}>
+                    <NavTabs tabNames={["Explosive Openers", "Magical Weapon Swaps", "Boss Examples"]} hrefs={["opener", "weapon-swap", "boss-rotations"]} gameClass="ranger">
                         <TabPane tabName="opener" active={true}>
                             <Openers/>
                         </TabPane>

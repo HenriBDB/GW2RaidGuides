@@ -77,7 +77,7 @@ const RotationSection = () => {
                     rotation. This section will cover the standard rotation and my own creations, the leapfrog-
                      and "Faster-Hands" rotation.
                 </p>
-                <NavTabs tabNames={["Basics","Standard", "Leapfrog", "Faster-Hands"]} hrefs={["basics","Standard", "Leapfrog", "Faster-Hands"]} gameClass="warrior">
+                <NavTabs tabNames={["Basics","Standard", "Leapfrog", "Faster-Hands"]} hrefs={["Basics","Standard", "Leapfrog", "Faster-Hands"]} gameClass="warrior">
                     <TabPane tabName="Basics" active="true">
                         <p>
                             The easiest way to present the structure of the condition rotation is to lay out parts of it in the

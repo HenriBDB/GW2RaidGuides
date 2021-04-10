@@ -7,10 +7,10 @@ import {
     Link
 } from './styles'
 import dhBackground from '../../assets/backgrounds/dragohunter.jpg'
-import druidBackground from '../../assets/backgrounds/druid.jpg'
+// import druidBackground from '../../assets/backgrounds/druid.jpg'
 import warriorBackground from '../../assets/backgrounds/warrior.jpg'
 import dhTitle from '../../assets/titles/DragonhunterTitle.png';
-import druidTitle from '../../assets/titles/DruidTitle.png';
+// import druidTitle from '../../assets/titles/DruidTitle.png';
 import warriorTitle from '../../assets/titles/WarriorTitle.png';
 
 const GuidesView = () => {
@@ -23,11 +23,11 @@ const GuidesView = () => {
         setDruidPanelExpanded(false);
         setWarriorPanelExpanded(false);
     }
-    const expandDruidPanel = () => {
-        setDhPanelExpanded(false);
-        setDruidPanelExpanded(true);
-        setWarriorPanelExpanded(false);
-    }
+    // const expandDruidPanel = () => {
+    //     setDhPanelExpanded(false);
+    //     setDruidPanelExpanded(true);
+    //     setWarriorPanelExpanded(false);
+    // }
     const expandWarriorPanel = () => {
         setDhPanelExpanded(false);
         setDruidPanelExpanded(false);
