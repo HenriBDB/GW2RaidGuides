@@ -24,7 +24,7 @@ import Adina from '../../assets/bosses/adina.png';
 
 const DhWeapons = () => {
     return (
-        <SectionContainer style={{ paddingLeft: '2rem', paddingRight: '2rem' }}>
+        <SectionContainer>
             <SectionIntro>
                 <p>
                     As a <WikiIcon name={"Dragonhunter"} /> Power Dragonhunter you will always play Greatsword (due to the <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="653" className="dhskill"></span> trait explained in

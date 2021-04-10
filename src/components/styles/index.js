@@ -8,7 +8,7 @@ export const ArrowUp = styled(ArrowUpS)`
   position: fixed; 
   right: 2rem;
   bottom: 1rem;
-  z-index: 999;
+  z-index: 99999;
   cursor: pointer;
   animation: fadeIn 0.3s;
   transition: opacity 0.4s;

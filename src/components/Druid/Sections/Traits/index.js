@@ -22,7 +22,7 @@ const Traits = () => {
                 Only the used traits have been highlighted so that you don't need to spend time learning about unused traits but feel free to look at the other traits/trait-lines too.
             </p>
             </SectionIntro>
-            <NavTabs tabNames={["Skirmishing", "Nature Magic", "Druid", "Marksmanship"]} hrefs={["skirmishing", "nature-magic", "druid-trait", "marksmanship"]}>
+            <NavTabs tabNames={["Skirmishing", "Nature Magic", "Druid", "Marksmanship"]} hrefs={["skirmishing", "nature-magic", "druid-trait", "marksmanship"]} gameClass="ranger">
                 <TabPane tabName="skirmishing" active={true}>
                     <Skirmishing/>
                 </TabPane>

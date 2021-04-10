@@ -14,16 +14,16 @@ const Shout = () => {
         </p>
         <SkillCard skillID={14403}>
             <p>
-                Great for supplementary Might in greedy compositions, or for Phalanx Strength Might warrior.
-                With Phalanx Strength it gives 12 Might to others on activation, since the 6 Might is also applied
-                to yourself and is then bounced with Phalanx Strength, totalling 12 Might. The charges have a
-                somewhat short cooldown, which makes the skill able to provide permanent 6 Might to a
+                Great for supplementary Might <WikiIcon name="Might"/> in greedy compositions, or for Phalanx Strength Might warrior.
+                With Phalanx Strength it gives 12 Might <WikiIcon name="Might"/> to others on activation, since the 6 Might <WikiIcon name="Might"/> is also applied
+                to yourself and is then bounced with Phalanx Strength, totalling 12 Might <WikiIcon name="Might"/>. The charges have a
+                somewhat short cooldown, which makes the skill able to provide permanent 6 Might <WikiIcon name="Might"/> to a
                 subgroup. Do not run it unless it is needed.
             </p>
         </SkillCard>
         <SkillCard skillID={14575}>
             <p>
-                Vulnerability is rarely a problem in Raids, and when it is, there are better options for dealing
+                Vulnerability <WikiIcon name="Vulnerability"/> is rarely a problem in Raids, and when it is, there are better options for dealing
                 with it than this skill. Do not run this.
             </p>
         </SkillCard>

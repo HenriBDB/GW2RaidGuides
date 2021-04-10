@@ -91,7 +91,6 @@ export const GameIcon = styled(FaGamepad)`
 `
 export const Link = styled.a`
 `
-
 export const TooltipText = styled.p`
   position: absolute;
   visibility: hidden;

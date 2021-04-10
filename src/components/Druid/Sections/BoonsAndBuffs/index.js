@@ -9,14 +9,14 @@ import Spotter from './Spotter'
 
 const BoonsAndBuffs = () => {
     return(
-        <SectionCollapsible gameClass="ranger" title="Boons and Buffs" id="druid-boons-and-buffs">
+        <SectionCollapsible gameClass="ranger" title="Boons and Buffs" id="druid-boons-and-buffs" >
             <SectionIntro>
                 <p>
                     Druids are responsible for many buffs and boons for the entire squad or their sub-squad only. Listed they include:&nbsp;
                     <strong>spirits</strong>, <strong>spotter</strong>, <strong>might</strong> and <strong>fury</strong>.
                 </p>
             </SectionIntro>
-            <NavTabs tabNames={["Spirits", "Spotter", "Boons"]} hrefs={["spirits", "spotter", "boons"]}>
+            <NavTabs tabNames={["Spirits", "Spotter", "Boons"]} hrefs={["spirits", "spotter", "boons"]} gameClass="ranger">
                 <TabPane tabName={"spirits"} active={true}>
                     <Spirits/>
                 </TabPane>

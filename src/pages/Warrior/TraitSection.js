@@ -1,5 +1,4 @@
 import React from 'react';
-import SkillCard from '../../components/SkillCard';
 import WikiIcon from '../../components/WikiIcon';
 import NavTabs from '../../components/NavTabs';
 import TabPane from '../../components/TabPane';
@@ -59,7 +58,7 @@ const TraitSection = () => {
                 <p>
                     Here the idea is still to try and maintain bonuses, but no longer have the added bonus of Decapitates fuelling Berserker’s Power.
                     This is overall weaker in terms of self DPS, but the added group DPS from Empower Allies should make up for the difference, and then some more.
-                    Phalanx Strength can be run to help provide Might, and some Might generation variants will depend on the Might generated from this trait.
+                    Phalanx Strength can be run to help provide Might <WikiIcon name="Might"/>, and some Might <WikiIcon name="Might"/> generation variants will depend on the Might <WikiIcon name="Might"/> generated from this trait.
                     But in case that is not needed Martial Cadence will be better since it mitigates the loss from lacking Strength slightly with the cooldown reduction effect.
                 </p>
             </TabPane>
@@ -69,10 +68,10 @@ const TraitSection = () => {
                 </p>
                 <div className="mb-3" data-armory-embed="specializations" data-armory-ids="36,51,18" data-armory-36-traits="1455,1333,1346" data-armory-51-traits="1329,1484,1657" data-armory-18-traits="2039,2042,2038"></div>
                 <p>
-                    This combination provides a lot of condition damage, expertise, and flat duration increases to the main conditions Bleeding and Burning.
-                    The only trait that really stands out from the rest is Burst Mastery as it provides no inherent bonus to condition damage, but the payback on adrenaline helps ensure that the build can generate the adrenaline needed to fire primal bursts off-cooldown.
+                    This combination provides a lot of condition damage <WikiIcon name="CondiDamage"/>, expertise, and flat duration increases to the main conditions Bleeding <WikiIcon name="Bleeding"/> and Burning <WikiIcon name="Burning"/>.
+                    The only trait that really stands out from the rest is Burst Mastery as it provides no inherent bonus to condition damage <WikiIcon name="CondiDamage"/>, but the payback on adrenaline helps ensure that the build can generate the adrenaline needed to fire primal bursts off-cooldown.
                     The rest of the traits have a somewhat direct correlation to condition damage that obviously makes them better than the alternatives.
-                    The only alteration to this build is Sundering Bursts instead of Blademaster for team compositions that struggle with reaching the Vulnerability cap.
+                    The only alteration to this build is Sundering Bursts instead of Blademaster for team compositions that struggle with reaching the Vulnerability <WikiIcon name="Vulnerability"/> cap.
                 </p>
             </TabPane>
             <TabPane tabName="Extra-tb">

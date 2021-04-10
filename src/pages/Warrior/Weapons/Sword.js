@@ -13,7 +13,7 @@ const Sword = () => {
         </p>
         <SkillCard skillID={[14364,14365,14363]}>
             <p>
-                The Bleeding is the same for all parts of the attack chain, but the skill damage is higher on
+                The Bleeding <WikiIcon name="Bleeding"/> is the same for all parts of the attack chain, but the skill damage is higher on
                 Hamstring than the skills leading up to it. Though this is played on the condition build, the skill
                 damage is nigh important, what we care about is the Bleeding which is the same overall, which
                 means that it is acceptable to interrupt the chain at any point to prioritize more important skills.
@@ -29,16 +29,16 @@ const Sword = () => {
         </SkillCard>
         <SkillCard skillID={14497}>
             <p>
-                Fairly useless until you get to the threshold for the added damage and Bleed, then this skill
+                Fairly useless until you get to the threshold for the added damage and Bleed <WikiIcon name="Bleeding"/>, then this skill
                 becomes amazing. It is up every time you get to Sword and with the lengthy Bleed it applies you
                 have up to 3 different instances of Bleed applied by this skill active at once for periods of time.
             </p>
         </SkillCard>
         <SkillCard skillID={[14498,14501]}>
             <p>
-                The short cast time combined with the ticking Torment is great, but it could have been so much
+                The short cast time combined with the ticking Torment <WikiIcon name="Torment"/> is great, but it could have been so much
                 better if Rip had applied some sort of damaging conditions as well instead of just dealing
-                damage and giving Might.
+                damage and giving Might <WikiIcon name="Might"/>.
             </p>
         </SkillCard>
         <SkillCard skillID={[14400,14557]}>
@@ -51,7 +51,7 @@ const Sword = () => {
         <SkillCard skillID={30682}>
             <p>
                 Sadly has a very lengthy channel for casting which makes this less great than it could be. Still it
-                applies 8 stacks of Burning over its duration which is really strong, even if it takes a while. The
+                applies 8 stacks of Burning <WikiIcon name="Burning"/> over its duration which is really strong, even if it takes a while. The
                 lengthy cast time is also why Blood Reckoning is not used with this skill, as doing so would delay
                 swapping weapons too much.
             </p>
