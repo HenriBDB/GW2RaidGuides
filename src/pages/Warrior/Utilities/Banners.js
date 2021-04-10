@@ -15,7 +15,7 @@ const Banners = () => {
         <br/>
         <SkillCard skillID={14405}>
             <p>
-                Both Power and Condition Damage is great for condition and power builds alike. Both types of
+                Both Power <WikiIcon name="Power"/> and Condition Damage <WikiIcon name="CondiDamage"/> is great for condition and power builds alike. Both types of
                 builds benefits from both stats provided by this banner as any conditions applied by combo
                 finishers or traits for power builds gain extra strength from the condition damage, and the base
                 damage of the weapon skills are stronger due to power for the condition builds.
@@ -23,7 +23,7 @@ const Banners = () => {
         </SkillCard>
         <SkillCard skillID={14528}>
             <p>
-                This banner is unplayable in raids as the toughness can mess with boss aggro. This alone make
+                This banner is unplayable in raids as the toughness <WikiIcon name="Toughness"/> can mess with boss aggro. This alone make
                 the banner horrible and should never be taken for non-troll reasons.
             </p>
         </SkillCard>
@@ -36,9 +36,9 @@ const Banners = () => {
         </SkillCard>
         <SkillCard skillID={14407}>
             <p>
-                The precision helps not only the warrior reach the crit cap, but also every other DPS class, who
-                actively build around HAVING this 100 precision, when calculating their crit chance. The
-                Ferocity is just a straight up DPS increase providing 6.66% crit damage.
+                The precision <WikiIcon name="Precision"/> helps not only the warrior reach the crit cap, but also every other DPS class, who
+                actively build around HAVING this 100 precision <WikiIcon name="Precision"/>, when calculating their crit chance. The
+                Ferocity <WikiIcon name="Ferocity"/> is just a straight up DPS increase providing 6.66% crit damage.
             </p>
         </SkillCard>
         </>

@@ -63,7 +63,7 @@ const UtilitySection = () => {
                 <SkillCard skillID={14404}>
                     <p>
                         For power we primarily fill the remaining slot with Signet of Might.
-                        The increased damage from the 180 power is overall solid, and you can never go wrong with
+                        The increased damage from the 180 power <WikiIcon name="Power"/> is overall solid, and you can never go wrong with
                         this.
                     </p>
                 </SkillCard>
@@ -88,7 +88,7 @@ const UtilitySection = () => {
                 <SkillCard skillID={30074}>
                     <p>
                         For condition there is only one worthwhile choice and that is Shattering Blow.
-                        The Bleed last a really long time and combined with the Burning from Last Blaze it deals
+                        The Bleed <WikiIcon name="Bleeding"/> last a really long time and combined with the Burning <WikiIcon name="Burning"/> from Last Blaze it deals
                         amazing damage for the condition build. There simply are no alternatives which
                         provides the same amount of damage and extends berserk as well.
                     </p>

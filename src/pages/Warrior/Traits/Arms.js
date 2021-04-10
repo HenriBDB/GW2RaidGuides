@@ -17,8 +17,8 @@ const Arms = () => {
         </div>
         <TraitCard traitID={1342}>
             <p>
-                In itself this trait is not that good, but in the context of what is in the rest of the trait-line,it is actually pretty good.
-                It allows the condition build to get Fury whenever they begin their berserk in case they have no Fury already.
+                In itself this trait is not that good, but in the context of what is in the rest of the trait-line, it is actually pretty good.
+                It allows the condition build to get Fury <WikiIcon name="Fury"/> whenever they begin their berserk in case they have no Fury <WikiIcon name="Fury"/> already.
                 Overall, pretty good
             </p>
         </TraitCard>
@@ -28,21 +28,23 @@ const Arms = () => {
         <TraitCard traitID={1455}>
             <p>
                 This helps the condition build a lot.
-                This trait along with Blademaster, Bloodlust,and King of Fires (Berserker) allows the condition build to run renegade runes and still be able to cap on condition duration for Burning and Bleeding which is its main damaging conditions for the build.
+                This trait along with Blademaster, Bloodlust, and King of Fires (Berserker)
+                allows the condition build to run renegade runes and still be able to cap on condition duration
+                for Burning <WikiIcon name="Burning"/> and Bleeding <WikiIcon name="Bleeding"/> which is its main damaging conditions for the build.
                 You take this, always.
             </p>
         </TraitCard>
         <TraitCard traitID={1344}>
             <p>
                 This trait has some potential for power in the future. There are sadly no other decent power options in this trait-line which makes this pretty bad.
-                But a few power additions to the trait-line,along with a buff to Signet of Precision,could make Arms a viable alternative for power.
-                For now,it is bad, do not run it.
+                But a few power additions to the trait-line, along with a buff to Signet of Precision, could make Arms a viable alternative for power.
+                For now, it is bad, do not run it.
             </p>
         </TraitCard>
         <TraitCard traitID={1334}>
             <p>
-                While Fury is great, it is not that great.
-                Immobilizes are not that common and gaining adrenaline and Fury when landing one is not game-breaking.
+                While Fury <WikiIcon name="Fury"/> is great, it is not that great.
+                Immobilizes <WikiIcon name="Immobile"/> are not that common and gaining adrenaline and Fury <WikiIcon name="Fury"/> when landing one is not game-breaking.
                 It is very far from being better than Wounding Precision.
                 Do not run it.
             </p>
@@ -52,8 +54,8 @@ const Arms = () => {
         </div>
         <TraitCard traitID={1343}>
             <p>
-                This is amazing given that Fury is one of the realistic buffs always have in a raid.
-                180 Condition damage is a huge boost given that the stat starts at 0 and is only increased by stats, traits and buffs.
+                This is amazing given that Fury <WikiIcon name="Fury"/> is one of the more realistic buffs to always have in a raid.
+                180 Condition damage <WikiIcon name="CondiDamage"/> is a huge boost given that the stat starts at 0 and is only increased by stats, traits and buffs.
                 This is part of what allows the condition build to have as much damage as it does.
                 This is amazing.
             </p>
@@ -70,15 +72,17 @@ const Arms = () => {
         </TraitCard>
         <TraitCard traitID={1316}>
             <p>
-                This trait is usable in case your composition needs a source of Vulnerability, otherwise,it is not worth running.
+                This trait is usable in case your composition needs a source of Vulnerability <WikiIcon name="Vulnerability"/>, otherwise, it is not worth running.
                 Run this if absolutely needed.
             </p>
         </TraitCard>
         <TraitCard traitID={1333}>
             <p>
                 Another great trait.
-                As mentioned at Wounding Precision,this is part of what allows the warrior to run a greedy rune-set and still cap duration on the important conditions.
-                The reduced recharge does not do much in terms of impacting the rotation, but the added condition damage while on Sword gives the Sword set some much-needed power.
+                As mentioned at Wounding Precision, this is part of what allows the warrior to run a greedy rune-set and still
+                cap duration on the important conditions.
+                The reduced recharge does not do much in terms of impacting the rotation, but the added condition damage <WikiIcon name="CondiDamage"/>
+                 while on Sword gives the Sword set some much-needed power.
                 Run this whenever you can.
             </p>
         </TraitCard>
@@ -90,7 +94,8 @@ const Arms = () => {
                 This is a huge gain for the condition build.
                 33% is well, one-third of all the duration you need, and it is for one of your main conditions.
                 This is a huge bonus, and it is truly great.
-                The RNG Bleed on crit is one of many factors that makes the DPS of the condition build fluctuate a lot, as not only do you need to hit the crits, you also need the crits to apply Bleed.
+                The RNG Bleed <WikiIcon name="Bleeding"/> on crit is one of many factors that makes the DPS of the condition build fluctuate a lot, as
+                not only do you need to hit the crits, you also need the crits to apply Bleed <WikiIcon name="Bleeding"/>.
                 Overall, still an excellent trait.
             </p>
         </TraitCard>
@@ -107,7 +112,7 @@ const Arms = () => {
             <p>
                 The final great trait of the trait-line.
                 This is also a factor that impacts your DPS on the condition build.
-                If you are lucky and/or land enough crits often enough you can get up to 250 extra condition damage which is huge.
+                If you are lucky and/or land enough crits often enough you can get up to 250 extra condition damage <WikiIcon name="CondiDamage"/> which is huge.
                 Though with average luck you only get 25 stacks for the peak of your bursts and remain around 18-20 for the rest of the rotation.
                 The bonus adrenaline also helps the condition build fill out the bars before the bursts come off cooldown again.
                 You always take this, always.
@@ -115,7 +120,7 @@ const Arms = () => {
         </TraitCard>
         <TraitCard traitID={1707}>
             <p>
-                This could be great, but it does not stack with quickness, which means that it is horrible.
+                This could be great, but it does not stack with quickness <WikiIcon name="Quickness"/>, which means that it is horrible.
                 Never run this, ever.
             </p>
         </TraitCard>

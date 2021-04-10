@@ -27,7 +27,7 @@ const Hammer = () => {
         </SkillCard>
         <SkillCard skillID={14482}>
             <p>
-                Another skill that deals great damage for its cast time. The Cripple is a nice source of soft CC.
+                Another skill that deals great damage for its cast time. The Cripple <WikiIcon name="Crippled"/> is a nice source of soft CC.
             </p>
         </SkillCard>
         <SkillCard skillID={14359}>
@@ -40,7 +40,7 @@ const Hammer = () => {
         <SkillCard skillID={14511}>
             <p>
                 The potential 4 seconds of knockdown is an insane amount of CC in one skill, and as mentioned
-                earlier this combos well to and from Fierce Blow, with Fierce blow setting up the Weakness
+                earlier this combos well to and from Fierce Blow, with Fierce blow setting up the Weakness <WikiIcon name="Weakness"/>
                 required for the added knockdown duration and Backbreaker resetting the cooldown of Fierce
                 Blow.
             </p>

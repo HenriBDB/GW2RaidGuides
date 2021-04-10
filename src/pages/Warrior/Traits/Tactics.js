@@ -5,7 +5,7 @@ import WikiIcon from '../../../components/WikiIcon';
 const Tactics = () => {
     return (
         <>
-        <div className="mb-3" data-armory-embed="specializations" data-armory-ids="11" data-armory-11-traits="1062,978,965,964,1038"></div>
+        <div className="mb-3" data-armory-embed="specializations" data-armory-ids="11" data-armory-11-traits="1469,1474,1471,1486,1479,1482,1667,1470,1711"></div>
         <p>
             Tactics is the support power line. It does not provide much in terms of strong offensive
             modifiers for the warrior, but the boost it can provide to the rest of the squad through Empower
@@ -28,8 +28,8 @@ const Tactics = () => {
         </div>
         <TraitCard traitID={1469}>
             <p>
-                As long as the target is suffering from at least one condition amongst Cripple, immobilize and
-                chill, you will gain the damage bonus, and since these are fairly easy to come by across all the
+                As long as the target is suffering from at least one condition amongst Cripple <WikiIcon name="Crippled"/>, immobilize <WikiIcon name="Immobile"/> and
+                chill <WikiIcon name="Chilled"/>, you will gain the damage bonus, and since these are fairly easy to come by across all the
                 classes it is fairly safe to assume the damage bonus is permanent. It is a damage modifier and
                 those are great. Always run this.
             </p>
@@ -44,8 +44,7 @@ const Tactics = () => {
         <TraitCard traitID={1471}>
             <p>
                 This trait is sadly only useful for a niche full support build, but outside of that it can only be used
-                for pre-casting Warhorn 4 for 25% extra damage on the first 2 hits of an encounter. Even that is
-                a minuscule gain in group DPS, so it is hardly worth it. Do not run this.
+                for providing some mediocre boon support in a niche rotation that does not even bring that much. Do not run this.
             </p>
         </TraitCard>
         <div className="row justify-content-center">
@@ -80,7 +79,7 @@ const Tactics = () => {
         </TraitCard>
         <TraitCard traitID={1482}>
             <p>
-                This trait is the sole reason to run Tactics. The shared Power is amazing for power compositions
+                This trait is the sole reason to run Tactics. The shared Power <WikiIcon name="Power"/> is amazing for power compositions
                 and with the right subgroup management, it is possible to get decent uptimes on all the right
                 people. The increased range to Soldier’s Focus is mostly cute because Soldier’s Focus is bad, but
                 the Empower Allies buff is amazing. The trait sadly falls slightly flat if used with people who
@@ -94,7 +93,7 @@ const Tactics = () => {
         <TraitCard traitID={1481}>
             <p>
                 This trait allows for some interesting tanking when running Tactics along with Phalanx
-                Strength. The heal is very minuscule, but by generating enough Might the healing suddenly
+                Strength. The heal is very minuscule, but by generating enough Might <WikiIcon name="Might"/> the healing suddenly
                 becomes very strong. Underrated for sure. Overall, nice to have.
             </p>
         </TraitCard>
@@ -113,15 +112,15 @@ const Tactics = () => {
         <TraitCard traitID={1470}>
             <p>
                 This is only relevant in a support build, and the support build could in theory also run Phalanx
-                Strength for some Might stacking. Unless you are running such a build there is no reason to take
+                Strength for some Might <WikiIcon name="Might"/> stacking. Unless you are running such a build there is no reason to take
                 this trait. Do not run it.
             </p>
         </TraitCard>
         <TraitCard traitID={1711}>
             <p>
                 This trait has a lot of potential in more aggressive compositions, allowing the warrior to almost
-                singlehandedly stack Might for the entire squad while still providing Empower Allies, Banners,
-                and reasonable DPS. It can be run to help the druid stack Might faster at the beginning of a fight.
+                singlehandedly stack Might <WikiIcon name="Might"/> for the entire squad while still providing Empower Allies, Banners,
+                and reasonable DPS. It can be run to help the druid stack Might <WikiIcon name="Might"/> faster at the beginning of a fight.
                 You can run this just fine.
             </p>
         </TraitCard>

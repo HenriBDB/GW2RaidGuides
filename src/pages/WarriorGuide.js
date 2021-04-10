@@ -1,10 +1,8 @@
 import React from "react";
-import SkillCard from '../components/SkillCard';
 import GuideTitle from "../components/GuideTitle";
 import SectionTitle from "../components/SectionTitle";
 import SectionIntro from '../components/SectionIntro';
 import NavTabs from '../components/NavTabs';
-import TabPane from '../components/TabPane';
 import {TraitSection, WeaponSection, UtilitySection, GearSection, RotationSection, BossGuideSection} from './Warrior';
 import ScrollArrow from '../components/ScrollArrowTop';
 
@@ -49,7 +47,7 @@ const WarriorGuide = (props) => {
                 <p>
                     Since the most common builds for banner warrior all run the berserker trait-line the burst skills listed with every weapon will be the primal burst skills the berserker give access to.
                     All main-hand or two-handed weapons have an associated burst skill.
-                    This list will not contain underwater weapons,such as Spear andHarpoon Gun, nor Spellbreaker Daggers.
+                    This list will not contain underwater weapons,such as Spear and Harpoon Gun.
                     The section will be rounded off with a quick overview of which weapons are good for which builds and why.
                 </p>
                 </SectionIntro>
@@ -59,7 +57,6 @@ const WarriorGuide = (props) => {
                 <p>
                     Warrior has a huge arsenal of utility skills available, but sadly most of them are outright useless in raids or outclassed by better options.
                     It does not help that the context of this guide is for banner warrior, which means that we are locked into running Banner of Strength and Banner of Discipline, leaving only the healing skill, elite skill and 1 utility skill open for creativity.
-                    Just like the weapons the skills will be in Berserker context, so Spellbreaker Meditations will not be present.
                     The section will be rounded out with skill setups for the different builds.
                 </p>
                 </SectionIntro>

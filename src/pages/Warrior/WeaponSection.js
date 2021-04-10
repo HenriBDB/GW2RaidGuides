@@ -9,7 +9,7 @@ const WeaponSection = () => {
     return (
         <>
         <NavTabs tabNames={["Axe", "Dagger", "Greatsword", "Hammer", "Longbow", "Mace", "Rifle", "Shield", "Sword", "Torch", "Warhorn"]} hrefs={["Axe", "Dagger", "Greatsword", "Hammer", "Longbow", "Mace", "Rifle", "Shield", "Sword", "Torch", "Warhorn"]} gameClass="warrior">
-            <TabPane tabName="Axe" active='true'>
+            <TabPane tabName="Axe" active="true">
                 <Axe/>
             </TabPane>
             <TabPane tabName="Dagger">
@@ -77,36 +77,36 @@ const WeaponSection = () => {
                     out all of that CC.
                     <br/>
                     <br/>
-                    <p className="row justify-content-center">Overall, Run the following as default:</p>
-                    <div className="row justify-content-center">
-                        <span data-armory-embed="items" data-armory-size="75" data-armory-ids={[46759,0]}></span>
-                        &emsp;
-                        <span data-armory-embed="items" data-armory-size="75" data-armory-ids={[0,46759]}></span>
-                    </div>
-                    <p className="row justify-content-center">for more damage:</p>
-                    <div className="row justify-content-center">
-                        <span data-armory-embed="items" data-armory-size="75" data-armory-ids={[46759,46759]}></span>
-                        &emsp;
-                        <span data-armory-embed="items" data-armory-size="75" data-armory-ids={[46762,0]}></span>
-                    </div>
-                    <p className="row justify-content-center">for CC and depending on how much CC is needed:</p>
-                    <div className='row justify-content-center'>
-                        <span data-armory-embed="items" data-armory-size="75" data-armory-ids={[46759,46759]}></span>
-                        &emsp;
-                        <span data-armory-embed="items" data-armory-size="75" data-armory-ids={[46766,46766]}></span>
-                    </div>
-                    <div className="row justify-content-center">
-                        <span data-armory-embed="items" data-armory-size="75" data-armory-ids={[46759,46759]}></span>
-                        &emsp;
-                        <span data-armory-embed="items" data-armory-size="75" data-armory-ids={[0,46766]}></span>
-                    </div>
-                    <p className="row justify-content-center">or alternatively this, if you find it more enjoyable:</p>
-                    <div className='row justify-content-center'>
-                        <span data-armory-embed="items" data-armory-size="75" data-armory-ids={[46759,46759]}></span>
-                        &emsp;
-                        <span data-armory-embed="items" data-armory-size="75" data-armory-ids={[46763,0]}></span>
-                    </div>
                 </p>
+                <p className="row justify-content-center">Overall, Run the following as default:</p>
+                <div className="row justify-content-center">
+                    <span data-armory-embed="items" data-armory-size="75" data-armory-ids={[46759,0]}></span>
+                    &emsp;
+                    <span data-armory-embed="items" data-armory-size="75" data-armory-ids={[0,46759]}></span>
+                </div>
+                <p className="row justify-content-center">for more damage:</p>
+                <div className="row justify-content-center">
+                    <span data-armory-embed="items" data-armory-size="75" data-armory-ids={[46759,46759]}></span>
+                    &emsp;
+                    <span data-armory-embed="items" data-armory-size="75" data-armory-ids={[46762,0]}></span>
+                </div>
+                <p className="row justify-content-center">for CC and depending on how much CC is needed:</p>
+                <div className='row justify-content-center'>
+                    <span data-armory-embed="items" data-armory-size="75" data-armory-ids={[46759,46759]}></span>
+                    &emsp;
+                    <span data-armory-embed="items" data-armory-size="75" data-armory-ids={[46766,46766]}></span>
+                </div>
+                <div className="row justify-content-center">
+                    <span data-armory-embed="items" data-armory-size="75" data-armory-ids={[46759,46759]}></span>
+                    &emsp;
+                    <span data-armory-embed="items" data-armory-size="75" data-armory-ids={[0,46766]}></span>
+                </div>
+                <p className="row justify-content-center">or alternatively this, if you find it more enjoyable:</p>
+                <div className='row justify-content-center'>
+                    <span data-armory-embed="items" data-armory-size="75" data-armory-ids={[46759,46759]}></span>
+                    &emsp;
+                    <span data-armory-embed="items" data-armory-size="75" data-armory-ids={[46763,0]}></span>
+                </div>
             </TabPane>
             <TabPane tabName="Condi-wb">
                 <p>
@@ -115,11 +115,12 @@ const WeaponSection = () => {
                     still pull okay damage under the right circumstances, but Torch still outclass it by a large
                     margin. The main hand Sword gives access to a decent auto-attack chain and Final Thrust which
                     applies solid condition in between bursts and Torch skills while on the Sword + Torch set.
-                    Longbow provides access to a great burst of Burning as well as solid Bleeds through Pin Down.
+                    Longbow provides access to a great burst of Burning <WikiIcon name="Burning"/> as well as solid Bleeds through Pin Down.
                     Both of these weapon sets are strong on their own, but with a fast-paced rotation they form a
                     strong synergy which further boosts their individual powers and push the overall DPS higher.
                     <br/>
                     <br/>
+                </p>
                     <p className="row justify-content-center">By and large, run the following:</p>
                     <div className="row justify-content-center">
                         <span data-armory-embed="items" data-armory-size="75" data-armory-ids={[70838,76271]}></span>
@@ -132,7 +133,6 @@ const WeaponSection = () => {
                         &emsp;
                         <span data-armory-embed="items" data-armory-size="75" data-armory-ids={[70504,0]}></span>
                     </div>
-                </p>
             </TabPane>
         </NavTabs>
         </>

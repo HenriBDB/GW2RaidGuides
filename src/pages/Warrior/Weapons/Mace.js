@@ -21,7 +21,7 @@ const Mace = () => {
             <p>
                 As mentioned in the Mace introduction, this skill can be used to block mechanics. An example of
                 this is the fear on Slothasor which can otherwise be problematic in case Headbutt strips your
-                stability. The adrenaline and Vulnerability are not super relevant for how Maces play out.
+                Stability <WikiIcon name="Stability"/>. The adrenaline and Vulnerability <WikiIcon name="Vulnerability"/> are not super relevant for how Maces play out.
             </p>
         </SkillCard>
         <SkillCard skillID={14503}>
@@ -34,7 +34,7 @@ const Mace = () => {
         <SkillCard skillID={14518}>
             <p>
                 Decent damage, but the conditions and Might are mostly irrelevant, and the restrictions for the
-                bonus is harsh for Raids, but again, we do not really care about the Might or Vulnerability. It is
+                bonus is harsh for Raids, but again, we do not really care about the Might <WikiIcon name="Might"/> or Vulnerability <WikiIcon name="Vulnerability"/>. It is
                 mostly used as a filler skill while waiting for weapon swap.
             </p>
         </SkillCard>
