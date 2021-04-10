@@ -49,7 +49,7 @@ const VG = () => {
                 For the wall tanking strategy the group starts at position 1 on the following graph.
             </p>
             <div className="row justify-content-center">
-                <img src={VGIMG} alt="VG Banners"/>
+                <img src={VGIMG} alt="VG Banners" style={{width: "90%"}}/>
             </div>
             <p>
                 Position 1 is roughly where the group will be for all of phase 1, and likewise the banners should

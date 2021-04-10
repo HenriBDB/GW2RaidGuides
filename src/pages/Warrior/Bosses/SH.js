@@ -34,7 +34,7 @@ const SH = () => {
                 group setup you Might have to run Sundering Bursts to help cover Vulnerability <WikiIcon name="Vulnerability"/> uptime.
             </p>
             <div className="row justify-content-center">
-                <img src={SHIMG} alt="Soulless Horror Banners"/>
+                <img src={SHIMG} alt="Soulless Horror Banners" style={{width: "90%"}}/>
             </div>
             <p>
                 Given the nature of the encounter it is very hard to outline a clear pattern of how banners

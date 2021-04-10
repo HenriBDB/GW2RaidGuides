@@ -42,7 +42,7 @@ const KC = () => {
                 fight.
             </p>
             <div className="row justify-content-center">
-                <img src={KCIMG} alt="KC Banners"/>
+                <img src={KCIMG} alt="KC Banners" style={{width: "90%"}}/>
             </div>
             <p>
                 Once the breakbar has been broken you pick up your banners and recast them near the middle

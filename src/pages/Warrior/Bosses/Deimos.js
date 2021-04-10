@@ -43,7 +43,7 @@ const Deimos = () => {
                 wait until you return.
             </p>
             <div className="row justify-content-center">
-                <img src={DeimosIMG} alt="Deimos Banners"/>
+                <img src={DeimosIMG} alt="Deimos Banners" style={{width: "90%"}}/>
             </div>
             <p>
                 Upon returning place your banners slightly towards the side where Deimos will be tanked from

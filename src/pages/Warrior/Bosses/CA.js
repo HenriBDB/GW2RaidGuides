@@ -54,7 +54,7 @@ const CA = () => {
                 phase ends.
             </p>
             <div className="row justify-content-center">
-                <img src={CAIMG} alt="Conjured Amalgamate Banners"/>
+                <img src={CAIMG} alt="Conjured Amalgamate Banners" style={{width: "90%"}}/>
             </div>
         </>
     );

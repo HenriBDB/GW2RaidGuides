@@ -51,7 +51,7 @@ const Sabir = () => {
             Wisps, to ensure that the banners are steadily refreshed.
         </p>
         <div className="row justify-content-center">
-            <img src={SabirIMG} alt="Sabir Banners"/>
+            <img src={SabirIMG} alt="Sabir Banners" style={{width: "90%"}}/>
         </div>
         </>
     );

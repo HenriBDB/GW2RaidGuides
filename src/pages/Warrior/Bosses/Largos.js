@@ -37,7 +37,7 @@ const Largos = () => {
                 to phase the boss.
             </p>
             <div className="row justify-content-center">
-                <img src={LargosIMG} alt="Largos Banners"/>
+                <img src={LargosIMG} alt="Largos Banners" style={{width: "90%"}}/>
             </div>
         </>
     );

@@ -41,7 +41,7 @@ const Sabetha = () => {
                 fight is replacing banners every time berserk ends.
             </p>
             <div className="row justify-content-center">
-                <img src={SabIMG} alt="Sabetha Banners"/>
+                <img src={SabIMG} alt="Sabetha Banners" style={{width: "90%"}}/>
             </div>
         </>
     );

@@ -367,6 +367,53 @@ nav.custom-nav.warrior a.active {
     display: none;
   }
 }
+#Power-r > .tab-content > .tab-pane > .trait-card > .trait-name > span > .gw2a-skills-embed.gw2a--3ZW5E,
+#Condi-r > .tab-content > .tab-pane > .trait-card > .trait-name > span > .gw2a-skills-embed.gw2a--3ZW5E  {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 1199px) {
+  #Power-r > .tab-content > .tab-pane > .trait-card,
+  #Condi-r > .tab-content > .tab-pane > .trait-card  {
+    margin-top: 115px;
+  }
+  #Power-r > .tab-content > .tab-pane > .trait-card .filler::before,
+  #Condi-r > .tab-content > .tab-pane > .trait-card .filler::before {
+    position: absolute;
+    content: '';
+    z-index: 0;
+    height: 44px;
+    width: 1px;
+    top: 21px;
+    right: 0;
+    border-right: 1px solid rgba(200, 200, 200, 0.5);
+  }
+  #Power-r > .tab-content > .tab-pane > .trait-card > .trait-name ,
+  #Condi-r > .tab-content > .tab-pane > .trait-card > .trait-name {
+    top: -65px;
+  }
+}
+@media (max-width: 767px) {
+  #Power-r > .tab-content > .tab-pane > .trait-card,
+  #Condi-r > .tab-content > .tab-pane > .trait-card  {
+    margin-top: 215px;
+  }
+  #Power-r > .tab-content > .tab-pane > .trait-card .filler::before,
+  #Condi-r > .tab-content > .tab-pane > .trait-card .filler::before {
+    position: absolute;
+    content: '';
+    z-index: 0;
+    height: 159px;
+    width: 1px;
+    top: 21px;
+    right: 0;
+    border-right: 1px solid rgba(200, 200, 200, 0.5);
+  }
+  #Power-r > .tab-content > .tab-pane > .trait-card > .trait-name ,
+  #Condi-r > .tab-content > .tab-pane > .trait-card > .trait-name {
+    top: -180px;
+  }
+}
 .boss-card > .boss-name {
   background: transparent;
   align-items: center;

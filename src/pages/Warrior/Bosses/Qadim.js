@@ -61,15 +61,15 @@ const Qadim = () => {
                 Qadim dashes from corner to corner, and when he moves to the final platform. The banners
                 placed on the final platform should be the last and should not need to be refreshed.
             </p>
-            <img src={Q1P1IMG} alt="Qadim Phase 1 Banners" style={{display: "block", marginLeft: "auto", marginRight: "auto"}}/>
+            <img src={Q1P1IMG} alt="Qadim Phase 1 Banners" style={{display: "block", marginLeft: "auto", marginRight: "auto", width: "90%"}}/>
             <p style={{textAlign: "center"}}>Pre-Phase 1 and Phase 1</p>
-            <img src={Q1Pre2IMG} alt="Qadim Pre-phase 2 Banners" style={{display: "block", marginLeft: "auto", marginRight: "auto"}}/>
+            <img src={Q1Pre2IMG} alt="Qadim Pre-phase 2 Banners" style={{display: "block", marginLeft: "auto", marginRight: "auto", width: "90%"}}/>
             <p style={{textAlign: "center"}}>Pre-Phase 2</p>
-            <img src={Q1P2IMG} alt="Qadim Phase 2 Banners" style={{display: "block", marginLeft: "auto", marginRight: "auto"}}/>
+            <img src={Q1P2IMG} alt="Qadim Phase 2 Banners" style={{display: "block", marginLeft: "auto", marginRight: "auto", width: "90%"}}/>
             <p style={{textAlign: "center"}}>Phase 2</p>
-            <img src={Q1Pre3IMG} alt="Qadim Pre-phase 3 Banners" style={{display: "block", marginLeft: "auto", marginRight: "auto"}}/>
+            <img src={Q1Pre3IMG} alt="Qadim Pre-phase 3 Banners" style={{display: "block", marginLeft: "auto", marginRight: "auto", width: "90%"}}/>
             <p style={{textAlign: "center"}}>Pre-Phase 3</p>
-            <img src={Q1P3IMG} alt="Qadim Phase 3 Banners" style={{display: "block", marginLeft: "auto", marginRight: "auto"}}/>
+            <img src={Q1P3IMG} alt="Qadim Phase 3 Banners" style={{display: "block", marginLeft: "auto", marginRight: "auto", width: "90%"}}/>
             <p style={{textAlign: "center"}}>Phase 3</p>
         </>
     );

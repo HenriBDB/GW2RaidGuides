@@ -45,7 +45,7 @@ const Dhuum = () => {
                 For banners on this boss I am assuming a no-throne tanking pattern.
             </p>
             <div className="row justify-content-center">
-                <img src={DhuumIMG} alt="Dhuum Banners"/>
+                <img src={DhuumIMG} alt="Dhuum Banners" style={{width: "90%"}}/>
             </div>
             <p>
                 Before doing your second green you want to put down banners such that they are in place

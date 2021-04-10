@@ -1,7 +1,7 @@
 import React from 'react';
 import NavTabs from '../../components/NavTabs';
 import TabPane from '../../components/TabPane';
-import {Adina, CA, Cairn, Deimos, Dhuum, Escort, Gate, Gorseval, KC, Largos, Matthias, MO, Qadim, QtP, River, Sabetha, Sabir, Samarog, SH, Sloth, SpiritRun, Statues, TC, Trio, VG, Xera} from './Bosses';
+import { Adina, CA, Cairn, Deimos, Dhuum, Escort, Gate, Gorseval, KC, Largos, Matthias, MO, Qadim, QtP, River, Sabetha, Sabir, Samarog, SH, Sloth, SpiritRun, Statues, TC, Trio, VG, Xera } from './Bosses';
 const BossGuideSection = () => {
     return (
         <>
@@ -13,18 +13,18 @@ const BossGuideSection = () => {
                         patterns for the different bosses are not very demanding or complicated either, given that
                         phases does not drag out too long.
                     </p>
-                    <NavTabs tabNames={["Vale Guardian","Spirit Woods", "Gorseval the Multifarious", "Sabetha the Saboteur"]} hrefs={["vg","spirit","gorse","sab"]} gameClass="warrior">
+                    <NavTabs tabNames={["Vale Guardian", "Spirit Woods", "Gorseval the Multifarious", "Sabetha the Saboteur"]} hrefs={["vg", "spirit", "gorse", "sab"]} gameClass="warrior">
                         <TabPane tabName="vg" active="true">
-                            <VG/>
+                            <VG />
                         </TabPane>
                         <TabPane tabName="spirit">
-                            <SpiritRun/>
+                            <SpiritRun />
                         </TabPane>
                         <TabPane tabName="gorse">
-                            <Gorseval/>
+                            <Gorseval />
                         </TabPane>
                         <TabPane tabName="sab">
-                            <Sabetha/>
+                            <Sabetha />
                         </TabPane>
                     </NavTabs>
                 </TabPane>
@@ -37,13 +37,13 @@ const BossGuideSection = () => {
                     </p>
                     <NavTabs tabNames={["Slothasor", "Prison Camp", "Matthias Gabrel"]} hrefs={["sloth", "trio", "matthias"]} gameClass="warrior">
                         <TabPane tabName="sloth" active="true">
-                            <Sloth/>
+                            <Sloth />
                         </TabPane>
                         <TabPane tabName="trio">
-                            <Trio/>
+                            <Trio />
                         </TabPane>
                         <TabPane tabName="matthias">
-                            <Matthias/>
+                            <Matthias />
                         </TabPane>
                     </NavTabs>
                 </TabPane>
@@ -53,18 +53,18 @@ const BossGuideSection = () => {
                         one of the bosses in the wing. Here we will once again see some more complex banner patterns,
                         as well as more breakbars which would like some Maces to help break them.
                     </p>
-                    <NavTabs tabNames={["Siege The Stronghold", "Keep Construct","Twisted Castle", "Xera"]} hrefs={["escort", "kc", "tc", "xera"]} gameClass="warrior">
+                    <NavTabs tabNames={["Siege The Stronghold", "Keep Construct", "Twisted Castle", "Xera"]} hrefs={["escort", "kc", "tc", "xera"]} gameClass="warrior">
                         <TabPane tabName="escort" active="true">
-                            <Escort/>
+                            <Escort />
                         </TabPane>
                         <TabPane tabName="kc">
-                            <KC/>
+                            <KC />
                         </TabPane>
                         <TabPane tabName="tc">
-                            <TC/>
+                            <TC />
                         </TabPane>
                         <TabPane tabName="xera">
-                            <Xera/>
+                            <Xera />
                         </TabPane>
                     </NavTabs>
                 </TabPane>
@@ -79,16 +79,16 @@ const BossGuideSection = () => {
                     </p>
                     <NavTabs tabNames={["Cairn the Indomitable", "Mursaat Overseer", "Samarog", "Deimos"]} hrefs={["cairn", "mo", "sama", "deimos"]} gameClass="warrior">
                         <TabPane tabName="cairn" active="true">
-                            <Cairn/>
+                            <Cairn />
                         </TabPane>
                         <TabPane tabName="mo">
-                            <MO/>
+                            <MO />
                         </TabPane>
                         <TabPane tabName="sama">
-                            <Samarog/>
+                            <Samarog />
                         </TabPane>
                         <TabPane tabName="deimos">
-                            <Deimos/>
+                            <Deimos />
                         </TabPane>
                     </NavTabs>
                 </TabPane>
@@ -102,16 +102,16 @@ const BossGuideSection = () => {
                     </p>
                     <NavTabs tabNames={["Soulless Horror", "River of Souls", "Statues of Grenth", "Dhuum"]} hrefs={["sh", "river", "statues", "dhuum"]} gameClass="warrior">
                         <TabPane tabName="sh" active="true">
-                            <SH/>
+                            <SH />
                         </TabPane>
                         <TabPane tabName="river">
-                            <River/>
+                            <River />
                         </TabPane>
                         <TabPane tabName="statues">
-                            <Statues/>
+                            <Statues />
                         </TabPane>
                         <TabPane tabName="dhuum">
-                            <Dhuum/>
+                            <Dhuum />
                         </TabPane>
                     </NavTabs>
                 </TabPane>
@@ -124,13 +124,13 @@ const BossGuideSection = () => {
                     </p>
                     <NavTabs tabNames={["Conjured Amalgamate", "Twin Largos", "Qadim"]} hrefs={["ca", "largos", "qadim"]} gameClass="warrior">
                         <TabPane tabName="ca" active="true">
-                            <CA/>
+                            <CA />
                         </TabPane>
                         <TabPane tabName="largos">
-                            <Largos/>
+                            <Largos />
                         </TabPane>
                         <TabPane tabName="qadim">
-                            <Qadim/>
+                            <Qadim />
                         </TabPane>
                     </NavTabs>
                 </TabPane>
@@ -143,16 +143,16 @@ const BossGuideSection = () => {
                     </p>
                     <NavTabs tabNames={["Gates of Ahdashim", "Cardinal Adina", "Cardinal Sabir", "Qadim the Peerless"]} hrefs={["gate", "adina", "sabir", "qtp"]} gameClass="warrior">
                         <TabPane tabName="gate" active="true">
-                            <Gate/>
+                            <Gate />
                         </TabPane>
                         <TabPane tabName="adina">
-                            <Adina/>
+                            <Adina />
                         </TabPane>
                         <TabPane tabName="sabir">
-                            <Sabir/>
+                            <Sabir />
                         </TabPane>
                         <TabPane tabName="qtp">
-                            <QtP/>
+                            <QtP />
                         </TabPane>
                     </NavTabs>
                 </TabPane>

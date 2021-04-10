@@ -39,7 +39,7 @@ const Xera = () => {
                 there and while moving back to the middle.
             </p>
             <div className="row justify-content-center">
-                <img src={XeraIMG} alt="Xera Banners"/>
+                <img src={XeraIMG} alt="Xera Banners" style={{width: "90%"}}/>
             </div>
             <p>
                 Similar ideas present themself for phase 2. The diagram above should somewhat show how the

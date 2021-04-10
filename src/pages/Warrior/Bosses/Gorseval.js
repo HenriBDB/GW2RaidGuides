@@ -51,7 +51,7 @@ const Gorseval = () => {
                 the banners until the last spirit is about to be killed.
             </p>
             <div className="row justify-content-center">
-                <img src={GorseIMG} alt="Gorse Banners"/>
+                <img src={GorseIMG} alt="Gorse Banners" style={{width: "90%"}}/>
             </div>
         </>
     );

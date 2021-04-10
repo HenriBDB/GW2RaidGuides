@@ -31,7 +31,7 @@ const MO = () => {
                 skills to ensure you are not misjudging the range.
             </p>
             <div className="row justify-content-center">
-                <img src={MOIMG} alt="Mursaat Banners"/>
+                <img src={MOIMG} alt="Mursaat Banners" style={{width: "90%"}}/>
             </div>
             <p>
                 As mentioned earlier the banner pattern is practically the same as with Cairn. Keep the banners

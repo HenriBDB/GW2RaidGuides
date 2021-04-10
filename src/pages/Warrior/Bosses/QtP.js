@@ -34,7 +34,7 @@ const QtP = () => {
                 not only help kill them, but also to gain some addition stacks of Furious Surge.
             </p>
             <div className="row justify-content-center">
-                <img src={QtPIMG} alt="Qadim the Peerless Banners"/>
+                <img src={QtPIMG} alt="Qadim the Peerless Banners" style={{width: "90%"}}/>
             </div>
             <p>
                 For banners you should keep the banners close to the group at all times such that they are easy

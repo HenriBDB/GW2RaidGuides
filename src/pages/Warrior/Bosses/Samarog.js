@@ -28,7 +28,7 @@ const Samarog = () => {
                 CC you can. Use Pin Down to help lock Rigom up once he has been pushed on top of Samarog.
             </p>
             <div className="row justify-content-center">
-                <img src={SamaIMG} alt="Samarog Banners"/>
+                <img src={SamaIMG} alt="Samarog Banners" style={{width: "90%"}}/>
             </div>
             <p>
                 The Bannering here is split into 2 phases, the main phases and the split phases. If the main

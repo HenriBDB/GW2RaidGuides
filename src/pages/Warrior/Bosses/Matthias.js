@@ -35,7 +35,7 @@ const Matthias = () => {
                 Bursts in the Arms trait-line in case there is problems with Vulnerability <WikiIcon name="Vulnerability"/> stacks.
             </p>
             <div className="row justify-content-center">
-                <img src={MattIMG} alt="Matthias Banners"/>
+                <img src={MattIMG} alt="Matthias Banners" style={{width: "90%"}}/>
             </div>
             <p>
                 Banners on this boss is very simple, cast banners in the middle of the arena, and then picking

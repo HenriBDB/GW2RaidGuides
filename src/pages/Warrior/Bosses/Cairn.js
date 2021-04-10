@@ -38,7 +38,7 @@ const Cairn = () => {
                 will stay on with the agony.
             </p>
             <div className="row justify-content-center">
-                <img src={CairnIMG} alt="Cairn Banners"/>
+                <img src={CairnIMG} alt="Cairn Banners" style={{width: "90%"}}/>
             </div>
         </>
     );

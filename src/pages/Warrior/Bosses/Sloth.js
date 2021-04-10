@@ -49,7 +49,7 @@ const Sloth = () => {
                 will be similar in how you want to place the banners.
             </p>
             <div className="row justify-content-center">
-                <img src={SlothIMG} alt="Slothasor Banners"/>
+                <img src={SlothIMG} alt="Slothasor Banners" style={{width: "90%"}}/>
             </div>
             <p>
                 When Starting the fight you want to place the banners behind where Slothasor will be
