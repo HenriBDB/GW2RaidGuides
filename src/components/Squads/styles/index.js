@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import { motion } from "framer-motion"
 import commBackground from '../../../assets/backgrounds/commander.jpg'
 
 const commPrimary = "#B125D3"
@@ -33,38 +32,6 @@ export const Container = styled.div`
     width: 100%;
   }
 `
-export const SectionHeader = styled.div`
-  width: 100%;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  padding: 0.25rem 0 0.25rem 0;
-  display: flex;
-  justify-content: center;
-  background-color: rgba(0, 0, 0, 0.8);
-  border-top: 2px solid ${commPrimary};
-  border-bottom: 2px solid ${commPrimary};
-  font-weight: 500;
-  line-height: 1.2;
-  font-size: 1.75rem;
-  position: relative;
-  cursor: pointer;
-  > p {
-    font-family: "Noto serif";
-    height: 33px;
-    line-height: 33px;
-    margin: 0;
-    @media(max-width:666px) {
-      font-size: 1.2rem;
-    }
-    @media(max-width:440px) {
-      font-size: 1rem;
-    }
-    @media(max-width:375px) {
-      font-size: 0.8rem;
-    }
-  }
-
-`
 export const GuideDescription = styled.div`
 `
 export const SectionContainer = styled.div`
@@ -76,13 +43,6 @@ export const SectionContainer = styled.div`
   .gw2a--M9jBV a:hover {
     text-decoration-color: ${commPrimary};
   }
-`
-export const ArrowMoreButton = styled(motion.img)`
-  width: 25px;
-  height: 25px;
-  position: absolute;
-  right: 2%;
-  top: 23%;
 `
 export const SectionContent = styled.div`
 `

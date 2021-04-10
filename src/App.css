@@ -15,6 +15,21 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: "Noto Serif";
 }
+@media (max-width:666px) {
+  h3.commander {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width:440px) {
+  h3.commander {
+    font-size: 1rem;
+  }
+}
+@media (max-width:375px) {
+  h3.commander {
+    font-size: 0.8rem;
+  }
+}
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
@@ -454,6 +469,10 @@ nav.custom-nav.warrior a.active {
 .section-title > h3 {
   margin: 0;
 }
+.section-title.dragonhunter {
+  border-top: 2px solid var(--dh-primary);
+  border-bottom: 2px solid var(--dh-primary);
+}
 .section-title.ranger {
   border-top: 2px solid var(--ranger-primary);
   border-bottom: 2px solid var(--ranger-primary);
@@ -462,7 +481,10 @@ nav.custom-nav.warrior a.active {
   border-top: 2px solid var(--war-primary);
   border-bottom: 2px solid var(--war-primary);
 }
-
+.section-title.commander {
+  border-top: 2px solid var(--comm-primary);
+  border-bottom: 2px solid var(--comm-primary);
+}
 .subsection-title {
   padding: 0.5em;
   border-left: 1px solid var(--ranger-primary);

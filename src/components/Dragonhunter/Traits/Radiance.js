@@ -1,9 +1,9 @@
 import React from 'react';
-import { Link } from 'react-scroll';
 import TraitCard from '../../../components/TraitCard';
 import WikiIcon from '../../../components/WikiIcon';
+import SectionLink from '../../../components/SectionLink';
 
-const Radiance = ({ showRotation, showGuides, showGear }) => {
+const Radiance = () => {
     return (
         <>
             <div className="mb-3" data-armory-embed="specializations" data-armory-ids="16" data-armory-16-traits="572,574,566,571,565,568,579,1683"></div>
@@ -52,12 +52,12 @@ const Radiance = ({ showRotation, showGuides, showGear }) => {
                             </li>
                             <li>
                                 if they are slow, you can still take <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="574" className="dhskill"></span> for better <WikiIcon name={"Retaliation"} /> Retaliation uptime, but you have to remember that your sword rotation won't line up well in such case. You can also just take this trait and suffer from missing <WikiIcon name={"Retaliation"} /> Retaliation. My recommendation here would be just to play scepter at this point. If you want to learn why <WikiIcon name={"Retaliation"} /> Retaliation is such an important boon for <WikiIcon name={"Dragonhunter"} /> Power Dragonhunter, go to
-                                <Link to="dh-section-rotation" smooth={true} duration={1000} onClick={showRotation}>
+                                <SectionLink sectionId="dh-section-rotation">
                                     <span
                                         style={{ color: "#69CCE7", cursor: "pointer" }}>
                                         &nbsp;Rotation
                                     </span>
-                                </Link>.
+                                </SectionLink>.
                             </li>
                         </ul>
                     </li>
@@ -72,12 +72,12 @@ const Radiance = ({ showRotation, showGuides, showGear }) => {
                 </p>
                 <p>
                     This will work only with enemies that give you experience after they are killed, for example Blue, Green and Red Guardians at <WikiIcon name={"Vg"} /> VG, Sappers at <WikiIcon name={"Sabetha"} /> Sabetha, Slublings at <WikiIcon name={"Slothasor"} /> Sloth. This trait allows you to use <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="29887" className="dhskill"></span> more often in some fights which leads to dps increase. To see how it works in practice on different bosses check out
-                    <Link to="dh-section-guides" smooth={true} duration={1000} onClick={showGuides}>
+                    <SectionLink sectionId="dh-section-guides">
                         <span
                             style={{ color: "#69CCE7", cursor: "pointer" }}>
                             &nbsp;Boss Guides
-                                    </span>
-                    </Link>.
+                        </span>
+                    </SectionLink>.
                 </p>
             </TraitCard>
             <div className="row justify-content-center">
@@ -115,21 +115,21 @@ const Radiance = ({ showRotation, showGuides, showGear }) => {
                 </p>
                 <p>
                     Taking this trait makes you lose 25% Crit Chance from <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1683" className="dhskill"></span>, this is why you need to adjust your gear to compensate for it. See
-                    <Link to="dh-section-gear" smooth={true} duration={1000} onClick={showGear}>
+                    <SectionLink sectionId="dh-section-gear">
                         <span
                             style={{ color: "#69CCE7", cursor: "pointer" }}>
                             &nbsp;Gear&nbsp;
-                                    </span>
-                    </Link>for details.
+                        </span>
+                    </SectionLink>for details.
                 </p>
                 <p>
                     So when is it worth taking over <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1683" className="dhskill"></span>? Definitely in CC heavy fights like <WikiIcon name={"Slothasor"} /> Slothasor or <WikiIcon name={"Samarog"} /> Samarog. See
-                    <Link to="dh-section-guides" smooth={true} duration={1000} onClick={showGuides}>
+                    <SectionLink sectionId="dh-section-guides">
                         <span
                             style={{ color: "#69CCE7", cursor: "pointer" }}>
                             &nbsp;Boss Guides&nbsp;
-                                    </span>
-                    </Link>to see it in practice. Sometimes it will also be worth taking just to share the <WikiIcon name={"Power"} /> Power buff with your party, but I recommend doing it only in organized groups with well thought strats.
+                        </span>
+                    </SectionLink>to see it in practice. Sometimes it will also be worth taking just to share the <WikiIcon name={"Power"} /> Power buff with your party, but I recommend doing it only in organized groups with well thought strats.
                 </p>
                 <p>
                     If there are few Guardians using Signet with this trait, the Signet buffs stack. After the recent fix, using the Signet doesn't make you lose all your previous stacks anymore.

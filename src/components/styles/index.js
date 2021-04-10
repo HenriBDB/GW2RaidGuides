@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { motion } from "framer-motion"
 import { ArrowUpS } from '@styled-icons/remix-line/ArrowUpS';
 
 export const ArrowUp = styled(ArrowUpS)`
@@ -23,4 +24,11 @@ export const ArrowUp = styled(ArrowUpS)`
         opacity: 1;
         }
     }
+`
+export const ArrowMoreButton = styled(motion.img)`
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 2%;
+  top: 23%;
 `

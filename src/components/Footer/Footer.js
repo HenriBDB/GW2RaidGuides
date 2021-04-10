@@ -43,7 +43,8 @@ const Footer = () => {
                 </MobileWrapper>
             </FooterContent>
             <Copyright>
-                &#169; 2021 GW2 Raid Guides
+                &#169; 2021 GW2 Raid Guides<br />
+                This site uses art from video game development and publishing companies. All trademarks are the property of their respective owners.
             </Copyright>
         </FooterWrapper>
     )
