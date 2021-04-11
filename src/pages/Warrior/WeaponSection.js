@@ -105,8 +105,14 @@ const WeaponSection = () => {
                     <p className="row justify-content-center text-center">for more damage:</p>
                     <div className="row justify-content-center">
                         <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46759, 46759]}></span>
-                    &emsp;
-                    <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46762, 0]}></span>
+                        &emsp;
+                        <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46762, 0]}></span>
+                    </div>
+                    <p className="row justify-content-center text-center">for a faster and bigger burst:</p>
+                    <div className="row justify-content-center">
+                        <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46759, 46759]}></span>
+                        &emsp;
+                        <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46765, 0]}></span>
                     </div>
                     <p className="row justify-content-center text-center">for CC and depending on how much CC is needed:</p>
                     <div className='row justify-content-center'>

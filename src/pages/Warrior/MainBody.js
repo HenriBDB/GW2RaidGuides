@@ -1,6 +1,7 @@
 import React from "react";
 import GuideTitle from "../../components/GuideTitle";
 import SectionIntro from '../../components/SectionIntro';
+import SectionTitle from '../../components/SectionTitle';
 import SectionCollapsible from '../../components/SectionCollapsible';
 import {TraitSection, WeaponSection, UtilitySection, GearSection, RotationSection, BossGuideSection} from './';
 import ScrollArrow from '../../components/ScrollArrowTop';
@@ -80,6 +81,7 @@ const MainBody = () => {
                         These boss specific adaptations will be covered under the bosses section when relevant.
                         This section will instead cover the overall rotations for the Power and Condition build.
                     </p>
+                    <p><b>OBS: any "No Skill" marking in a rotation sequence should be read as a weapon-swap</b></p>
                     </SectionIntro>
                     <RotationSection/>
                 </SectionCollapsible>
@@ -94,6 +96,21 @@ const MainBody = () => {
                     </SectionIntro>
                     <BossGuideSection/>
                 </SectionCollapsible>
+                <SectionTitle gameClass="warrior" title="Future Work"/>
+                <SectionIntro>
+                    <p className="text-center">
+                        This section will aim to outline any plans for future additions to the guide.
+                    </p>
+                </SectionIntro>
+                <div className="row justify-content-center">
+                    <h4>TODO:</h4>
+                    <ul>
+                        <li>Pugbreaker Spellbreaker build</li>
+                        <li>Videos for the rotations</li>
+                        <li>Fix Weaponswap icon in the Rotation section</li>
+                        <li>Expand to include pure DPS variants and bannershare variants</li>
+                    </ul>
+                </div>
             </div>
         </div>
         </>
