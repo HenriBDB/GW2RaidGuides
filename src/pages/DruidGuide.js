@@ -3,7 +3,7 @@ import GuideTitle from '../components/GuideTitle';
 import SectionIntro from '../components/SectionIntro';
 import SectionCollapsible from '../components/SectionCollapsible';
 import ScrollArrow from '../components/ScrollArrowTop';
-import {BoonsAndBuffs, SkillsAndUtilities, Traits, Rotations} from '../components/Druid/Sections'
+import {BoonsAndBuffs, WeaponSkills, Traits, Rotations} from '../components/Druid/Sections'
 
 const DruidGuide = () => {
     return (
@@ -21,7 +21,7 @@ const DruidGuide = () => {
 
                 <Traits/>
 
-                <SkillsAndUtilities/>
+                <WeaponSkills/>
 
                 <SectionCollapsible gameClass="ranger" title="Gear" id="druid-gear">
                     <SectionIntro>
