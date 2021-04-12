@@ -41,6 +41,7 @@ const CommProviders = () => {
                     <WikiIcon name={"Aegis"} /> Aegis and <WikiIcon name={"Stability"} /> Stability don't have uptimes listed but rather their rough <WikiIcon name={"Recharge"} /> cooldown of possible application
                 </p>
             </SectionIntro>
+            <div style={{ width: '60%', height: 1, borderBottom: '1px solid white', margin: '40px auto 0' }}></div>
             <RoleSectionContainer>
                 <RoleSectionRow>
                     <ProviderSection>

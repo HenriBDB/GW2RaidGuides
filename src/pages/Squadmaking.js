@@ -1,9 +1,13 @@
 import React from "react";
 import Squads from '../components/Squads/Squads';
+import Seo from "../components/seo"
 
 const Squadmaking = () => {
     return (
-        <Squads />
+        <>
+            <Seo title="Squadmaking Guide" />
+            <Squads />
+        </>
     )
 }
 export default Squadmaking;
