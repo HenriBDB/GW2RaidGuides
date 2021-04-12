@@ -36,6 +36,7 @@ const icons = {
     "Knockdown": "https://wiki.guildwars2.com/images/3/36/Knockdown.png",
     "Pull": "https://wiki.guildwars2.com/images/a/a4/Radius.png",
     "Exposed": "https://wiki.guildwars2.com/images/6/6b/Exposed.png",
+    "Knockback": "https://wiki.guildwars2.com/images/c/ca/Knockback.png",
     //Attributes
     "Power": "https://wiki.guildwars2.com/images/2/23/Power.png",
     "Precision": "https://wiki.guildwars2.com/images/e/ee/Precision.png",

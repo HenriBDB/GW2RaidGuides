@@ -5,7 +5,7 @@ import { Link } from 'react-scroll'
 // Intended to be used to open a SectionCollapsible
 const SectionLink = (props) => {
     
-    const openSection = (sectionId) => {
+    const openSection = () => {
         document.getElementById(props.sectionId+"-section").click()
     }
 
