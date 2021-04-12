@@ -648,6 +648,10 @@ nav.custom-nav.warrior a.active {
   justify-content: center;
   flex-direction: row;
 }
+.commander .gw2a-items-embed.gw2a--3ZW5E {
+  display: inline;
+  vertical-align: middle;
+}
 
 /* Video */
 @keyframes modal-video {

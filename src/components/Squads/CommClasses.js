@@ -41,6 +41,9 @@ const CommClasses = () => {
                         Another thing to consider is <b>movement</b>. Some classes, be it power or condi, have no problem maintaining their rotations while moving, or they’re not relying on the <b>boss staying in their damaging fields</b>. For others, it’s a deal breaker if they, or the boss, needs to move.
                     </p>
                     <p>
+                        Last but not least, the choice of power or condi class can be determined by <b>split phase adds</b>. Conjured Amalgamate is a good example - while the main burst phase is usually long enough for condi class to ramp up, the hand phases are quite short, making it really hard for some builds to do any reasonable damage in the short amount of time. Squad with one or two condi dps players will be fine, but if everyone is playing condi classes, destroying the hands alone may prove difficult.
+                    </p>
+                    <p>
                         <b>TL:DR</b>, stop thinking about dps classes in a vacuum, as it’s wrong to just simplify them into power or condi variants, and <b>start thinking about each build individually</b> instead.
                     </p>
                 </TabPane>
