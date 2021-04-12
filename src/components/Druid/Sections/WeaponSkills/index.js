@@ -12,7 +12,7 @@ import Longbow from './Longbow'
 
 const WeaponSkills = () => {
     return(
-        <SectionCollapsible gameClass="ranger" title="Weapon Skills" id="druid-skills">
+        <SectionCollapsible gameClass="ranger" title="Weapon Skills" id="druid-weapon-skills">
             <SectionIntro>
                 <p>
                     Your main weapon set will be Staff - Axe/Warhorn. It provides great healing while allowing you to easily upkeep boons like <WikiIcon name="Might"/> Might
