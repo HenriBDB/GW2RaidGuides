@@ -1,11 +1,18 @@
-import React from 'react';
+import React from 'react'
 import WikiIcon from '../../../WikiIcon'
-import SectionIntro from '../../../SectionIntro';
-import SectionCollapsible from '../../../SectionCollapsible';
+import SectionIntro from '../../../SectionIntro'
+import SectionCollapsible from '../../../SectionCollapsible'
+import NavTabs from '../../../NavTabs'
+import TabPane from '../../../TabPane'
+import Staff from './Staff'
+import Warhorn from './Warhorn'
+import Axe from './Axe'
+import Shortbow from './Shortbow'
+import Longbow from './Longbow'
 
-const SkillsAndUtilities = () => {
+const WeaponSkills = () => {
     return(
-        <SectionCollapsible gameClass="ranger" title="Skills and Utilities" id="druid-skills">
+        <SectionCollapsible gameClass="ranger" title="Weapon Skills" id="druid-weapon-skills">
             <SectionIntro>
                 <p>
                     Your main weapon set will be Staff - Axe/Warhorn. It provides great healing while allowing you to easily upkeep boons like <WikiIcon name="Might"/> Might
@@ -17,8 +24,25 @@ const SkillsAndUtilities = () => {
                     you might also equip a torch and other condition heavy weapons in the following setup: Shortbow - Axe/Torch.
                 </p>
             </SectionIntro>
+            <NavTabs tabNames={["Staff", "Warhorn", "Axe", "Shortbow", "Longbow"]} hrefs={["staff", "warhorn", "axe", "shortbow", "longbow"]}>
+                <TabPane tabName={"staff"} active={true}>
+                    <Staff/>
+                </TabPane>
+                <TabPane tabName={"warhorn"}>
+                    <Warhorn/>
+                </TabPane>
+                <TabPane tabName={"axe"}>
+                    <Axe/>
+                </TabPane>
+                <TabPane tabName={"shortbow"}>
+                    <Shortbow/>
+                </TabPane>
+                <TabPane tabName={"longbow"}>
+                    <Longbow/>
+                </TabPane>
+            </NavTabs>
         </SectionCollapsible>
     )
 }
 
-export default SkillsAndUtilities
+export default WeaponSkills
