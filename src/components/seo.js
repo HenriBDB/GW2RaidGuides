@@ -9,7 +9,7 @@ const Seo = ({ title, description, path }) => {
     return (
         <Helmet
             htmlAttributes={{ lang: 'en' }}
-            title={`${title} | Gw2 Raid Guides`}
+            title={`${title} | GW2 Raid Guides`}
             meta={[
                 {
                     name: 'description',
