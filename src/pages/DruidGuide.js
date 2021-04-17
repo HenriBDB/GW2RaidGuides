@@ -3,7 +3,7 @@ import GuideTitle from '../components/GuideTitle';
 import SectionIntro from '../components/SectionIntro';
 import SectionCollapsible from '../components/SectionCollapsible';
 import ScrollArrow from '../components/ScrollArrowTop';
-import {BoonsAndBuffs, WeaponSkills, UtilitySkills, Traits, Rotations} from '../components/Druid/Sections'
+import {BoonsAndBuffs, WeaponSkills, UtilitySkills, Traits, Rotations, Gear} from '../components/Druid/Sections'
 
 const DruidGuide = () => {
     return (
@@ -25,14 +25,7 @@ const DruidGuide = () => {
 
                 <UtilitySkills/>
 
-                <SectionCollapsible gameClass="ranger" title="Gear" id="druid-gear">
-                    <SectionIntro>
-                        <p>
-                            A druid will most of the time take a Staff and Axe/Warhorn. However there exists a few other weapons of choice that can be very useful in 
-                            specific situations.
-                        </p>
-                    </SectionIntro>
-                </SectionCollapsible>
+                <Gear/>
 
                 <Rotations/>
 
