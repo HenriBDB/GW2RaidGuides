@@ -30,6 +30,9 @@ const buffLinks = {
     //Condis
     "Weakness": "https://wiki.guildwars2.com/images/f/f9/Weakness.png",
     "Slow": "https://wiki.guildwars2.com/images/f/f5/Slow.png",
+    //Other
+    "BannerDiscipline": "https://wiki.guildwars2.com/images/5/5f/Banner_of_Discipline.png",
+    "BannerStrength": "https://wiki.guildwars2.com/images/e/e1/Banner_of_Strength.png",
 }
 
 const WikiIconBig = (props) => {

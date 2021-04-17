@@ -1,9 +1,13 @@
 import React from "react";
-import {MainBody} from './Warrior';
+import { MainBody } from './Warrior';
+import Seo from "../components/seo"
 
-const WarriorGuide = (props) => {
+const WarriorGuide = () => {
     return (
-        <MainBody/>
+        <>
+            <Seo title="Warrior Guide" />
+            <MainBody />
+        </>
     );
 }
 

@@ -8,7 +8,7 @@ import {
     Title
 } from './styles'
 
-const Changelog = () => {
+const ChangelogView = () => {
 
     return (
         <ChangelogWrapper>
@@ -42,4 +42,4 @@ const Changelog = () => {
         </ChangelogWrapper>
     )
 }
-export default Changelog
+export default ChangelogView

@@ -67,7 +67,7 @@ const DhWeaponSkills = () => {
                     </p><br />
                     <SkillCard skillID={[9098]}>
                         <p>
-                            A single autoattack skill, firing an orb at the boss. Low damage skill, used as a filler in your rotation while you are waiting for your burst skills to come off cooldown.
+                            A single autoattack skill, firing an orb at the boss. Low damage skill, used as a filler in your rotation while you are waiting for your burst skills to come off <WikiIcon name={"Recharge"} /> cooldown.
                         </p>
                     </SkillCard>
                     <SkillCard skillID={[9090]}>

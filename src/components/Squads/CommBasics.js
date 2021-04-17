@@ -21,7 +21,7 @@ const CommBasics = () => {
         <SectionContainer>
             <SectionIntro>
                 <p style={{ fontStyle: "normal" }}>
-                    Every squad <b>needs boons</b>. Squad with good boon uptime is thrice as effective as the one without. That being said, not every boon is equal and there are some that are stronger than others.
+                    Every squad <b>needs boons</b>. Squad with good boon uptime is twice as effective as the one without. That being said, not every boon is equal and there are some that are stronger than others.
                 </p>
                 <p style={{ fontStyle: "normal" }}>
                     Alongside boons there are class specific <b>buffs</b> - which will either purely boost stats of other squad members, or enhance their effectiveness in other ways. Similar to boons, their impact is <b>huge</b> and should not be underestimated.

@@ -61,6 +61,10 @@ const TraitSection = () => {
                     Phalanx Strength can be run to help provide Might <WikiIcon name="Might"/>, and some Might <WikiIcon name="Might"/> generation variants will depend on the Might <WikiIcon name="Might"/> generated from this trait.
                     But in case that is not needed Martial Cadence will be better since it mitigates the loss from lacking Strength slightly with the cooldown reduction effect.
                 </p>
+                <br/>
+                <p>
+                    In case you run longbow you want to take Savage Instinct instead of Smash Brawler in the Berserker traits.
+                </p>
             </TabPane>
             <TabPane tabName="Condi-tb">
                 <p>

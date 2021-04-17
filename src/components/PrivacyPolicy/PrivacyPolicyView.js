@@ -10,11 +10,11 @@ import {
     ListItem
 } from './styles'
 
-const PrivacyPolicy = () => {
+const PrivacyPolicyView = () => {
 
     return (
         <PrivacyWrapper>
-            <ScrollArrow background='#7289DA'/>
+            <ScrollArrow background='#7289DA' />
             <PrivacyContainer>
                 <Title>
                     Privacy Policy
@@ -90,4 +90,4 @@ const PrivacyPolicy = () => {
         </PrivacyWrapper>
     )
 }
-export default PrivacyPolicy    
+export default PrivacyPolicyView

@@ -21,11 +21,11 @@ const Footer = () => {
                 <MobileWrapper>
                     <FooterCol>
                         <FooterTitle>Contact Us</FooterTitle>
-                        <ExternalLink href="https://discord.gg/mpyMenSCc4" target="_blank"><FooterIcon src={DiscordLogo} height="30" /></ExternalLink>
+                        <ExternalLink href="https://discord.gg/mpyMenSCc4" target="_blank"><FooterIcon src={DiscordLogo} height="30" width="105" /></ExternalLink>
                     </FooterCol>
                     <FooterCol>
                         <FooterTitle>Raid Training</FooterTitle>
-                        <ExternalLink href=" https://discord.gg/hdhDE3v" target="_blank"><FooterIcon src={DiscordLogo} height="30" /></ExternalLink>
+                        <ExternalLink href=" https://discord.gg/hdhDE3v" target="_blank"><FooterIcon src={DiscordLogo} height="30" width="105" /></ExternalLink>
                     </FooterCol>
                 </MobileWrapper>
                 <MobileWrapper>

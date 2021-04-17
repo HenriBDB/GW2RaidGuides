@@ -69,7 +69,7 @@ const GearSection = () => {
                         <p className="row justify-content-center text-center">Weapons with Berserkers stats</p>
                         <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[48075,48131,48073,48074,48076,48072]} className="row justify-content-center"></span>
                         <p className="row justify-content-center text-center">Assassins shoulders, the rest as Berserkers</p>
-                        <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[39273,37086,37075,49391,67302,67298]} className="row justify-content-center"></span>
+                        <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[39273,77319,78907,49391,67302,67298]} data-armory-77319-stat="1128" data-armory-78907-stat="1128" className="row justify-content-center"></span>
                         <p className="row justify-content-center text-center">Assassins ring and accessories, rest Berserkers</p>
                         <p>
                             This build is for Might <WikiIcon name="Might"/> generation only, it is significantly weaker than the alternatives, but can generate heaps of Might <WikiIcon name="Might"/> with Phalanx Strength.
@@ -78,7 +78,7 @@ const GearSection = () => {
                         </p>
                     </TabPane>
                     <TabPane tabName="Misc">
-                        <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46762,24615,24597]} className="row justify-content-center"></span>
+                        <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46762,46765,24615,24597]} className="row justify-content-center"></span>
                         <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46763,46766,46770,24639,84505]} className="row justify-content-center"></span>
                         <p>
                             The sigils in the previous sections are reserved for the Axes. This section aims to cover the sigils
@@ -87,6 +87,8 @@ const GearSection = () => {
                             Greatsword for long, swapping away from it as soon as possible and remaining on the Axe set
                             until all the Axe skills are on cooldown again. Just like weapon swaps are used on the pure Axe
                             rotation to delay that point, Greatsword is used to negate it completely.
+                            For longbow there really is not any better option since you are only on bow for 5 seconds at a time,
+                            so the slot is technically free, but the average best case is Hydromancy.
                             For the CC weapons there is one truth, and this truth is Severance and Paralyzation sigils.
                             Severance provides a short boost to precision and ferocity on interrupts, and paralyzation
                             increased the CC power of dazes and stuns, increasing overall breakbar damage. It does not
@@ -100,6 +102,7 @@ const GearSection = () => {
                 <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[70838,76271,24560,24605]} className="row justify-content-center"></span>
                 <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[70504,0,24560,24609]} className="row justify-content-center"></span>
                 <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[83502,74412,72557,76377,76776,77143,72548]} className="row justify-content-center"></span>
+                <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[77380,77272,78855,78818,77413,78863]} data-armory-77380-stat="1268" data-armory-77272-stat="1268" data-armory-78855-stat="1268" data-armory-78818-stat="1268" data-armory-77413-stat="1268" data-armory-78863-stat="1268" className="row justify-content-center"></span>
                 <p>
                     Like many other condition builds, Viper’s stats are by far the best option. The renegade runes
                     however are fairly unique, and are possible due to King of Fires and Bloodlust granting 33% of
