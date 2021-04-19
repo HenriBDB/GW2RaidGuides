@@ -9,7 +9,7 @@ import Home from './Home';
 import Guides from './Guides';
 import Squadmaking from './Squadmaking';
 import Authors from './Authors';
-import Error from './Error';
+import NotFound from './NotFound';
 import DragonhunterGuide from './DragonhunterGuide';
 import DruidGuide from './DruidGuide';
 import WarriorGuide from './WarriorGuide';
@@ -42,7 +42,7 @@ const HomePage = () => {
           <Route exact path="/warrior-guide/" component={WarriorGuide} />
           <Route exact path="/changelog/" component={Changelog} />
           <Route exact path="/privacy-policy/" component={PrivacyPolicy} />
-          <Route path="*" component={Error} />
+          <Route path="*" component={NotFound} />
         </Switch>
         <Footer />
       </Router>

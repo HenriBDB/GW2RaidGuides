@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const Seo = ({ title, description, path }) => {
 
-    const url = `https://gw2-raid-guides.web.app/${path}`
+    const url = `https://gw2raidguides.com/${path}`
 
     return (
         <Helmet

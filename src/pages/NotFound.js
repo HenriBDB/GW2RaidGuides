@@ -1,9 +1,9 @@
 import React from "react";
 import ErrorView from '../components/Error/ErrorView';
 
-const Error = () => {
+const NotFound = () => {
     return (
         <ErrorView />
     )
 }
-export default Error;
+export default NotFound;
