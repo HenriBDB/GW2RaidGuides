@@ -18,7 +18,7 @@ const ChangelogView = () => {
                     Changelog
                 </Title>
                 <div className="comm-summary">
-                    <CommCard text={["15 April 2021"]}>
+                    <CommCard text={["19 April 2021"]}>
                         <ul>
                             <li>
                                 Added <WikiIcon name={"Dragonhunter"} /> Dragonhunter, <WikiIcon name={"Berserker"} /> Warrior to <b>Class Guides</b> (up to date as of Balance Patch from 7th July 2020)

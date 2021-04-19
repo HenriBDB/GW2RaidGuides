@@ -37,11 +37,9 @@ const DhBossGuides = () => {
                 <p>
                     My videoguides are directed to raiders who prefer visual aids over written tips (available for example on SC website). They were all recorded with average pug groups (I aim for 100-250 LI groups usually). There will be no secret knowledge shared here, everything shown in below guides is already available in other sources, but maybe seeing it all in action in average groups with live explanation what and why is happening will help you becoming more conscious <WikiIcon name={"Dragonhunter"} /> DH player and improving your performance. Don't expect perfect gameplay, this is my average performance in pugs and none of those kills are grinded, better results are possible on every boss with a perfect rotation while implementing the tips presented in guides.
                     <br /><br />
-                    Below videos will cover bosses where I feel <WikiIcon name={"Dragonhunter"} /> Dragonhunter can perform on a decent level.
-                    <br /><br />
                     I strongly recommend opening below videos directly on YouTube - there may be things missed in the videos, but included in descriptions below them.
                     <br /><br />
-                    This project is still work in progress - more guide are coming.
+                    This project is still work in progress - videoguides for more bosses are coming.
                 </p>
             </SectionIntro>
             <ModalVideo channel='youtube' autoplay isOpen={isOpen1} videoId="MCI8sfCD5uk" onClose={() => setOpen1(false)} />
