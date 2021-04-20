@@ -1,7 +1,6 @@
 import React from 'react'
 import SectionIntro from '../../../SectionIntro'
 import SectionCollapsible from '../../../SectionCollapsible'
-import SectionLink from '../../../SectionLink'
 import NavTabs from '../../../NavTabs'
 import TabPane from '../../../TabPane'
 import Classic from './Classic'
