@@ -5,7 +5,7 @@ import WikiIcon from '../../../components/WikiIcon';
 const Defense = () => {
     return (
         <>
-        <div className="mb-3" data-armory-embed="specializations" data-armory-ids="22" data-armory-22-traits="1062,978,965,964,1038"></div>
+        <div className="mb-3" data-armory-embed="specializations" data-armory-ids="22" data-armory-22-traits="1376,1488,1372,1368,1379,1367,1375,1649,1708"></div>
         <p>
             The Defense trait-line is never run in any relevant builds for raids.
             This is because it is largely defensive oriented which is not what is sought after in raids, unless it can be achieved along with other offensive or supportive options.
@@ -40,8 +40,8 @@ const Defense = () => {
         </TraitCard>
         <TraitCard traitID={1372}>
             <p>
-                A most welcome damage increase. Weakness is not completely unrealistic on a boss so it should
-                be seen as a flat 7% modifier. Being able to help with the Weakness uptime post 50% is also a
+                A most welcome damage increase. Weakness <WikiIcon name="Weakness"/> is not completely unrealistic on a boss so it should
+                be seen as a flat 7% modifier. Being able to help with the Weakness <WikiIcon name="Weakness"/> uptime post 50% is also a
                 nice addition, overall a worthwhile trait.
             </p>
         </TraitCard>
@@ -67,7 +67,7 @@ const Defense = () => {
         </TraitCard>
         <TraitCard traitID={1379}>
             <p>
-                Without any toughness gear this trait still gives 100 power, which is respectable. It is the better
+                Without any toughness <WikiIcon name="Toughness"/> gear this trait still gives 100 power <WikiIcon name="Power"/>, which is respectable. It is the better
                 option when trying to build offensively with Defense, though at that point it is worth
                 questioning if one should run Strength or Tactics instead. Overall, pretty good.
             </p>
@@ -83,8 +83,8 @@ const Defense = () => {
         </div>
         <TraitCard traitID={1380}>
             <p>
-                Given the lack of access to Retaliation in the warrior kit, this trait is not as great as it could be,
-                the trait has a rather lengthy internal cooldown given the amount of Retaliation you get in
+                Given the lack of access to Retaliation <WikiIcon name="Retaliation"/> in the warrior kit, this trait is not as great as it could be,
+                the trait has a rather lengthy internal cooldown given the amount of Retaliation <WikiIcon name="Retaliation"/> you get in
                 return. With the bit of self-sufficient mitigation you do get, it is however still fairly good.
             </p>
         </TraitCard>
@@ -107,7 +107,7 @@ const Defense = () => {
         </TraitCard>
         <TraitCard traitID={1708}>
             <p>
-                This trait is trolling incarnate. The 1000 toughness spike is likely to draw boss aggro away from
+                This trait is trolling incarnate. The 1000 toughness <WikiIcon name="Toughness"/> spike is likely to draw boss aggro away from
                 the tank if the trait is activated. Do not run this trait, ever.
             </p>
         </TraitCard>

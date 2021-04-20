@@ -27,7 +27,7 @@ const Elite = () => {
                 This is a fantastic alternative on fights where Head Butt is not needed for kickstarting
                 adrenaline in the start of a fight like Dhuum, or on fights where you can pre-stack adrenaline
                 like Mursatt Overseer. The revival effect can come in clutch, and the boons it provides are also
-                5-man, so it can help kickstart and maintain Might and Fury for the duration it is up when
+                5-man, so it can help kickstart and maintain Might <WikiIcon name="Might"/> and Fury <WikiIcon name="Fury"/> for the duration it is up when
                 running greedier team compositions.
             </p>
         </SkillCard>
@@ -43,12 +43,15 @@ const Elite = () => {
             <p>
                 Insanely good elite skill. It has a short cooldown, great CC with 300 breakbar damage, 390 with
                 sigil of paralyzation, and the self-stun synergizes well with outrage as previously mentioned.
-                The stability strip is unfortunate but will not ruin your day outside of Slothasor and Cairn.
+                The Stability <WikiIcon name="Stability"/> strip is unfortunate but will not ruin your day outside of Slothasor and Cairn.
             </p>
         </SkillCard>
         <SkillCard skillID={45333}>
             <p>
-                TEST
+                This skill has probably seen as many changes as Chrono has at this point.
+                Jokes aside, what it does, it does well. The boon strip is highly relevant in high end groups for Qadim
+                who skips all Pyres, though for worse groups you are better off playing Berserker and killing any missing
+                pyre over playing Spellbreaker with this elite.
             </p>
         </SkillCard>
         </>

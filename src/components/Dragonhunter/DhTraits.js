@@ -1,6 +1,7 @@
 import React from "react";
-import { Link } from 'react-scroll';
 import SectionIntro from '../../components/SectionIntro';
+import SectionLink from '../../components/SectionLink';
+import WikiIcon from '../../components/WikiIcon';
 import NavTabs from '../../components/NavTabs';
 import TabPane from '../../components/TabPane';
 import Zeal from './Traits/Zeal';
@@ -10,7 +11,7 @@ import DragonhunterTrait from './Traits/DragonhunterTrait';
 import { SectionContainer } from './styles'
 
 
-const DhTraits = ({ showGear, showRotation, showGuides }) => {
+const DhTraits = () => {
     return (
         <SectionContainer>
             <SectionIntro>
@@ -19,27 +20,27 @@ const DhTraits = ({ showGear, showRotation, showGuides }) => {
                 </div>
                 <br />
                 <p>There are few bosses which will require you take 1 or 2 different traits (or the entire traitline). Those trait changes will also require gear adjustments (more info in
-                    <Link to="dh-section-gear" smooth={true} duration={1000} onClick={showGear}>
+                    <SectionLink sectionId="dh-section-gear">
                         <span
                             style={{ color: "#69CCE7", cursor: "pointer" }}>
                             &nbsp;Gear&nbsp;
                         </span>
-                    </Link>
+                    </SectionLink>
                 section). However, you can also use the basic trait set up on every boss as a beginner with 1 gearset.
-                Navigate with the tabs below to learn more about traits used for power Dragonhunter build (I will only go over actually used traits to keep this guide concise).</p>
+                Navigate with the tabs below to learn more about traits used for <WikiIcon name={"Dragonhunter"} /> Power Dragonhunter build (I will only go over actually used traits to keep this guide concise).</p>
             </SectionIntro>
             <NavTabs tabNames={["Zeal", "Radiance", "Virtues", "Dragonhunter"]} hrefs={["zeal", "radiance", "virtues", "dragonhunter"]} gameClass="dragonhunter">
                 <TabPane tabName="zeal" active={true}>
                     <Zeal />
                 </TabPane>
                 <TabPane tabName="radiance">
-                    <Radiance showRotation={showRotation} showGuides={showGuides} showGear={showGear}/>
+                    <Radiance />
                 </TabPane>
                 <TabPane tabName="virtues">
-                    <Virtues showGear={showGear}/>
+                    <Virtues />
                 </TabPane>
                 <TabPane tabName="dragonhunter">
-                    <DragonhunterTrait showRotation={showRotation}/>
+                    <DragonhunterTrait/>
                 </TabPane>
             </NavTabs>
         </SectionContainer>

@@ -5,7 +5,7 @@ import WikiIcon from '../../../components/WikiIcon';
 const Spellbreaker = () => {
     return (
         <>
-        <div className="mb-3" data-armory-embed="specializations" data-armory-ids="61" data-armory-61-traits="1062,978,965,964,1038"></div>
+        <div className="mb-3" data-armory-embed="specializations" data-armory-ids="61" data-armory-61-traits="2107,2153,2140,2126,2097,2095,2163,2168,2060"></div>
         <p>
             Spellbreaker is more utility based specialization, and it brings this utility in a slightly defensive
             way. The trait-line, as it is, currently holds a lot of potential for greatness, but it is sadly held
@@ -29,20 +29,20 @@ const Spellbreaker = () => {
         <TraitCard traitID={2107}>
             <p>
                 This bonus is amazing given how few bosses get boons at any point in a fight. The 14% modifier
-                is the equivalent of 210 Ferocity, which is outstanding. Always run this.
+                is the equivalent of 210 Ferocity <WikiIcon name="Ferocity"/>, which is outstanding. Always run this.
             </p>
         </TraitCard>
         <TraitCard traitID={2153}>
             <p>
                 This trait shows a sad trend with traits that apply to Full Counter. They leave you thinking “Is
-                that it?”. Protection is strong, yes, but it is not strong enough to be the sole benefit from a trait
+                that it?”. Protection <WikiIcon name="Protection"/> is strong, yes, but it is not strong enough to be the sole benefit from a trait
                 like this. Not good enough, do not take this.
             </p>
         </TraitCard>
         <TraitCard traitID={2140}>
             <p>
                 Another trait that is rather mediocre as it holds 0 synergies with anything the Spellbreaker
-                wants to do. Yes, the Spellbreaker has access to a lot of stuns and dazes, but the immobilize just
+                wants to do. Yes, the Spellbreaker has access to a lot of stuns and dazes, but the immobilize <WikiIcon name="Immobile"/> just
                 seems pointless. Do not run this.
             </p>
         </TraitCard>
@@ -70,7 +70,7 @@ const Spellbreaker = () => {
         <TraitCard traitID={2097}>
             <p>
                 Adding to the trend of traits with disappointing additions to Full Counter.
-                Slow is a great condition, but the trait still is not good. Applying an additional condition or just
+                Slow <WikiIcon name="Slow"/> is a great condition, but the trait still is not good. Applying an additional condition or just
                 giving it another minuscule bonus would make it slightly better but for now, it is bad, do not
                 take it.
             </p>
@@ -87,7 +87,7 @@ const Spellbreaker = () => {
         </div>
         <TraitCard traitID={2130}>
             <p>
-                Another great bonus. At max stacks, this trait provides 225 Power and Ferocity, which are
+                Another great bonus. At max stacks, this trait provides 225 Power <WikiIcon name="Power"/> and Ferocity <WikiIcon name="Ferocity"/>, which are
                 amazing bonuses. The problem is maintaining the stacks, as they are only achieved through
                 disables or boon removal. This forces you into a slightly worse rotation to maintain stacks for an
                 overall damage increase, but it just feels bad. If boon removal was more prominent on bosses
@@ -105,7 +105,7 @@ const Spellbreaker = () => {
         </TraitCard>
         <TraitCard traitID={2168}>
             <p>
-                The first slightly good Full Counter modifier. Increased damage and Resistance are great, but
+                The first slightly good Full Counter modifier. Increased damage and Resistance <WikiIcon name="Resistance"/> are great, but
                 there are rarely any conditions to copy in a raid, as they will be cleansed almost instantly. It is
                 alright, but do not run this.
             </p>

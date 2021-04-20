@@ -19,7 +19,7 @@ const Stance = () => {
         </SkillCard>
         <SkillCard skillID={14412}>
             <p>
-                Highly irrelevant in raids, there are better sources for stability, the Swiftness is also easily found
+                Highly irrelevant in raids, there are better sources for Stability <WikiIcon name="Stability"/>, the Swiftness <WikiIcon name="Swiftness"/> is also easily found
                 elsewhere and the crit immunity does nothing. Never run this.
             </p>
         </SkillCard>
@@ -33,7 +33,7 @@ const Stance = () => {
         <SkillCard skillID={14406}>
             <p>
                 The 7 adrenaline is actually huge but neither build needs the added adrenaline so the skill itself
-                becomes obsolete. The resistance is nice, but not enough to make it worth taking.
+                becomes obsolete. The Resistance <WikiIcon name="Resistance"/> is nice, but not enough to make it worth taking.
             </p>
         </SkillCard>
         </>

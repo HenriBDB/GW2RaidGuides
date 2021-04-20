@@ -1,9 +1,9 @@
 import React from 'react';
-import { Link } from 'react-scroll';
 import TraitCard from '../../../components/TraitCard';
 import WikiIcon from '../../../components/WikiIcon';
+import SectionLink from '../../../components/SectionLink';
 
-const DragonhunterTrait = ({ showRotation }) => {
+const DragonhunterTrait = () => {
     return (
         <>
             <div className="mb-3" data-armory-embed="specializations" data-armory-ids="27" data-armory-27-traits="1848,1898,1896,1835,1926,1955"></div>
@@ -23,7 +23,7 @@ const DragonhunterTrait = ({ showRotation }) => {
             </div>
             <TraitCard traitID={1898} gameClass="dragonhunter">
                 <p>
-                    Reduces <WikiIcon name={"Recharge"} /> cooldown of your traps by 20%. Your traps now apply <WikiIcon name={"Slow"} /> Slow (1,5s) to enemies (this trait makes your power Chronos happy).
+                    Reduces <WikiIcon name={"Recharge"} /> cooldown of your traps by 20%. Your traps now apply <WikiIcon name={"Slow"} /> Slow (1,5s) to enemies (this trait makes your <WikiIcon name={"Chronomancer"} />  Power Chronos happy).
                 </p>
             </TraitCard>
             <div className="row justify-content-center">
@@ -47,7 +47,7 @@ const DragonhunterTrait = ({ showRotation }) => {
             </div>
             <TraitCard traitID={1926} gameClass="dragonhunter">
                 <p>
-                    Grants damage increase based on your distance to the enemy. The further you stay from the boss, the more damage increase you will get (min 5%, max 15%). Given that as a Dragonhunter you will mostly be very close to the boss (especially when spinning inside the hitbox with your GS skills), you will get 5% damage increase most of the time.
+                    Grants damage increase based on your distance to the enemy. The further you stay from the boss, the more damage increase you will get (min 5%, max 15%). Given that as a <WikiIcon name={"Dragonhunter"} /> Dragonhunter you will mostly be very close to the boss (especially when spinning inside the hitbox with your GS skills), you will get 5% damage increase most of the time.
                 </p>
             </TraitCard>
             <div className="row justify-content-center">
@@ -59,12 +59,12 @@ const DragonhunterTrait = ({ showRotation }) => {
                 </p>
                 <p>
                     Your rotation revolves around this trait - you want to cast all your big dps skills when this damage increase is active. You will find more details in
-                    <Link to="dh-section-rotation" smooth={true} duration={1000} onClick={showRotation}>
+                    <SectionLink sectionId="dh-section-rotation">
                         <span
                             style={{ color: "#69CCE7", cursor: "pointer" }}>
                             &nbsp;Rotation
                         </span>
-                    </Link>.
+                    </SectionLink>.
                 </p>
             </TraitCard>
         </>

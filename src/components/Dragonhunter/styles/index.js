@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import { motion } from "framer-motion"
 import dhBackground from '../../../assets/backgrounds/dragohunter.jpg'
 import { FaYoutube } from 'react-icons/fa';
 
@@ -36,25 +35,6 @@ export const Container = styled.div`
 export const GuideDescription = styled.div`
 
 `
-export const SectionHeader = styled.div`
-  width: 100%;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  padding: 0.25rem 0 0.25rem 0;
-  display: flex;
-  justify-content: center;
-  background-color: rgba(0, 0, 0, 0.8);
-  border-top: 2px solid ${dhPrimary};
-  border-bottom: 2px solid ${dhPrimary};
-  font-weight: 500;
-  line-height: 1.2;
-  font-size: 1.75rem;
-  position: relative;
-  cursor: pointer;
-  > p {
-    margin: 0;
-  }
-`
 export const SectionContainer = styled.div`
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -64,14 +44,6 @@ export const SectionContainer = styled.div`
   .gw2a--M9jBV a:hover {
     text-decoration-color: ${dhPrimary};
   }
-`
-
-export const ArrowMoreButton = styled(motion.img)`
-  width: 25px;
-  height: 25px;
-  position: absolute;
-  right: 2%;
-  top: 23%;
 `
 export const SectionContent = styled.div`
 

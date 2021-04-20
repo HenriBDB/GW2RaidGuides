@@ -43,9 +43,9 @@ const Berserker = () => {
         <TraitCard traitID={2039}>
             <p>
                 This is primarily used for the condition build, but also some burstier variants of the power build.
-                It holds the most value when you have at least 2 Rage skills which are used frequently. Burning
+                It holds the most value when you have at least 2 Rage skills which are used frequently. Burning <WikiIcon name="Burning"/>
                 is the strongest condition in the game, having the highest base damage of all conditions.
-                Confusion can beat it under the right circumstances, but on a base-case Burning is better.
+                Confusion <WikiIcon name="Confusion"/> can beat it under the right circumstances, but on a base-case Burning <WikiIcon name="Burning"/> is better.
                 Overall a great trait, always take this on the condition build.
             </p>
         </TraitCard>
@@ -61,9 +61,9 @@ const Berserker = () => {
         </div>
         <TraitCard traitID={1993}>
             <p>
-                The only useful part of this trait is the Quickness, the superspeed is irrelevant for raids. But the
-                quickness ensures that you will have quickness for the first bit of your berserk, even if the
-                quickness source is slow with applying quickness. Nothing game-breaking, it is just alright.
+                The only useful part of this trait is the Quickness <WikiIcon name="Quickness"/>, the superspeed <WikiIcon name="Superspeed"/> is irrelevant for raids. But the
+                quickness <WikiIcon name="Quickness"/> ensures that you will have quickness <WikiIcon name="Quickness"/> for the first bit of your berserk, even if the
+                quickness <WikiIcon name="Quickness"/> source is slow with applying quickness <WikiIcon name="Quickness"/>. Nothing game-breaking, it is just alright.
             </p>
         </TraitCard>
         <div className="row justify-content-center">
@@ -73,15 +73,15 @@ const Berserker = () => {
             <p>
                 This is amazing for power, and part of the reason why power wants to remain in berserk as long
                 as possible. Warrior has no access to viable crit chance modifiers which means they have to run
-                a lot of precision which in turn provides a lot of ferocity thanks to this trait. Ferocity is probably
-                the strongest stat for any power build. Run this on power, always.
+                a lot of precision <WikiIcon name="Precision"/> which in turn provides a lot of ferocity <WikiIcon name="Ferocity"/> thanks to this trait.
+                Ferocity <WikiIcon name="Ferocity"/> is probably the strongest stat for any power build. Run this on power, always.
             </p>
         </TraitCard>
         <TraitCard traitID={2042}>
             <p>
                 Torch is already strong for the condition build as it is, but with the reduced recharge as well as
-                120 base condition damage, this trait is insanely good. The bonus while wielding Torch means
-                that when on the Sword/Torch weapon-set you get a total of 240 extra condition damage thanks
+                120 base condition damage <WikiIcon name="CondiDamage"/>, this trait is insanely good. The bonus while wielding Torch means
+                that when on the Sword/Torch weapon-set you get a total of 240 extra condition damage <WikiIcon name="CondiDamage"/> thanks
                 to this trait and Blademaster. It is the better option for the condition build so you take it, always.
             </p>
         </TraitCard>
@@ -98,10 +98,10 @@ const Berserker = () => {
         </div>
         <TraitCard traitID={2046}>
             <p>
-                This is an incredible bonus. The lack of toughness Might look scary, but the presence of a healer,
+                This is an incredible bonus. The lack of toughness <WikiIcon name="Toughness"/> might look scary, but the presence of a healer,
                 and the fact that Blood Reckoning is an insane healing skill, makes this penalty irrelevant. You
-                are very unlikely to go down due to having 700 toughness during Berserk, rather than 1000.
-                The bonus to power and condition damage is incredible for both the power build and condition
+                are very unlikely to go down due to having 700 toughness <WikiIcon name="Toughness"/> during Berserk, rather than 1000.
+                The bonus to power <WikiIcon name="Power"/> and condition damage <WikiIcon name="CondiDamage"/> is incredible for both the power build and condition
                 build. This trait is fantastic.
             </p>
                 </TraitCard>
@@ -121,17 +121,17 @@ const Berserker = () => {
             <p>
                 This is the best example of what a grandmaster trait should look like. It provides a lot of
                 bonuses which independently are good, but nothing more than that, but the combination of all
-                these bonuses being in one trait makes them fantastic instead. The increased Burn duration
+                these bonuses being in one trait makes them fantastic instead. The increased Burn <WikiIcon name="Burning"/> duration
                 alone would have been enough for the condition build to run it, but the addition of fire auras on
                 crits (with a 15 seconds cooldown between activations) and the ability to detonate the aura for
-                a huge amount of Burning is amazing as well. Every condition build with Burning as a main
+                a huge amount of Burning <WikiIcon name="Burning"/> is amazing as well. Every condition build with Burning <WikiIcon name="Burning"/> as a main
                 condition wants this trait. Always run this for the condition build.
             </p>
         </TraitCard>
        <TraitCard traitID={2043}>
            <p>
-                This trait has no place in raids. Getting back the 300 toughness you otherwise lose from Fatal
-                Frenzy is nothing grand, and the stability and Might on stun break are irrelevant in raids.
+                This trait has no place in raids. Getting back the 300 toughness <WikiIcon name="Toughness"/> you otherwise lose from Fatal
+                Frenzy is nothing grand, and the stability <WikiIcon name="Stability"/> and Might <WikiIcon name="Might"/> on stun break are irrelevant in raids.
                 Do not run this, ever.
            </p>
        </TraitCard>

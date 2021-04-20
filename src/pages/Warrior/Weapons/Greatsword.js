@@ -1,6 +1,5 @@
 import React from 'react';
 import SkillCard from '../../../components/SkillCard';
-import WikiIcon from '../../../components/WikiIcon';
 
 const Greatsword = () => {
     return (

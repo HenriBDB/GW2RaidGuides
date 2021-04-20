@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom'
 
 export const NavContainer = styled.nav`
   display: flex;
@@ -13,6 +12,7 @@ export const NavContainer = styled.nav`
   width: 100%;
   padding: 0;
   a {
+    font-family: "Noto Serif";
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -45,9 +45,6 @@ export const NavRow = styled.ul`
 export const NavLi = styled.li`
 
 `
-export const NavLink = styled(Link)`
-
-`
 export const Logo = styled.img`
 
 `
@@ -65,7 +62,7 @@ export const MenuItems = styled.ul`
 `
 export const MenuItem = styled.li`
   a {
-    padding-bottom: 5px;
+    padding-bottom: 2px;
   }
   a:after {
     content: '';
@@ -77,16 +74,13 @@ export const MenuItem = styled.li`
   a:hover::after {
     transform: scaleX(1); 
   }
-  a:active: {
-    background:red;
-  }
 `
 export const MobileNavWrapper = styled(motion.div)`
   position: absolute;
   top: 65px;
   right: 0%;
   width: 100%;
-  z-index: 1;
+  z-index: 99;
   background-color:rgba(27,29,27,1);
 `
 export const MobileMenuItems = styled.ul`

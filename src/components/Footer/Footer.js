@@ -8,6 +8,7 @@ import {
     FooterTitle,
     FooterLink,
     ExternalLink,
+    InternalLink,
     FooterIcon,
     LinkIcon,
     Copyright
@@ -20,18 +21,17 @@ const Footer = () => {
                 <MobileWrapper>
                     <FooterCol>
                         <FooterTitle>Contact Us</FooterTitle>
-                        <ExternalLink href="https://discord.gg/mpyMenSCc4" target="_blank"><FooterIcon src={DiscordLogo} height="30" /></ExternalLink>
+                        <ExternalLink href="https://discord.gg/mpyMenSCc4" target="_blank"><FooterIcon src={DiscordLogo} height="30" width="105" /></ExternalLink>
                     </FooterCol>
                     <FooterCol>
                         <FooterTitle>Raid Training</FooterTitle>
-                        <ExternalLink href=" https://discord.gg/hdhDE3v" target="_blank"><FooterIcon src={DiscordLogo} height="30" /></ExternalLink>
+                        <ExternalLink href=" https://discord.gg/hdhDE3v" target="_blank"><FooterIcon src={DiscordLogo} height="30" width="105" /></ExternalLink>
                     </FooterCol>
                 </MobileWrapper>
                 <MobileWrapper>
                 <FooterCol>
                     <FooterTitle>About the Project</FooterTitle>
-                    <ExternalLink href="https://github.com/HenriBDB/GW2RaidGuides" target="_blank"><LinkIcon /> Changelog</ExternalLink>
-                    <ExternalLink href="https://github.com/HenriBDB/GW2RaidGuides/issues" target="_blank"><LinkIcon /> Bug reports</ExternalLink>
+                    <InternalLink to="/changelog" onClick={() => window.scrollTo(0, 0)}><LinkIcon /> Changelog</InternalLink>
                 </FooterCol>
                     <FooterCol>
                         <FooterTitle>
@@ -43,7 +43,8 @@ const Footer = () => {
                 </MobileWrapper>
             </FooterContent>
             <Copyright>
-                &#169; 2021 GW2 Raid Guides
+                &#169; 2021 GW2 Raid Guides<br />
+                This site uses art from video game development and publishing companies. All trademarks are the property of their respective owners.
             </Copyright>
         </FooterWrapper>
     )

@@ -31,7 +31,7 @@ const Rage = () => {
         <SkillCard skillID={30074}>
             <p>
                 This is what fills the last utility slot on the condition build. This is only really because of the
-                Bleeding it applies on top of the Last Blaze Burning. The stability can be used in a clutch to block
+                Bleeding <WikiIcon name="Bleeding"/> it applies on top of the Last Blaze Burning <WikiIcon name="Burning"/>. The stability <WikiIcon name="Stability"/> can be used in a clutch to block
                 things like spatial manipulation on Cairn, but the block holds more utility for blocking
                 mechanics though it can be hard to time as it is only half a second it blocks for. The reflect can be
                 problematic on Cairn if the skill is not used carefully, but other than that it is nothing to speak of.
@@ -39,7 +39,7 @@ const Rage = () => {
         </SkillCard>
         <SkillCard skillID={29941}>
             <p>
-                This skill does decent damage, and the Fury it provides is a nice addition. The crit insurance is
+                This skill does decent damage, and the Fury <WikiIcon name="Fury"/> it provides is a nice addition. The crit insurance is
                 nothing big as it is only power build that runs this skill, and it is at the crit cap already. The CC is
                 also rather strong, launching the target far and knocking back other enemies hit by the launched
                 target. Lastly 4 seconds increase to berserk is a solid increase and is very worthwhile.

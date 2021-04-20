@@ -1,18 +1,18 @@
 import React from "react";
-import { Link } from 'react-scroll';
 import NavTabs from '../../components/NavTabs';
 import TabPane from '../../components/TabPane';
 import SkillCard from '../../components/SkillCard';
 import WikiIcon from '../../components/WikiIcon';
+import SectionLink from '../../components/SectionLink';
 import { SectionContainer } from './styles'
 
-const DhWeaponSkills = ({ showGuides, showWeapons }) => {
+const DhWeaponSkills = () => {
     return (
         <SectionContainer>
             <NavTabs tabNames={["Greatsword", "Scepter", "Sword", "Focus"]} hrefs={["dh-gs", "dh-scepter", "dh-sword", "dh-focus"]} gameClass="dragonhunter">
                 <TabPane tabName="dh-gs" active={true}>
                     <p>
-                        As mentioned in previous sections, Greatsword is the go-to weapon for a power Dragonhunter. It deals massive damage, has access to a powerful Symbol and some squad utility.
+                        As mentioned in previous sections, Greatsword is the go-to weapon for a <WikiIcon name={"Dragonhunter"} /> Power Dragonhunter. It deals massive damage, has access to a powerful Symbol and some squad utility.
                     </p><br />
                     <SkillCard skillID={[9137, 9138, 9139]}>
                         <p>
@@ -26,7 +26,7 @@ const DhWeaponSkills = ({ showGuides, showWeapons }) => {
                     </SkillCard>
                     <SkillCard skillID={[9080]}>
                         <p>
-                            Helps with movement and allows you to get the boss faster (for example you can leap to Adina from the pillar instead of walking). It does a small amount of healing and it <WikiIcon name={"Blinded"} /> Blinds your target. It can hit up to 5 targets. It's also a <a href="https://wiki.guildwars2.com/wiki/Leap_finisher" target="_blank" rel="noopener noreferrer" className="dhlink">Leap finisher</a>.
+                            Helps with movement and allows you to get the boss faster (for example you can leap to <WikiIcon name={"Adina"} /> Adina from the pillar instead of walking). It does a small amount of healing and it <WikiIcon name={"Blinded"} /> Blinds your target. It can hit up to 5 targets. It's also a <a href="https://wiki.guildwars2.com/wiki/Leap_finisher" target="_blank" rel="noopener noreferrer" className="dhlink">Leap finisher</a>.
                         </p>
                     </SkillCard>
                     <SkillCard skillID={[9146]}>
@@ -39,13 +39,13 @@ const DhWeaponSkills = ({ showGuides, showWeapons }) => {
                     </SkillCard>
                     <SkillCard skillID={[9147, 9226]}>
                         <p>
-                            Throws projectiles and deals damage over time. It can hit up to 5 targets which are in 600 range, but if you use it inside the hitbox of the boss while other targets are around, it will hit once with all 5 projectiles, i.e. the boss will get all hits. This skill makes Dragonhunter a strong choice in fights where mobs are around (for example Seekers at VG, Spirits at Gorseval, Slublings at Sloth, Statues at KC, and more). You will find instructions on how to use this skill in the most efficient way in different fights in
-                            <Link to="dh-section-guides" smooth={true} duration={1000} onClick={showGuides}>
-                                <span
-                                    style={{ color: "#69CCE7", cursor: "pointer" }}>
-                                    &nbsp;Boss Guides
-                                    </span>
-                            </Link>. It's also a <a href="https://wiki.guildwars2.com/wiki/Whirl_finisher" target="_blank" rel="noopener noreferrer" className="dhlink">Whirl finisher</a>.
+                            Throws projectiles and deals damage over time. It can hit up to 5 targets which are in 600 range, but if you use it inside the hitbox of the boss while other targets are around, it will hit once with all 5 projectiles, i.e. the boss will get all hits. This skill makes <WikiIcon name={"Dragonhunter"} /> Dragonhunter a strong choice in fights where mobs are around (for example Seekers at <WikiIcon name={"Vg"} /> VG, Spirits at <WikiIcon name={"Gorseval"} /> Gorseval, Slublings at <WikiIcon name={"Slothasor"} /> Sloth, Statues at <WikiIcon name={"KC"} /> KC, and more). You will find instructions on how to use this skill in the most efficient way in different fights in
+                            <SectionLink sectionId="dh-section-guides">
+                        <span
+                            style={{ color: "#69CCE7", cursor: "pointer" }}>
+                            &nbsp;Boss Guides
+                        </span>
+                    </SectionLink>. It's also a <a href="https://wiki.guildwars2.com/wiki/Whirl_finisher" target="_blank" rel="noopener noreferrer" className="dhlink">Whirl finisher</a>.
                         </p>
                         <p>
                             This skill also has an aftercast which can be cancelled - by stowing your weapons right after projectiles are thrown.
@@ -58,16 +58,16 @@ const DhWeaponSkills = ({ showGuides, showWeapons }) => {
                 <TabPane tabName="dh-scepter">
                     <p>
                         Scepter is one of the 2 possible main-hand weapons in the second weaponset, paired with Focus. It's your ranged dps option - all Scepter skills have 900 range. If you are not sure if you should play Scepter or Sword, go back to
-                    <Link to="dh-section-weapons" smooth={true} duration={1000} onClick={showWeapons}>
-                            <span
-                                style={{ color: "#69CCE7", cursor: "pointer" }}>
-                                &nbsp;Weapons
-                            </span>
-                        </Link>.
+                        <SectionLink sectionId="dh-section-weapons">
+                        <span
+                            style={{ color: "#69CCE7", cursor: "pointer" }}>
+                            &nbsp;Weapons
+                        </span>
+                    </SectionLink>.
                     </p><br />
                     <SkillCard skillID={[9098]}>
                         <p>
-                            A single autoattack skill, firing an orb at the boss. Low damage skill, used as a filler in your rotation while you are waiting for your burst skills to come off cooldown.
+                            A single autoattack skill, firing an orb at the boss. Low damage skill, used as a filler in your rotation while you are waiting for your burst skills to come off <WikiIcon name={"Recharge"} /> cooldown.
                         </p>
                     </SkillCard>
                     <SkillCard skillID={[9090]}>
@@ -81,19 +81,19 @@ const DhWeaponSkills = ({ showGuides, showWeapons }) => {
                     </SkillCard>
                     <SkillCard skillID={[9099]}>
                         <p>
-                            Immobilizes and applies <WikiIcon name={"Vulnerability"} /> Vulnerability to your enemy. This skill is not a part of your rotation and it will be mostly used to immobilize targets like Rigom at Samarog or Pride at Deimos.
+                            Immobilizes and applies <WikiIcon name={"Vulnerability"} /> Vulnerability to your enemy. This skill is not a part of your rotation and it will be mostly used to immobilize targets like Rigom at <WikiIcon name={"Samarog"} /> Samarog or Pride at <WikiIcon name={"Deimos"} /> Deimos.
                         </p>
                     </SkillCard>
                 </TabPane>
                 <TabPane tabName="dh-sword">
                     <p>
                         Sword is other one of the 2 possible main-hand weapons in the second weaponset, paired with Focus. It's your melee dps option. If you are not sure if you should play Sword or Scepter, go back to
-                    <Link to="dh-section-weapons" smooth={true} duration={1000} onClick={showWeapons}>
-                            <span
-                                style={{ color: "#69CCE7", cursor: "pointer" }}>
-                                &nbsp;Weapons
-                            </span>
-                        </Link>.
+                        <SectionLink sectionId="dh-section-weapons">
+                        <span
+                            style={{ color: "#69CCE7", cursor: "pointer" }}>
+                            &nbsp;Weapons
+                        </span>
+                    </SectionLink>.
                     </p><br />
                     <SkillCard skillID={[9105, 9106, 9227]}>
                         <p>
@@ -113,7 +113,7 @@ const DhWeaponSkills = ({ showGuides, showWeapons }) => {
                 </TabPane>
                 <TabPane tabName="dh-focus">
                     <p>
-                        Focus is the only off-hand weapon you will take as a Dragonhunter on the fights where you want to deal damage. Sometimes you can take Shield instead, for example on Escort when you are on tower duty or on River when you are on Desmina duty, but I will not cover it in this guide.
+                        Focus is the only off-hand weapon you will take as a <WikiIcon name={"Dragonhunter"} /> Dragonhunter on the fights where you want to deal damage. Sometimes you can take Shield instead, for example on Escort when you are on tower duty or on River when you are on Desmina duty, but I will not cover it in this guide.
                     </p><br />
                     <SkillCard skillID={[9112]}>
                         <p>
@@ -122,7 +122,7 @@ const DhWeaponSkills = ({ showGuides, showWeapons }) => {
                     </SkillCard>
                     <SkillCard skillID={[9082]}>
                         <p>
-                            Creates a shield that blocks the next 3 attacks within the next 4 seconds. Explodes when it ends, dealing damage to enemies. It's a kind of skill which you can use to negate some mechanics like for example Slam on Gorseval or as a panic button when you have no dodges available. If you feel safe, you can just use it in your rotation for damage. It's also a <a href="https://wiki.guildwars2.com/wiki/Blast_finisher" target="_blank" rel="noopener noreferrer" className="dhlink">Blast finisher</a> which is triggered when you activate the skill.
+                            Creates a shield that blocks the next 3 attacks within the next 4 seconds. Explodes when it ends, dealing damage to enemies. It's a kind of skill which you can use to negate some mechanics like for example Slam on <WikiIcon name={"Gorseval"} /> Gorseval or as a panic button when you have no dodges available. If you feel safe, you can just use it in your rotation for damage. It's also a <a href="https://wiki.guildwars2.com/wiki/Blast_finisher" target="_blank" rel="noopener noreferrer" className="dhlink">Blast finisher</a> which is triggered when you activate the skill.
                         </p>
                     </SkillCard>
                 </TabPane>

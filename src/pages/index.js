@@ -1,14 +1,15 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import CookieConsent, { Cookies } from "react-cookie-consent";
+import CookieConsent from "react-cookie-consent";
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
-import PrivacyPolicy from '../components/PrivacyPolicy/PrivacyPolicy';
+import Changelog from './Changelog';
+import PrivacyPolicy from './PrivacyPolicy';
 import Home from './Home';
 import Guides from './Guides';
 import Squadmaking from './Squadmaking';
 import Authors from './Authors';
-import Error from './Error';
+import NotFound from './NotFound';
 import DragonhunterGuide from './DragonhunterGuide';
 import DruidGuide from './DruidGuide';
 import WarriorGuide from './WarriorGuide';
@@ -37,10 +38,11 @@ const HomePage = () => {
           <Route exact path="/class-guides/" component={Guides} />
           <Route exact path="/creators/" component={Authors} />
           <Route exact path="/dragonhunter-guide/" component={DragonhunterGuide} />
-          <Route exact path="/druid-guide/" component={DruidGuide} />
+          {/* <Route exact path="/druid-guide/" component={DruidGuide} /> */}
           <Route exact path="/warrior-guide/" component={WarriorGuide} />
+          <Route exact path="/changelog/" component={Changelog} />
           <Route exact path="/privacy-policy/" component={PrivacyPolicy} />
-          <Route component={Error} />
+          <Route path="*" component={NotFound} />
         </Switch>
         <Footer />
       </Router>

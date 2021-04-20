@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/helper-builder-react-jsx": "^7.12.13",
+    "@babel/helper-builder-react-jsx-experimental": "^7.12.11",
+    "@babel/helper-define-map": "^7.13.12",
+    "@babel/helper-regex": "^7.10.5",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
@@ -11,6 +15,7 @@
     "react-animated-burgers": "^1.2.8",
     "react-cookie-consent": "^6.2.2",
     "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0",
     "react-icons": "^3.11.0",
     "react-modal-video": "^1.2.6",
     "react-router-dom": "^5.2.0",

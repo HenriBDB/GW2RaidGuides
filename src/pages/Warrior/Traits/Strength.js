@@ -5,7 +5,7 @@ import WikiIcon from '../../../components/WikiIcon';
 const Strength = () => {
     return (
         <>
-        <div className="mb-3" data-armory-embed="specializations" data-armory-ids="4" data-armory-4-traits="1062,978,965,964,1038"></div>
+        <div className="mb-3" data-armory-embed="specializations" data-armory-ids="4" data-armory-4-traits="1447,1451,1444,2000,1338,1449,1437,1454,1440"></div>
         <p>
             This trait-line is strictly power related. All these traits will only really be relevant to power, so
             the context for all information will be power. The reason this is the case is due to the bonuses
@@ -28,13 +28,13 @@ const Strength = () => {
         <TraitCard traitID={1447}>
             <p>
                 After the July 7th patch this skill is sadly no longer useful for Raids.
-                The stability gained from Headbutt is gained before Headbutt strips stability, which means it no
+                The stability <WikiIcon name="Stability"/> gained from Headbutt is gained before Headbutt strips stability <WikiIcon name="Stability"/>, which means it no
                 longer negates the self-stun like it used to. Sadly, very bad now.
             </p>
         </TraitCard>
         <TraitCard traitID={1451}>
             <p>
-                This trait is completely useless, even when running some niche Might share build this is
+                This trait is completely useless, even when running some niche Might <WikiIcon name="Might"/> share build this is
                 obsolete. There are 0 reasons to run this over any of the other traits in Raids.
             </p>
         </TraitCard>
@@ -63,13 +63,13 @@ const Strength = () => {
         <TraitCard traitID={2000}>
             <p>
                 This is the closest thing we have to a condition-based trait in Strength, not that it is any good.
-                The limiting factor of it only happening on Disables makes this very bad, and the Bleeding and
-                Weakness it applies are not even that good. Horrible Trait.
+                The limiting factor of it only happening on Disables makes this very bad, and the Bleeding <WikiIcon name="Bleeding"/> and
+                Weakness <WikiIcon name="Weakness"/> it applies are not even that good. Horrible Trait.
             </p>
         </TraitCard>
         <TraitCard traitID={1338}>
             <p>
-                The flat power is great since it is a DPS increase. The Greatsword clause only really comes into
+                The flat power <WikiIcon name="Power"/> is great since it is a DPS increase. The Greatsword clause only really comes into
                 effect when running the Greatsword power build, which is a burstier variant of the regular
                 power build. The trait is still great without the added bonuses though, and the trait is the best
                 amongst the options available.
@@ -77,7 +77,7 @@ const Strength = () => {
         </TraitCard>
         <TraitCard traitID={1449}>
             <p>
-                Sadly the increase is not provided to an offensive stat like precision or ferocity, which in turn
+                Sadly the increase is not provided to an offensive stat like precision <WikiIcon name="Precision"/> or ferocity <WikiIcon name="Ferocity"/>, which in turn
                 makes this trait worse than Forceful Greatsword. Do not run this.
             </p>
         </TraitCard>
@@ -86,8 +86,8 @@ const Strength = () => {
         </div>
         <TraitCard traitID={1453}>
             <p>
-                Assuming 25 Might, which is more than realistic with the power build in any team composition,
-                this trait gives 250 extra Power, which is amazing. This is a huge boost to DPS and is part of
+                Assuming 25 Might <WikiIcon name="Might"/>, which is more than realistic with the power build in any team composition,
+                this trait gives 250 extra Power <WikiIcon name="Power"/>, which is amazing. This is a huge boost to DPS and is part of
                 what makes Strength strong for power.
             </p>
         </TraitCard>
