@@ -33,10 +33,12 @@ const icons = {
     "Confusion": "https://wiki.guildwars2.com/images/e/e6/Confusion.png",
     //CC
     "Daze": "https://wiki.guildwars2.com/images/7/79/Daze.png",
+    "Stun": "https://wiki.guildwars2.com/images/9/97/Stun.png",
     "Knockdown": "https://wiki.guildwars2.com/images/3/36/Knockdown.png",
     "Pull": "https://wiki.guildwars2.com/images/a/a4/Radius.png",
     "Exposed": "https://wiki.guildwars2.com/images/6/6b/Exposed.png",
     "Knockback": "https://wiki.guildwars2.com/images/c/ca/Knockback.png",
+    "Launch": "https://wiki.guildwars2.com/images/6/68/Launch.png",
     //Attributes
     "Power": "https://wiki.guildwars2.com/images/2/23/Power.png",
     "Precision": "https://wiki.guildwars2.com/images/e/ee/Precision.png",
@@ -93,6 +95,12 @@ const icons = {
     "Necromancer": "https://wiki.guildwars2.com/images/c/cd/Necromancer_tango_icon_200px.png",
     "Reaper": "https://wiki.guildwars2.com/images/9/95/Reaper_tango_icon_200px.png",
     "Scourge": "https://wiki.guildwars2.com/images/8/8a/Scourge_tango_icon_200px.png",
+    //Pets
+    "Gazelle": "https://wiki.guildwars2.com/images/1/18/Juvenile_Rock_Gazelle.png",
+    "BlackMoa": "https://wiki.guildwars2.com/images/e/e8/Juvenile_Black_Moa.png",
+    "Smokescale": "https://wiki.guildwars2.com/images/7/7b/Juvenile_Smokescale.png",
+    "ElectricWyvern": "https://wiki.guildwars2.com/images/1/13/Juvenile_Electric_Wyvern.png",
+    "Iboga": "https://wiki.guildwars2.com/images/f/f1/Juvenile_Fanged_Iboga.png",
     //Other
     "Recharge": "https://wiki.guildwars2.com/images/f/f4/Tango-recharge-darker.png",
     "Signet": "https://wiki.guildwars2.com/images/5/56/Bane_Signet.png",
@@ -104,8 +112,9 @@ const icons = {
 }
 
 const WikiIcon = (props) => {
+    var size = props.pet === true ? 30 : 20
     return (
-        <span><img alt={props.name + ".png"} src={icons[props.name]} width="20" height="20" />{props.children}</span>
+        <span><img alt={props.name + ".png"} src={icons[props.name]} width={size} height={size} />{props.children}</span>
     );
 }
 
