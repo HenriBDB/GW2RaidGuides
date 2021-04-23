@@ -24,11 +24,11 @@ const PrivacyPolicyView = () => {
             </Paragraph>
                 <ParagraphTitle>Personal Identification Information</ParagraphTitle>
                 <Paragraph>
-                    ‍‍We may collect personal identification information from Users in a variety of ways in connection with other activities, services, features or resources we make available on our Site. Users may visit our Site anonymously. We will collect personal identification information from Users only if they voluntarily submit such information to us. Users can always refuse to supply personally identification information, except that it may prevent them from engaging in certain Site related activities. We will never send an electronic communication (email or text) requested personal confidential information.
+                    ‍‍We do not collect any personal identification information from Users, as they visit our Site anonymously.
             </Paragraph>
                 <ParagraphTitle>Aggregate Information</ParagraphTitle>
                 <Paragraph>
-                    We may gather aggregate information, which refers to information your computer automatically provides to us and that cannot be tied back to you as a specific individual. Examples include referral data (the websites you visited just before and just after our site), the pages viewed, time spent at our website, and Internet Protocol (IP) addresses. An IP address is a number that is automatically assigned to your computer whenever you access the Internet. For example, when you request a page from one of our sites, our servers log your IP address to create aggregate reports on user demographics and traffic patterns and for purposes of system administration.
+                    We automatically collect certain information about you and the device you use to access our website - referral data (the websites you visited just before and just after our site), the pages viewed, time spent at our website, and Internet Protocol (IP) addresses.
             </Paragraph>
                 <ParagraphTitle>Liability for links</ParagraphTitle>
                 <Paragraph>
@@ -36,9 +36,7 @@ const PrivacyPolicyView = () => {
             </Paragraph>
                 <ParagraphTitle>Cookies</ParagraphTitle>
                 <Paragraph>
-                    Our site may use a feature of your browser to set a “cookie” on your computer. Cookies are small packets of information that a website’s computer stores on your computer. The Operators’s websites can then read the cookies whenever you visit our site. We may use cookies in a number of ways, such as to save your password so you don’t have to re-enter it each time you visit our site, to deliver content specific to your interests and to track the pages you’ve visited. These cookies allow us to use the information we collect to customize your experience so that your visit to our site is as relevant and as valuable to you as possible.
-                    <br /><br />
-                    Most browser software can be set up to deal with cookies. You may modify your browser preference to provide you with choices relating to cookies. You have the choice to accept all cookies, to be notified when a cookie is set or to reject all cookies. If you choose to reject cookies, certain of the functions and conveniences of our website may not work properly, and you may be unable to use those of the Operators’s services that require registration in order to participate, or you will have to re-register each time you visit our site. Most browsers offer instructions on how to reset the browser to reject cookies in the “Help” section of the toolbar. We do not link non-personal information from cookies to personally identifiable information without your permission.
+                    Our site may use a feature of your browser to set a “cookie” on your computer. Cookies are small packets of information that a website’s computer stores on your computer. The Operators’s websites can then read the cookies whenever you visit our site. We may use cookies in a number of ways, such as to track the pages you’ve visited. These cookies allow us to use the information we collect to customize your experience so that your visit to our site is as relevant and as valuable to you as possible.
             </Paragraph>
                 <ParagraphTitle>How We Use Collected Information</ParagraphTitle>
                 <Paragraph>
@@ -51,28 +49,19 @@ const PrivacyPolicyView = () => {
                     </ListItem>
                     ‍<br /><br />
                         <ListItem>
-                            To improve customer service<br />
-                            Information you provide helps us respond to your customer service requests and support needs more efficiently.
-                    </ListItem>
-                        <br /><br />
-                        <ListItem>
                             To personalize user experience<br />
                             We may use information in the aggregate to understand how our Users as a group use the services and resources provided on our Site.
                     </ListItem>
                         <br /><br />
                         <ListItem>
                             To improve our Site<br />
-                            We may use feedback you provide to improve our products and services.
+                            We may collect your information to track and measure the popularity of guides and improve our Website offerings.
                     </ListItem>
                     </List>
                 </Paragraph>
-                <ParagraphTitle>Security</ParagraphTitle>
-                <Paragraph>
-                    We make every effort to protect personal information by users of the website, including using firewalls and other security measures on its servers. No server, however, is 100% secure, and you should take this into account when submitting personal or confidential information about yourself on any website, including this one. You alone are responsible for maintaining the secrecy of your personal information. Please use care when use access this website and provide personal information.
-            </Paragraph>
                 <ParagraphTitle>Sharing Your Personal Information</ParagraphTitle>
                 <Paragraph>
-                    ‍We do not sell, trade, or rent Users personal identification information to others. We may share generic aggregated demographic information not linked to any personal identification information regarding visitors and users with our business partners or trusted affiliates for the purposes outlined above. We may use third party service providers to help us operate our business and the Site or administer activities on our behalf, such as sending out newsletters, packets or surveys. We may share your general information with these third parties for those limited purposes. Your personal confidential information is never shared.
+                    ‍We do not sell, trade, or rent Users personal identification information to others. This Website uses Google Analytics, a service that tracks and aggregates traffic, usage, and interactions on the website. Google Analytics detects your IP address, but no other personally identifiable information.
             </Paragraph>
                 <ParagraphTitle>Changes To This Privacy Policy</ParagraphTitle>
                 <Paragraph>

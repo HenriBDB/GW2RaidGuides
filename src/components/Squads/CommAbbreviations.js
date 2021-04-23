@@ -26,7 +26,7 @@ const CommAbbreviations = () => {
                                     <td style={{ textAlign: 'center', padding: '5px 10px' }}>
                                         <b>ap</b>
                                     </td>
-                                    <td>
+                                    <td style={{ padding: '5px 10px' }}>
                                         <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1786"></span>; <WikiIcon name={"Revenant"} /> Revenant trait that increases <WikiIcon name={"Ferocity"} /> Ferocity of nearby players
                             </td>
                                 </tr>
