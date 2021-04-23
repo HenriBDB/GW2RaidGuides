@@ -28,7 +28,6 @@ const HomePage = () => {
           , paddingLeft: 50, paddingRight: 50 }}
           buttonStyle={{ color: "white", fontSize: "16px", background: "#008000", padding: "15px" }}
           expires={365}
-          overlay
         >
           This website uses cookies to enhance the user experience. By continuing to browse this website, you declare to accept the use of cookies.
         </CookieConsent>

@@ -65,6 +65,7 @@ const icons = {
     "Largos": "https://wiki.guildwars2.com/images/4/4b/Mini_Largos.png",
     "Qadim": "https://wiki.guildwars2.com/images/f/f2/Mini_Qadim.png",
     "Adina": "https://i.imgur.com/xenhase.png",
+    "Sabir": "https://i.imgur.com/CWBTimq.png",
     "QTP": "https://wiki.guildwars2.com/images/8/8b/Mini_Qadim_the_Peerless.png",
     //Professions
     "Guardian": "https://wiki.guildwars2.com/images/6/6c/Guardian_tango_icon_200px.png",

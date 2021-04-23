@@ -114,7 +114,7 @@ const CommProviders = () => {
                             All uptimes are with 100% BD build
                         </li>
                         <li>
-                            There may be scenarios where subgroup boons and <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1016"></span> wont be covered, however in pugs that's going to be case only for <WikiIcon name={"SH"} /> Soulless Horror
+                            There may be scenarios where subgroup boons and <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1016"></span> wont be covered, however in pugs that's going to be case only for <WikiIcon name={"SH"} /> Soulless Horror and sometimes on <WikiIcon name={"Sabir"} /> Sabir.
                         </li>
                     </ul>
                 </DescriptionSection>
@@ -479,7 +479,7 @@ const CommProviders = () => {
                             <WikiIcon name={"Stability"} /> Stability for squad only if playing Dwarf instead of Ventari (not common, and you lose <WikiIcon name={"Regeneration"} /> Regeneration)
                         </li>
                         <li>
-                            <WikiIcon name={"Retaliation"} /> Retaliation and <WikiIcon name={"Regeneration"} /> Regeneration only if playing Invocation instead of Salvation traitline (not common in pugs)
+                            <WikiIcon name={"Retaliation"} /> Retaliation and <WikiIcon name={"Regeneration"} /> Regeneration only if playing Invocation traitline (not common in pugs)
                         </li>
                     </ul>
                 </DescriptionSection>

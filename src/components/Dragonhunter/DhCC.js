@@ -20,7 +20,7 @@ const DhCC = () => {
             </p>
             <SkillCard skillID={[9093]}>
                 <p>
-                    <WikiIcon name={"Knockdown"} /> Knockback - 300 breakbar damage (instant)
+                    <WikiIcon name={"Knockdown"} /> Knockdown - 300 breakbar damage (instant)
                 </p>
             </SkillCard>
             <SkillCard skillID={[30273]}>

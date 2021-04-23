@@ -8,7 +8,7 @@ import {Healing, Banners, Physical, Rage, Shout, Signet, Stance, Elite, Meditati
 const UtilitySection = () => {
     const [width, setWidth] = useState(window.innerWidth)
     const [armorySize, setArmorySize] = useState(0)
-
+    
     useLayoutEffect(() => {
         function handleResize() {
             setWidth(window.innerWidth)
