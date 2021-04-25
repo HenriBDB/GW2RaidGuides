@@ -9,7 +9,8 @@ import {BoonsAndBuffs,
     Traits, 
     Rotations, 
     Gear, 
-    CC } from '../components/Druid/Sections'
+    CC,
+    Pets } from '../components/Druid/Sections'
 
 const DruidGuide = () => {
     return (
@@ -37,13 +38,7 @@ const DruidGuide = () => {
 
                 <CC/>
 
-                <SectionCollapsible gameClass="ranger" title="Pets" id="druid-pets">
-                    <SectionIntro>
-                        <p>
-
-                        </p>
-                    </SectionIntro>
-                </SectionCollapsible>
+                <Pets/>
 
                 <SectionCollapsible gameClass="ranger" title="Boss Guides" id="druid-boss-guides">
                     <SectionIntro>
