@@ -10,7 +10,8 @@ import {BoonsAndBuffs,
     Rotations, 
     Gear, 
     CC,
-    Pets } from '../components/Druid/Sections'
+    Pets,
+    BossGuides } from '../components/Druid/Sections'
 
 const DruidGuide = () => {
     return (
@@ -40,14 +41,7 @@ const DruidGuide = () => {
 
                 <Pets/>
 
-                <SectionCollapsible gameClass="ranger" title="Boss Guides" id="druid-boss-guides">
-                    <SectionIntro>
-                        <p>
-                            Below a collection of written and video guides that provide example Druid gameplay. 
-                            Make sure to read all the notes so that you know why and when decisions are made.
-                        </p>
-                    </SectionIntro>
-                </SectionCollapsible>
+                <BossGuides/>
 
                 <SectionCollapsible gameClass="ranger" title="Extra Resources" id="druid-extra-resources">
                 <SectionIntro>

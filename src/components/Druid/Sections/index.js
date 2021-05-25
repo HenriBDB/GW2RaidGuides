@@ -6,5 +6,6 @@ import UtilitySkills from './UtilitySkills'
 import Gear from './Gear'
 import CC from './CC'
 import Pets from './Pets'
+import BossGuides from './BossGuides'
 
-export {BoonsAndBuffs, Rotations, Traits, WeaponSkills, UtilitySkills, Gear, CC, Pets}
+export {BoonsAndBuffs, Rotations, Traits, WeaponSkills, UtilitySkills, Gear, CC, Pets, BossGuides}
