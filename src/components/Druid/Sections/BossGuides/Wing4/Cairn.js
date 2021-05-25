@@ -1,10 +1,22 @@
 import React from 'react'
 import WikiIcon from '../../../../WikiIcon'
+import YoutubePlayer from '../../../../YoutubePlayer'
+import {
+    VideoWrapperMultiple
+} from '../../../../styles'
 
 const Cairn = () => {
 
     return (
         <>
+            <VideoWrapperMultiple>
+                <YoutubePlayer textOnly="Video Guide"/>
+                <YoutubePlayer textOnly="Gameplay Example"/>
+            </VideoWrapperMultiple>
+            <VideoWrapperMultiple className="mb-3">
+                <YoutubePlayer videoId=""/>
+                <YoutubePlayer videoId=""/>
+            </VideoWrapperMultiple>
             <h5 className="gear-title ranger">The Further The Better</h5>
             <p>
                 Cairn targets the furthest player way from it. Once you finished giving <WikiIcon name="Might"/> Might 

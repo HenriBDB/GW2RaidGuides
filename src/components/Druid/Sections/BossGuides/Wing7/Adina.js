@@ -1,10 +1,22 @@
 import React from 'react'
 import WikiIcon from '../../../../WikiIcon'
+import YoutubePlayer from '../../../../YoutubePlayer'
+import {
+    VideoWrapperMultiple
+} from '../../../../styles'
 
 const Adina = () => {
 
     return (
         <>
+            <VideoWrapperMultiple>
+                <YoutubePlayer textOnly="Video Guide"/>
+                <YoutubePlayer textOnly="Gameplay Example"/>
+            </VideoWrapperMultiple>
+            <VideoWrapperMultiple className="mb-3">
+                <YoutubePlayer videoId=""/>
+                <YoutubePlayer videoId=""/>
+            </VideoWrapperMultiple>
             <h5 className="gear-title ranger">Block Those Rocks</h5>
             <p>
                 On Druid, I really like taking an axe offhand. Not only does it allow me to have better damage thanks 

@@ -1,9 +1,21 @@
 import React from 'react'
+import YoutubePlayer from '../../../../YoutubePlayer'
+import {
+    VideoWrapperMultiple
+} from '../../../../styles'
 
 const Largos = () => {
 
     return (
         <>
+            <VideoWrapperMultiple>
+                <YoutubePlayer textOnly="Video Guide"/>
+                <YoutubePlayer textOnly="Gameplay Example"/>
+            </VideoWrapperMultiple>
+            <VideoWrapperMultiple className="mb-3">
+                <YoutubePlayer videoId=""/>
+                <YoutubePlayer videoId=""/>
+            </VideoWrapperMultiple>
             <h5 className="gear-title ranger">Did someone say stack?</h5>
             <p>
                 On Largos, inexperienced players often spread out, especially on Nikare. Try to use 

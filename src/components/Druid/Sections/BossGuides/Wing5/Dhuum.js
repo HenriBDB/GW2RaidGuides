@@ -1,10 +1,22 @@
 import React from 'react'
 import WikiIcon from '../../../../WikiIcon'
+import YoutubePlayer from '../../../../YoutubePlayer'
+import {
+    VideoWrapperMultiple
+} from '../../../../styles'
 
 const Dhuum = () => {
 
     return (
         <>
+            <VideoWrapperMultiple>
+                <YoutubePlayer textOnly="Video Guide"/>
+                <YoutubePlayer textOnly="Gameplay Example"/>
+            </VideoWrapperMultiple>
+            <VideoWrapperMultiple className="mb-3">
+                <YoutubePlayer videoId=""/>
+                <YoutubePlayer videoId=""/>
+            </VideoWrapperMultiple>
             <h5 className="gear-title ranger">Cleansing the Torment</h5>
             <p>
                 One of your most important job as a druid is to cleanse the <WikiIcon name="Torment"/> Torment applied during the Greater Death Mark 

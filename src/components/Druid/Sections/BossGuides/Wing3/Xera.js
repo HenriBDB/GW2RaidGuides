@@ -1,9 +1,21 @@
 import React from 'react'
 import WikiIcon from '../../../../WikiIcon'
+import YoutubePlayer from '../../../../YoutubePlayer'
+import {
+    VideoWrapperMultiple
+} from '../../../../styles'
 
 const Xera = () => {
     return (
         <>
+            <VideoWrapperMultiple>
+                <YoutubePlayer textOnly="Video Guide"/>
+                <YoutubePlayer textOnly="Gameplay Example"/>
+            </VideoWrapperMultiple>
+            <VideoWrapperMultiple className="mb-3">
+                <YoutubePlayer videoId="9_j2mpunrl8"/>
+                <YoutubePlayer videoId=""/>
+            </VideoWrapperMultiple>
             <h5 className="gear-title ranger">Shard Clearing</h5>
             <p>
                 You can send your pet to clear shards when needed in p2 so you can continue to focus on healing the squad.

@@ -1,6 +1,10 @@
 import React, { useEffect, useState, useLayoutEffect } from 'react'
 import Weaponswap from '../../../../../assets/icons/weaponswap.png'
 import WikiIcon from '../../../../WikiIcon'
+import YoutubePlayer from '../../../../YoutubePlayer'
+import {
+    VideoWrapperMultiple
+} from '../../../../styles'
 
 const Deimos = () => {
     const [width, setWidth] = useState(window.innerWidth)
@@ -24,6 +28,14 @@ const Deimos = () => {
 
     return (
         <>
+            <VideoWrapperMultiple>
+                <YoutubePlayer textOnly="Video Guide"/>
+                <YoutubePlayer textOnly="Gameplay Example"/>
+            </VideoWrapperMultiple>
+            <VideoWrapperMultiple className="mb-3">
+                <YoutubePlayer videoId=""/>
+                <YoutubePlayer videoId=""/>
+            </VideoWrapperMultiple>
             <h5 className="gear-title ranger">Black Kiting</h5>
             <p>
                 Even when doing melee, oils still spawn on the closest player to Deimos excluding the tank. After 60%, try to kite the blacks behind Deimos 

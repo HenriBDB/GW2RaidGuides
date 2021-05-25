@@ -1,10 +1,22 @@
 import React from 'react'
 import WikiIcon from '../../../../WikiIcon'
+import YoutubePlayer from '../../../../YoutubePlayer'
+import {
+    VideoWrapperMultiple
+} from '../../../../styles'
 
 const SH = () => {
 
     return (
         <>
+            <VideoWrapperMultiple>
+                <YoutubePlayer textOnly="Video Guide"/>
+                <YoutubePlayer textOnly="Gameplay Example"/>
+            </VideoWrapperMultiple>
+            <VideoWrapperMultiple className="mb-3">
+                <YoutubePlayer videoId=""/>
+                <YoutubePlayer videoId="jI4-fl7SFcM"/>
+            </VideoWrapperMultiple>
             <h5 className="gear-title ranger">Optimising Your Healing</h5>
             <p>
                 Soulless Horror is a heavy damage fight that puts a lot of pressure on healers so you want to optimise your healing uptime.

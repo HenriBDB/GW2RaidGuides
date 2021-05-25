@@ -1,6 +1,10 @@
 import React, { useEffect, useState, useLayoutEffect } from 'react'
 import Weaponswap from '../../../../../assets/icons/weaponswap.png'
 import WikiIcon from '../../../../WikiIcon'
+import YoutubePlayer from '../../../../YoutubePlayer'
+import {
+    VideoWrapperMultiple
+} from '../../../../styles'
 
 const Samarog = () => {
     const [width, setWidth] = useState(window.innerWidth)
@@ -24,6 +28,14 @@ const Samarog = () => {
 
     return (
         <>
+            <VideoWrapperMultiple>
+                <YoutubePlayer textOnly="Video Guide"/>
+                <YoutubePlayer textOnly="Gameplay Example"/>
+            </VideoWrapperMultiple>
+            <VideoWrapperMultiple className="mb-3">
+                <YoutubePlayer videoId="5DFM8osnNeE"/>
+                <YoutubePlayer videoId=""/>
+            </VideoWrapperMultiple>
             <h5 className="gear-title ranger">Faster CC = Less Chance Tank Gets Brutalised to Death</h5>
             <p>
                 Don't hesitate to use double CC pets if more CC is needed, this will help hasten the CC phase and therefore reduce the damage players 

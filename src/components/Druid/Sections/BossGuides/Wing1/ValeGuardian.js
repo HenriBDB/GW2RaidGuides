@@ -1,9 +1,21 @@
 import React from 'react'
 import GearCard from '../../../../GearCard'
+import YoutubePlayer from '../../../../YoutubePlayer'
+import {
+    VideoWrapperMultiple
+} from '../../../../styles'
 
 const ValeGuardian = () => {
     return (
         <>
+            <VideoWrapperMultiple>
+                <YoutubePlayer textOnly="Video Guide"/>
+                <YoutubePlayer textOnly="Gameplay Example"/>
+            </VideoWrapperMultiple>
+            <VideoWrapperMultiple className="mb-3">
+                <YoutubePlayer videoId="1Iy4F6BjNv0" />
+                <YoutubePlayer videoId="ZsU99w9xZZY"/>
+            </VideoWrapperMultiple>
             <h5 className="gear-title ranger">Gameplay Advice</h5>
             <GearCard text={["Main phases"]}>
                 <strong>CA Management:</strong>

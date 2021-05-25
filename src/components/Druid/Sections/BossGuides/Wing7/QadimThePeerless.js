@@ -1,5 +1,9 @@
 import React, { useEffect, useState, useLayoutEffect } from 'react'
 import WikiIcon from '../../../../WikiIcon'
+import YoutubePlayer from '../../../../YoutubePlayer'
+import {
+    VideoWrapperMultiple
+} from '../../../../styles'
 
 const QadimThePeerless = () => {
     const [width, setWidth] = useState(window.innerWidth)
@@ -23,6 +27,14 @@ const QadimThePeerless = () => {
 
     return (
         <>
+            <VideoWrapperMultiple>
+                <YoutubePlayer textOnly="Video Guide"/>
+                <YoutubePlayer textOnly="Gameplay Example"/>
+            </VideoWrapperMultiple>
+            <VideoWrapperMultiple className="mb-3">
+                <YoutubePlayer videoId=""/>
+                <YoutubePlayer videoId=""/>
+            </VideoWrapperMultiple>
             <h5 className="gear-title ranger">Gazelle Solo CC</h5>
             <p>
                 In order to CC Anomalies, I generally prefer using only my Gazelle instead of taking an Electric Wyvern.
