@@ -14,48 +14,54 @@ const Utility = () => {
             </p>
             <div class="row mt-3">
                 <div class="col-lg-2" data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="30238"></div>
-                <p class="col-lg-10">
+                <p class="col-lg-10 my-0">
                     Whenever you need to push or pull. This is especially useful on <WikiIcon name="SH"/> Soulless Horror to push the Tormented Dead 
                     and <WikiIcon name="Vg"/> Vale Guardian to repell the Seekers if you have more than 1 wave per phase. It can also be used 
                     on <WikiIcon name="Samarog"/> Samarog to push Rigom and CC in or out of <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span>.
                 </p>
             </div>
-            <div class="row mt-3">
+            <div class="row mt-4">
                 <div class="col-lg-2" data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31746"></div>
-                <p class="col-lg-10">
+                <p class="col-lg-10 my-0">
                     For extra CC that scales with <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1070"></span> and 
                     &nbsp;<span data-armory-embed="items" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="24639"></span> or for a stun break if used 
                     during <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span>.
                 </p>
             </div>
-            <div class="row mt-3">
+            <div class="row mt-4">
                 <div class="col-lg-2" data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12537"></div>
-                <p class="col-lg-10">
+                <p class="col-lg-10 my-0">
                     For extra dps when playing condi druid.
                 </p>
             </div>
-            <div class="row mt-3">
+            <div class="row mt-4">
+                <div class="col-lg-2" data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31582"></div>
+                <p class="col-lg-10 my-0">
+                    For extra dps when tanking or extra burst healing on a 24s cooldown with <WikiIcon name="Alacrity"/> Alacrity. Can be useful on 
+                    encounters where you need to maintain high healing out of CA and have a free utility slot like on River of Souls.
+                </p>
+            </div>
+            <div class="row mt-4">
                 <div class="col-lg-2" data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31322"></div>
-                <p class="col-lg-10">
+                <p class="col-lg-10 my-0">
                     For extra dps when playing power druid.
                 </p>
             </div>
-            <div class="row mt-3">
+            <div class="row mt-4">
                 <div class="col-lg-2" data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12501"></div>
-                <p class="col-lg-10">
-                    If you need extra <WikiIcon name="Immobile"/> Immobilise or to help out with the <WikiIcon name="Slow"/> Slow uptime for 
-                    the <WikiIcon name="Chronomancer"/> pChronos.
+                <p class="col-lg-10 my-0">
+                    If you need extra <WikiIcon name="Immobile"/> Immobilise like on <WikiIcon name="Escort"/> Escort for the Wargs.
                 </p>
             </div>
-            <div class="row mt-3">
+            <div class="row mt-4">
                 <div class="col-lg-2" data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12631"></div>
-                <p class="col-lg-10">
+                <p class="col-lg-10 my-0">
                     If you need to provide a stun break in your sub.
                 </p>
             </div>
-            <div class="row mt-3">
+            <div class="row mt-4">
                 <div class="col-lg-2" data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="34309"></div>
-                <p class="col-lg-10">
+                <p class="col-lg-10 my-0">
                     For hard carry and to bring back and res players that down away from the stack. Beware that you don't teleport downed players 
                     into damaging or lethal mechanics using this utility.
                 </p>

@@ -11,16 +11,16 @@ const Elite = () => {
             </p>
             <div class="row mt-3">
                 <div class="col-lg-2" data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12569"></div>
-                <p class="col-lg-10">
+                <p class="col-lg-10 my-0">
                     You will take this elite skill 90% of the time as the passive healing of the skill allows your dps players to maintain scholar 
                     uptime and helps you replenish your <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span>. 
                     In addition, the <WikiIcon name="Stability"/> Stability the active skill of this spirit provides can help on <WikiIcon name="Cairn"/> Cairn 
                     for greens or on <WikiIcon name="Gorseval"/> Gorseval for slams for example.
                 </p>
             </div>
-            <div class="row mt-3">
+            <div class="row mt-4">
                 <div class="col-lg-2" data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12580"></div>
-                <p class="col-lg-10">
+                <p class="col-lg-10 my-0">
                     This elite is usually taken for the <WikiIcon name="Immobile"/> Immobilise it inflicts but can also be used on condi druid for extra 
                     dps as it also deals a decent amount of condi damage. The way it works is by growing vines under a target that pulse <WikiIcon name="Immobile"/> Immobilise (2s) 
                     and <WikiIcon name="Bleeding"/> Bleeding (8s). Those vines can be destroyed if damaged by an enemy entity. 
@@ -51,9 +51,9 @@ const Elite = () => {
                     it regularly before 40% (when the prides appear). 
                 </p>
             </div>
-            <div class="row mt-3">
+            <div class="row mt-4">
                 <div class="col-lg-2" data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31677"></div>
-                <p class="col-lg-10">
+                <p class="col-lg-10 my-0">
                     The incredible power of this elite skill is its condition cleanse and prevention for the whole duration of its channel! This 
                     can be exploited to cheese through some mechanics like: the shake on <WikiIcon name="Slothasor"/> Slothasor, Zane's blind field on Trio, 
                     the confusion circle during the pizza attack at <WikiIcon name="KC"/> Keep Construct and on <WikiIcon name="Dhuum"/> Dhuum, 
