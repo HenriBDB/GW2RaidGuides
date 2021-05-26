@@ -15,16 +15,17 @@ const Skirmishing = () => {
                 on weapon swap on a 9 seconds internal cooldown.
             </p>
             <p>
-                This trait allows you to upkeep permanent <WikiIcon name={"Swiftness"}/> Swiftness which can be useful to side-step mechanics or 
-                travel faster if needed.
+                This trait allows you to upkeep permanent <WikiIcon name={"Swiftness"}/> Swiftness on yourself which can be useful to side-step 
+                mechanics or travel faster if needed.
             </p>
         </TraitCard>
         <div className="row justify-content-center">
             <h4 className="mb-0">Major Adept</h4>
         </div>
         <TraitCard traitID={1069}>
-            <p>This trait gives you a 33% chance of applying <WikiIcon name={"Bleeding"}/> Bleeding (3s) on critical hit.</p>
-            <p>Gives you increased dps through bleeding. Take this trait whenever you are not using any trap.</p>
+            <p>This trait gives you and your pet a 33% chance of applying <WikiIcon name={"Bleeding"}/> Bleeding (3s) on critical hit.</p>
+            <p>Gives you increased dps through bleeding. Take this trait whenever you are not using any trap. This benefits your pet too so don't leave 
+            them on passive unless you have a reason to. Our pets carry our damage!</p>
         </TraitCard>
         <TraitCard traitID={1075}>
             <p>This trait reduces trap recharge rate by 20%, increases base duration of buffs and conditions applied by traps by 60% 
