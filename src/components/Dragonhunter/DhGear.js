@@ -33,7 +33,7 @@ const DhGear = () => {
                     Scepter can be replaced by sword in any of the below scenarios. Perfect Inscriptions and Virtues have few gear options, depending on your other traits and Spotter.
                 </p>
             </SectionIntro>
-            <NavTabs tabNames={["Standard", "Perfect Insctriptions (signet share)", "Virtues"]} hrefs={["dh-standard-gear", "dh-pi-gear", "dh-virtues-gear"]} gameClass="dragonhunter">
+            <NavTabs tabNames={["Standard", "Perfect Inscriptions (signet share)", "Virtues"]} hrefs={["dh-standard-gear", "dh-pi-gear", "dh-virtues-gear"]} gameClass="dragonhunter">
                 <TabPane tabName="dh-standard-gear" active={true}>
                     <GearCard text={["No ", <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1016"></span>, " required"]}>
                         <h5 className="gear-title dragonhunter">Weapons &#38; Sigils</h5>
