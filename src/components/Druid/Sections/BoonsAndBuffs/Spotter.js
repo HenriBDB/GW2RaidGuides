@@ -13,9 +13,12 @@ const Spotter = () => {
         <ul>
             <li>Power Holosmith</li>
             <li>Power Dragonhunter (except if running PI or Virtues)</li>
-            <li>Power Daredevil</li>
+            <li>Power Daredevil (depending on gear)</li>
             <li>Power Soulbeast</li>
         </ul>
+        <p>
+            <em>If you are unsure, you can just ask players if they want to have access to spotter or not.</em>
+        </p>
 
         Some condition classes also benefit from <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1016"></span> including: 
         <ul>

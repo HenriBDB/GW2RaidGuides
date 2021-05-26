@@ -5,6 +5,13 @@ const WeaponCC = () => {
     return (
         <>
             <div class="row mt-3">
+                <div class="col-lg-3" data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12621"></div>
+                <div class="col-lg-2">200cc</div>
+                <p class="col-lg-7">
+                    <WikiIcon name="Daze"/> Daze (2s)
+                </p>
+            </div>
+            <div class="row mt-3">
                 <div class="col-lg-3" data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12508"></div>
                 <div class="col-lg-2">200cc</div>
                 <p class="col-lg-7">
