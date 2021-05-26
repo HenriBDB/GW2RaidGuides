@@ -9,8 +9,8 @@ const WeaponSwaps = () => {
         <p>
             &emsp;On certain bosses, mechanics timings allow you to have a very consistent rotation. Below you will find examples of rotations I use myself. 
             You can use them for inspiration or as a template but they are by no means a golden rule.
-            They were created with efficiency and ease of use in mind and are a great way to improve your Druid gameplay. The following rotations are destined 
-            for pug kills and may not be suitable for speedclears.
+            They were created with efficiency and ease of use in mind and are a great way to improve your Druid gameplay. The following rotations were drafted 
+            with pug kills in mind and may not be suitable for speedclears.
         </p>
         <br/>
         <BossCard src={SH} bossName={"Soulless Horror"} gameClass="ranger">
