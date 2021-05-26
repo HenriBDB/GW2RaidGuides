@@ -1,10 +1,29 @@
-import React from 'react'
+import React, { useEffect, useState, useLayoutEffect } from 'react'
 import WikiIcon from '../../../WikiIcon'
 
 const Warhorn = () => {
+    const [width, setWidth] = useState(window.innerWidth)
+    const [armorySize, setArmorySize] = useState(0)
+
+    useLayoutEffect(() => {
+        function handleResize() {
+            setWidth(window.innerWidth)
+        }
+        window.addEventListener('resize', handleResize)
+        handleResize()
+    }, [])
+
+    useEffect(() => {
+        if (width <= 500) {
+            setArmorySize(50)
+        } else {
+            setArmorySize(80)
+        }
+    }, [width])
+
     return(
         <>
-            <div class="row justify-content-center mb-3" data-armory-embed="skills" data-armory-size="80" data-armory-ids="-1,-1,-1,12620,12621"></div>
+            <div class="row justify-content-center mb-3" data-armory-embed="skills" data-armory-size={armorySize} data-armory-ids="-1,-1,-1,12620,12621"></div>
             <div class="row mt-3">
                 <div class="col-lg-3" data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12620"></div>
                 <p class="col-lg-9">
@@ -12,10 +31,12 @@ const Warhorn = () => {
                     while dealing 784 (2.4) total damage.
                     <br/>
                     You should never have to use this skill for <WikiIcon name="Vulnerability"/> Vulnerability but it is a nice add-on and the 
-                    damage is good so you can use this skill whenever no other skills have priority (buffs/healing).
+                    damage is good so you can use this skill whenever no other skills have priority (buffs/healing). The great advantages of this 
+                    skill are the <WikiIcon name="Regeneration"/> Regeneration it provides thanks to <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="964"></span> and 
+                    its 16(!) hits that will recharge altogether 12% of your Astral Force (just like that, I know!).
                 </p>
             </div>
-            <div class="row mt-3">
+            <div class="row mt-2">
                 <div class="col-lg-3" data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12621"></div>
                 <p class="col-lg-9">
                     This skill grants 5 allies  <WikiIcon name="Fury"/> Fury (10s),  <WikiIcon name="Might"><sub>6</sub></WikiIcon> Might 

@@ -1,15 +1,39 @@
-import React from 'react'
+import React, { useEffect, useState, useLayoutEffect } from 'react'
 import WikiIcon from '../../../WikiIcon'
 
 const Staff = () => {
+    const [width, setWidth] = useState(window.innerWidth)
+    const [armorySize, setArmorySize] = useState(0)
+
+    useLayoutEffect(() => {
+        function handleResize() {
+            setWidth(window.innerWidth)
+        }
+        window.addEventListener('resize', handleResize)
+        handleResize()
+    }, [])
+
+    useEffect(() => {
+        if (width <= 500) {
+            setArmorySize(50)
+        } else {
+            setArmorySize(80)
+        }
+    }, [width])
+
     return(
         <>
-            <div class="row justify-content-center" data-armory-embed="skills" data-armory-size="80" data-armory-ids="31710,31889,31535,31700,31496"></div>
+            <div class="row justify-content-center" data-armory-embed="skills" data-armory-size={armorySize} data-armory-ids="31710,31889,31535,31700,31496"></div>
             <div class="row mt-3">
                 <div class="col-lg-3" data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31710"></div>
-                <p class="col-lg-9">This is the description paragraph for this skill...</p>
+                <p class="col-lg-9">
+                    Fire a beam that pulses 3x and on each pulse deals damage and heals up to 3 allies for 66 (0.03).
+                    <br/>
+                    This skill not only has decent healing, it also heals up to 9 allies and deals damage which means it can recharge 15.75% of your Astral 
+                    Force every use! It is a great way to regenerate Astral Force and a great filler when healing is needed and you are on staff.
+                </p>
             </div>
-            <div class="row mt-3">
+            <div class="row mt-2">
                 <div class="col-lg-3" data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31889"></div>
                 <p class="col-lg-9">
                     Sends a wisp to your target that will circle around a 130 radius from the center of the hitbox of the target for 5 seconds. Heals any allie it crosses 
@@ -20,7 +44,7 @@ const Staff = () => {
                     is particularly useful when needing to heal the tank which is on the other side of the hitbox. This skill will also greatly help you regenerate Astral Force.
                 </p>
             </div>
-            <div class="row mt-3">
+            <div class="row mt-2">
                 <div class="col-lg-3" data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31535"></div>
                 <p class="col-lg-9">
                     Become a whisp and travel quickly to the targeted location within 1200 range. On target, heal allies for 1,450 (1.0), create a blast finisher and reduce recharge by 5 seconds if you healed another ally.
@@ -32,13 +56,14 @@ const Staff = () => {
                     4) The blast finisher is useful i.e. blasting a light field (like <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31406"></span>) to cleanse conditions. 
                     Note that if combined with <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1064"></span>, this skill can be 
                     used twice nearly simultaneously when swapping to staff.
+                    This is no longer an evade!
                 </p>
             </div>
-            <div class="row mt-3">
+            <div class="row mt-2">
                 <div class="col-lg-3" data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31700"></div>
                 <p class="col-lg-9">
                     Sends vine that progressively hits with 7 consecutive impacts. Gives <WikiIcon name="Immobile"/> Immobilise (1s) to 
-                    enemies and cleanses movement-impairing conditions from allies.
+                    enemies and cleanses movement-impairing conditions from allies and yourself.
                     <br/>
                     With no healing and little damage, this skill is really only used for the following 3 reasons:
                     1) You need to immobilise i.e. Prides on Deimos or Rigom on Samarog.
@@ -46,7 +71,7 @@ const Staff = () => {
                     3) You have dps classes that benefit from unique conditions on boss which include Power Holosmith and Power Daredevil.
                 </p>
             </div>
-            <div class="row mt-3">
+            <div class="row mt-2">
                 <div class="col-lg-3" data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31496"></div>
                 <p class="col-lg-9">
                     Creates a wall that grants <WikiIcon name="Regeneration"/> Regeneration (5s) to any number of allies. Lasts for 5 
