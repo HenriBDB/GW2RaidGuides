@@ -19,11 +19,11 @@ const BossGuides = () => {
                 <p>
                     Before you read the below notes, I recommend you read the Druid guide written by Snow Crows which 
                     you can find <a href="https://snowcrows.com/raids/guides/ranger/druid/heal/" target="_blank" rel="noopener noreferrer">here</a>.
-                    This is more a collection of written tips that complement the guide linked above. In addition 
-                    you can find video examples of what I consider to be good Druid gameplay. Make sure to read the description of 
-                    those videos as they often include valuable information. 
+                    For now the following written guides are meant to complement the guide linked above by covering any missed points or personal 
+                    advise I can provide. In addition you can find, when available, video examples of good Druid gameplay from various sources. 
+                    Make sure to read the description of those videos as they often include valuable information. 
                     It is important to note that druid is a very versatile class that can be played in 
-                    many different ways and these are therefore mere personal preferences and not a golden bible that must be followed. 
+                    many different ways and these are therefore sometimes only personal preferences and not a golden bible that must be followed. 
                 </p>
                 <p>
                     Common note about SC guides: they will often suggest taking <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12493"/> while 

@@ -30,6 +30,10 @@ const SH = () => {
             <br/>
             <h5 className="gear-title ranger">Extra Notes</h5>
             <p>
+                Don't hesitate to swap in some Minstrel pieces if the toughness can allow you to face tank attacks and therefore increase your 
+                healing uptime since you won't need to spend time dodging.
+            </p>
+            <p>
                 If you need to top off vulnerability once in a while, you can use <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12509"/>.
             </p>
             <p>
