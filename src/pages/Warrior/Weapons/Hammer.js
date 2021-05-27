@@ -6,7 +6,7 @@ const Hammer = () => {
     return (
         <>
         <p>
-            Hammers only real strength is its CC capabilities, having access to multiple strong instances of
+            Hammer's only real strength is its CC capabilities, having access to multiple strong instances of
             CC. Sadly the weapon is very slow in how it plays, and all the bonuses it gives access to are
             either locked behind CC or conditions, of which only the conditions is the reliable part. Hammer
             has a lot of potential, but Maces are favoured over it because they are faster to use and have

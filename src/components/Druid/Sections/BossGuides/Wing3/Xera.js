@@ -23,9 +23,9 @@ const Xera = () => {
             <br/>
             <h5 className="gear-title ranger">CC, Again More CC...</h5>
             <p>
-                Xera takes 80% reduced power and condi damage while her CC bar is active. It is therefore important to CC hr as fast as possible 
+                Xera takes 80% reduced power and condi damage while her CC bar is active. It is therefore important to CC her as fast as possible 
                 to increase dps uptime which will give you less mechanics to deal with and therefore an easier kill. You can swap out 
-                your <WikiIcon name="Iboga" size={40}/> Iboga for a <WikiIcon name="RockGazelle" size={40}/> Gazelle or 
+                your <WikiIcon name="Iboga" size={40}/> Iboga for a <WikiIcon name="Gazelle" size={40}/> Gazelle or 
                 an <WikiIcon name="ElectricWyvern" size={40}/> Electric Wyvern if you need extra CC.
             </p>
             <br/>

@@ -20,7 +20,7 @@ const DruidGuide = () => {
             <div className="guide-content ranger">
                 <GuideTitle title="The Power of Nature" footer="A Druid Guide for GW2 Raiding by Eren Bole"/>
                 <p>
-                    &emsp;This guide is intended to help GW2 players learn the role that druid plays within a raid encounter and how to utilise the class to it's fullest.
+                    &emsp;This guide is intended to help GW2 players learn the role that druid plays within a raid encounter and how to utilise the class to its fullest.
                     It has been written with raid clearing in mind and not speedrunning thus hardcore strategies will not be discussed. This guide will walk you through
                     everything that makes a druid good from trait and weapon variations to buff generation and mechanics strategies.
                 </p>

@@ -19,10 +19,11 @@ const Qadim = () => {
             </VideoWrapperMultiple>
             <h5 className="gear-title ranger">A Spirit Sacrifice</h5>
             <p>
-                If you don't kill the Elemental during at the start if burn phases that spanws East at 1st burn phase then North-East at 2nd 
-                burn phase, then it will go straight for you spirits and likely kill at least one. In order to preserve your most valuable spirits, 
-                I recommend calling your water spirit between Qadim and the Elemental and the other spirits slightly to th side. That way only water 
-                will die (which is fine) and your other spirits will already be in the right place for when players come back from killing pyre(s).
+                At the start of the 1st and 2nd burn phases, a Greater Elemental will spawn East on 1st phase and North-East on 2nd phase of Qadim. 
+                If you don't kill that Elemental before going to pyres, then it will go straight for you spirits and likely kill at least one. In order 
+                to preserve your most valuable spirits, I recommend calling your water spirit between Qadim and the Elemental and the other spirits 
+                slightly to th side. That way only water will die (which is fine) and your other spirits will already be in the right place for when 
+                players come back from killing pyre(s).
             </p>
             <br/>
             <h5 className="gear-title ranger">Spirits for Last Phase</h5>

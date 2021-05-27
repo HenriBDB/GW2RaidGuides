@@ -38,7 +38,7 @@ const FastHands = () => {
         <SkillIcon skillID={[14497,14364,14365,14363,14364,14365,14363,30074,29940,0,14519,14431,14431,14431,14431,14431,30435]}>
             <p>
                 This time around we use what we can while we wait for Flames of War to come off cooldown, and once activated
-                we swap back to bow  and from there its practically a repeat of the previous loop.
+                we swap back to bow  and from there it's practically a repeat of the previous loop.
                 The only thing that changes is that you now have to weave in Final Thrust, and Shattering Blow will not line
                  up exactly the same, but should still be used off cooldown.
             </p>

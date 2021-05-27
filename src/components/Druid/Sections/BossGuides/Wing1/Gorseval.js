@@ -47,11 +47,12 @@ const Gorseval = () => {
                 <WikiIcon name="Gazelle" size={armorySize*2}/>
             </div>
             <p>
-                You may want to take <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12495"/> if 
-                you feel you need more <WikiIcon name="Protection"/> Protection however it is often better to take CC skills instead to reduce the 
-                length of Rampage (CC Phase) as that is when most of the damage occurs. If the <WikiIcon name="Fury"/> Fury / <WikiIcon name="Vulnerability"/> Vuln 
-                from <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="30238"/> is not needed 
-                then I would recommend <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31658"/> for 
+                You may feel tempted to take <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12495"/> if 
+                you feel you need more <WikiIcon name="Protection"/> Protection however it is generally useless since most damage taken occurs during the CC phase 
+                and the 'retaliation' effect and black goo explosions are not affected by protection. It is better to take CC skills instead to reduce the 
+                length of Rampage (CC Phase) as that is when most of the damage occurs. You can take <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12493"/> but 
+                if the <WikiIcon name="Fury"/> Fury / <WikiIcon name="Vulnerability"/> Vuln from it is not needed then I would 
+                recommend <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31658"/> for 
                 better CC.
             </p>
             <p>
@@ -65,7 +66,7 @@ const Gorseval = () => {
                 In most if not all groups, you can easily control the spirits by using <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31700"/> with 
                 double <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31503"/> thanks 
                 to <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1064"/>. This allows you to 
-                drop <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12508"/> and 
+                drop <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12580"/> and 
                 take <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12569"/> instead to help with scholar 
                 uptimes and provide backup (or main if you only have 1 Slam per phase) <WikiIcon name="Stability"/> Stability for the Slams.
             </p>

@@ -59,7 +59,7 @@ const Longbow = () => {
                 <div class="col-lg-3" data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12469"></div>
                 <p class="col-lg-9">
                     This skill will lock you in place. Make sure to wait for the channeling bar to blink before moving or interrupting it to profit from 
-                    all it's hits. This skill does high damage and inflicts <WikiIcon name="Crippled"/> Cripple on foes if you need to slow them down.
+                    all its hits. This skill does high damage and inflicts <WikiIcon name="Crippled"/> Cripple on foes if you need to slow them down.
                     Make sure to use this skill only at times where you know you will be able to cast it fully. If you need to interrupt it midway to heal or 
                     do a mechanic, then it is not worth it.
                 </p>

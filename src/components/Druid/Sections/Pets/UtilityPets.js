@@ -48,7 +48,7 @@ const UtilityPets = () => {
                     The base duration is 10s but the trait <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1059"></span> increases 
                     it by ~1.25s.
                     <br/>
-                    The advantages of this <WikiIcon name="Fury"/> Fury pet are that it's beast ability has a very short cooldown and it does more damage than the Red Moa.
+                    The advantages of this <WikiIcon name="Fury"/> Fury pet are that its beast ability has a very short cooldown and it does more damage than the Red Moa.
                 </p>
             </GearCard>
         </>

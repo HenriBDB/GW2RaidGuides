@@ -37,7 +37,7 @@ const Staff = () => {
                 <div class="col-lg-3" data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31889"></div>
                 <p class="col-lg-9">
                     Sends a wisp to your target that will circle around a 130 radius from the center of the hitbox of the target for 5 seconds. Heals any allie it crosses 
-                    in it's path for 322 (0.1). Does not have a target limit. 
+                    in its path for 322 (0.1). Does not have a target limit. 
                     <br/>
                     The fact that this skill does not have a target limit makes it insanely strong as it can hit every player multiple times by rotating around the target. 
                     It has the highest heal per use out of all staff skills and should therefore be used off cooldown when on staff. The fact that the wisp circles the target 

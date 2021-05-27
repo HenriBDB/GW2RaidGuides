@@ -24,7 +24,7 @@ const Matthias = () => {
             <p>
                 As stated in the SC guide, place a <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31496"/> on 
                 top of Matthias during the jump shards attack to prevent players taking damage from the projectiles. For reference, the jump shards always happen 
-                12s after the end of the bubble phase (100%-40%).
+                12s (3 Matthias auto attacks) after the end of the bubble phase (100%-40%).
             </p>
             <br/>
         </>

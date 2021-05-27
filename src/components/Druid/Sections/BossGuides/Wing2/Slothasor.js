@@ -60,7 +60,7 @@ const Slothasor = () => {
                 glyph up. I prefer to precast <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12489"/> and 
                 hope a chrono blocks or invulns the spores with shield or distortion 
                 as <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12569"/> can help keep players topped up on 
-                health (and it's active ability also cleanses conditions!).
+                health (and its active ability also cleanses conditions!).
             </p>
         </>
     )

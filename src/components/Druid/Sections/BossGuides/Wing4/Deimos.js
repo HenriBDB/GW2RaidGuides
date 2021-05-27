@@ -39,8 +39,10 @@ const Deimos = () => {
             <h5 className="gear-title ranger">Black Kiting</h5>
             <p>
                 Even when doing melee, oils still spawn on the closest player to Deimos excluding the tank. After 60%, try to kite the blacks behind Deimos 
-                by being closer than your dps players. If an oil will spawn during Mind Crush, as your tank for aegis so you can stay next to Deimos and spawn 
-                the oil there (again behind the boss or towards the outside of the arena if possible).
+                by being closer than your dps players. If an oil will spawn during Mind Crush, ask your tank for <WikiIcon name="Aegis"/> Aegis 
+                so you can stay next to Deimos and spawn the oil there (again behind the boss or towards the outside of the arena if possible). If 
+                they can't give you <WikiIcon name="Aegis"/> Aegis reliably then you can take a Greatsword and block the Mind Crush 
+                with <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12522"/>.
             </p>
             <p>
                 During splits at 75%, 50% and 25%, if you need to stay up to heal your tank (although that really shouldn't be necessary as Deimos 

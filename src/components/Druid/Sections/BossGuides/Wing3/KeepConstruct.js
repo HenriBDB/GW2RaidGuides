@@ -32,13 +32,14 @@ const KeepConstruct = () => {
                 channeling <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="55046"/>. 
             </p>
             <p>
-                If doing only 1 orb, you can stack <WikiIcon name="Might"/> Might during the CC phase which will allow your squad to start the birn phase 
+                If doing only 1 orb, you can stack <WikiIcon name="Might"/> Might during the CC phase prior which will allow your squad to start the burn phase 
                 at <WikiIcon name="Might"><sub>25</sub></WikiIcon> Might. Your CA should be back after the green mechanic.
             </p>
             <br/>
             <h5 className="gear-title ranger">Extra Notes</h5>
             <p>
-                You can easily call your spirits on the center when green appear and staff 3 to a green if pone of them is missing a player.
+                You can easily call your spirits in the center when greens appear 
+                and <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31535"/> to a green if one of them is missing a player.
             </p>
         </>
     )

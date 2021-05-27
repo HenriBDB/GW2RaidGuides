@@ -19,10 +19,10 @@ const Cairn = () => {
             </VideoWrapperMultiple>
             <h5 className="gear-title ranger">The Further The Better</h5>
             <p>
-                Cairn targets the furthest player way from it. Once you finished giving <WikiIcon name="Might"/> Might 
+                Cairn targets the furthest player away from it. Once you finished giving <WikiIcon name="Might"/> Might 
                 and <WikiIcon name="Fury"/> Fury to people, go to the opposite side of the boss and stand furthest away to kite attacks.
                 Standing far away will also help you get the first <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="37775"/> at 
-                7:39. You can continue giving might from far away with <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="34070"/> (check Sabetha guide for why).
+                7:37. You can continue giving might from far away with <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="34070"/> (check Sabetha guide for why).
             </p>
             <p>
                 Since you will be tanking attacks, when possible, take the greens instead of skipping thm with stability. This will increase your survivability.

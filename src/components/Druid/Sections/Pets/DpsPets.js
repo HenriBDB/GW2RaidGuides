@@ -9,14 +9,14 @@ const DpsPets = () => {
                 <p>
                     This is your highest dps pet and it mainly deals condi damage. Use it whenever you don't need other pets for CC or utility. 
                     Be wary of using it on <WikiIcon name="Xera"/> Xera though as the confusion it applies will be transformed into retal if 
-                    the boss tands in the shard AoEs. The <WikiIcon name="pull"/> pull available 
+                    the boss tands in the shard AoEs. The <WikiIcon name="Pull"/> Pull available 
                     through <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="41156"></span> can 
                     also come in quite handy at times like to pull in adds on various bosses.
                 </p>
             </GearCard>
             <GearCard text={[<WikiIcon name="Jacaranda" size={40}/>, "Jacaranda"]}>
                 <p>
-                    This is your second highest dps pet. Most of it's damage comes in th form of power damage. This pet is mostly taken for 
+                    This is your second highest dps pet. Most of its damage comes in th form of power damage. This pet is mostly taken for 
                     the <WikiIcon name="Immobile"/> Immobilise available 
                     through <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="44980"></span> which 
                     acts similar to <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12580"></span>.

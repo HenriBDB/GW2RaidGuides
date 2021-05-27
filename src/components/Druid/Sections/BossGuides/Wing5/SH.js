@@ -38,7 +38,7 @@ const SH = () => {
             </p>
             <p>
                 You can swap <WikiIcon name="ElectricWyvern" size={40}/> Electric Wyvern for <WikiIcon name="Gazelle" size={40}/> Gazelle for safer CCs that 
-                only target the Soulless Horror and not the Tormented Dead as well (which the Electric Whyvern's field can do).
+                only target the Soulless Horror and not the Tormented Dead as well (which the Electric Wyvern's field can do).
             </p>
         </>
     )

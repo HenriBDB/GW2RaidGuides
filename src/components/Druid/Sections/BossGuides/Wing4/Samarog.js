@@ -51,7 +51,7 @@ const Samarog = () => {
                 on this encounter so feel free to take a CC skill instead. Here are your best options:
             </p>
             <ul>
-                <li><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="30238"/> if you need 
+                <li><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12493"/> if you need 
                 to supply <WikiIcon name="Fury"/> Fury / <WikiIcon name="Vulnerability"/> Vulnerability.</li>
                 <li><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="30448"/> if you need 
                 to push Rigom (this can be used to CC Samarog in and out of CA).</li>

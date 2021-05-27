@@ -79,7 +79,7 @@ const Skirmishing = () => {
             consume the buff however and benefit from the reduced cooldown. The 5s buff must still be active by the end of the skill cast for the skill to benefit from the reduced cooldown. 
             The trait itself can be triggered by weapon swapping, entering or leaving <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span>, swapping 
             with bundle items or going underwater and swapping to an aquatic weapon.</p>
-            <p>The trait allows you to cast certain skills more often which can often have it's benefits like 
+            <p>The trait allows you to cast certain skills more often which can often have its benefits like 
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12621"></span> for better <WikiIcon name={"Fury"}/> Fury, 
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32364"></span> for better CC, or even 
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="34070"></span> for more <WikiIcon name={"Immobile"}/> Immobilize (Deimos prides, Rigom and Gorseval Spirits are example use cases).

@@ -27,7 +27,7 @@ const Elite = () => {
                     <br/>
                     This skill is an 
                     absolute saviour on <WikiIcon name="Vg"/> Vale Guardian to control the seekers however beware that if a player steps into a 
-                    seeker's aoe and trigger it's damaging pulse then it can destroy the vines and won't receive <WikiIcon name="Immobile"/> Immobilise 
+                    seeker's aoe and trigger its damaging pulse then it can destroy the vines and won't receive <WikiIcon name="Immobile"/> Immobilise 
                     anymore. 
                     <br/>
                     Some druids like to use it on <WikiIcon name="Gorseval"/> Gorseval to stop the adds during the split phase but I feel this 
