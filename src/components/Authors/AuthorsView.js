@@ -80,12 +80,12 @@ const AuthorsView = () => {
                         <AuthorsImg src={Paula} width="200" height="200" />
                         <AuthorsName>Paula</AuthorsName>
                         <Socials>
-                            <Link href="https://www.youtube.com/c/PaulaK" target="_blank">
+                            <Link href="https://www.youtube.com/c/CasualElitist" target="_blank">
                                 <YtIcon />
                             </Link>
                             <Tooltip>
                                 <DiscordIcon />
-                                <TooltipText>Paula#2499</TooltipText>
+                                <TooltipText>CasualElitist#2499</TooltipText>
                             </Tooltip>
                             <Tooltip>
                                 <GameIcon />

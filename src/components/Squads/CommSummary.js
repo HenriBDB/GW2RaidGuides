@@ -46,7 +46,7 @@ const CommSummary = () => {
                         <li>If unsure, make 2 subgroups with 5 players each</li>
                         <li>Distribute healers and boon sources evenly across both subgroups</li>
                         <li>Give <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1016"></span> and <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1786"></span> to classes that will make use of them</li>
-                        <li>Group <WikiIcon name={"Dragonhunter"} /> Dragonhunters together for <WikiIcon name={"Retaliation"} /> Retaliation</li>
+                        <li>Group <WikiIcon name={"Dragonhunter"} /> Dragonhunters together for <WikiIcon name={"Resolution"} /> Resolution</li>
                     </ul>
                 </CommCard>
             </div>
