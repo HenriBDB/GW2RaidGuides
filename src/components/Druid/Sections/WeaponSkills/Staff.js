@@ -36,12 +36,14 @@ const Staff = () => {
             <div class="row mt-2">
                 <div class="col-lg-3" data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31889"></div>
                 <p class="col-lg-9">
-                    Sends a wisp to your target that will circle around a 130 radius from the center of the hitbox of the target for 5 seconds. Heals any allie it crosses 
-                    in its path for 322 (0.1). Does not have a target limit. 
+                    Sends a wisp to your target that will circle around it. Its circle has a 130 radius from the center of the hitbox of the target. 
+                    Heals any allie it crosses in its path for 322 (0.1). Does not have a target limit. It lasts for 5s meaning it will complete 
+                    ~2.5 full circles.
                     <br/>
                     The fact that this skill does not have a target limit makes it insanely strong as it can hit every player multiple times by rotating around the target. 
                     It has the highest heal per use out of all staff skills and should therefore be used off cooldown when on staff. The fact that the wisp circles the target 
-                    is particularly useful when needing to heal the tank which is on the other side of the hitbox. This skill will also greatly help you regenerate Astral Force.
+                    is particularly useful when needing to heal the tank which is on the other side of the hitbox. This skill will also greatly help you regenerate Astral Force 
+                    (no target limit so it can heal spirits as well and regenerate over 30% of your Astral Force!).
                 </p>
             </div>
             <div class="row mt-2">

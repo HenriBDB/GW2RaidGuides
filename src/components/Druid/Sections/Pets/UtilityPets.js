@@ -12,7 +12,7 @@ const UtilityPets = () => {
                     <br/>
                     Has a 600 radius so quite wide range. 
                     <br/>
-                    Useful on <WikiIcon name="Dhuum"/> Dhuum to clean torment after greater soulsplit (make sure o swap to bear after the knockback so your 
+                    Useful on <WikiIcon name="Dhuum"/> Dhuum to clean torment after greater soulsplit (make sure to swap to bear after the knockback so your 
                     pet spawns next to you as the area of effect of his cleanse is around your pet and not around you).
                 </p>
             </GearCard>
@@ -24,7 +24,8 @@ const UtilityPets = () => {
                     The field can then be blasted with combo finishers for stealth like <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31535"></span> or <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12621"></span>.
                     <br/>
                     This pet is often used before fights in more coordinated groups to stealth in without triggring the boss like for mid <WikiIcon name="Vg"/> Vale 
-                    Guardian, <WikiIcon name="Gorseval"/> Gorseval or <WikiIcon name="Samarog"/> Samarog.
+                    Guardian, <WikiIcon name="Gorseval"/> Gorseval or <WikiIcon name="Samarog"/> Samarog. It can also be used on <WikiIcon name="Dhuum"/> Dhuum 
+                    to stealth Reapers if needed or yourself while kiting to give you some breathing time.
                 </p>
             </GearCard>
             <h5>Fury:</h5>

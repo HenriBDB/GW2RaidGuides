@@ -47,7 +47,7 @@ const Elite = () => {
                     <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31700"></span> and&nbsp;
                     <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="44980"></span> for the job. 
                     If you do end up taking <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12580"></span> to 
-                    control the prides then don't leave it untouhed before they appear. You can boost teh dps of classes that benefit from uniqu conditions by using 
+                    control the prides then don't leave it untouhed before they appear. You can boost the dps of classes that benefit from unique conditions by using 
                     it regularly before 40% (when the prides appear). 
                 </p>
             </div>
@@ -55,8 +55,8 @@ const Elite = () => {
                 <div class="col-lg-2" data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31677"></div>
                 <p class="col-lg-10 my-0">
                     The incredible power of this elite skill is its condition cleanse and prevention for the whole duration of its channel! This 
-                    can be exploited to cheese through some mechanics like: the shake on <WikiIcon name="Slothasor"/> Slothasor, Zane's blind field on Trio, 
-                    the confusion circle during the pizza attack at <WikiIcon name="KC"/> Keep Construct and on <WikiIcon name="Dhuum"/> Dhuum, 
+                    can be exploited to cheese through some mechanics like: Zane's blind field on Trio, 
+                    the confusion circle during the pizza attack at <WikiIcon name="KC"/> Keep Construct, and on <WikiIcon name="Dhuum"/> Dhuum, 
                     if you already have a second druid with <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12569"></span>, 
                     then you can take it to prevent <WikiIcon name="Torment"/> Torment application during the greater death mark (soul split).
                 </p>

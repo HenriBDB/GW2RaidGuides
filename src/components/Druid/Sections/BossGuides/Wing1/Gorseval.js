@@ -86,6 +86,10 @@ const Gorseval = () => {
                 blast it with <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31318"/> for example to cleanse 
                 the <WikiIcon name="Vulnerability"/> Vulnerability asap.
             </p>
+            <p>
+                In slower groups, you can send your pet to clear the orbs that spawn around the arena. They are very effective at that and it will help 
+                your dps players to focus on the boss.
+            </p>
         </>
     )
 }

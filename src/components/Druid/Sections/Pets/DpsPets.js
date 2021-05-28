@@ -20,6 +20,7 @@ const DpsPets = () => {
                     the <WikiIcon name="Immobile"/> Immobilise available 
                     through <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="44980"></span> which 
                     acts similar to <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12580"></span>.
+                    Most of this pet's damage comes in the form of strike damage.
                 </p>
             </GearCard>
             <GearCard text={[<WikiIcon name="FireWyvern" size={40}/>, "Fire Wyvern"]}>

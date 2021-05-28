@@ -53,7 +53,7 @@ const Druid = () => {
         </div>
         <TraitCard traitID={1862}>
             <p>
-                On a 1 second internal cooldown, heal yourself for 207 (0.01) whenever you heal an allie. Note that this trait does not trigger from passive heals such 
+                On a 1 second internal cooldown, heal yourself for 207 (0.01) whenever you heal an ally. Note that this trait does not trigger from passive heals such 
                 as <WikiIcon name="Regeneration"/> Regeneration or from <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="970"></span>.
             </p>
             <p>
@@ -75,7 +75,9 @@ const Druid = () => {
                 Otherwise, feel free to take this trait when the extra mobility comes in handly, Dhuum kiting being a prime example. As the <WikiIcon name="Superspeed"/> Superspeed 
                 is also applied to allies, you can use it to help them move back to boss after split, move away from stack for a mechanic etc...
                 Beware that the sudden speed boost can startle players and cause them to do disastrous movements like miss the ley-line 
-                on <WikiIcon name="Xera"/> Xera or walk into a wall on <WikiIcon name="SH"/> Soulless Horror and should therefore be avoided in these situations
+                on <WikiIcon name="Xera"/> Xera or walk into a wall on <WikiIcon name="SH"/> Soulless Horror and should therefore be avoided in these situations. 
+                Many druids will flat out not take this skills unless explicitly needed to avoid any awkward situation like stealthing a deadeye 
+                which will impact their rotation etc...
             </p>
         </TraitCard>
         <TraitCard traitID={2001}>
