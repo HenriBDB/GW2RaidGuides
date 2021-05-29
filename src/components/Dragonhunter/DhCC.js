@@ -41,6 +41,16 @@ const DhCC = () => {
                     <WikiIcon name={"Pull"} /> Pull - 150 breakbar damage (instant)
                 </p>
             </SkillCard>
+            <SkillCard skillID={[29630]}>
+                <p>
+                    <WikiIcon name={"Knockback"} /> Knockback - 150 breakbar damage (instant)
+                </p>
+            </SkillCard>
+            <SkillCard skillID={[30628]}>
+                <p>
+                <WikiIcon name={"Knockback"} /> Knockback (Ward) - 150 breakbar damage (instant)
+                </p>
+            </SkillCard>
             <SkillCard skillID={[9099]}>
                 <p>
                     <WikiIcon name={"Immobile"} /> Immobilize (5s) - 50 breakbar damage per second (over time - 250 total breakbar after 5s)

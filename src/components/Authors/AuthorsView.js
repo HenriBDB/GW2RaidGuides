@@ -2,7 +2,7 @@ import React from "react";
 import ScrollArrow from '../../components/ScrollArrowTop';
 import Costa from '../../assets/avatars/avatar_costa.png';
 import Eren from '../../assets/avatars/avatar_eren.png';
-import Paula from '../../assets/avatars/avatar_paula.jpg';
+import Casual from '../../assets/avatars/avatar_casual.jpg';
 import Wasabi from '../../assets/avatars/avatar_wasabi.png';
 import warrior from '../../assets/icons/warrior-icon.png';
 import ranger from '../../assets/icons/ranger-icon.png';
@@ -77,8 +77,8 @@ const AuthorsView = () => {
                         <AuthorsRole><ContentIcon src={ranger} height="25" />Content Creator</AuthorsRole>
                     </AuthorsCol>
                     <AuthorsCol>
-                        <AuthorsImg src={Paula} width="200" height="200" />
-                        <AuthorsName>Paula</AuthorsName>
+                        <AuthorsImg src={Casual} width="200" height="200" />
+                        <AuthorsName>Casual Elitist</AuthorsName>
                         <Socials>
                             <Link href="https://www.youtube.com/c/CasualElitist" target="_blank">
                                 <YtIcon />
