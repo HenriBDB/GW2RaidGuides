@@ -20,6 +20,7 @@ const DhIntro = () => {
                     </SectionLink>
                 section) was made to help you achieve it!</p>
                 <p>Enjoy!</p>
+                <p style={{fontSize: '1.5rem', textAlign: 'center', fontFamily: "Noto serif"}}>Guide is <span style={{color: 'green', fontFamily: "Noto serif"}}>up to date</span> as of MAY 25th 2021 balance patch.</p>
             </GuideDescription>
         </SectionContainer>
     )

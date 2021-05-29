@@ -18,7 +18,7 @@ const Zeal = () => {
                     Casts a <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="13677" className="dhskill"></span> when you are struck while below 75% health.
                 </p>
                 <p>
-                    Grants <WikiIcon name={"Retaliation"} /> Retaliation (2s) to you and your allies standing in the symbol (5 targets). It's also a <a href="https://wiki.guildwars2.com/wiki/Light_field" target="_blank" rel="noopener noreferrer" className="dhlink">Light Field</a>.
+                    Grants <WikiIcon name={"Resolution"} /> Resolution (2s) to you and your allies standing in the symbol (5 targets). It's also a <a href="https://wiki.guildwars2.com/wiki/Light_field" target="_blank" rel="noopener noreferrer" className="dhlink">Light Field</a>.
                 </p>
             </TraitCard>
             <div className="row justify-content-center">
@@ -29,7 +29,7 @@ const Zeal = () => {
                     Increases direct damage dealt to enemies with <WikiIcon name="Burning"/> Burning by 7%.
                 </p>
                 <p>
-                    You should always have <WikiIcon name={"Burning"} /> Burning on the boss, for example from your <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="29887" className="dhskill"></span>, from <WikiIcon name={"Druid"} /> Druid's <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12498" className="dhskill"></span>, <WikiIcon name={"Firebrand"} /> Firebrand's <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="45082" className="dhskill"></span>, etc. This trait is a pure damage increase and it's the most worth taking from Major Adept set.
+                    You should always have <WikiIcon name={"Burning"} /> Burning on the boss, for example from your <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="29887" className="dhskill"></span>, from <WikiIcon name={"Druid"} /> Druid's <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12498" className="dhskill"></span>, <WikiIcon name={"Firebrand"} /> Firebrand's <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="46148" className="dhskill"></span>, etc. This trait is a pure damage increase and it's the most worth taking from Major Adept set.
                 </p>
             </TraitCard>
             <div className="row justify-content-center">
@@ -56,7 +56,7 @@ const Zeal = () => {
             </div>
             <TraitCard traitID={649} gameClass="dragonhunter">
                 <p>
-                    This trait makes your Symbols deal 30% more damage and charges your <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="29887" className="dhskill"></span> passive twice as fast.
+                    This trait makes your Symbols deal 30% more damage. <br /><br />As of the balance patch from 11th May 2021, it does no longer charge your <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="29887" className="dhskill"></span> passive twice as fast.
                 </p>
             </TraitCard>
             <div className="row justify-content-center">

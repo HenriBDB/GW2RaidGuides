@@ -8,7 +8,7 @@ const Radiance = () => {
         <>
             <div className="mb-3" data-armory-embed="specializations" data-armory-ids="16" data-armory-16-traits="572,574,566,571,565,568,579,1683"></div>
             <p>
-                Radiance traitline centers on burning attacks, critical hits and retaliation. It may impact sword and signet skills.<br />
+                Radiance traitline centers on burning attacks, critical hits and resolution. It may impact sword and signet skills.<br />
                 In certain circumstances this traitline can be replaced by Virtues traitline.
             </p>
             <div className="row justify-content-center">
@@ -16,7 +16,7 @@ const Radiance = () => {
             </div>
             <TraitCard traitID={572} gameClass="dragonhunter">
                 <p>
-                    Grants <a href="https://wiki.guildwars2.com/wiki/Light_Aura" target="_blank" rel="noopener noreferrer" className="dhlink">Light Aura</a> (gain <WikiIcon name={"Retaliation"} /> Retaliation when struck) and <WikiIcon name="Blinded" /> Blinds (3s) nearby foes when you activate <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="29887" className="dhskill"></span>
+                    Grants <a href="https://wiki.guildwars2.com/wiki/Light_Aura" target="_blank" rel="noopener noreferrer" className="dhlink">Light Aura</a> (gain <WikiIcon name={"Resolution"} /> Resolution when struck) and <WikiIcon name="Blinded" /> Blinds (3s) nearby foes when you activate <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="29887" className="dhskill"></span>
                 </p>
             </TraitCard>
             <div className="row justify-content-center">
@@ -24,10 +24,10 @@ const Radiance = () => {
             </div>
             <TraitCard traitID={574} gameClass="dragonhunter">
                 <p>
-                    Gives 8s of <WikiIcon name={"Retaliation"} /> Retaliation when using a heal skill. This trait is the reason to use <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="21664" className="dhskill"></span> to ensure good <WikiIcon name={"Retaliation"} /> Retaliation uptime on you.
+                    Gives 8s of <WikiIcon name={"Resolution"} /> Resolution when using a heal skill. This trait is the reason to use <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="21664" className="dhskill"></span> to ensure good <WikiIcon name={"Resolution"} /> Resolution uptime on you.
                 </p>
                 <p>
-                    You will always take this trait if you are playing scepter. This trait allows you to start some burn phases on scepter without looking for another <WikiIcon name={"Retaliation"} /> Retaliation source (if those phases are short enough) for higher damage - pop <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="21664" className="dhskill"></span> when the burn phase starts to get instant <WikiIcon name={"Retaliation"} /> Retaliation.
+                    You will always take this trait if you are playing longbow or scepter. You can use it in some situations if you start some burn phases on non-greatsword weaponset without looking for another <WikiIcon name={"Resolution"} /> Resolution source - pop <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="21664" className="dhskill"></span> when the burn phase starts to get instant <WikiIcon name={"Resolution"} /> Resolution.
                 </p>
             </TraitCard>
             <TraitCard traitID={566} gameClass="dragonhunter">
@@ -35,10 +35,10 @@ const Radiance = () => {
                     Grants additional 80 <WikiIcon name={"Precision"} /> Precision (on any weaponset) and additional 80 <WikiIcon name={"Power"} /> Power while wielding a one-handed weapon. Reduces the <WikiIcon name={"Recharge"} /> cooldown of sword skills by 20%.
                 </p>
                 <p>
-                    This is the go-to trait if you are playing sword. However, you have to remember, that by taking this trait you will lose <WikiIcon name={"Retaliation"} /> Retaliation from your heal skill.
+                    This is the go-to trait if you are playing sword. However, you have to remember, that by taking this trait you will lose <WikiIcon name={"Resolution"} /> Resolution from your heal skill.
                 </p>
                 <p>
-                    So, before taking this trait you have to consider if you will get enough <WikiIcon name={"Retaliation"} /> Retaliation from other sources (for example other Guardians or <WikiIcon name={"Thief"} /> Boonthief):
+                    So, before taking this trait you have to consider if you will get enough <WikiIcon name={"Resolution"} /> Resolution from other sources (for example other Guardians, <WikiIcon name={"Thief"} /> Boonthief or <WikiIcon name={"Revenant"} /> Renegade):
                 </p>
                 <ol>
                     <li>
@@ -51,7 +51,7 @@ const Radiance = () => {
                                 if they are fast, you will most likely not benefit from the reduced sword skills <WikiIcon name={"Recharge"} /> recharge, so in such case you can trait <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="574" className="dhskill"></span> instead;
                             </li>
                             <li>
-                                if they are slow, you can still take <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="574" className="dhskill"></span> for better <WikiIcon name={"Retaliation"} /> Retaliation uptime, but you have to remember that your sword rotation won't line up well in such case. You can also just take this trait and suffer from missing <WikiIcon name={"Retaliation"} /> Retaliation. My recommendation here would be just to play scepter at this point. If you want to learn why <WikiIcon name={"Retaliation"} /> Retaliation is such an important boon for <WikiIcon name={"Dragonhunter"} /> Power Dragonhunter, go to
+                                if they are slow, you can still take <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="574" className="dhskill"></span> for better <WikiIcon name={"Resolution"} /> Resolution uptime, but you have to remember that your sword rotation won't line up well in such case. You can also just take this trait and suffer from missing <WikiIcon name={"Resolution"} /> Resolution. If you want to learn why <WikiIcon name={"Resolution"} /> Resolution is such an important boon for <WikiIcon name={"Dragonhunter"} /> Power Dragonhunter, go to
                                 <SectionLink sectionId="dh-section-rotation">
                                     <span
                                         style={{ color: "#69CCE7", cursor: "pointer" }}>
@@ -85,7 +85,7 @@ const Radiance = () => {
             </div>
             <TraitCard traitID={565} gameClass="dragonhunter">
                 <p>
-                    This trait makes you deal 10% more damage if you have <WikiIcon name={"Retaliation"} /> Retaliation and it's one of the reasons why you want to ensure high <WikiIcon name={"Retaliation"} /> Retaliation uptime on you. It synergizes well with <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="574" className="dhskill"></span>.
+                    This trait makes you deal 10% more damage if you have <WikiIcon name={"Resolution"} /> Resolution and it's one of the reasons why you want to ensure high <WikiIcon name={"Resolution"} /> Resolution uptime on you. It synergizes well with <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="574" className="dhskill"></span>.
                 </p>
             </TraitCard>
             <div className="row justify-content-center">
@@ -100,7 +100,7 @@ const Radiance = () => {
                 <h4 className="mb-0">Major Grandmaster</h4>
             </div>
             <TraitCard traitID={1683} gameClass="dragonhunter">
-                <p> Grants 25% Crit Chance if you have <WikiIcon name={"Retaliation"} /> Retaliation (which is yet another reason why you want to upkeep high <WikiIcon name={"Retaliation"} /> Retaliation uptime on you - without this boon you are not crit capped). It also grants 6s of <WikiIcon name={"Might"} /> Might every second.
+                <p> Grants 25% Crit Chance if you have <WikiIcon name={"Resolution"} /> Resolution (which is yet another reason why you want to upkeep high <WikiIcon name={"Resolution"} /> Resolution uptime on you - without this boon you are not crit capped). It also grants 6s of <WikiIcon name={"Might"} /> Might every second.
                 </p>
                 <p>
                     It is your default choice, as your standard gearset assumes you are getting 25% Crit Chance from this trait.

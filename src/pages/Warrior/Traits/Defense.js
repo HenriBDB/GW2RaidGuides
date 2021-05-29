@@ -83,8 +83,8 @@ const Defense = () => {
         </div>
         <TraitCard traitID={1380}>
             <p>
-                Given the lack of access to Retaliation <WikiIcon name="Retaliation"/> in the warrior kit, this trait is not as great as it could be,
-                the trait has a rather lengthy internal cooldown given the amount of Retaliation <WikiIcon name="Retaliation"/> you get in
+                Given the lack of access to Resolution <WikiIcon name="Resolution"/> in the warrior kit, this trait is not as great as it could be,
+                the trait has a rather lengthy internal cooldown given the amount of Resolution <WikiIcon name="Resolution"/> you get in
                 return. With the bit of self-sufficient mitigation you do get, it is however still fairly good.
             </p>
         </TraitCard>

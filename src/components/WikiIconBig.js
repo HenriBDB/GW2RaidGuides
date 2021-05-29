@@ -11,7 +11,7 @@ const buffLinks = {
     "Quickness": "https://wiki.guildwars2.com/images/b/b4/Quickness.png",
     "Protection": "https://wiki.guildwars2.com/images/6/6c/Protection.png",
     "Stability": "https://wiki.guildwars2.com/images/a/ae/Stability.png",
-    "Retaliation": "https://wiki.guildwars2.com/images/5/53/Retaliation.png",
+    "Resolution": "https://wiki.guildwars2.com/images/0/06/Resolution.png",
     "Alacrity": "https://wiki.guildwars2.com/images/4/4c/Alacrity.png",
     "Aegis": "https://wiki.guildwars2.com/images/e/e5/Aegis.png",
     "Resistance": "https://wiki.guildwars2.com/images/4/4b/Resistance.png",

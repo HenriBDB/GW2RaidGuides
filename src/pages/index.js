@@ -37,7 +37,7 @@ const HomePage = () => {
           <Route exact path="/class-guides/" component={Guides} />
           <Route exact path="/creators/" component={Authors} />
           <Route exact path="/dragonhunter-guide/" component={DragonhunterGuide} />
-          {/* <Route exact path="/druid-guide/" component={DruidGuide} /> */}
+          <Route exact path="/druid-guide/" component={DruidGuide} />
           <Route exact path="/warrior-guide/" component={WarriorGuide} />
           <Route exact path="/changelog/" component={Changelog} />
           <Route exact path="/privacy-policy/" component={PrivacyPolicy} />
