@@ -5,7 +5,6 @@ import NavTabs from '../../../NavTabs'
 import TabPane from '../../../TabPane'
 import Classic from './Classic'
 import Condi from './Condi'
-import Power from './Power'
 import Variations from './Variations'
 
 
@@ -19,15 +18,12 @@ const Gear = () => {
                     some healing. Make sure to read the introductory paragraphs for builds you want to use.
                 </p>
             </SectionIntro>
-            <NavTabs tabNames={["Classic", "Condi", "Power", "Variations"]} hrefs={["classic", "condi", "power", "variations"]}>
+            <NavTabs tabNames={["Classic", "Condi", "Variations"]} hrefs={["classic", "condi", "variations"]}>
                 <TabPane tabName={"classic"} active={true}>
                     <Classic/>
                 </TabPane>
                 <TabPane tabName={"condi"}>
                     <Condi/>
-                </TabPane>
-                <TabPane tabName={"power"}>
-                    <Power/>
                 </TabPane>
                 <TabPane tabName={"variations"}>
                     <Variations/>

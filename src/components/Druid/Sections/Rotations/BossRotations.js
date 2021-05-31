@@ -1,6 +1,5 @@
 import React from 'react'
 import BossCard from '../../../BossCard';
-import VG from '../../../../assets/bosses/vg.png';
 import SH from '../../../../assets/bosses/sh.png';
 import Sabir from '../../../../assets/bosses/sabir.png';
 
@@ -8,102 +7,11 @@ const WeaponSwaps = () => {
     return (
         <>
         <p>
-            &emsp;On certain bosses, mechanics timings allow you to have a very consistent rotation. Below you will find examples of these rotations. 
-            They were created with efficiency and ease of use in mind and are a great way to improve your Druid gameplay. The following rotations are destined 
-            for pug kills and may not be suitable for speedclears.
+            &emsp;On certain bosses, mechanics timings allow you to have a very consistent rotation. Below you will find examples of rotations I use myself. 
+            You can use them for inspiration or as a template but they are by no means a golden rule.
+            They were created with efficiency and ease of use in mind and are a great way to improve your Druid gameplay. The following rotations were drafted 
+            with pug kills in mind and may not be suitable for speedclears.
         </p>
-        <br/>
-        
-        <BossCard src={VG} bossName={"Vale Guardian"} gameClass="ranger">
-            <p>
-                On VG heals are mostly required before and after green explosions to ensure players don't down from them. The ideal 
-                is therefore to limit your <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span> to 
-                green explosions (while still ensureing 25 might ofc). Since boss phases are similar, a template loop rotation can be applied to all 3.
-                Entangle is not included in the rotation as timing will vary on tanking position but don't forget to entangle seekers!!!
-            </p>
-
-            <a className="rota-btn" data-toggle="collapse" href="#vgRota" role="button" aria-expanded="false" aria-controls="vgRota">
-                Toggle Rotation
-            </a>
-
-            <div className="collapse rotation-content" id="vgRota">
-                <ul className="rotation">
-                    <li className="event ranger-skill" timestamp="-1">
-                        <p>Pre-cast offensive spirits</p>
-                    </li>
-                    <li className="event ranger-skill" timestamp="0">
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12621"></span></p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span></p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32253"></span></p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="34070"></span></p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31796"></span></p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32242"></span></p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31411"></span></p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12620"></span></p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12490"></span></p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="21775"></span></p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12595"></span></p>
-                    </li>
-                    <li className="event mechanic" timestamp="12">
-                        <p>Green appears</p>
-                    </li>
-                    <li className="event ranger-skill" timestamp="12">
-                        <p>Swap to Staff</p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31889"></span></p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31496"></span></p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31535"></span></p>
-                        <p>Auto until your avatar is off cooldown</p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span></p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31318"></span></p>
-                    </li>
-                    <li className="event mechanic" timestamp="18">
-                        <p>Green explodes</p>
-                    </li>
-                    <li className="event ranger-skill" timestamp="18">
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32253"></span></p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32242"></span></p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="34070"></span></p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31796"></span></p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32242"></span></p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31411"></span></p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31889"></span></p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31496"></span></p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31535"></span></p>
-                    </li>
-                    <li className="event ranger-skill" timestamp="22">
-                        <p>Swap to Warhorn</p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12621"></span></p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="21775"></span></p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12595"></span></p>
-                        <p>Use spirits, control seekers and use warhorn skills off-cooldown</p>
-                    </li>
-                    <li className="event mechanic" timestamp="27">
-                        <p>Green appears</p>
-                    </li>
-                    <li className="event ranger-skill" timestamp="31">
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span></p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32253"></span></p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32242"></span></p>
-                    </li>
-                    <li className="event mechanic" timestamp="33">
-                        <p>Green explodes</p>
-                    </li>
-                    <li className="event ranger-skill" timestamp="33">
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31318"></span></p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32242"></span></p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="34070"></span></p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32242"></span></p>
-                        <p><span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31411"></span></p>
-                    </li>
-                    <li className="event ranger-skill" timestamp="37">
-                        <p>Use spirits, control seekers and use warhorn skills off-cooldown</p>
-                    </li>
-                    <li className="event mechanic" timestamp="42">
-                        <p>Repeat from second 12</p>
-                    </li>
-                </ul>
-            </div>
-        </BossCard>
         <br/>
         <BossCard src={SH} bossName={"Soulless Horror"} gameClass="ranger">
             <p>

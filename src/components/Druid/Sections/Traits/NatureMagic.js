@@ -5,7 +5,7 @@ import WikiIcon from '../../../WikiIcon';
 const NatureMagic = () => {
     return (
         <>
-        <div className="mb-3" data-armory-embed="specializations" data-armory-ids="25" data-armory-25-traits="1062,978,965,964,1038"></div>
+        <div className="mb-3" data-armory-embed="specializations" data-armory-ids="25" data-armory-25-traits="1062, 1060,978,965,964,1038"></div>
         <div className="row justify-content-center">
             <h4 className="mb-0">Minor Adept</h4>
         </div>
@@ -40,6 +40,17 @@ const NatureMagic = () => {
                 and mostly Harrier gear, this should increase your healing power by a significant ~17% during raid encounters!
             </p>
         </TraitCard>
+        <TraitCard traitID={1060}>
+            <p>
+                This trait grants 5 allies <WikiIcon name="Regeneration"/> Regeneration (8s) and send your pet to revive players who go down.
+            </p>
+            <p>
+                I never take this trait but Druids sometimes take it when players just down too much or die in difficult places and your pet can help revive them. 
+                Note that although you should never res players when healing is needed as it will just cause other players to go down, the rest of your squad 
+                should actively res players going down when appropriate. Also note that by not taking <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="978"/>, 
+                you are sacrificing potentially a lot of outgoing healing which can cause more harm than the benefits brought by this trait.
+            </p>
+        </TraitCard>
         <div className="row justify-content-center">
             <h4 className="mb-0">Minor Master</h4>
         </div>
@@ -69,7 +80,7 @@ const NatureMagic = () => {
         <TraitCard traitID={964}>
             <p>
                 This trait grants a 20% reduced recharge on warhorn skills and causes the latter to grant <WikiIcon name="Regeneration"/> Regeneration (6s) to 5 
-                allies in a 600 radius around your target for <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12620"></span> and 
+                allies in a 900 radius around your target for <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12620"/> and 
                 around yourself for <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12621"></span>. Note 
                 that <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="29449"></span> from <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="986"></span> is 
                 also affected by this trait. With this trait you also heal yourself for 157 (0.06) whenever you gain <WikiIcon name="Regeneration"/> Regeneration.

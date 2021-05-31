@@ -6,8 +6,10 @@ const Openers = () => {
         <>
         <p>
             &emsp;Your ultimate goal during your opener is that everyone has <WikiIcon name="Might"><sub>25</sub></WikiIcon> Might and <WikiIcon name="Fury"/> Fury.
-            The examples below are general examples that should get you started on all bosses. Make sure to check boss guide videos for per-boss variations if any.
-            Ignore spirits steps if you do not have them equipped.
+            The general rule of thumbs for Druid openers is: offensive spirits → <WikiIcon name="Fury"/> Fury → <WikiIcon name="Might"/> Might → remaining spirits.
+            The examples below are easy-to-follow general examples that you can inspire yourself from and modify at ease (for example in a power composition you can 
+            call your <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12592"/> after giving <WikiIcon name="Might"/> Might). 
+            Make sure to check boss guide videos for per-boss variations recommendations if any. Ignore spirits steps if you do not have them equipped. 
         </p>
         <h5 className="gear-title ranger">
             Your classic
@@ -20,7 +22,7 @@ const Openers = () => {
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12621"></span> →&nbsp;
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32253"></span> →&nbsp;
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="34070"></span> →&nbsp;
-            <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31796"></span> →&nbsp;
+            <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31318"></span> →&nbsp;
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31796"></span> →&nbsp;
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31796"></span> →&nbsp;
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32242"></span>
@@ -39,7 +41,7 @@ const Openers = () => {
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12621"></span> →&nbsp;
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32253"></span> →&nbsp;
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="34070"></span> →&nbsp;
-            <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31796"></span> →&nbsp;
+            <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31318"></span> →&nbsp;
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32242"></span> →&nbsp;
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12595"></span> →&nbsp;
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="21775"></span> →&nbsp;
@@ -60,7 +62,7 @@ const Openers = () => {
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12593"></span> →&nbsp;
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12592"></span> →&nbsp;
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="34070"></span> →&nbsp;
-            <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31796"></span> →&nbsp;
+            <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31318"></span> →&nbsp;
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32242"></span> →&nbsp;
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12595"></span> →&nbsp;
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="21775"></span> →&nbsp;
@@ -82,7 +84,7 @@ const Openers = () => {
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32253"></span> →&nbsp;
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12596"></span> →&nbsp;
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="34070"></span> →&nbsp;
-            <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31796"></span> →&nbsp;
+            <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31318"></span> →&nbsp;
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32242"></span> →&nbsp;
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12595"></span> →&nbsp;
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12596"></span>
