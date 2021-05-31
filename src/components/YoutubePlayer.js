@@ -10,7 +10,7 @@ import {
 const YoutubePlayer = (props) => {
     const [isPlayerOpen, setPlayerOpen] = useState(false)
 
-    if (props.videoId) {
+    if (props.videoId && !props.customThumbnail) {
         return (
             <>
                 <ModalVideo channel='youtube' autoplay isOpen={isPlayerOpen} videoId={props.videoId} onClose={() => setPlayerOpen(false)} />
@@ -22,16 +22,26 @@ const YoutubePlayer = (props) => {
         )
     } else if (props.textOnly) {
         return (
-            <VideoPreviewWrapperMultiple style={{"cursor": "default"}}>
-                <div style={{"display": "flex", "height": "100%", "align-items": "center", "justify-content": "center"}}>
+            <VideoPreviewWrapperMultiple style={{ "cursor": "default" }}>
+                <div style={{ "display": "flex", "height": "100%", "align-items": "center", "justify-content": "center" }}>
                     <strong>{props.textOnly}</strong>
                 </div>
             </VideoPreviewWrapperMultiple>
-    )
-} else {
-    return (
-        <VideoPreviewWrapperMultiple style={{"cursor": "default"}}>
-            <div style={{"display": "flex", "height": "100%", "align-items": "center", "justify-content": "center"}}>
+        )
+    } else if (props.videoId && props.customThumbnail) {
+        return (
+            <>
+                <ModalVideo channel='youtube' autoplay isOpen={isPlayerOpen} videoId={props.videoId} onClose={() => setPlayerOpen(false)} />
+                <VideoPreviewWrapperMultiple onClick={() => setPlayerOpen(true)}>
+                    <VideoPreview src={props.customThumbnail}/>
+                    <YoutubePlaySmall />
+                </VideoPreviewWrapperMultiple>
+            </>
+        )
+    } else {
+        return (
+            <VideoPreviewWrapperMultiple style={{ "cursor": "default" }}>
+                <div style={{ "display": "flex", "height": "100%", "align-items": "center", "justify-content": "center" }}>
                     Video Not Available Yet
                 </div>
             </VideoPreviewWrapperMultiple>
@@ -42,5 +52,7 @@ const YoutubePlayer = (props) => {
 export default YoutubePlayer
 
 YoutubePlayer.protoTypes = {
-    videoId: PropTypes.string
+    videoId: PropTypes.string,
+    textOnly: PropTypes.string,
+    customThumbnail: PropTypes.string,
 }

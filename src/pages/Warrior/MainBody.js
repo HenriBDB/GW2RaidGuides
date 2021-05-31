@@ -101,7 +101,7 @@ const MainBody = () => {
                     <p className="text-center">
                         This section will aim to outline any plans for future additions to the guide.
                     </p>
-                    <p style={{fontSize: '1.5rem', textAlign: 'center', fontFamily: "Noto serif"}}>Guide is <span style={{color: 'green', fontFamily: "Noto serif"}}>up to date</span> as of JULY 7th 2020 balance patch. <br /><span style={{color: 'red', fontFamily: "Noto serif"}}>Not up to date</span> as of MAY 25th 2021 balance patch.</p><br />
+                    <p style={{fontSize: '1.5rem', textAlign: 'center', fontFamily: "Noto serif"}}>Guide is <span style={{color: 'green', fontFamily: "Noto serif"}}>up to date</span> as of JULY 7th 2020 balance patch. <br /><span style={{color: 'red', fontFamily: "Noto serif"}}>Not up to date</span> as of MAY 11th 2021 balance patch.</p><br />
                 </SectionIntro>
                 <div className="row justify-content-center">
                     <h4 >TODO:</h4>

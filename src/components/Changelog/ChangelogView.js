@@ -40,10 +40,10 @@ const ChangelogView = () => {
                     <CommCard text={["31 May 2021"]}>
                         <ul>
                             <li>
-                                Added <WikiIcon name={"Druid"} /> Druid to <b>Class Guides</b> (up to date as of Balance Patch from 25th May 2021)
+                                Added <WikiIcon name={"Druid"} /> Druid to <b>Class Guides</b> (up to date as of Balance Patch from 11th May 2021)
                         </li>
                             <li>
-                                Updated <WikiIcon name={"Dragonhunter"} /> Dragonhunter guide - added longbow variation (up to date as of Balance Patch from 25th May 2021)
+                                Updated <WikiIcon name={"Dragonhunter"} /> Dragonhunter guide - added longbow variation (up to date as of Balance Patch from 11th May 2021)
                         </li>
                             <li>
                                 Work in progress: updates to <WikiIcon name={"Commander"} /> Commander Guide and <WikiIcon name={"Berserker"} /> Warrior Guide
