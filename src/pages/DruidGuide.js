@@ -46,6 +46,9 @@ const DruidGuide = () => {
                 <SectionCollapsible gameClass="ranger" title="Extra Resources" id="druid-extra-resources">
                 <SectionIntro>
                     <p>
+                        Work in Progress, this will be updated along the way.
+                    </p>
+                    <p>
                         Here you will find all the crunchy data that can help you find the best setup for your druid.
                     </p>
                 </SectionIntro>
