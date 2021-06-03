@@ -261,7 +261,7 @@ const CommProviders = () => {
                                 <p className="mb-0" style={{ color: 'limegreen', fontWeight: 'bold', fontFamily: 'Noto serif' }}>22s~</p>
                             </div>
                             <div className="d-flex flex-column justify-content-center align-items-center">
-                                <WikiIconBig name={"Retaliation"} />
+                                <WikiIconBig name={"Resolution"} />
                                 <p className="mb-0" style={{ color: 'limegreen', fontWeight: 'bold', fontFamily: 'Noto serif' }}>10%</p>
                             </div>
                         </div>
@@ -302,7 +302,7 @@ const CommProviders = () => {
                             Has access to emergency <WikiIcon name={"Resistance"} /> Resistance (60s <WikiIcon name={"Recharge"} /> cooldown)
                         </li>
                         <li>
-                            Also gives 9s of <WikiIcon name={"Retaliation"} /> Retaliation to subgroup when struck below 75% (30s <WikiIcon name={"Recharge"} /> cooldown)
+                            Also gives 9s of <WikiIcon name={"Resolution"} /> Resolution to subgroup when struck below 75% (30s <WikiIcon name={"Recharge"} /> cooldown)
                         </li>
                     </ul>
                 </DescriptionSection>
@@ -324,7 +324,7 @@ const CommProviders = () => {
                                 <p className="mb-0" style={{ color: 'limegreen', fontWeight: 'bold', fontFamily: 'Noto serif' }}>20s</p>
                             </div>
                             <div className="d-flex flex-column justify-content-center align-items-center">
-                                <WikiIconBig name={"Retaliation"} />
+                                <WikiIconBig name={"Resolution"} />
                                 <p className="mb-0" style={{ color: 'limegreen', fontWeight: 'bold', fontFamily: 'Noto serif' }}>20%</p>
                             </div>
                         </div>
@@ -406,7 +406,7 @@ const CommProviders = () => {
                                 <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>60%</p>
                             </div>
                             <div className="d-flex flex-column justify-content-center align-items-center">
-                                <WikiIconBig name={"Retaliation"} />
+                                <WikiIconBig name={"Resolution"} />
                                 <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>30%</p>
                             </div>
                             <div className="d-flex flex-column justify-content-center align-items-center">
@@ -459,7 +459,7 @@ const CommProviders = () => {
                                 <p className="mb-0" style={{ color: 'goldenrod', fontWeight: 'bold', fontFamily: 'Noto serif' }}>45%</p>
                             </div>
                             <div className="d-flex flex-column justify-content-center align-items-center">
-                                <WikiIconBig name={"Retaliation"} />
+                                <WikiIconBig name={"Resolution"} />
                                 <p className="mb-0" style={{ color: 'goldenrod', fontWeight: 'bold', fontFamily: 'Noto serif' }}>35%</p>
                             </div>
                             <div className="d-flex flex-column justify-content-center align-items-center">
@@ -479,7 +479,7 @@ const CommProviders = () => {
                             <WikiIcon name={"Stability"} /> Stability for squad only if playing Dwarf instead of Ventari (not common, and you lose <WikiIcon name={"Regeneration"} /> Regeneration)
                         </li>
                         <li>
-                            <WikiIcon name={"Retaliation"} /> Retaliation and <WikiIcon name={"Regeneration"} /> Regeneration only if playing Invocation traitline (not common in pugs)
+                            <WikiIcon name={"Resolution"} /> Resolution and <WikiIcon name={"Regeneration"} /> Regeneration only if playing Invocation traitline (not common in pugs)
                         </li>
                     </ul>
                 </DescriptionSection>

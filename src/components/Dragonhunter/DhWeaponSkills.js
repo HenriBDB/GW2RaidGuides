@@ -9,10 +9,10 @@ import { SectionContainer } from './styles'
 const DhWeaponSkills = () => {
     return (
         <SectionContainer>
-            <NavTabs tabNames={["Greatsword", "Scepter", "Sword", "Focus"]} hrefs={["dh-gs", "dh-scepter", "dh-sword", "dh-focus"]} gameClass="dragonhunter">
+            <NavTabs tabNames={["Greatsword", "Sword", "Scepter", "Focus", "Longbow"]} hrefs={["dh-gs", "dh-sword", "dh-scepter", "dh-focus", "dh-longbow"]} gameClass="dragonhunter">
                 <TabPane tabName="dh-gs" active={true}>
                     <p>
-                        As mentioned in previous sections, Greatsword is the go-to weapon for a <WikiIcon name={"Dragonhunter"} /> Power Dragonhunter. It deals massive damage, has access to a powerful Symbol and some squad utility.
+                        As mentioned in previous sections, Greatsword is the go-to weapon for a <WikiIcon name={"Dragonhunter"} /> Power Dragonhunter. It deals massive damage, has access to a powerful Symbol and some squad utility. You will always take it as your first weaponset.
                     </p><br />
                     <SkillCard skillID={[9137, 9138, 9139]}>
                         <p>
@@ -31,7 +31,7 @@ const DhWeaponSkills = () => {
                     </SkillCard>
                     <SkillCard skillID={[9146]}>
                         <p>
-                            Pulses 5 times dealing damage to the enemy and granting 1s of <WikiIcon name={"Retaliation"} /> Retaliation with every pulse to you and 4 other allies standing in it. Due to <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="646" className="dhskill"></span> it also applies <WikiIcon name={"Vulnerability"} /> Vulnerability to your target. Grants 5 stacks of <a href="https://wiki.guildwars2.com/wiki/Symbolic_Avenger_(effect)" target="_blank" rel="noopener noreferrer" className="dhlink">Symbolic Avenger</a> increasing your damage by 10%. It's also a <a href="https://wiki.guildwars2.com/wiki/Light_field" target="_blank" rel="noopener noreferrer" className="dhlink">Light field</a>.
+                            Pulses 5 times dealing damage to the enemy and granting 1s of <WikiIcon name={"Resolution"} /> Resolution with every pulse to you and 4 other allies standing in it. Due to <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="646" className="dhskill"></span> it also applies <WikiIcon name={"Vulnerability"} /> Vulnerability to your target. Grants 5 stacks of <a href="https://wiki.guildwars2.com/wiki/Symbolic_Avenger_(effect)" target="_blank" rel="noopener noreferrer" className="dhlink">Symbolic Avenger</a> increasing your damage by 10%. It's also a <a href="https://wiki.guildwars2.com/wiki/Light_field" target="_blank" rel="noopener noreferrer" className="dhlink">Light field</a>.
                         </p>
                         <p>
                             This skill has a pretty long aftercast which you can cancel by moving or stowing your weapons right after the Symbol appears on the ground. Cancelling the aftercast of this skill will bring you over ~1k dps increase (golem number).
@@ -55,45 +55,9 @@ const DhWeaponSkills = () => {
                         </p>
                     </SkillCard>
                 </TabPane>
-                <TabPane tabName="dh-scepter">
-                    <p>
-                        Scepter is one of the 2 possible main-hand weapons in the second weaponset, paired with Focus. It's your ranged dps option - all Scepter skills have 900 range. If you are not sure if you should play Scepter or Sword, go back to
-                        <SectionLink sectionId="dh-section-weapons">
-                        <span
-                            style={{ color: "#69CCE7", cursor: "pointer" }}>
-                            &nbsp;Weapons
-                        </span>
-                    </SectionLink>.
-                    </p><br />
-                    <SkillCard skillID={[9098]}>
-                        <p>
-                            A single autoattack skill, firing an orb at the boss. Low damage skill, used as a filler in your rotation while you are waiting for your burst skills to come off <WikiIcon name={"Recharge"} /> cooldown.
-                        </p>
-                    </SkillCard>
-                    <SkillCard skillID={[9090]}>
-                        <p>
-                            Hits the boss multiple times (8 impacts). Pulses 5 times granting 1s of <WikiIcon name={"Might"} /> Might with every pulse to you and 4 other allies standing in it. Due to <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="646" className="dhskill"></span> it also applies <WikiIcon name={"Vulnerability"} /> Vulnerability to your target. Grants 4 stacks of <a href="https://wiki.guildwars2.com/wiki/Symbolic_Avenger_(effect)" target="_blank" rel="noopener noreferrer" className="dhlink">Symbolic Avenger</a> (unlike <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="9146" className="dhskill"></span>, the first pulse doesn't apply Avenger stacks). It's also a <a href="https://wiki.guildwars2.com/wiki/Light_field" target="_blank" rel="noopener noreferrer" className="dhlink">Light field</a>.
-                        </p>
-                        <p>
-                            It has a small aftercast which can be cancelled by autoattacking afterwards.
-                        </p>
-
-                    </SkillCard>
-                    <SkillCard skillID={[9099]}>
-                        <p>
-                            Immobilizes and applies <WikiIcon name={"Vulnerability"} /> Vulnerability to your enemy. This skill is not a part of your rotation and it will be mostly used to immobilize targets like Rigom at <WikiIcon name={"Samarog"} /> Samarog or Pride at <WikiIcon name={"Deimos"} /> Deimos.
-                        </p>
-                    </SkillCard>
-                </TabPane>
                 <TabPane tabName="dh-sword">
                     <p>
-                        Sword is other one of the 2 possible main-hand weapons in the second weaponset, paired with Focus. It's your melee dps option. If you are not sure if you should play Sword or Scepter, go back to
-                        <SectionLink sectionId="dh-section-weapons">
-                        <span
-                            style={{ color: "#69CCE7", cursor: "pointer" }}>
-                            &nbsp;Weapons
-                        </span>
-                    </SectionLink>.
+                        Sword is your melee dps option in the second weaponset. It should be paired with focus. Due to the recent scepter nerfs, it should be your go-to weapon on majority of bosses.
                     </p><br />
                     <SkillCard skillID={[9105, 9106, 9227]}>
                         <p>
@@ -111,6 +75,30 @@ const DhWeaponSkills = () => {
                         </p>
                     </SkillCard>
                 </TabPane>
+                <TabPane tabName="dh-scepter">
+                    <p>
+                        Scepter is one of the 2 possible ranged dps options - all Scepter skills have 900 range. It should be paired with Focus. Due to the recent balance changes, it falls behind longbow in dps, so I would recommend playing longbow instead whenever you need ranged dps.
+                    </p><br />
+                    <SkillCard skillID={[9098]}>
+                        <p>
+                            A single autoattack skill, firing an orb at the boss. Low damage skill, used as a filler in your rotation while you are waiting for your burst skills to come off <WikiIcon name={"Recharge"} /> cooldown.
+                        </p>
+                    </SkillCard>
+                    <SkillCard skillID={[9090]}>
+                        <p>
+                            Hits the boss multiple times (8 impacts). Pulses 5 times granting 1s of <WikiIcon name={"Might"} /> Might with every pulse to you and 4 other allies standing in it. Due to <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="646" className="dhskill"></span> it also applies <WikiIcon name={"Vulnerability"} /> Vulnerability to your target. Grants 4 stacks of <a href="https://wiki.guildwars2.com/wiki/Symbolic_Avenger_(effect)" target="_blank" rel="noopener noreferrer" className="dhlink">Symbolic Avenger</a> (unlike <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="9146" className="dhskill"></span> or <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="29789" className="dhskill"></span>, the first pulse doesn't apply Avenger stacks). It's also a <a href="https://wiki.guildwars2.com/wiki/Light_field" target="_blank" rel="noopener noreferrer" className="dhlink">Light field</a>.
+                        </p>
+                        <p>
+                            It has a small aftercast which can be cancelled by autoattacking afterwards.
+                        </p>
+
+                    </SkillCard>
+                    <SkillCard skillID={[9099]}>
+                        <p>
+                            Immobilizes and applies <WikiIcon name={"Vulnerability"} /> Vulnerability to your enemy. This skill is not a part of your rotation and it will be mostly used to immobilize targets like Rigom at <WikiIcon name={"Samarog"} /> Samarog or Pride at <WikiIcon name={"Deimos"} /> Deimos.
+                        </p>
+                    </SkillCard>
+                </TabPane>
                 <TabPane tabName="dh-focus">
                     <p>
                         Focus is the only off-hand weapon you will take as a <WikiIcon name={"Dragonhunter"} /> Dragonhunter on the fights where you want to deal damage. Sometimes you can take Shield instead, for example on Escort when you are on tower duty or on River when you are on Desmina duty, but I will not cover it in this guide.
@@ -123,6 +111,36 @@ const DhWeaponSkills = () => {
                     <SkillCard skillID={[9082]}>
                         <p>
                             Creates a shield that blocks the next 3 attacks within the next 4 seconds. Explodes when it ends, dealing damage to enemies. It's a kind of skill which you can use to negate some mechanics like for example Slam on <WikiIcon name={"Gorseval"} /> Gorseval or as a panic button when you have no dodges available. If you feel safe, you can just use it in your rotation for damage. It's also a <a href="https://wiki.guildwars2.com/wiki/Blast_finisher" target="_blank" rel="noopener noreferrer" className="dhlink">Blast finisher</a> which is triggered when you activate the skill.
+                        </p>
+                    </SkillCard>
+                </TabPane>
+                <TabPane tabName="dh-longbow">
+                    <p>
+                        Longbow is your second ranged option which you can take as a secondary weaponset. Due to the recent balance changes, it pulls ahead of scepter in dps. All Longbow skills have minimum 1200 range.
+                    </p><br />
+                    <SkillCard skillID={[30471]}>
+                        <p>
+                            Autoattack which pierces multiple enemies. If more than 1 target is hit, it <WikiIcon name={"Crippled"} /> Cripples (2s) all hit targets (max 5 of them). It's also a <a href="https://wiki.guildwars2.com/wiki/Projectile_finisher" target="_blank" rel="noopener noreferrer" className="dhlink">Projectile finisher</a>.
+                        </p>
+                    </SkillCard>
+                    <SkillCard skillID={[30229]}>
+                        <p>
+                            Another attack piercing multiple foes, up to 5 targets. It has the biggest range of all longbow skills - 1500. It's also a <a href="https://wiki.guildwars2.com/wiki/Projectile_finisher" target="_blank" rel="noopener noreferrer" className="dhlink">Projectile finisher</a>.
+                        </p>
+                    </SkillCard>
+                    <SkillCard skillID={[29630]}>
+                        <p>
+                            Third and last of the piercing attacks. It's a <WikiIcon name={"Knockback"} /> Knockback which also applies <WikiIcon name={"Blinded"} /> Blind (4s) to enemies and blocks projectiles. It's unblockable. It's also a <a href="https://wiki.guildwars2.com/wiki/Projectile_finisher" target="_blank" rel="noopener noreferrer" className="dhlink">Projectile finisher</a>.
+                        </p>
+                    </SkillCard>
+                    <SkillCard skillID={[29789]}>
+                        <p>
+                            Pulses 5 times dealing damage to the enemy and granting 3s of <WikiIcon name={"Vigor"} /> Vigor with every pulse to you and 4 other allies standing in it. Applies <WikiIcon name={"Burning"} /> Burning (12s). Due to <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="646" className="dhskill"></span> it also applies <WikiIcon name={"Vulnerability"} /> Vulnerability to your target. Grants 5 stacks of <a href="https://wiki.guildwars2.com/wiki/Symbolic_Avenger_(effect)" target="_blank" rel="noopener noreferrer" className="dhlink">Symbolic Avenger</a> increasing your damage by 10%. It's also a <a href="https://wiki.guildwars2.com/wiki/Light_field" target="_blank" rel="noopener noreferrer" className="dhlink">Light field</a>.
+                        </p>
+                    </SkillCard>
+                    <SkillCard skillID={[30628]}>
+                        <p>
+                            Channeled skill which damages multiple times (4 impacts), applies <WikiIcon name={"Crippled"} /> Cripple (2s) and creates barrier at target location which cannot be crossed for 5 seconds.
                         </p>
                     </SkillCard>
                 </TabPane>

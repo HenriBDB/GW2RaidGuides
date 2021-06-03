@@ -85,7 +85,7 @@ const CommBasics = () => {
                             <div className="row justify-content-center mt-2">
                                 <div className="d-flex flex-row justify-content-center">
                                     <WikiIconBig name={"Vigor"} />
-                                    <WikiIconBig name={"Retaliation"} />
+                                    <WikiIconBig name={"Resolution"} />
                                     <WikiIconBig name={"Resistance"} />
                                     <WikiIconBig name={"Stability"} />
                                     <WikiIconBig name={"Aegis"} />
@@ -94,7 +94,7 @@ const CommBasics = () => {
                         </BoonColumn>
                         <BoonColumnDesc>
                             <p className="mb-0">
-                                Vigor, retaliation, resistance, stability, aegis - while great, not necessary or needed only for specific situations.
+                                Vigor, resolution, resistance, stability, aegis - while great, not necessary or needed only for specific situations.
                             </p>
                         </BoonColumnDesc>
                     </BoonRow>

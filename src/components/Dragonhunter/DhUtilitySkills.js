@@ -15,14 +15,14 @@ const DhUtilitySkills = () => {
             <NavTabs tabNames={["Healing", "Utility 1", "Utility 2", "Utility 3", "Elite"]} hrefs={["dh-heal", "dh-utility1", "dh-utility2", "dh-utility3", "dh-elite"]} gameClass="dragonhunter">
                 <TabPane tabName="dh-heal" active={true}>
                     <p>
-                        Due to <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="574" className="dhskill"></span> you will gain <WikiIcon name={"Retaliation"} /> Retaliation when you use a heal skill, so on fights where you don't need to save it for certain mechanics to heal up, you can use it as a <WikiIcon name={"Retaliation"} /> Retaliation source.
+                        Due to <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="574" className="dhskill"></span> you will gain <WikiIcon name={"Resolution"} /> Resolution when you use a heal skill, so on fights where you don't need to save it for certain mechanics to heal up, you can use it as a <WikiIcon name={"Resolution"} /> Resolution source.
                     </p>
                     <div className="row justify-content-center">
                         <h4 className="mb-0">Default</h4>
                     </div>
                     <SkillCard skillID={[21664]}>
                         <p>
-                            Very powerful heal skill in your build with the shortest cast time. 33% of damage which you deal to enemies is returned to you as healing. The duration of this effect is 6 seconds, which makes it a great skill for fights like <WikiIcon name="Gorseval"/> Gorseval (where you can safely damage the boss during CC phase after you use this heal skill), <WikiIcon name="Adina"/> Adina (to keep damaging her when she gets <WikiIcon name={"Retaliation"} /> Retaliation) or <WikiIcon name="Vg"/> VG (to get back to 100% health right after green explosion).
+                            Very powerful heal skill in your build with the shortest cast time. 33% of damage which you deal to enemies is returned to you as healing. The duration of this effect is 6 seconds, which makes it a great skill for fights like <WikiIcon name="Gorseval"/> Gorseval (where you can safely damage the boss during CC phase after you use this heal skill), <WikiIcon name="Adina"/> Adina (to keep damaging her when she gets <WikiIcon name={"Resolution"} /> Resolution) or <WikiIcon name="Vg"/> VG (to get back to 100% health right after green explosion).
                         </p>
                     </SkillCard>
                     <div className="row justify-content-center">
@@ -51,7 +51,7 @@ const DhUtilitySkills = () => {
                     </div>
                     <SkillCard skillID={[9153]}>
                         <p>
-                            Grants <WikiIcon name={"Retaliation"} /> Retaliation (5s) and <WikiIcon name={"Stability"} /> Stability (5 stacks for 6s) for the whole squad (10 people). You can use it when your <WikiIcon name={"Retaliation"} />Retaliation uptime is almost non existent (although at this point you may wanna play some other class) or when you need 10 man <WikiIcon name={"Stability"} /> Stability, for example on <WikiIcon name={"Slothasor"} /> Slothasor or <WikiIcon name={"Cairn"} /> Cairn. Only take this skill if literally noone else can provide <WikiIcon name={"Stability"} /> Stability, which would be very rare because you will have a <WikiIcon name={"Firebrand"} /> Healbrand, <WikiIcon name={"Firebrand"} /> Quickbrand, <WikiIcon name={"Renegade"} /> Alacrity Renegade or 2 <WikiIcon name={"Chronomancer"} /> Chronos in almost every pug squad (and any of those can provide <WikiIcon name={"Stability"} /> Stability at almost no cost).
+                            Grants <WikiIcon name={"Resolution"} /> Resolution (5s) and <WikiIcon name={"Stability"} /> Stability (5 stacks for 6s) for the whole squad (10 people). You can use it when your <WikiIcon name={"Resolution"} />Resolution uptime is almost non existent (although at this point you may wanna play some other class) or when you need 10 man <WikiIcon name={"Stability"} /> Stability, for example on <WikiIcon name={"Slothasor"} /> Slothasor or <WikiIcon name={"Cairn"} /> Cairn. Only take this skill if literally noone else can provide <WikiIcon name={"Stability"} /> Stability, which would be very rare because you will have a <WikiIcon name={"Firebrand"} /> Healbrand, <WikiIcon name={"Firebrand"} /> Quickbrand, <WikiIcon name={"Renegade"} /> Alacrity Renegade or 2 <WikiIcon name={"Chronomancer"} /> Chronos in almost every pug squad (and any of those can provide <WikiIcon name={"Stability"} /> Stability at almost no cost).
                         </p>
                         <p>
                             Feel free to take this skill on meaningless events like Trio for Narella's tornadoes or on Escort for annoying mobs that could kick you into mines.

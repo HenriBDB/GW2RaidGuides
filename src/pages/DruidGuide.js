@@ -9,7 +9,9 @@ import {BoonsAndBuffs,
     Traits, 
     Rotations, 
     Gear, 
-    CC } from '../components/Druid/Sections'
+    CC,
+    Pets,
+    BossGuides } from '../components/Druid/Sections'
 
 const DruidGuide = () => {
     return (
@@ -18,7 +20,7 @@ const DruidGuide = () => {
             <div className="guide-content ranger">
                 <GuideTitle title="The Power of Nature" footer="A Druid Guide for GW2 Raiding by Eren Bole"/>
                 <p>
-                    &emsp;This guide is intended to help GW2 players learn the role that druid plays within a raid encounter and how to utilise the class to it's fullest.
+                    &emsp;This guide is intended to help GW2 players learn the role that druid plays within a raid encounter and how to utilise the class to its fullest.
                     It has been written with raid clearing in mind and not speedrunning thus hardcore strategies will not be discussed. This guide will walk you through
                     everything that makes a druid good from trait and weapon variations to buff generation and mechanics strategies.
                 </p>
@@ -37,25 +39,15 @@ const DruidGuide = () => {
 
                 <CC/>
 
-                <SectionCollapsible gameClass="ranger" title="Pets" id="druid-pets">
-                    <SectionIntro>
-                        <p>
+                <Pets/>
 
-                        </p>
-                    </SectionIntro>
-                </SectionCollapsible>
-
-                <SectionCollapsible gameClass="ranger" title="Boss Guides" id="druid-boss-guides">
-                    <SectionIntro>
-                        <p>
-                            Below a collection of written and video guides that provide example Druid gameplay. 
-                            Make sure to read all the notes so that you know why and when decisions are made.
-                        </p>
-                    </SectionIntro>
-                </SectionCollapsible>
+                <BossGuides/>
 
                 <SectionCollapsible gameClass="ranger" title="Extra Resources" id="druid-extra-resources">
                 <SectionIntro>
+                    <p>
+                        Work in Progress, this will be updated along the way.
+                    </p>
                     <p>
                         Here you will find all the crunchy data that can help you find the best setup for your druid.
                     </p>

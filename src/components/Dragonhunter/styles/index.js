@@ -69,23 +69,6 @@ export const VideoWrapperMultiple = styled.div`
   padding-top: 1rem;
   flex-wrap: wrap
 `
-export const VideoPreviewWrapperMultiple = styled.div`
-  width: 30%;
-  cursor: pointer;
-  margin: 1%;
-  position: relative;
-    :hover :nth-child(2) {
-    transform: translate(-50%, -50%) scale(1.5)
-  }
-  @media (max-width:991px) {
-    width: 40%;
-    margin: 2%
-  }
-  @media (max-width:585px) {
-    width: 80%;
-    margin: 4%
-  }
-`
 export const VideoPreview = styled.img`
   width: 100%;
   cursor: pointer;

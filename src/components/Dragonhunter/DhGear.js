@@ -30,7 +30,7 @@ const DhGear = () => {
         <SectionContainer>
             <SectionIntro>
                 <p>
-                    Scepter can be replaced by sword in any of the below scenarios. Perfect Inscriptions and Virtues have few gear options, depending on your other traits and Spotter.
+                    Sword / focus can be replaced by scepter / focus or longbow in any of the below scenarios. Perfect Inscriptions and Virtues have few gear options, depending on your other traits and Spotter.
                 </p>
             </SectionIntro>
             <NavTabs tabNames={["Standard", "Perfect Inscriptions (signet share)", "Virtues"]} hrefs={["dh-standard-gear", "dh-pi-gear", "dh-virtues-gear"]} gameClass="dragonhunter">
@@ -38,10 +38,10 @@ const DhGear = () => {
                     <GearCard text={["No ", <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1016"></span>, " required"]}>
                         <h5 className="gear-title dragonhunter">Weapons &#38; Sigils</h5>
                         <div className="row justify-content-center">
-                            <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46769, 24615, 46761, 24868]}></span>
+                            <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46774, 24615, 46761, 24868]}></span>
                         </div>
                         <p className="row justify-content-center text-center">
-                            Berserker's Scepter + Berserker's Focus<br />
+                            Berserker's Sword + Berserker's Focus<br />
                             Force and Impact Sigils
                         </p>
                         <div className="text-center mb-3">
@@ -78,10 +78,10 @@ const DhGear = () => {
                         <div>
                             <h5 className="gear-title dragonhunter">Weapons &#38; Sigils</h5>
                             <div className="row justify-content-center">
-                                <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46769, 24615, 46761, 24618]}></span>
+                                <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46774, 24615, 46761, 24618]}></span>
                             </div>
                             <p className="row justify-content-center text-center">
-                                Berserker's Scepter + Berserker's Focus<br />
+                                Berserker's Sword + Berserker's Focus<br />
                             Force and Accuracy Sigils
                         </p>
                             <div className="text-center mb-3">
@@ -116,10 +116,10 @@ const DhGear = () => {
                     <GearCard text={[<span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="579"></span>, " ", <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="566"></span>, " without ", <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1016"></span>]}>
                         <h5 className="gear-title dragonhunter">Weapons &#38; Sigils</h5>
                         <div className="row justify-content-center">
-                            <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46769, 24615, 46761, 24618]}></span>
+                            <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46774, 24615, 46761, 24618]}></span>
                         </div>
                         <p className="row justify-content-center text-center">
-                            Berserker's Scepter + Berserker's Focus<br />
+                            Berserker's Sword + Berserker's Focus<br />
                             Force and Accuracy Sigils
                         </p>
                         <div className="text-center mb-3">
@@ -153,10 +153,10 @@ const DhGear = () => {
                     <GearCard text={[<span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="579"></span>, " ", <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="574"></span>, " with ", <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1016"></span>]}>
                         <h5 className="gear-title dragonhunter">Weapons &#38; Sigils</h5>
                         <div className="row justify-content-center">
-                            <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46769, 24615, 46761, 24618]}></span>
+                            <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46774, 24615, 46761, 24618]}></span>
                         </div>
                         <p className="row justify-content-center text-center">
-                            Berserker's Scepter + Berserker's Focus<br />
+                            Berserker's Sword + Berserker's Focus<br />
                             Force and Accuracy Sigils
                         </p>
                         <div className="text-center mb-3">
@@ -190,10 +190,10 @@ const DhGear = () => {
                     <GearCard text={[<span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="579"></span>, " ", <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="574"></span>, " without ", <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1016"></span>]}>
                         <h5 className="gear-title dragonhunter">Weapons &#38; Sigils</h5>
                         <div className="row justify-content-center">
-                            <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46769, 24615, 46761, 24868]}></span>
+                            <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46774, 24615, 46761, 24868]}></span>
                         </div>
                         <p className="row justify-content-center text-center">
-                            Berserker's Scepter + Berserker's Focus<br />
+                            Berserker's Sword + Berserker's Focus<br />
                             Force and Impact Sigils
                         </p>
                         <div className="text-center mb-3">
@@ -229,10 +229,10 @@ const DhGear = () => {
                     <GearCard text={["With ", <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1016"></span>]}>
                         <h5 className="gear-title dragonhunter">Weapons &#38; Sigils</h5>
                         <div className="row justify-content-center">
-                            <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46769, 24615, 46761, 24618]}></span>
+                            <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46774, 24615, 46761, 24618]}></span>
                         </div>
                         <p className="row justify-content-center text-center">
-                            Berserker's Scepter + Berserker's Focus<br />
+                            Berserker's Sword + Berserker's Focus<br />
                             Force and Accuracy Sigils
                         </p>
                         <div className="text-center mb-3">
@@ -266,10 +266,10 @@ const DhGear = () => {
                     <GearCard text={["Without ", <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1016"></span>]}>
                         <h5 className="gear-title dragonhunter">Weapons &#38; Sigils</h5>
                         <div className="row justify-content-center">
-                            <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46769, 24615, 46761, 24618]}></span>
+                            <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46774, 24615, 46761, 24618]}></span>
                         </div>
                         <p className="row justify-content-center text-center">
-                            Berserker's Scepter + Berserker's Focus<br />
+                            Berserker's Sword + Berserker's Focus<br />
                             Force and Accuracy Sigils
                         </p>
                         <div className="text-center mb-3">

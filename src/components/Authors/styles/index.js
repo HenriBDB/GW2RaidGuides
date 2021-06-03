@@ -41,6 +41,7 @@ export const AuthorsName = styled.h3`
   text-align: center;
   margin-bottom: 15px;
   letter-spacing: 1.5px;
+  font-size: 1.5rem;
   width: 100%;
   border-bottom: 1px solid white;
   border-left: 1px solid white;

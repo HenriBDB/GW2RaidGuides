@@ -20,7 +20,7 @@ const Dagger = () => {
         <SkillCard skillID={46233}>
             <p>
                 Actually a decent source of Slow <WikiIcon name="Slow"/>, but should not be used in the rotation as the animation is too long as is
-                the case with many leap skills. Do use it for CC if you have Winds of Disenchantment up since its a lightning field
+                the case with many leap skills. Do use it for CC if you have Winds of Disenchantment up since it's a lightning field
                 and the leap finisher would be a dazing strike for some added CC.
             </p>
         </SkillCard>

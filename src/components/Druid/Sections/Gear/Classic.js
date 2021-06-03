@@ -30,7 +30,46 @@ const Classic = () => {
             to bring if you join as druid. You have 100% boon duration to ensure maximum uptimes on <WikiIcon name="Protection"/> Protection,&nbsp;
             <WikiIcon name="Regeneration"/> Regeneration, <WikiIcon name="Might"/> Might and <WikiIcon name="Fury"/> Fury.
         </p>
-        <GearCard text={["Full Healing"]}>
+        <GearCard text={["With Ascended Food"]}>
+            <h5 className="gear-title ranger">Weapons &#38; Sigils</h5>
+            <div className="row justify-content-center">
+                <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[85047, 24551, 84973, 74326]}></span>
+            </div>
+            <p className="row justify-content-center text-center">
+                Harrier Axe and Warhorn<br />
+                Water and Transference Sigils
+            </p>
+            <div className="text-center mb-3">
+                <img src={Weaponswap} width='40' height='40' alt="weaponswap" />
+            </div>
+            <div className="row justify-content-center">
+                <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[85112, 24551, 74326]}></span>
+            </div>
+            <p className="row justify-content-center text-center">
+                Harrier Staff<br />
+                Water and Transference Sigils
+            </p>
+            <h5 className="gear-title ranger">Armor &#38; Runes</h5>
+            <div className="row justify-content-center">
+                <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[85172, 85183, 84923, 84983, 85149, 85343]}></span>
+            </div>
+            <div className="row justify-content-center">
+                <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[24842]}></span>
+            </div>
+            <p className="row justify-content-center text-center">Full Harrier Armour with Monk Runes</p>
+            <h5 className="gear-title ranger">Trinkets</h5>
+            <div className="row justify-content-center">
+                <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[77817, 83429, 80002, 82769, 83675, 81167]}
+                data-armory-81167-stat="1363" data-armory-77817-stat="1363" data-armory-83429-stat="1363" data-armory-80002-stat="1363" 
+                data-armory-82769-stat="1363" data-armory-83675-stat="1363"></span>
+            </div>
+            <p className="row justify-content-center">Full Harrier</p>
+            <h5 className="gear-title ranger">Consumables</h5>
+            <div className="row justify-content-center mb-3">
+                <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[91690, 67528]}></span>
+            </div>
+        </GearCard>
+        <GearCard text={["With Rice Balls"]}>
             <h5 className="gear-title ranger">Weapons &#38; Sigils</h5>
             <div className="row justify-content-center">
                 <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[85047, 72339, 84973, 74326]}></span>

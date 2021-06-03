@@ -11,7 +11,7 @@ const icons = {
     "Quickness": "https://wiki.guildwars2.com/images/b/b4/Quickness.png",
     "Protection": "https://wiki.guildwars2.com/images/6/6c/Protection.png",
     "Stability": "https://wiki.guildwars2.com/images/a/ae/Stability.png",
-    "Retaliation": "https://wiki.guildwars2.com/images/5/53/Retaliation.png",
+    "Resolution": "https://wiki.guildwars2.com/images/0/06/Resolution.png",
     "Alacrity": "https://wiki.guildwars2.com/images/4/4c/Alacrity.png",
     "Aegis": "https://wiki.guildwars2.com/images/e/e5/Aegis.png",
     "Resistance": "https://wiki.guildwars2.com/images/4/4b/Resistance.png",
@@ -97,10 +97,15 @@ const icons = {
     "Scourge": "https://wiki.guildwars2.com/images/8/8a/Scourge_tango_icon_200px.png",
     //Pets
     "Gazelle": "https://wiki.guildwars2.com/images/1/18/Juvenile_Rock_Gazelle.png",
-    "BlackMoa": "https://wiki.guildwars2.com/images/e/e8/Juvenile_Black_Moa.png",
+    "PinkMoa": "https://wiki.guildwars2.com//images/c/c8/Juvenile_Pink_Moa.png",
+    "RedMoa": "https://wiki.guildwars2.com/images/3/3a/Juvenile_Red_Moa.png",
     "Smokescale": "https://wiki.guildwars2.com/images/7/7b/Juvenile_Smokescale.png",
     "ElectricWyvern": "https://wiki.guildwars2.com/images/1/13/Juvenile_Electric_Wyvern.png",
     "Iboga": "https://wiki.guildwars2.com/images/f/f1/Juvenile_Fanged_Iboga.png",
+    "Jacaranda": "https://wiki.guildwars2.com/images/e/ec/Juvenile_Jacaranda.png",
+    "FireWyvern": "https://wiki.guildwars2.com/images/a/ad/Juvenile_Fire_Wyvern.png",
+    "BrownBear": "https://wiki.guildwars2.com/images/1/14/Juvenile_Brown_Bear.png",
+    "Tiger": "https://wiki.guildwars2.com/images/f/f6/Juvenile_Tiger.png",
     //Other
     "Recharge": "https://wiki.guildwars2.com/images/f/f4/Tango-recharge-darker.png",
     "Signet": "https://wiki.guildwars2.com/images/5/56/Bane_Signet.png",
@@ -112,7 +117,7 @@ const icons = {
 }
 
 const WikiIcon = (props) => {
-    var size = props.pet === true ? 30 : 20
+    var size = props.size ? props.size : 20
     return (
         <span><img alt={props.name + ".png"} src={icons[props.name]} width={size} height={size} />{props.children}</span>
     );

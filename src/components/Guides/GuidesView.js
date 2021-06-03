@@ -7,10 +7,10 @@ import {
     Link
 } from './styles'
 import dhBackground from '../../assets/backgrounds/dragohunter.jpg'
-// import druidBackground from '../../assets/backgrounds/druid.jpg'
+import druidBackground from '../../assets/backgrounds/druid.jpg'
 import warriorBackground from '../../assets/backgrounds/warrior.jpg'
 import dhTitle from '../../assets/titles/DragonhunterTitle.png';
-// import druidTitle from '../../assets/titles/DruidTitle.png';
+import druidTitle from '../../assets/titles/DruidTitle.png';
 import warriorTitle from '../../assets/titles/WarriorTitle.png';
 
 const GuidesView = () => {
@@ -23,11 +23,11 @@ const GuidesView = () => {
         setDruidPanelExpanded(false);
         setWarriorPanelExpanded(false);
     }
-    // const expandDruidPanel = () => {
-    //     setDhPanelExpanded(false);
-    //     setDruidPanelExpanded(true);
-    //     setWarriorPanelExpanded(false);
-    // }
+    const expandDruidPanel = () => {
+        setDhPanelExpanded(false);
+        setDruidPanelExpanded(true);
+        setWarriorPanelExpanded(false);
+    }
     const expandWarriorPanel = () => {
         setDhPanelExpanded(false);
         setDruidPanelExpanded(false);
@@ -44,7 +44,7 @@ const GuidesView = () => {
                         backgroundImage: `url(${dhBackground})`,
                         backgroundColor: panelDhExpanded ? '#69CCE7' : '#000000',
                     }}
-                    onMouseEnter={expandDhPanel}>
+                    onClick={expandDhPanel}>
                     <Link
                         style={{
                             color: '#69CCE7',
@@ -57,14 +57,14 @@ const GuidesView = () => {
                         <img src={dhTitle} alt="Dragonhunter" height="25" />
                     </PanelTitle>
                 </Panel>
-                {/* <Panel
+                <Panel
                     style={{
                         flex: panelDruidExpanded ? '5' : '1',
                         cursor: panelDruidExpanded ? 'auto' : 'pointer',
                         backgroundImage: `url(${druidBackground})`,
                         backgroundColor: panelDruidExpanded ? '#8ea53a' : '#000000',
                     }}
-                    onMouseEnter={expandDruidPanel}>
+                    onClick={expandDruidPanel}>
                     <Link
                         style={{
                             color: '#8ea53a',
@@ -76,7 +76,7 @@ const GuidesView = () => {
                     <PanelTitle>
                         <img src={druidTitle} alt="Druid" height="25" />
                     </PanelTitle>
-                </Panel> */}
+                </Panel>
                 <Panel
                     style={{
                         flex: panelWarriorExpanded ? '5' : '1',
@@ -84,7 +84,7 @@ const GuidesView = () => {
                         backgroundImage: `url(${warriorBackground})`,
                         backgroundColor: panelWarriorExpanded ? '#CF8D21' : '#000000',
                     }}
-                    onMouseEnter={expandWarriorPanel}>
+                    onClick={expandWarriorPanel}>
                     <Link
                         style={{
                             color: '#CF8D21',

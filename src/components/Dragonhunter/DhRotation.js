@@ -17,15 +17,11 @@ const DhRotation = () => {
     return (
         <SectionContainer>
             <SectionIntro>
-                <p><WikiIcon name={"Dragonhunter"} /> Dragonhunter's rotation revolves around damage modifiers and it is very easy to learn once you know the basics. You can already find written rotation breakdown on Snow Crows website, so here I will be focusing on explaining why <WikiIcon name={"Dragonhunter"} /> DH rotation is built like this in the form of the video.</p>
-                <p>My idea for this video was to help you understand the standard scepter rotation and help you adjust in a real raid scenario (you will find boss specific adaptations in
-                    <SectionLink sectionId="dh-section-guides">
-                        <span
-                            style={{ color: "#69CCE7", cursor: "pointer" }}>
-                            &nbsp;Boss Guides&nbsp;
-                        </span>
-                    </SectionLink>
-                section). You will learn why some boons are very important for your damage. Sword and virtues variant will be covered in another video sometime soon(tm). Make sure to read the description of the video as well!</p>
+                <p>
+                    This part of the guide is <span style={{ color: 'red' }}>not up to date</span> as of MAY 25th 2021 balance patch. The main reason is scepter nerf and change in <WikiIcon name={"Recharge"} /> cooldown of Symbol of Resolution. <b>HOWEVER</b>, the basic idea of how <WikiIcon name={"Dragonhunter"} /> Dragonhunter's rotation is built and the logic behind it remains unchanged. Therefore, most part of this video is still relevant and it will help you understand how to play it, not matter which wesponset you choose. Full video may be updated in the future.
+                </p>
+                <p><WikiIcon name={"Dragonhunter"} /> Dragonhunter's rotation revolves around damage modifiers and it is very easy to learn once you know the basics. You can already find written rotation breakdown on Snow Crows website, so here I will be focusing on explaining why <WikiIcon name={"Dragonhunter"} /> Dragonhunter's rotation is built like this in the form of the video.</p>
+                <p>You will learn why some boons are very important for your damage. Make sure to read the description of the video as well!</p>
                 <p>
                     Before watching the video, make sure that you have read
                     <SectionLink sectionId="dh-section-traits">
