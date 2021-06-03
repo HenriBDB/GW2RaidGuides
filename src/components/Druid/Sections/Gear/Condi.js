@@ -71,7 +71,7 @@ const Condi = () => {
             <p className="row justify-content-center">Full Seraph</p>
             <h5 className="gear-title ranger">Consumables</h5>
             <div className="row justify-content-center mb-3">
-                <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[43361, 48917]}></span>
+                <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[92505, 48917]}></span>
             </div>
         </GearCard>
         </>

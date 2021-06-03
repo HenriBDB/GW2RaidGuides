@@ -36,7 +36,7 @@ const Adina = () => {
             <br/>
             <h5 className="gear-title ranger">Big Damage</h5>
             <p>
-                If you are confident with your group, then you can go power druid for more damage (see build above). Do remember though that with 
+                If you are confident with your group, then you can go power druid for more damage. Do remember though that with 
                 dps classes in your squad, maintaining scholar uptime on them is a bigger gain than you greeding dps.
             </p>
         </>

@@ -100,6 +100,10 @@ const WeaponSwaps = () => {
                 Fortunately, all attacks happen in a pre-defined order and a rotation can therefore be drafted to handle them best. This rotation assumes a shortbow for CC 
                 and a staff in the other weapon set. It also assumes coordinated CC is completed 15s after the breakbar appears which should accurately represent a pug scenario.
             </p>
+            <p>
+                Please note that this rotation is out of date as of the May 11th Balance patch. It is still very much usable but it is preferred 
+                to take Axe/Warhorn over the Shortbow.
+            </p>
 
             <a className="rota-btn" data-toggle="collapse" href="#sabirRota" role="button" aria-expanded="false" aria-controls="sabirRota">
                 Toggle Rotation
