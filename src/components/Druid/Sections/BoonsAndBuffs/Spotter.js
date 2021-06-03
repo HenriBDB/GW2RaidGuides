@@ -5,8 +5,8 @@ const Spotter = () => {
         <>
         <p>
             &emsp;<span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1016"></span> is a buff that 
-            grants affected players 100 precision which at level 80, increase critical-hit chance by 4.76%. The buff is applies to 5 allies including 
-            yourslef every 3 seconds. It lasts for 9 seconds and caps at 1 stack.
+            grants affected players 100 precision which at level 80, increases critical-hit chance by 4.76%. The buff is applies to 5 allies, including 
+            yourslef, every 3 seconds. It lasts for 9 seconds and caps at 1 stack.
         </p>
         
         All power classes require <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1016"></span> apart from: 
