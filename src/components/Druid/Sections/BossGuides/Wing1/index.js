@@ -7,7 +7,7 @@ import Sabetha from './Sabetha'
 
 const Wing1 = () => {
     return (
-        <NavTabs tabNames={["Vale Guardian", "Gorseval the Maltifarious", "Sabetha the Saboteur"]} hrefs={["vg", "gorse", "sab"]}>
+        <NavTabs tabNames={["Vale Guardian", "Gorseval the Multifarious", "Sabetha the Saboteur"]} hrefs={["vg", "gorse", "sab"]}>
             <TabPane tabName={"vg"} active={true}>
                 <ValeGuardian/>
             </TabPane>
