@@ -32,7 +32,7 @@ const Boons = () => {
             <dt className="col-12 d-flex justify-content-center mb-2"><WikiIcon name="Fury"/>&nbsp;Fury</dt>
             <dd className="col-11">
                 <p>
-                    You are also responsible for your sub's <WikiIcon name="Fury"/> Fury and potentially also that of the squad. Your main source 
+                    You are also responsible for your sub's <WikiIcon name="Fury"/> Fury and potentially also that of the entire squad. Your main source 
                     of <WikiIcon name="Fury"/> Fury is <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12621"></span> which 
                     with the traits <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="964"></span>&nbsp;
                     and <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1064"></span> allow you to 
@@ -52,8 +52,11 @@ const Boons = () => {
             <dt className="col-12 d-flex justify-content-center mb-2"><WikiIcon name="Regeneration"/>&nbsp;Regeneration</dt>
             <dd className="col-11">
                 <p>
-                    We also have <WikiIcon name="Regeneration"/> Regeneration. This boon allows all your power dps players to maintain solid 
-                    scholar uptimes which increases their damage. In addition to that, it is your number one ally when it comes to charging up your Astral Force 
+                    We also have <WikiIcon name="Regeneration"/> Regeneration. If you factor 
+                    in <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1992"></span>, <span data-armory-embed="items" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="24842"></span>,&nbsp;
+                    <span data-armory-embed="items" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="74326"></span>, <span data-armory-embed="items" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="68634"></span> and&nbsp;
+                    <span data-armory-embed="items" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="67528"></span>, your outgoing healing is increased by around 77% making your regeneration extremely effective. 
+                    This allows all your power dps players to maintain solid scholar uptimes which increases their damage. In addition to that, this boon is your number one ally when it comes to charging up your Astral Force 
                     to have your <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31869"></span> up as often as possible. At 1 tick per second, if your whole squad 
                     has <WikiIcon name="Regeneration"/> Regeneration, you will recharge 15% of your Astral Force every second which means it fully recharges in a mere 7 seconds. 
                     <br/>
@@ -97,7 +100,7 @@ const Boons = () => {
                     (<span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12595"/>). 
                     Using it off cooldown grants your dps players at best 67% uptime with 100% boon duration although 60% is considered good 
                     (this is because the protection gained on hit scales with the boon duration of the player that triggers it so dps players 
-                    with 0% boon duration will only gain <WikiIcon name="Protection"/> Protection (3s) from it.). If you need more then you 
+                    with 0% boon duration will only gain <WikiIcon name="Protection"/> Protection (3s) from it). If you need more then you 
                     can have a chrono taking inspiration or in more niche cases, a tempest overloading Earth once in a while.
                 </p>
             </dd>
