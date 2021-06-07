@@ -10,6 +10,7 @@ import squadsBg from '../../assets/backgrounds/squads.jpg'
 import dhBg from '../../assets/backgrounds/dragohunter.jpg'
 import druidBg from '../../assets/backgrounds/druid.jpg'
 import warriorBg from '../../assets/backgrounds/warrior.jpg'
+import weaverBg from '../../assets/backgrounds/elementalist.jpg'
 const HomeView = () => {
 
     return (
@@ -30,14 +31,19 @@ const HomeView = () => {
                         backgroundImage: `url(${warriorBg})`,
                         backgroundPosition: 'left'
                     }} />
-                <PanelTitle href="class-guides"><span style={{fontFamily:"Noto serif"}}>Class </span><span style={{fontFamily:"Noto serif"}}>guides</span></PanelTitle>
+                <Panel
+                    style={{
+                        backgroundImage: `url(${weaverBg})`,
+                        backgroundPosition: 'bottom'
+                    }} />
+                <PanelTitle href="class-guides"><span style={{ fontFamily: "Noto serif" }}>Class </span><span style={{ fontFamily: "Noto serif" }}>guides</span></PanelTitle>
             </LeftContainer>
             <RightContainer
                 style={{
                     backgroundImage: `url(${squadsBg})`,
                     backgroundPosition: 'center'
                 }}>
-                <PanelTitle href="commander-guide"><span style={{fontFamily:"Noto serif"}}>Commander </span><span style={{fontFamily:"Noto serif"}}>guide</span></PanelTitle>
+                <PanelTitle href="commander-guide"><span style={{ fontFamily: "Noto serif" }}>Commander </span><span style={{ fontFamily: "Noto serif" }}>guide</span></PanelTitle>
             </RightContainer>
         </HomeContainer>
     )

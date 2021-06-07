@@ -5,6 +5,7 @@
   font-family: 'Montserrat';
   --ranger-primary: #8ea53a;
   --dh-primary: #69CCE7;
+  --ele-primary: #f04646;
   --war-primary: #CF8D21;
   --comm-primary: #B125D3;
   --custom-dark: rgba(37,39,37,0.8);
@@ -98,6 +99,12 @@ img {
 .dragonhunter .gw2a--M9jBV a:hover, .dh-trait-intro a:hover {
   text-decoration-color: var(--dh-primary);
 }
+.weaver .gw2a--M9jBV :first-child, .ele-trait-intro :first-child{
+  color: var(--ele-primary);
+}
+.weaver .gw2a--M9jBV a:hover, .ele-trait-intro a:hover {
+  text-decoration-color: var(--ele-primary);
+}
 .warrior .gw2a--M9jBV :first-child, .warrior-trait-intro :first-child{
   color: var(--war-primary);
 }
@@ -135,6 +142,13 @@ img {
 .dhlink:hover {
   color: var(--dh-primary);
   text-decoration-color: var(--dh-primary);
+}
+.weaverlink {
+  color: var(--ele-primary);
+}
+.weaverlink:hover {
+  color: var(--ele-primary);
+  text-decoration-color: var(--ele-primary);
 }
 .commlink {
   color: var(--comm-primary);
@@ -206,6 +220,9 @@ nav.custom-nav.ranger::-webkit-scrollbar-thumb {
 nav.custom-nav.dragonhunter::-webkit-scrollbar-thumb {
   background: var(--dh-primary);
 }
+nav.custom-nav.weaver::-webkit-scrollbar-thumb {
+  background: var(--ele-primary);
+}
 nav.custom-nav.commander::-webkit-scrollbar-thumb {
   background: var(--comm-primary);
 }
@@ -231,6 +248,9 @@ nav.custom-nav a.active {
 }
 nav.custom-nav.dragonhunter a.active {
   color: var(--dh-primary);
+}
+nav.custom-nav.weaver a.active {
+  color: var(--ele-primary);
 }
 nav.custom-nav.commander a.active {
   color: var(--comm-primary);
@@ -514,6 +534,9 @@ nav.custom-nav.warrior a.active {
 .gear-title.dragonhunter {
   background-color: var(--dh-primary);
 }
+.gear-title.weaver {
+  background-color: var(--ele-primary);
+}
 .gear-title.ranger {
   background-color: var(--ranger-primary);
 }
@@ -606,6 +629,10 @@ nav.custom-nav.warrior a.active {
 .section-title.dragonhunter {
   border-top: 2px solid var(--dh-primary);
   border-bottom: 2px solid var(--dh-primary);
+}
+.section-title.weaver {
+  border-top: 2px solid var(--ele-primary);
+  border-bottom: 2px solid var(--ele-primary);
 }
 .section-title.ranger {
   border-top: 2px solid var(--ranger-primary);

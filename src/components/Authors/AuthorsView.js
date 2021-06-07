@@ -1,12 +1,14 @@
 import React from "react";
 import ScrollArrow from '../../components/ScrollArrowTop';
+import Casual from '../../assets/avatars/avatar_casual.jpg';
 import Costa from '../../assets/avatars/avatar_costa.png';
 import Eren from '../../assets/avatars/avatar_eren.png';
-import Casual from '../../assets/avatars/avatar_casual.jpg';
+import Fines from '../../assets/avatars/avatar_fines.jpg';
 import Wasabi from '../../assets/avatars/avatar_wasabi.png';
 import warrior from '../../assets/icons/warrior-icon.png';
 import ranger from '../../assets/icons/ranger-icon.png';
 import dh from '../../assets/icons/dh-icon.png';
+import weaver from '../../assets/icons/weaver-icon.png';
 import comm from '../../assets/icons/comm-icon.png';
 import {
     AuthorsWrapper,
@@ -38,6 +40,25 @@ const AuthorsView = () => {
                     Creators
                 </Title>
                 <AuthorsRow>
+                <AuthorsCol>
+                        <AuthorsImg src={Casual} width="200" height="200" />
+                        <AuthorsName>Casual Elitist</AuthorsName>
+                        <Socials>
+                            <Link href="https://www.youtube.com/c/CasualElitist" target="_blank">
+                                <YtIcon />
+                            </Link>
+                            <Tooltip>
+                                <DiscordIcon />
+                                <TooltipText>CasualElitist#2499</TooltipText>
+                            </Tooltip>
+                            <Tooltip>
+                                <GameIcon />
+                                <TooltipText>paulelle.6813</TooltipText>
+                            </Tooltip>
+                        </Socials>
+                        <AuthorsRole><CoderIcon />Developer</AuthorsRole>
+                        <AuthorsRole><ContentIcon src={dh} height="25" />Content Creator</AuthorsRole>
+                    </AuthorsCol>
                     <AuthorsCol>
                         <AuthorsImg src={Costa} width="200" height="200" />
                         <AuthorsName>Costa</AuthorsName>
@@ -77,23 +98,22 @@ const AuthorsView = () => {
                         <AuthorsRole><ContentIcon src={ranger} height="25" />Content Creator</AuthorsRole>
                     </AuthorsCol>
                     <AuthorsCol>
-                        <AuthorsImg src={Casual} width="200" height="200" />
-                        <AuthorsName>Casual Elitist</AuthorsName>
+                        <AuthorsImg src={Fines} width="200" height="200" />
+                        <AuthorsName>Fines</AuthorsName>
                         <Socials>
-                            <Link href="https://www.youtube.com/c/CasualElitist" target="_blank">
+                            <Link href="https://www.youtube.com/user/macowenna" target="_blank">
                                 <YtIcon />
                             </Link>
                             <Tooltip>
                                 <DiscordIcon />
-                                <TooltipText>CasualElitist#2499</TooltipText>
+                                <TooltipText>Fines#9241</TooltipText>
                             </Tooltip>
                             <Tooltip>
                                 <GameIcon />
-                                <TooltipText>paulelle.6813</TooltipText>
+                                <TooltipText>Fines Juliverine.5846</TooltipText>
                             </Tooltip>
                         </Socials>
-                        <AuthorsRole><CoderIcon />Developer</AuthorsRole>
-                        <AuthorsRole><ContentIcon src={dh} height="25" />Content Creator</AuthorsRole>
+                        <AuthorsRole><ContentIcon src={weaver} height="25" />Content Creator</AuthorsRole>
                     </AuthorsCol>
                     <AuthorsCol>
                         <AuthorsImg src={Wasabi} width="200" height="200" />

@@ -79,6 +79,9 @@ export const LeftContainer = styled.div`
       div:nth-child(3) {
           background-color: #CF8D21;
       }
+      div:nth-child(4) {
+        background-color: #E04E4E;
+    }
   }
   @media (max-width: 870px) {
       width: 100%;

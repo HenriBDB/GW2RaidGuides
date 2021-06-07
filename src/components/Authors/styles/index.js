@@ -23,7 +23,7 @@ export const Title = styled.h2`
 `
 export const AuthorsRow = styled.div`
   width: 100%;
-  max-width: 1140px;
+  max-width: 950px;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;

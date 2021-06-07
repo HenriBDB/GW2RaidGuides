@@ -13,6 +13,7 @@ import NotFound from './NotFound';
 import DragonhunterGuide from './DragonhunterGuide';
 import DruidGuide from './DruidGuide';
 import WarriorGuide from './WarriorGuide';
+import WeaverGuide from './WeaverGuide';
 
 
 const HomePage = () => {
@@ -39,6 +40,7 @@ const HomePage = () => {
           <Route exact path="/dragonhunter-guide/" component={DragonhunterGuide} />
           <Route exact path="/druid-guide/" component={DruidGuide} />
           <Route exact path="/warrior-guide/" component={WarriorGuide} />
+          <Route exact path="/weaver-guide/" component={WeaverGuide} />
           <Route exact path="/changelog/" component={Changelog} />
           <Route exact path="/privacy-policy/" component={PrivacyPolicy} />
           <Route path="*" component={NotFound} />
