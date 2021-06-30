@@ -74,15 +74,15 @@ const Openers = () => {
         </h5>
         <p>
             Some bosses like to hurt a little more and we need a little extra consistent healing in the opener (e.g. Cairn, Sabir). 
-            You can skip offensive spirits if they are already in range and replace them with 2x <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="21775"></span> before 
-            your last <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12596"></span>.
+            You can skip offensive spirits if they are already in range and replace them with 2x <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31796"></span> before 
+            your last <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32242"></span>.
         </p>
         <p>
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12593"></span> →&nbsp;
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12592"></span> →&nbsp;
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12621"></span> →&nbsp;
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32253"></span> →&nbsp;
-            <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12596"></span> →&nbsp;
+            <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32242"></span> →&nbsp;
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="34070"></span> →&nbsp;
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="31318"></span> →&nbsp;
             <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="32242"></span> →&nbsp;

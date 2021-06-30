@@ -43,7 +43,7 @@ const Boons = () => {
                     with <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12712"></span> or <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12493"></span> can 
                     be used to cover the gaps if no-one else in your sub is generating <WikiIcon name="Fury"/> Fury.
                     Once again refer to <span className="font-italic">Extra Resources</span> for Fury uptimes. <br/>
-                    In scnearios where you are using the Marksmanship trait-line instead of Skirmishing, you can also use the trait <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="986"/>&nbsp; 
+                    In scenarios where you are using the Marksmanship trait-line instead of Skirmishing, you can also use the trait <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="986"/>&nbsp; 
                     to help upkeep <WikiIcon name="Fury"/> Fury.
                 </p>
             </dd>
