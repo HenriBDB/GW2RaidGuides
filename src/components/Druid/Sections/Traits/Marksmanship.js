@@ -45,7 +45,7 @@ const Marksmanship = () => {
         </div>
         <TraitCard traitID={1000}>
             <p>
-                Weapon skills deal 5% increased damage below 600 range and 10% aboce 600 range.
+                Weapon skills deal 5% increased damage below 600 range and 10% above 600 range.
             </p>
             <p>
                 This is a nice dps boost when you are using skirmishing and a ranged weapon and do not need <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1070"></span>. 

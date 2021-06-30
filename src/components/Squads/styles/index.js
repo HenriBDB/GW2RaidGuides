@@ -214,7 +214,6 @@ export const BoonsSection = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  justify-content: space-around;
   height: 100%;
   width: 60%;
   @media (max-width:858px) {
