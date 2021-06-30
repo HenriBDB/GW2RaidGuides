@@ -27,6 +27,7 @@ const buffLinks = {
     "PD": "https://wiki.guildwars2.com/images/b/bf/Pinpoint_Distribution.png",
     "BaneSignet": "https://wiki.guildwars2.com/images/5/56/Bane_Signet.png",
     "WrathSignet": "https://wiki.guildwars2.com/images/1/18/Signet_of_Wrath.png",
+    "Superspeed": "https://wiki.guildwars2.com/images/1/1a/Super_Speed.png",
     //Condis
     "Weakness": "https://wiki.guildwars2.com/images/f/f9/Weakness.png",
     "Slow": "https://wiki.guildwars2.com/images/f/f5/Slow.png",

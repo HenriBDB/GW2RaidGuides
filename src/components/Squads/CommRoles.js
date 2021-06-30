@@ -19,44 +19,42 @@ const CommRoles = () => {
                     Rest we can break down to simple categories.
                 </p>
             </SectionIntro>
-            <NavTabs tabNames={["DPS", "Banners", "Supports", "Tank", "Special Roles"]} hrefs={["squad-dps", "squad-banners", "squad-supports", "squad-tank", "squad-special-roles"]} gameClass="commander">
-                <TabPane tabName="squad-dps" active={true}>
+            <NavTabs tabNames={["DPS", "Banners", "Supports", "Tank", "Special Roles"]} hrefs={["squad-DPS", "squad-banners", "squad-supports", "squad-tank", "squad-special-roles"]} gameClass="commander">
+                <TabPane tabName="squad-DPS" active={true}>
                     <p>
-                        Damage dealers of all kinds. It’s definitely better if dps players help the team in other ways than just hitting the boss as hard as they can, but in your everyday group, the expectations are simple - outdamage supports, deal with certain mechanics and survive.
+                        Damage dealers of all kinds. It’s definitely better if DPS players help the team in other ways than just hitting the boss as hard as they can, but in your everyday group, the expectations are simple - outdamage supports, deal with certain mechanics and survive.
                     </p>
                 </TabPane>
                 <TabPane tabName="squad-banners" active={false}>
                     <p>
-                        DPS Warrior with two banners as utility skills. Not a pure dps build, but also definitely not a support, comfortably sitting in a category of his own.
+                        DPS Warrior with two banners as utility skills. Not a pure DPS build, but also definitely not a support, comfortably sitting in a category of his own.
                     </p>
                 </TabPane>
                 <TabPane tabName="squad-supports" active={false}>
                     <p>
-                        We can further divide them into healers, damage dealers and tanks, but at their core, they (should) always provide boons at the same time. Tanking is a bit special, as it’s mostly trivial/non existent, but in a few cases there’s need for a dedicated tank.
+                        We can further divide them into healers, damage dealers and tanks, but at their core, they (should) always provide boons at the same time. No support should be doing only one thing, as it’s highly inefficient, always aim to cover more roles at once.
                     </p>
                     <div className="triangle-container">
                         <div className="triangle">
-                            <p style={{position: "absolute", top: -25, left: -25}}>Boons</p>
-                            <p style={{position: "absolute", bottom: -245,left: -160}}>Damage</p>
-                            <p style={{position: "absolute", bottom: -245, right: -160}}>Healing</p>
-                            <p style={{position: "absolute", bottom: -130, left: "-50%", transform: "translate(-50%, 0)", display: 'flex', fontSize: "0.8rem", zIndex: 2}}><WikiIcon name={"Renegade"} />&nbsp;Alaren</p>
-                            <p style={{position: "absolute", bottom: -180, left: "-50%", transform: "translate(-50%, 0)", display: 'flex', fontSize: "0.8rem", zIndex: 2}}><WikiIcon name={"Firebrand"} />&nbsp;Quickbrand</p>
-                            <p style={{position: "absolute", bottom: -245, left: "-50%", transform: "translate(-50%, 0)", display: 'flex', fontSize: "0.8rem"}}><WikiIcon name={"Scourge"} />&nbsp;Healscourge</p>
-                            <p style={{position: "absolute", bottom: -122, left: -136, transform: "rotate(-56deg)", display: 'flex', fontSize: "0.8rem", zIndex: 2}}><WikiIcon name={"Chronomancer"} />&nbsp;STM Chrono</p>
-                            <p style={{position: "absolute", bottom: -113, right: -109, transform: "rotate(56deg)", display: 'flex', fontSize: "0.8rem", zIndex: 2}}><WikiIcon name={"Druid"} />&nbsp;Druid</p>
+                            <p style={{ position: "absolute", top: -25, left: -25 }}>Boons</p>
+                            <p style={{ position: "absolute", bottom: -245, left: -160 }}>Damage</p>
+                            <p style={{ position: "absolute", bottom: -245, right: -160 }}>Healing</p>
+                            <p style={{ position: "absolute", bottom: -115, left: "-50%", transform: "translate(-50%, 0)", display: 'flex', fontSize: "0.8rem", zIndex: 2 }}><WikiIcon name={"Renegade"} />&nbsp;Alaren</p>
+                            <p style={{ position: "absolute", bottom: -155, left: "-50%", transform: "translate(-50%, 0)", display: 'flex', fontSize: "0.8rem", zIndex: 2 }}><WikiIcon name={"Firebrand"} />&nbsp;Quickbrand</p>
+                            <p style={{ position: "absolute", bottom: -195, left: "-50%", transform: "translate(-50%, 0)", display: 'flex', fontSize: "0.8rem", zIndex: 2 }}><WikiIcon name={"Scrapper"} />&nbsp;Scrapper</p>
+                            <p style={{ position: "absolute", bottom: -245, left: "-50%", transform: "translate(-50%, 0)", display: 'flex', fontSize: "0.8rem" }}><WikiIcon name={"Scourge"} />&nbsp;Healscourge</p>
+                            <p style={{ position: "absolute", bottom: -122, left: -136, transform: "rotate(-56deg)", display: 'flex', fontSize: "0.8rem", zIndex: 2 }}><WikiIcon name={"Chronomancer"} />&nbsp;STM Chrono</p>
+                            <p style={{ position: "absolute", bottom: -113, right: -109, transform: "rotate(56deg)", display: 'flex', fontSize: "0.8rem", zIndex: 2 }}><WikiIcon name={"Druid"} />&nbsp;Druid</p>
                             <div className="empty"></div>
                         </div>
                     </div>
-                    <p>
-                        No support should only do one thing. That’s why we don’t see <WikiIcon name={"Scrapper"} /> Heal scrappers that much for example, but <WikiIcon name={"Druid"} /> Druid is staple in almost every squad due to the sheer utility and dps boost they provide.
-                    </p>
                 </TabPane>
                 <TabPane tabName="squad-tank" active={false}>
                     <p>
-                        Tanking is the most misunderstood role in the game. Out of 25 encounters, 13 need dedicated tank, and only 4 (<WikiIcon name={"SH"} /> Soulless Horror, <WikiIcon name={"Largos"} /> Largos, <WikiIcon name={"QTP"} /> Qadim the Peerless, <WikiIcon name={"Eater"} /> Eater of Souls) are difficult enough to need actual tank build - <WikiIcon name={"Chronomancer"} /> <b>Chronotank</b> specifically.
+                        Tanking is a bit special, as it’s not a standalone role but rather something you do as an extra job. While anyone (even DPS) can be a tank without major issues, it’s best for everyone if we let one of the supports do it - healers preferably.
                     </p>
                     <p>
-                        Many will disagree - you can tank those bosses without a <WikiIcon name={"Chronomancer"} /> Chronotank, which is true, as it’s experience that matters the most. The main point is, that the majority of bosses can be easily tanked by any of the supports (or dps even) just by raising your <WikiIcon name={"Toughness"} /> Toughness a bit, as it boils down to - face the boss away, be aware of one or two attacks and move if needed.
+                        To learn more, refer to our Tanking guide (coming soonTM)
                     </p>
                 </TabPane>
                 <TabPane tabName="squad-special-roles" active={false}>
@@ -65,27 +63,32 @@ const CommRoles = () => {
                     </p>
                     <CommCard text={["Boonthief"]}>
                         <p>
-                            Either <WikiIcon name={"Daredevil"} /> Daredevil or <WikiIcon name={"Thief"} /> Core Thief. Playable only on bosses with <WikiIcon name={"Plasma"} /> Detonate Plasma as their stolen skill, as without it BT can’t function - most commonly <WikiIcon name={"Adina"} /> Adina, <WikiIcon name={"Matthias"} /> Matthias and <WikiIcon name={"MO"} /> Mursaat Overseer. Can cover every boon in the game permanently with the exception of <WikiIcon name={"Alacrity"} /> Alacrity.  Replaces both quickness supports (can partially function as healer too if build for it)
+                            Either <WikiIcon name={"Daredevil"} /> Daredevil or <WikiIcon name={"Thief"} /> Core Thief. Playable only on bosses with <WikiIcon name={"Plasma"} /> Detonate Plasma as their stolen skill, as without it BT can’t function - most commonly <WikiIcon name={"Adina"} /> Adina, <WikiIcon name={"Matthias"} /> Matthias and <WikiIcon name={"MO"} /> Mursaat Overseer. Can cover every boon in the game permanently with the exception of <WikiIcon name={"Alacrity"} /> Alacrity.  Replaces <WikiIcon name={"Quickness"} /> Quickness in one subgroup and if two are in a squad, they replace <WikiIcon name={"Might"} /> Might source as well.
                         </p>
                     </CommCard>
                     <CommCard text={["Epi"]}>
                         <p>
-                            DPS <WikiIcon name={"Scourge"} /> Scourge playing with <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="10606" className="dhskill"></span> as their utility skill. It spreads conditions to nearby enemies and it’s used on <WikiIcon name={"SH"} /> Soulless Horror (golem) and <WikiIcon name={"MO"} /> Mursaat Overseer (soldiers). Replaces dps.
+                            DPS <WikiIcon name={"Scourge"} /> Scourge playing with <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="10606"></span> as their utility skill. It spreads conditions to nearby enemies and it’s used on <WikiIcon name={"SH"} /> Soulless Horror (golem) and <WikiIcon name={"MO"} /> Mursaat Overseer (soldiers) or any add heavy fight. Replaces DPS.
+                        </p>
+                    </CommCard>
+                    <CommCard text={["RR"]}>
+                        <p>
+                            DPS <WikiIcon name={"Renegade"} /> Renegade playing with <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="2182"></span> trait to supply <WikiIcon name={"Alacrity"} /> Alacrity for the whole squad. You need two of them to achieve permanent uptime, or only one is taken to fill the gaps left by staff <WikiIcon name={"Mirage"} /> Mirage. Replaces <WikiIcon name={"Alacrity"} /> Alacrity source and DPS.
                         </p>
                     </CommCard>
                     <CommCard text={["Handkiter"]}>
                         <p>
-                            Most commonly <WikiIcon name={"Herald"} /> Herald or <WikiIcon name={"Soulbeast"} /> Soulbeast, or any self-sustainable build. Taken only on <WikiIcon name={"Deimos"} /> Deimos to deal with hands. Replaces dps.
+                            Most commonly <WikiIcon name={"Herald"} /> Herald or <WikiIcon name={"Soulbeast"} /> Soulbeast, or any self-sustainable build. Taken only on <WikiIcon name={"Deimos"} /> Deimos to deal with hands. Replaces DPS.
                         </p>
                     </CommCard>
                     <CommCard text={["Pylon kiter"]}>
                         <p>
-                            Most commonly <WikiIcon name={"Deadeye"} /> Rifle Deadeye or <WikiIcon name={"Scourge"} /> Scourge, however other self-sustainable builds exist. Taken on <WikiIcon name={"QTP"} /> Qadim the Peerless only, as their job is to control a pylon (which deals continuous damage) and collect orbs via movement skills. Replaces dps.
+                            Most commonly <WikiIcon name={"Deadeye"} /> Rifle Deadeye or <WikiIcon name={"Scourge"} /> Scourge, however other self-sustainable builds exist. Taken on <WikiIcon name={"QTP"} /> Qadim the Peerless only, as their job is to control a pylon (which deals continuous damage) and collect orbs via movement skills. Replaces DPS.
                         </p>
                     </CommCard>
                     <CommCard text={["Kiter (Q1)"]}>
                         <p>
-                            Most commonly <WikiIcon name={"Deadeye"} /> Deadeye, more options exist. Separated from the team for the majority of the fight, they need to be able to survive on their own while killing mobs. Replaces dps.
+                            Most commonly <WikiIcon name={"Deadeye"} /> Deadeye, more options exist. Separated from the team for the majority of the fight, they need to be able to survive on their own while killing mobs. Replaces DPS.
                         </p>
                     </CommCard>
                     <CommCard text={["Tower Chrono"]}>

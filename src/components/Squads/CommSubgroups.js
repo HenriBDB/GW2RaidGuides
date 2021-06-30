@@ -18,7 +18,7 @@ const CommSubgroups = () => {
             <NavTabs tabNames={["Boon priority", "Buff Sharing", "Rules to remember"]} hrefs={["boon-priority", "buff-sharing", "rules-to-remember"]} gameClass="commander">
                 <TabPane tabName="boon-priority" active={true}>
                     <p>
-                        Each skill has a maximum <b>number of targets</b> it can effect at once - Either 5 or 10 (or unlimited). In raid scenario, the boon priority looks like:
+                        Each skill has a maximum <b>number of targets</b> it can affect at once - Either 5 or 10 (or unlimited). In raid scenario, the boon priority looks like:
                     </p>
                     <p style={{ fontSize: "1.2rem", textAlign: 'center', fontWeight: "bold"}}>
                         Subgroup &gt; Squad &gt; Minions (clones, spirits) &gt; NPCs (Desmina)
