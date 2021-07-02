@@ -677,19 +677,19 @@ const CommProviders = () => {
                             </div>
                             <div className="d-flex flex-column justify-content-center align-items-center">
                                 <WikiIconBig name={"Vigor"} />
-                                <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>?%</p>
+                                <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>90%</p>
                             </div>
                             <div className="d-flex flex-column justify-content-center align-items-center">
                                 <WikiIconBig name={"Swiftness"} />
-                                <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>?%</p>
+                                <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>90%</p>
                             </div>
                             <div className="d-flex flex-column justify-content-center align-items-center">
                                 <WikiIconBig name={"Might"} />
-                                <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>15</p>
+                                <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>12</p>
                             </div>
                             <div className="d-flex flex-column justify-content-center align-items-center">
                                 <WikiIconBig name={"Superspeed"} />
-                                <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>60%</p>
+                                <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>80%</p>
                             </div>
                             <div className="d-flex flex-column justify-content-center align-items-center">
                                 <WikiIconBig name={"Fury"} />
@@ -706,6 +706,12 @@ const CommProviders = () => {
                     <ul>
                         <li>
                             <WikiIcon name={"Fury"} /> Fury is supplied by taking <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1678"></span> and <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="5818"></span>
+                        </li>
+                        <li>
+                            <WikiIcon name={"Scrapper"} /> Heal scrapper can change their skills/traits a lot in order to focus on something - upkeeping 25 <WikiIcon name={"Might"} /> Might is possible, with coordinated blasts and correct utilities for example
+                        </li>
+                        <li>
+                            There’s possibility of unique condis on specific fights through <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1871"></span>
                         </li>
                         <li>
                             Taking <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1984"></span> lowers healing output and <WikiIcon name={"Protection"} /> Protection uptime (take Firearms traitline instead of Inventions)
