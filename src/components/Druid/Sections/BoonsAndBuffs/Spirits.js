@@ -6,7 +6,7 @@ const Spirits = () => {
         <>
         <p>
             &emsp;Rangers have access to 5 spirits detailed below. Each spirit applies a passive buff to 10 players every 3 seconds that lasts for 6
-            seconds and have a max stack of 1. Some spirits proc an effect when a player hit's an enemy. These effects have an internal cooldown that
+            seconds and have a max stack of 1. Some spirits proc an effect when a player hits an enemy. These effects have an internal cooldown that
             varies between spirits and <strong>scale with the stats of the player that procs the effect and not the owner of the spirit</strong> (apart 
             from <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="12569"></span>). <br/>
             Spirits lose health every second and must be managed so that they do not die and are not forgotten out of range of the stack. 

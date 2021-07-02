@@ -261,7 +261,7 @@ const CommBasics = () => {
                         </BoonColumn>
                         <BoonColumnDesc>
                             <p className="mb-0">
-                                <a href="https://wiki.guildwars2.com/wiki/Signet#Guardian" target="_blank" rel="noopener noreferrer" className="commlink">Signets</a> are not permanent - if traited, they share their effects (+216 <WikiIcon name={"Power"} /> Power/<WikiIcon name={"CondiDamage"} /> Condition damage respectively) to 4 nearby players for 10 seconds upon activation. They’re somewhat common even in pugs, but treat them as extra bonus only.
+                                <a href="https://wiki.guildwars2.com/wiki/Signet#Guardian" target="_blank" rel="noopener noreferrer" className="commlink">Signets</a> are not permanent - if traited, they share their effects (+216 <WikiIcon name={"Power"} /> Power/<WikiIcon name={"CondiDamage"} /> Condition damage respectively) to 4 nearby players for 10 seconds upon activation. They’re somewhat common even in pugs, but treat them as an extra bonus only.
                             </p>
                         </BoonColumnDesc>
                     </BoonRow>
