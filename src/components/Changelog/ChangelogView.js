@@ -22,32 +22,39 @@ const ChangelogView = () => {
                         <ul>
                             <li>
                                 Added <WikiIcon name={"Dragonhunter"} /> Dragonhunter, <WikiIcon name={"Berserker"} /> Warrior to <b>Class Guides</b> (up to date as of Balance Patch from 7th July 2020)
-                        </li>
+                            </li>
                             <li>
                                 Added <WikiIcon name={"Commander"} /> <b>Commander Guide</b> (up to date as of Balance Patch from 7th July 2020)
-                        </li>
+                            </li>
                             <li>
                                 Added Authors
-                        </li>
+                            </li>
                             <li>
                                 Added Changelog
-                        </li>
+                            </li>
                             <li>
                                 Work in progress: <WikiIcon name={"Druid"} /> Druid Guide, <WikiIcon name={"Berserker"} /> Warrior Guide
-                        </li>
+                            </li>
                         </ul>
                     </CommCard>
                     <CommCard text={["31 May 2021"]}>
                         <ul>
                             <li>
                                 Added <WikiIcon name={"Druid"} /> Druid to <b>Class Guides</b> (up to date as of Balance Patch from 11th May 2021)
-                        </li>
+                            </li>
                             <li>
                                 Updated <WikiIcon name={"Dragonhunter"} /> Dragonhunter guide - added longbow variation (up to date as of Balance Patch from 11th May 2021)
-                        </li>
+                            </li>
                             <li>
                                 Work in progress: updates to <WikiIcon name={"Commander"} /> Commander Guide and <WikiIcon name={"Berserker"} /> Warrior Guide
-                        </li>
+                            </li>
+                        </ul>
+                    </CommCard>
+                    <CommCard text={["7 July 2021"]}>
+                        <ul>
+                            <li>
+                                Updated <b>Commander Guide</b> as of Balance Patch from 11th May 2021 - added <WikiIcon name={"Scrapper"} /> Quickness Scrapper, <WikiIcon name={"Scrapper"} /> Heal Scrapper and <WikiIcon name={"Mirage"} /> Alacrity Mirage, updated <WikiIcon name={"Druid"} /> Druid, <WikiIcon name={"Chronomancer"} /> Chrono and <WikiIcon name={"Tempest"} /> Tempest.
+                            </li>
                         </ul>
                     </CommCard>
                 </div>
