@@ -6,11 +6,14 @@ const Banners = () => {
     return (
         <>
         <p>
-            Banners is the main reason for this guide in the first place. They are incredibly strong in the
-            support they provide given that the bonuses they apply are 10-man. For raiding all banners
-            except of Banner of Defense are good in their own way, but only Banner of Strength and Banner
-            of Discipline are worth bringing since they provide offensive stats rather than defensive or
-            supportive stats.
+            Banners are the main reason for this guide in the first place. They are incredibly strong in the
+            support they provide given that the bonuses they apply are 5-man, 10-man when traited which they practically always will be.
+            For raiding all banners except of Banner of Defense are good in their own way, but only Banner of Strength and Banner
+            of Discipline are worth bringing since they provide offensive stats rather than defensive or supportive stats.
+            <br/>
+            With the May 11 Balance patch banners where changed from a blast finisher to a light combo field.
+            This was the most pointless change to date as warrior has 0 synergy with light fields, and more often than not, they do more harm than good.
+            In your day to day group this change does not matter, but in high-end groups it is terrible and you might have to plan around the field.
         </p>
         <br/>
         <SkillCard skillID={14405}>

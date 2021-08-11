@@ -41,7 +41,7 @@ const Defense = () => {
         <TraitCard traitID={1372}>
             <p>
                 A most welcome damage increase. Weakness <WikiIcon name="Weakness"/> is not completely unrealistic on a boss so it should
-                be seen as a flat 7% modifier. Being able to help with the Weakness <WikiIcon name="Weakness"/> uptime post 50% is also a
+                be seen as a flat 10% modifier. Being able to help with the Weakness <WikiIcon name="Weakness"/> uptime post 50% is also a
                 nice addition, overall a worthwhile trait.
             </p>
         </TraitCard>

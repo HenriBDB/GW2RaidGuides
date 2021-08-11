@@ -41,9 +41,9 @@ const Strength = () => {
         <TraitCard traitID={1444}>
             <p>
                 The permanent modifier of 5% alone makes this trait miles better than both the alternatives.
-                The added bonus from physical skills is insane for your burst but is not great enough for
+                The added bonus from physical skills is alright for your burst but is not great enough for
                 sustained DPS to warrant taking a physical skill over Signet of Might on most fights, though on
-                fights with very short phases it is possible to find success with a physical skill, though this
+                fights with very short phases it is possible to find success with a physical skill, but this
                 requires less than 20s phases.
             </p>
         </TraitCard>
@@ -71,14 +71,16 @@ const Strength = () => {
             <p>
                 The flat power <WikiIcon name="Power"/> is great since it is a DPS increase. The Greatsword clause only really comes into
                 effect when running the Greatsword power build, which is a burstier variant of the regular
-                power build. The trait is still great without the added bonuses though, and the trait is the best
-                amongst the options available.
+                power build. The trait is still great without the added bonuses though.
             </p>
         </TraitCard>
         <TraitCard traitID={1449}>
             <p>
-                Sadly the increase is not provided to an offensive stat like precision <WikiIcon name="Precision"/> or ferocity <WikiIcon name="Ferocity"/>, which in turn
-                makes this trait worse than Forceful Greatsword. Do not run this.
+                This trait used to not be worthwhile, but with the May 11 balance patch it became best in slot.
+                The trait still converts 10% of power <WikiIcon name="Power"/> into vitality <WikiIcon name="Vitality"/>, but now it
+                also converts 10% of power <WikiIcon name="Power"/> into Ferocity <WikiIcon name="Ferocity"/>.
+                This addition makes it pull ahead of Forceful Greatsword in terms of DPS, and you get added survivability on top of it.
+                This is now a great trait.
             </p>
         </TraitCard>
         <div className="row justify-content-center">

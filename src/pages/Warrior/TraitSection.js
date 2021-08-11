@@ -43,7 +43,7 @@ const TraitSection = () => {
                 <p>
                     For power you want to run:
                 </p>
-                <div className="mb-3" data-armory-embed="specializations" data-armory-ids="4,51,18" data-armory-4-traits="1444,1338,1437" data-armory-51-traits="1413,1484,1369" data-armory-18-traits="2049,2011,1928"></div>
+                <div className="mb-3" data-armory-embed="specializations" data-armory-ids="4,51,18" data-armory-4-traits="1444,1449,1437" data-armory-51-traits="1413,1484,1369" data-armory-18-traits="2049,2011,1928"></div>
                 <p>
                     This combination has great synergy, allowing for huge burst with all the available modifiers and stat increases.
                     The idea is to run Axes with this build and thus filling the adrenaline bar with 3 hits + Decapitate to be able to Decapitate again as fast as possible.
@@ -82,7 +82,7 @@ const TraitSection = () => {
                 <p>
                     For Spellbreaker you want to run:
                 </p>
-                <div className="mb-3" data-armory-embed="specializations" data-armory-ids="4,51,61" data-armory-4-traits="1444,1338,1437" data-armory-51-traits="1413,1484,1369" data-armory-61-traits="2095,2060,2107"></div>
+                <div className="mb-3" data-armory-embed="specializations" data-armory-ids="4,51,61" data-armory-4-traits="1444,1449,1437" data-armory-51-traits="1413,1484,1369" data-armory-61-traits="2095,2060,2107"></div>
                 <p>
                     The goal here is to achieve as many offensive modifiers as possible, which is sadly lacking amongst the master traits.
                     The corresponding rotation to this setup aims to keep Attacker’s Insight stacked as much as possible while pressing big damage skills such as Whirling Axe while most modifiers are active.

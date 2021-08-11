@@ -38,9 +38,9 @@ const Discipline = () => {
         <TraitCard traitID={1413}>
             <p>
                 This is the go-to trait for the power build. A flat damage modifier is good for power and
-                Swiftness <WikiIcon name="Swiftness"/> is easily maintained under normal circumstances, so it is strictly a 7% damage increase. This trait is also usable for
+                Swiftness <WikiIcon name="Swiftness"/> is easily maintained under normal circumstances, so it is strictly a 10% damage increase. This trait is also usable for
                 the condition build, though it is worse than crack shot. The movement speed increase does not
-                do much in raids along with the immobilize interaction. The great part about this trait is the 7%
+                do much in raids along with the immobilize interaction. The great part about this trait is the 10%
                 damage increase.
             </p>
         </TraitCard>
@@ -69,10 +69,11 @@ const Discipline = () => {
         </div>
         <TraitCard traitID={1484}>
             <p>
-                This trait is amazing, it provides 400 points worth of stats assuming 2 unique banners, which is
-                an insane amount of value from one trait. Both builds benefit greatly from this trait, providing
+                This trait is amazing, it provides 200 points worth of stats assuming 2 unique banners, which is
+                great value for a single trait. Both builds benefit greatly from this trait, providing
                 extra damage to both, and helping the power build reach the crit cap. Always run this trait, no
                 exceptions.
+                This choice has only been further enforced by the May 11 balance patch since this trait is now required if you want 10-man banners.
             </p>
         </TraitCard>
         <TraitCard traitID={1489}>
@@ -105,8 +106,8 @@ const Discipline = () => {
         </div>
         <TraitCard traitID={1369}>
             <p>
-                This trait is what makes the power build and rotation. The ferocity <WikiIcon name="Ferocity"/> is good and gives a huge
-                boost to crit damage when wielding 2 Axes. The extra adrenaline on top is what allows the
+                This trait is what makes the power build and rotation. The ferocity <WikiIcon name="Ferocity"/> is good and gives a decent
+                boost to crit damage when wielding an Axe. The extra adrenaline on top is what allows the
                 power build to be as fast-paced as it is. Since Decapitate resets its cooldown when it lands the
                 power rotation is pretty much a race to fill the bar back up as quickly as possible, and the extra
                 adrenaline allows this to happen very quickly along with Versatile Rage. You always run this on

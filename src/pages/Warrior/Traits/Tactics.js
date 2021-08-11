@@ -19,7 +19,7 @@ const Tactics = () => {
         <TraitCard traitID={1480}>
             <p>
                 This is basically the concept the trait-line tries to build upon. Once the buff has been consumed
-                you have to wait 15 seconds before regaining it. It is slow for a raid setting, but that does not
+                you have to wait 10 seconds before regaining it. It is slow for a raid setting, but that does not
                 matter too much since Tactics is not used for this trait. The trait is overall mediocre at best.
             </p>
         </TraitCard>
@@ -65,8 +65,8 @@ const Tactics = () => {
                 This trait looks like a great damage increase on paper, but it is way too restrictive as to when it
                 provides its bonuses. Bonus damage against barriers is useless for raids, as the only time
                 barriers are present on a boss is during CC in which the barrier value is close to infinite
-                anyways. Only getting the other modifier when the target is above 90% should be read as you
-                only getting the bonus for 10% of the fight which is horrible. This trait is a trap, do not run it.
+                anyways. Only getting the other modifier when the target is above 80% should be read as you
+                only getting the bonus for 20% of the fight which is horrible. This trait is a trap, do not run it.
             </p>
         </TraitCard>
         <TraitCard traitID={1479}>

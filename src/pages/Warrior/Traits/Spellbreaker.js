@@ -77,9 +77,9 @@ const Spellbreaker = () => {
         </TraitCard>
         <TraitCard traitID={2095}>
             <p>
-                This trait is overrated, the healing with off-hand dagger is nice, but the main hand dagger bonus
-                is very lackluster. It is the better option for bosses with no boons that can be stripped, but
-                otherwise, Loss Aversion is better. You can run this.
+                This trait is okay, the healing with off-hand dagger is nice, and main hand dagger damage bonus
+                is decent. It is the better option for bosses with no boons that can be stripped, or if you run main hand dagger on one set, but
+                otherwise Loss Aversion is better. You can run this.
             </p>
         </TraitCard>
         <div className="row justify-content-center">
@@ -87,11 +87,11 @@ const Spellbreaker = () => {
         </div>
         <TraitCard traitID={2130}>
             <p>
-                Another great bonus. At max stacks, this trait provides 225 Power <WikiIcon name="Power"/> and Ferocity <WikiIcon name="Ferocity"/>, which are
+                Another great bonus. At max stacks, this trait provides 250 Power <WikiIcon name="Power"/>, Precision <WikiIcon name="Precision"/>, and Ferocity <WikiIcon name="Ferocity"/>, which are
                 amazing bonuses. The problem is maintaining the stacks, as they are only achieved through
                 disables or boon removal. This forces you into a slightly worse rotation to maintain stacks for an
                 overall damage increase, but it just feels bad. If boon removal was more prominent on bosses
-                this trait would be a lot better, but for now, it is good, but not as good as it could be.
+                this trait would be a lot better, but for now, it is still really good, but not as good as it could be.
             </p>
         </TraitCard>
         <div className="row justify-content-center">

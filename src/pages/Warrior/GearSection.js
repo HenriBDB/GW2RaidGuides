@@ -33,15 +33,15 @@ const GearSection = () => {
                             <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[24818,46759,24615,46759,24868]}></span>
                         </div>
                         <p className="row justify-content-center text-center">Weapons with Berserkers stats</p>
-                        <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[48075,48131,48073,48074,48076,48072]} className="row justify-content-center"></span>
-                        <p className="row justify-content-center text-center">Assassins shoulders, the rest as Berserkers</p>
-                        <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[39273,37086,37075,49391,39233,39232]} className="row justify-content-center"></span>
-                        <p className="row justify-content-center text-center">Full Berserkers trinkets</p>
+                        <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[48075,48077,48073,48074,48076,48072]} className="row justify-content-center"></span>
+                        <p className="row justify-content-center text-center">Full Berserkers armor</p>
+                        <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[39273,37086, 77319, 79830,39233,39232]} data-armory-77319-stat="1128" data-armory-79830-stat="1128" className="row justify-content-center"></span>
+                        <p className="row justify-content-center text-center">Full Berserkers trinkets except assassin backpack and ring</p>
                         <p>
                             The main build is running thief runes. This is to get easy access to a lot of precision <WikiIcon name="Precision"/> as well as a hefty 10% damage modifier.
-                            This is because warrior gets no additional precision <WikiIcon name="Precision"/> or crit chance from its traits outside of the 100 precision <WikiIcon name="Precision"/> from doubled standards.
+                            This is because warrior gets no additional precision <WikiIcon name="Precision"/> or crit chance from its traits outside of the 50 precision <WikiIcon name="Precision"/> from doubled standards.
                             Even with 300 precision <WikiIcon name="Precision"/> from the Thief runes, we are still not capped on crit chance with just Berserker armour.
-                            To get as close to the crit cap as we can, we then add 1 assassin piece amongst Gloves/Shoulders/Boots which, with all buffs and boons applied, results in a 99.95% crit chance.
+                            To get as close to the crit cap as we can, we then add an assassin ring and backpack which, with all buffs and boons applied, results in a perfect 100% crit chance.
                             The sigils are the go-to for damage since both Force and Impact have a damage modifier which is great for Power DPS.
                             This setup is best in slot for almost every power favoured boss if played competently, except for Sabir where Eagle runes are the better option.
                             So, you can never go super wrong with this if you play to its strengths, or rather, if you pay attention to flanking.
@@ -53,30 +53,31 @@ const GearSection = () => {
                         <p className="row justify-content-center text-center">Weapons with Berserkers stats</p>
                         <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[48075,48077,48073,48074,48076,48072]} className="row justify-content-center"></span>
                         <p className="row justify-content-center text-center">Full Berserkers armor</p>
-                        <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[39273,37086,37075,49391,39233,39232]} className="row justify-content-center"></span>
-                        <p className="row justify-content-center text-center">Full Berserkers trinkets</p>
+                        <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[39273,37086,77319,49391,39233,39232]} data-armory-77319-stat="1128" className="row justify-content-center"></span>
+                        <p className="row justify-content-center text-center">Full Berserkers trinkets except 1 assassin ring</p>
                         <p>
                             This build works great if you cannot maintain 90%+ flanking uptime (or if it is problematic to do so).
-                            While only providing 175 precision <WikiIcon name="Precision"/> and no assassin’s pieces whatsoever, the difference is evened out with the accuracy sigil.
-                            It overcaps slightly on crit chance, but not enough for a huge amount of stats to have been wasted (the wasted stats equates to roughly 1 precision <WikiIcon name="Precision"/>).
+                            While only providing 175 precision <WikiIcon name="Precision"/> and using only a single assassin’s pieces, the difference is evened out with the accuracy sigil.
+                            It undercaps slightly on crit chance, but only by 1 precision <WikiIcon name="Precision"/> which results in a crit chance of 99.95%.
                             The main downside to eagle runes is that the 10% bonus only applies to targets below 50% health, making it noticeable worse than thief runes with high flanking uptimes.
                             It is able to compete up to roughly 90% flanking uptime on thief runes before thief runes are the better option.
                             You need Bowl of Curry Butternut Squash Soup to reach crit cap if you do not have access to spotter.
                         </p>
                     </TabPane>
-                    <TabPane tabName="Strength-g">
-                        <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[24714,46759,24562,46759,24618]} className="row justify-content-center"></span>
-                        <p className="row justify-content-center text-center">Weapons with Berserkers stats</p>
-                        <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[48075,48131,48073,48074,48076,48072]} className="row justify-content-center"></span>
-                        <p className="row justify-content-center text-center">Assassins shoulders, the rest as Berserkers</p>
-                        <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[39273,77319,78907,49391,67302,67298]} data-armory-77319-stat="1128" data-armory-78907-stat="1128" className="row justify-content-center"></span>
-                        <p className="row justify-content-center text-center">Assassins ring and accessories, rest Berserkers</p>
-                        <p>
-                            This build is for Might <WikiIcon name="Might"/> generation only, it is significantly weaker than the alternatives, but can generate heaps of Might <WikiIcon name="Might"/> with Phalanx Strength.
-                            It is built to cap on crit, generate Might <WikiIcon name="Might"/>, and deal some damage in the process.
-                            You need Bowl of Curry Butternut Squash Soup to reach crit cap if you do not have access to spotter.
-                        </p>
-                    </TabPane>
+                    // TODO: FIGURE OUT WHAT STATS THIS RUNS AFTER PATCH
+                    //<TabPane tabName="Strength-g">
+                    //    <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[24714,46759,24562,46759,24618]} className="row justify-content-center"></span>
+                    //    <p className="row justify-content-center text-center">Weapons with Berserkers stats</p>
+                    //    <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[48075,48131,48073,48074,48076,48072]} className="row justify-content-center"></span>
+                    //    <p className="row justify-content-center text-center">Assassins shoulders, the rest as Berserkers</p>
+                    //    <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[39273,77319,78907,49391,67302,67298]} data-armory-77319-stat="1128" data-armory-78907-stat="1128" className="row justify-content-center"></span>
+                    //    <p className="row justify-content-center text-center">Assassins ring and accessories, rest Berserkers</p>
+                    //    <p>
+                    //        This build is for Might <WikiIcon name="Might"/> generation only, it is significantly weaker than the alternatives, but can generate heaps of Might <WikiIcon name="Might"/> with Phalanx Strength.
+                    //        It is built to cap on crit, generate Might <WikiIcon name="Might"/>, and deal some damage in the process.
+                    //        You need Bowl of Curry Butternut Squash Soup to reach crit cap if you do not have access to spotter.
+                    //    </p>
+                    //</TabPane>
                     <TabPane tabName="Misc">
                         <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46762,46765,24615,24597]} className="row justify-content-center"></span>
                         <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[46763,46766,46770,24639,84505]} className="row justify-content-center"></span>
@@ -100,7 +101,7 @@ const GearSection = () => {
             </TabPane>
             <TabPane tabName="Condi-g">
                 <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[70838,76271,24560,24605]} className="row justify-content-center"></span>
-                <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[70504,0,24560,24609]} className="row justify-content-center"></span>
+                <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[70504,0,48911,24609]} className="row justify-content-center"></span>
                 <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[83502,74412,72557,76377,76776,77143,72548]} className="row justify-content-center"></span>
                 <span data-armory-embed="items" data-armory-size={armorySize} data-armory-ids={[77380,77272,78855,78818,77413,78863]} data-armory-77380-stat="1268" data-armory-77272-stat="1268" data-armory-78855-stat="1268" data-armory-78818-stat="1268" data-armory-77413-stat="1268" data-armory-78863-stat="1268" className="row justify-content-center"></span>
                 <p>
