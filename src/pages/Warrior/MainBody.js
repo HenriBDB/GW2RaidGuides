@@ -12,7 +12,7 @@ const MainBody = () => {
         <div className={"warrior-page pt-5"}>
             <ScrollArrow background='#CF8D21'/>
             <div className="guide-content warrior">
-                <GuideTitle title="Flames of War" footer="version 1.2 Winds of Disenchantment"/>
+                <GuideTitle title="Flames of War" footer="version 1.3 Marching Orders"/>
                 <p>
                     Warrior is brought in practically every raid comp because of the support they provide through Banner of Strength and Banner of Discipline <br/>(and Empower Allies for certain Power Comps).
                     These banners bring 400 points worth of offensive stats to everyone in the squad, which is an immense boost to group DPS.<br/>

@@ -7,27 +7,27 @@ const Rifle = () => {
         <p>
             Rifle is a weapon that is never used outside of a niche push strategy on Keep Construct where
             Rifle Butt is used for pushing the orb into a rift and out after a chrono has pulled it closer to the
-            rift, which allows for a single orb to be done in a second if timed right. Outside of that riffle is
+            rift, which allows for a single rift to be done in a second if timed right. Outside of that riffle is
             just bad, not holding enough raw damage to be worthwhile for power builds and almost no
             damaging conditions to speak of for a condition build.
         </p>
         <SkillCard skillID={14432}>
             <p>
-                Mediocre damage, and the adrenaline is really unnecessary, and even more so with Crack Shot,
-                at least for berserker, maybe on a core warrior this would not be half bad, but on Berserker you
-                are getting more than enough adrenaline before burst is available again so what is the point?
+                Mediocre damage even with Crack Shot. With the May 11 change they turned it from a bad skill with unnecessary
+                side effect to just a bad skill, which the option of slightly more damage. It is still bad.
             </p>
         </SkillCard>
         <SkillCard skillID={14416}>
             <p>
-                The only great thing about this skill is its cast time, everything else sucks. It is very easy to
-                weave in between auto-attacks, but the damage is mediocre at best.
+                Does respectable damage, the recharge is just way too slow, and it takes too long to fire, so it
+                ends up being no better than mediocre as well.
             </p>
         </SkillCard>
         <SkillCard skillID={14472}>
             <p>
-                Does respectable damage, the recharge is just way too slow, and it takes too long to fire, so it
-                ends up being no better than mediocre as well.
+                A poor attempt at making rifle relevant. The coefficient is bad, and the cleave is highly irellevant for
+                most encounters. The only thing it is good for is quickly ramping vulnerability, and you can do the same
+                with mace offhand, which would still allow you to have access to axe burst instead of mediocre rifle skills.
             </p>
         </SkillCard>
         <SkillCard skillID={14395}>
