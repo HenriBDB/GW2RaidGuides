@@ -387,6 +387,109 @@ const CommProviders = () => {
             <RoleSectionContainer>
                 <RoleSectionRow>
                     <ProviderSection>
+                        <ProviderImg src={ScrapperImg} />
+                        <ProviderName>
+                            <h4 className="mb-0 text-center">QUICKNESS<br />SCRAPPER</h4>
+                        </ProviderName>
+                    </ProviderSection>
+                    <BoonsSection>
+                        <h4 className="mb-0 text-center">SUBGROUP</h4>
+                        <div className="row justify-content-center mt-2">
+                            <div className="d-flex flex-column justify-content-center align-items-center">
+                                <WikiIconBig name={"Quickness"} />
+                                <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>100%</p>
+                            </div>
+                            <div className="d-flex flex-column justify-content-center align-items-center">
+                                <WikiIconBig name={"Superspeed"} />
+                                <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>80%</p>
+                            </div>
+                            <div className="d-flex flex-column justify-content-center align-items-center">
+                                <WikiIconBig name={"PD"} />
+                                <p className="mb-0" style={{ color: 'goldenrod', fontWeight: 'bold', fontFamily: 'Noto serif' }}>100%</p>
+                            </div>
+                        </div>
+                    </BoonsSection>
+                </RoleSectionRow>
+                <DescriptionSection>
+                    <ul>
+                        <li>
+                            <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1984"></span> comes with a noticeable dps loss, but it’s well worth it with decent condi dps players in their subgroup
+                        </li>
+                    </ul>
+                </DescriptionSection>
+            </RoleSectionContainer>
+            <div style={{ width: '60%', height: 1, borderBottom: '1px solid white', margin: '40px auto 0' }}></div>
+            <RoleSectionContainer>
+                <RoleSectionRow>
+                    <ProviderSection>
+                        <ProviderImg src={ScrapperImg} />
+                        <ProviderName>
+                            <h4 className="mb-0 text-center">HEAL<br />SCRAPPER</h4>
+                        </ProviderName>
+                    </ProviderSection>
+                    <BoonsSection>
+                        <h4 className="mb-0 text-center">SUBGROUP</h4>
+                        <div className="row justify-content-center mt-2">
+                            <div className="d-flex flex-column justify-content-center align-items-center">
+                                <WikiIconBig name={"Quickness"} />
+                                <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>100%</p>
+                            </div>
+                            <div className="d-flex flex-column justify-content-center align-items-center">
+                                <WikiIconBig name={"Regeneration"} />
+                                <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>100%</p>
+                            </div>
+                            <div className="d-flex flex-column justify-content-center align-items-center">
+                                <WikiIconBig name={"Protection"} />
+                                <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>100%</p>
+                            </div>
+                            <div className="d-flex flex-column justify-content-center align-items-center">
+                                <WikiIconBig name={"Vigor"} />
+                                <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>90%</p>
+                            </div>
+                            <div className="d-flex flex-column justify-content-center align-items-center">
+                                <WikiIconBig name={"Swiftness"} />
+                                <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>90%</p>
+                            </div>
+                            <div className="d-flex flex-column justify-content-center align-items-center">
+                                <WikiIconBig name={"Might"} />
+                                <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>12</p>
+                            </div>
+                            <div className="d-flex flex-column justify-content-center align-items-center">
+                                <WikiIconBig name={"Superspeed"} />
+                                <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>80%</p>
+                            </div>
+                            <div className="d-flex flex-column justify-content-center align-items-center">
+                                <WikiIconBig name={"Fury"} />
+                                <p className="mb-0" style={{ color: 'limegreen', fontWeight: 'bold', fontFamily: 'Noto serif' }}>100%</p>
+                            </div>
+                            <div className="d-flex flex-column justify-content-center align-items-center">
+                                <WikiIconBig name={"PD"} />
+                                <p className="mb-0" style={{ color: 'goldenrod', fontWeight: 'bold', fontFamily: 'Noto serif' }}>100%</p>
+                            </div>
+                        </div>
+                    </BoonsSection>
+                </RoleSectionRow>
+                <DescriptionSection>
+                    <ul>
+                        <li>
+                            <WikiIcon name={"Fury"} /> Fury is supplied by taking <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1678"></span> and <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="5818"></span>
+                        </li>
+                        <li>
+                            <WikiIcon name={"Scrapper"} /> Heal scrapper can change their skills/traits a lot in order to focus on something - upkeeping 25 <WikiIcon name={"Might"} /> Might is possible, with coordinated blasts and correct utilities for example
+                        </li>
+                        <li>
+                            There’s possibility of unique condis on specific fights through <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1871"></span>
+                        </li>
+                        <li>
+                            Taking <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1984"></span> lowers healing output and <WikiIcon name={"Protection"} /> Protection uptime (take Firearms traitline instead of Inventions)
+                        </li>
+                    </ul>
+                </DescriptionSection>
+            </RoleSectionContainer>
+            <div style={{ width: '60%', height: 1, borderBottom: '1px solid white', margin: '40px auto 0' }}></div>
+            <RoleSectionContainer>
+                <RoleSectionRow>
+                    <ProviderSection>
                         <ProviderImg src={RenegadeImg} />
                         <ProviderName>
                             <h4 className="mb-0">ALAREN</h4>
@@ -485,6 +588,37 @@ const CommProviders = () => {
                         </li>
                         <li>
                             <WikiIcon name={"Resolution"} /> Resolution and <WikiIcon name={"Regeneration"} /> Regeneration only if playing Invocation traitline (not common in pugs)
+                        </li>
+                    </ul>
+                </DescriptionSection>
+            </RoleSectionContainer>
+            <div style={{ width: '60%', height: 1, borderBottom: '1px solid white', margin: '40px auto 0' }}></div>
+            <RoleSectionContainer>
+                <RoleSectionRow>
+                    <ProviderSection>
+                        <ProviderImg src={MirageImg} />
+                        <ProviderName>
+                            <h4 className="mb-0 text-center">ALACRITY<br />MIRAGE</h4>
+                        </ProviderName>
+                    </ProviderSection>
+                    <BoonsSection>
+                        <h4 className="mb-0 text-center">SQUAD</h4>
+                        <div className="row justify-content-center mt-2 mb-4">
+                            <div className="d-flex flex-column justify-content-center align-items-center">
+                                <WikiIconBig name={"Might"} />
+                                <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>25</p>
+                            </div>
+                            <div className="d-flex flex-column justify-content-center align-items-center">
+                                <WikiIconBig name={"Alacrity"} />
+                                <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>100%</p>
+                            </div>
+                        </div>
+                    </BoonsSection>
+                </RoleSectionRow>
+                <DescriptionSection>
+                    <ul>
+                        <li>
+                            Since upkeeping permanent <WikiIcon name={"Alacrity"} /> Alacrity requires rather clean rotation, it’s recommended to play 2 alacrity <WikiIcon name={"Mirage"} /> Mirages, or take dps <WikiIcon name={"Renegade"} />Renegade with <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="2182"></span> to fill in the gaps
                         </li>
                     </ul>
                 </DescriptionSection>
@@ -612,140 +746,6 @@ const CommProviders = () => {
                         </li>
                         <li>
                             <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1482"></span> is not common in pugs (Tactics traitline)
-                        </li>
-                    </ul>
-                </DescriptionSection>
-            </RoleSectionContainer>
-            <div style={{ width: '60%', height: 1, borderBottom: '1px solid white', margin: '40px auto 0' }}></div>
-            <RoleSectionContainer>
-                <RoleSectionRow>
-                    <ProviderSection>
-                        <ProviderImg src={ScrapperImg} />
-                        <ProviderName>
-                            <h4 className="mb-0 text-center">QUICKNESS<br />SCRAPPER</h4>
-                        </ProviderName>
-                    </ProviderSection>
-                    <BoonsSection>
-                        <h4 className="mb-0 text-center">SUBGROUP</h4>
-                        <div className="row justify-content-center mt-2">
-                            <div className="d-flex flex-column justify-content-center align-items-center">
-                                <WikiIconBig name={"Quickness"} />
-                                <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>100%</p>
-                            </div>
-                            <div className="d-flex flex-column justify-content-center align-items-center">
-                                <WikiIconBig name={"Superspeed"} />
-                                <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>80%</p>
-                            </div>
-                            <div className="d-flex flex-column justify-content-center align-items-center">
-                                <WikiIconBig name={"PD"} />
-                                <p className="mb-0" style={{ color: 'goldenrod', fontWeight: 'bold', fontFamily: 'Noto serif' }}>100%</p>
-                            </div>
-                        </div>
-                    </BoonsSection>
-                </RoleSectionRow>
-                <DescriptionSection>
-                    <ul>
-                        <li>
-                            <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1984"></span> comes with a noticeable dps loss, but it’s well worth it with decent condi dps players in their subgroup
-                        </li>
-                    </ul>
-                </DescriptionSection>
-            </RoleSectionContainer>
-            <div style={{ width: '60%', height: 1, borderBottom: '1px solid white', margin: '40px auto 0' }}></div>
-            <RoleSectionContainer>
-                <RoleSectionRow>
-                    <ProviderSection>
-                        <ProviderImg src={ScrapperImg} />
-                        <ProviderName>
-                            <h4 className="mb-0 text-center">HEAL<br />SCRAPPER</h4>
-                        </ProviderName>
-                    </ProviderSection>
-                    <BoonsSection>
-                        <h4 className="mb-0 text-center">SUBGROUP</h4>
-                        <div className="row justify-content-center mt-2">
-                            <div className="d-flex flex-column justify-content-center align-items-center">
-                                <WikiIconBig name={"Quickness"} />
-                                <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>100%</p>
-                            </div>
-                            <div className="d-flex flex-column justify-content-center align-items-center">
-                                <WikiIconBig name={"Regeneration"} />
-                                <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>100%</p>
-                            </div>
-                            <div className="d-flex flex-column justify-content-center align-items-center">
-                                <WikiIconBig name={"Protection"} />
-                                <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>100%</p>
-                            </div>
-                            <div className="d-flex flex-column justify-content-center align-items-center">
-                                <WikiIconBig name={"Vigor"} />
-                                <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>90%</p>
-                            </div>
-                            <div className="d-flex flex-column justify-content-center align-items-center">
-                                <WikiIconBig name={"Swiftness"} />
-                                <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>90%</p>
-                            </div>
-                            <div className="d-flex flex-column justify-content-center align-items-center">
-                                <WikiIconBig name={"Might"} />
-                                <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>12</p>
-                            </div>
-                            <div className="d-flex flex-column justify-content-center align-items-center">
-                                <WikiIconBig name={"Superspeed"} />
-                                <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>80%</p>
-                            </div>
-                            <div className="d-flex flex-column justify-content-center align-items-center">
-                                <WikiIconBig name={"Fury"} />
-                                <p className="mb-0" style={{ color: 'limegreen', fontWeight: 'bold', fontFamily: 'Noto serif' }}>100%</p>
-                            </div>
-                            <div className="d-flex flex-column justify-content-center align-items-center">
-                                <WikiIconBig name={"PD"} />
-                                <p className="mb-0" style={{ color: 'goldenrod', fontWeight: 'bold', fontFamily: 'Noto serif' }}>100%</p>
-                            </div>
-                        </div>
-                    </BoonsSection>
-                </RoleSectionRow>
-                <DescriptionSection>
-                    <ul>
-                        <li>
-                            <WikiIcon name={"Fury"} /> Fury is supplied by taking <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1678"></span> and <span data-armory-embed="skills" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="5818"></span>
-                        </li>
-                        <li>
-                            <WikiIcon name={"Scrapper"} /> Heal scrapper can change their skills/traits a lot in order to focus on something - upkeeping 25 <WikiIcon name={"Might"} /> Might is possible, with coordinated blasts and correct utilities for example
-                        </li>
-                        <li>
-                            There’s possibility of unique condis on specific fights through <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1871"></span>
-                        </li>
-                        <li>
-                            Taking <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="1984"></span> lowers healing output and <WikiIcon name={"Protection"} /> Protection uptime (take Firearms traitline instead of Inventions)
-                        </li>
-                    </ul>
-                </DescriptionSection>
-            </RoleSectionContainer>
-            <div style={{ width: '60%', height: 1, borderBottom: '1px solid white', margin: '40px auto 0' }}></div>
-            <RoleSectionContainer>
-                <RoleSectionRow>
-                    <ProviderSection>
-                        <ProviderImg src={MirageImg} />
-                        <ProviderName>
-                            <h4 className="mb-0 text-center">ALACRITY<br />MIRAGE</h4>
-                        </ProviderName>
-                    </ProviderSection>
-                    <BoonsSection>
-                        <h4 className="mb-0 text-center">SQUAD</h4>
-                        <div className="row justify-content-center mt-2 mb-4">
-                            <div className="d-flex flex-column justify-content-center align-items-center">
-                                <WikiIconBig name={"Might"} />
-                                <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>25</p>
-                            </div>
-                            <div className="d-flex flex-column justify-content-center align-items-center">
-                                <WikiIconBig name={"Alacrity"} />
-                                <p className="mb-0" style={{ color: 'deepskyblue', fontWeight: 'bold', fontFamily: 'Noto serif' }}>100%</p>
-                            </div>
-                        </div>
-                    </BoonsSection>
-                </RoleSectionRow>
-                <DescriptionSection>
-                    <ul>
-                        <li>
-                            Since upkeeping permanent <WikiIcon name={"Alacrity"} /> Alacrity requires rather clean rotation, it’s recommended to play 2 alacrity <WikiIcon name={"Mirage"} /> Mirages, or take dps <WikiIcon name={"Renegade"} />Renegade with <span data-armory-embed="traits" data-armory-size="20" data-armory-inline-text="wiki" data-armory-ids="2182"></span> to fill in the gaps
                         </li>
                     </ul>
                 </DescriptionSection>
