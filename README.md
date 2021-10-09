@@ -12,7 +12,7 @@ You can also always fork this repo and submit  pull request with changes.
 
 For beta testing and user feedback, we use the following link: https://gw2-raid-guides.web.app/
 
-If you ubmit a merge request and want uer feedback, you can request for your changes to be made live on our staging server linked above so users may preview your contributions.
+If you submit a merge request and want our feedback, you can request for your changes to be made live on our staging server linked above so users may preview your contributions.
 
 ## Running the Code
 
